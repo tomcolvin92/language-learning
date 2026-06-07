@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>French First Words</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="practice-panel">
+        <div class="top-bar">
+          <div>
+            <p class="eyebrow" id="lessonLevel">Level 1</p>
+            <h1>French First Words</h1>
+          </div>
+          <div class="score">
+            <span id="score">0</span>
+            <small>score</small>
+          </div>
+        </div>
+
+        <div class="tabs" role="tablist" aria-label="Practice modes">
+          <button class="tab active" data-mode="words" type="button">Words</button>
+          <button class="tab" data-mode="quiz" type="button">Test</button>
+          <button class="tab" data-mode="listening" type="button">Listen</button>
+        </div>
+
+        <section class="word-card" id="wordMode">
+          <div class="category-row" id="categoryButtons"></div>
+          <article class="flashcard">
+            <p class="category" id="wordCategory">Greetings</p>
+            <h2 id="frenchWord">bonjour</h2>
+            <p class="pronunciation" id="pronunciation">bohn-zhoor</p>
+            <p class="translation" id="englishWord">hello</p>
+            <button class="icon-button primary" id="playWord" type="button" aria-label="Play word">
+              <span aria-hidden="true">▶</span>
+              Play word
+            </button>
+            <p class="speech-note" id="speechNote" hidden>Speech is not available in this browser.</p>
+          </article>
+          <div class="card-actions">
+            <button id="prevWord" type="button">Back</button>
+            <button id="nextWord" type="button">Next word</button>
+          </div>
+        </section>
+
+        <section class="quiz-card hidden" id="quizMode">
+          <p class="category" id="quizPromptType">Translate this word</p>
+          <h2 id="quizPrompt">merci</h2>
+          <div class="answers" id="answers"></div>
+          <p class="feedback" id="feedback" aria-live="polite"></p>
+          <button id="nextQuestion" type="button">Next question</button>
+        </section>
+
+        <section class="listening-card hidden" id="listeningMode">
+          <div class="listening-top">
+            <div>
+              <p class="category">Listening practice</p>
+              <h2>30 simple sentences</h2>
+              <p id="listeningStatus">French twice, then English.</p>
+            </div>
+            <div class="listening-actions">
+              <button class="icon-button primary" id="playAllListening" type="button">
+                <span aria-hidden="true">▶</span>
+                Play all
+              </button>
+              <button id="stopListening" type="button">Stop</button>
+              <button id="newListeningList" type="button">New list</button>
+            </div>
+          </div>
+          <div class="listening-list" id="listeningList"></div>
+        </section>
+      </section>
+
+      <aside class="word-bank">
+        <div class="bank-header">
+          <p class="eyebrow">Word bank</p>
+          <h2 id="bankTitle">First level words</h2>
+        </div>
+        <div class="lesson-panel">
+          <label for="lessonSelect">Lesson</label>
+          <select id="lessonSelect"></select>
+        </div>
+        <div class="voice-panel">
+          <p class="audio-label">Audio source</p>
+          <p id="voiceStatus">Local MP3 audio is active.</p>
+          <p class="audio-status" id="audioStatus">No browser speech fallback. Audio is AI-generated.</p>
+        </div>
+        <div class="word-list" id="wordList"></div>
+      </aside>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

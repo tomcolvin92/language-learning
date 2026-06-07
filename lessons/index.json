@@ -1,0 +1,10 @@
+{
+  "lessons": [
+    {
+      "id": "lesson-01",
+      "title": "French First Words",
+      "level": 1,
+      "path": "lessons/lesson-01/lesson.json"
+    }
+  ]
+}

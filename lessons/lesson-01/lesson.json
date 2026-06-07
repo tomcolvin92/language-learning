@@ -1,0 +1,90 @@
+{
+  "id": "lesson-01",
+  "title": "French First Words",
+  "level": 1,
+  "audioBase": "lessons/lesson-01/audio",
+  "words": [
+    { "id": "bonjour", "fr": "bonjour", "en": "hello", "say": "bonjour", "sound": "bohn-zhoor", "category": "Greetings" },
+    { "id": "salut", "fr": "salut", "en": "hi", "say": "salut", "sound": "sah-loo", "category": "Greetings" },
+    { "id": "au-revoir", "fr": "au revoir", "en": "goodbye", "say": "au revoir", "sound": "oh ruh-vwahr", "category": "Greetings" },
+    { "id": "merci", "fr": "merci", "en": "thank you", "say": "merci", "sound": "mehr-see", "category": "Greetings" },
+    { "id": "s-il-vous-plait", "fr": "s'il vous plaît", "en": "please", "say": "s'il vous plaît", "sound": "seel voo pleh", "category": "Greetings" },
+    { "id": "oui", "fr": "oui", "en": "yes", "say": "oui", "sound": "wee", "category": "Basics" },
+    { "id": "non", "fr": "non", "en": "no", "say": "non", "sound": "noh", "category": "Basics" },
+    { "id": "je", "fr": "je", "en": "I", "say": "je", "sound": "zhuh", "category": "Basics" },
+    { "id": "tu", "fr": "tu", "en": "you", "say": "tu", "sound": "too", "category": "Basics" },
+    { "id": "un", "fr": "un", "en": "one", "say": "un", "sound": "uhn", "category": "Numbers" },
+    { "id": "deux", "fr": "deux", "en": "two", "say": "deux", "sound": "duh", "category": "Numbers" },
+    { "id": "trois", "fr": "trois", "en": "three", "say": "trois", "sound": "twah", "category": "Numbers" },
+    { "id": "eau", "fr": "eau", "en": "water", "say": "eau", "sound": "oh", "category": "Food" },
+    { "id": "pain", "fr": "pain", "en": "bread", "say": "pain", "sound": "pan", "category": "Food" },
+    { "id": "pomme", "fr": "pomme", "en": "apple", "say": "pomme", "sound": "pom", "category": "Food" },
+    { "id": "lait", "fr": "lait", "en": "milk", "say": "lait", "sound": "leh", "category": "Food" },
+    { "id": "maison", "fr": "maison", "en": "house", "say": "maison", "sound": "meh-zon", "category": "Places" },
+    { "id": "ecole", "fr": "école", "en": "school", "say": "école", "sound": "ay-kol", "category": "Places" },
+    { "id": "rue", "fr": "rue", "en": "street", "say": "rue", "sound": "rew", "category": "Places" },
+    { "id": "content", "fr": "content", "en": "happy", "say": "content", "sound": "kon-tahn", "category": "Feelings" },
+    { "id": "triste", "fr": "triste", "en": "sad", "say": "triste", "sound": "treest", "category": "Feelings" },
+    { "id": "fatigue", "fr": "fatigué", "en": "tired", "say": "fatigué", "sound": "fah-tee-gay", "category": "Feelings" }
+  ],
+  "sentenceGroups": {
+    "greeting": [
+      { "id": "bonjour-je-m-appelle-tom", "fr": "Bonjour, je m'appelle Tom.", "en": "Hello, my name is Tom." },
+      { "id": "salut-comment-ca-va", "fr": "Salut, comment ça va ?", "en": "Hi, how are you?" },
+      { "id": "merci-beaucoup", "fr": "Merci beaucoup.", "en": "Thank you very much." }
+    ],
+    "food": [
+      { "id": "je-voudrais-de-l-eau", "fr": "Je voudrais de l'eau.", "en": "I would like some water." },
+      { "id": "tu-manges-une-pomme", "fr": "Tu manges une pomme.", "en": "You eat an apple." },
+      { "id": "le-pain-est-bon", "fr": "Le pain est bon.", "en": "The bread is good." }
+    ],
+    "place": [
+      { "id": "je-vais-a-l-ecole", "fr": "Je vais à l'école.", "en": "I am going to school." },
+      { "id": "la-maison-est-grande", "fr": "La maison est grande.", "en": "The house is big." },
+      { "id": "la-rue-est-calme", "fr": "La rue est calme.", "en": "The street is quiet." }
+    ],
+    "feeling": [
+      { "id": "je-suis-content", "fr": "Je suis content.", "en": "I am happy." },
+      { "id": "tu-es-fatigue", "fr": "Tu es fatigué.", "en": "You are tired." },
+      { "id": "je-ne-suis-pas-triste", "fr": "Je ne suis pas triste.", "en": "I am not sad." }
+    ]
+  },
+  "listeningSentences": [
+    { "id": "bonjour", "fr": "Bonjour.", "en": "Hello." },
+    { "id": "salut", "fr": "Salut.", "en": "Hi." },
+    { "id": "au-revoir", "fr": "Au revoir.", "en": "Goodbye." },
+    { "id": "merci", "fr": "Merci.", "en": "Thank you." },
+    { "id": "oui-merci", "fr": "Oui, merci.", "en": "Yes, thank you." },
+    { "id": "non-merci", "fr": "Non, merci.", "en": "No, thank you." },
+    { "id": "s-il-vous-plait", "fr": "S'il vous plaît.", "en": "Please." },
+    { "id": "je-suis-content", "fr": "Je suis content.", "en": "I am happy." },
+    { "id": "je-suis-triste", "fr": "Je suis triste.", "en": "I am sad." },
+    { "id": "je-suis-fatigue", "fr": "Je suis fatigué.", "en": "I am tired." },
+    { "id": "tu-es-content", "fr": "Tu es content.", "en": "You are happy." },
+    { "id": "tu-es-triste", "fr": "Tu es triste.", "en": "You are sad." },
+    { "id": "tu-es-fatigue", "fr": "Tu es fatigué.", "en": "You are tired." },
+    { "id": "je-mange-une-pomme", "fr": "Je mange une pomme.", "en": "I eat an apple." },
+    { "id": "tu-manges-une-pomme", "fr": "Tu manges une pomme.", "en": "You eat an apple." },
+    { "id": "je-voudrais-de-l-eau", "fr": "Je voudrais de l'eau.", "en": "I would like some water." },
+    { "id": "je-voudrais-du-pain", "fr": "Je voudrais du pain.", "en": "I would like some bread." },
+    { "id": "je-voudrais-du-lait", "fr": "Je voudrais du lait.", "en": "I would like some milk." },
+    { "id": "la-pomme-est-bonne", "fr": "La pomme est bonne.", "en": "The apple is good." },
+    { "id": "le-pain-est-bon", "fr": "Le pain est bon.", "en": "The bread is good." },
+    { "id": "l-eau-est-bonne", "fr": "L'eau est bonne.", "en": "The water is good." },
+    { "id": "le-lait-est-bon", "fr": "Le lait est bon.", "en": "The milk is good." },
+    { "id": "je-vais-a-l-ecole", "fr": "Je vais à l'école.", "en": "I am going to school." },
+    { "id": "tu-vas-a-l-ecole", "fr": "Tu vas à l'école.", "en": "You are going to school." },
+    { "id": "je-vais-a-la-maison", "fr": "Je vais à la maison.", "en": "I am going home." },
+    { "id": "tu-vas-a-la-maison", "fr": "Tu vas à la maison.", "en": "You are going home." },
+    { "id": "la-maison-est-grande", "fr": "La maison est grande.", "en": "The house is big." },
+    { "id": "la-rue-est-calme", "fr": "La rue est calme.", "en": "The street is quiet." },
+    { "id": "un-deux-trois", "fr": "Un, deux, trois.", "en": "One, two, three." },
+    { "id": "bonjour-merci-au-revoir", "fr": "Bonjour, merci, au revoir.", "en": "Hello, thank you, goodbye." },
+    { "id": "salut-je-suis-content", "fr": "Salut, je suis content.", "en": "Hi, I am happy." },
+    { "id": "oui-je-voudrais-une-pomme", "fr": "Oui, je voudrais une pomme.", "en": "Yes, I would like an apple." },
+    { "id": "non-je-suis-fatigue", "fr": "Non, je suis fatigué.", "en": "No, I am tired." },
+    { "id": "merci-pour-l-eau", "fr": "Merci pour l'eau.", "en": "Thank you for the water." },
+    { "id": "s-il-vous-plait-du-pain", "fr": "S'il vous plaît, du pain.", "en": "Bread, please." },
+    { "id": "je-suis-a-l-ecole", "fr": "Je suis à l'école.", "en": "I am at school." }
+  ]
+}
