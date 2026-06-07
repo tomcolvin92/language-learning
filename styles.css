@@ -258,6 +258,12 @@ h2 {
   color: var(--green);
 }
 
+.voice-panel .version-status {
+  color: var(--ink);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-size: 0.78rem;
+}
+
 label {
   color: var(--muted);
   font-weight: 800;
