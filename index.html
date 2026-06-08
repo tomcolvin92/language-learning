@@ -88,11 +88,19 @@
           <p class="audio-status" id="audioStatus">No browser speech fallback. Audio is AI-generated.</p>
           <p class="version-status">Version long-chain-1 · play all test</p>
         </div>
+        <div class="word-bank-actions">
+          <button class="icon-button primary" id="playAllWords" type="button">
+            <span aria-hidden="true">▶</span>
+            Play all
+          </button>
+          <button id="stopWords" type="button">Stop</button>
+          <p id="wordPlaybackStatus">Words ready.</p>
+        </div>
         <div class="word-list" id="wordList"></div>
       </aside>
     </main>
 
     <script src="lessons/bundle.js"></script>
-    <script src="app.js?v=5"></script>
+    <script src="app.js?v=7"></script>
   </body>
 </html>

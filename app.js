@@ -10,6 +10,9 @@ let listeningSentences = [];
 let listeningStopped = false;
 let listeningIsPlaying = false;
 let listeningRunId = 0;
+let wordPlaybackStopped = false;
+let wordPlaybackIsPlaying = false;
+let wordPlaybackRunId = 0;
 let currentAudio = null;
 let currentAudioResolve = null;
 
@@ -23,6 +26,9 @@ const els = {
   frenchWord: document.querySelector("#frenchWord"),
   pronunciation: document.querySelector("#pronunciation"),
   englishWord: document.querySelector("#englishWord"),
+  playAllWords: document.querySelector("#playAllWords"),
+  stopWords: document.querySelector("#stopWords"),
+  wordPlaybackStatus: document.querySelector("#wordPlaybackStatus"),
   wordList: document.querySelector("#wordList"),
   quizPrompt: document.querySelector("#quizPrompt"),
   quizPromptType: document.querySelector("#quizPromptType"),
@@ -148,6 +154,18 @@ function renderWord() {
   els.englishWord.textContent = word.en;
 }
 
+function setActiveWordItem(index) {
+  let activeItem = null;
+  document.querySelectorAll(".word-item").forEach((item, itemIndex) => {
+    const isActive = itemIndex === index;
+    item.classList.toggle("active", isActive);
+    if (isActive) activeItem = item;
+  });
+  if (activeItem) {
+    activeItem.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }
+}
+
 function renderCategories() {
   const categories = [...new Set(words.map((word) => word.category))];
   currentCategory = categories.includes(currentCategory) ? currentCategory : categories[0] || "";
@@ -182,6 +200,57 @@ function renderWordBank() {
     item.append(button);
     els.wordList.append(item);
   });
+  els.wordPlaybackStatus.textContent = `${words.length} words in this lesson.`;
+}
+
+async function playWordAtIndex(index) {
+  const word = words[index];
+  if (!word) return false;
+  currentCategory = word.category;
+  const visibleIndex = getVisibleWords().findIndex((visibleWord) => visibleWord.id === word.id);
+  currentWordIndex = Math.max(visibleIndex, 0);
+  renderCategories();
+  renderWord();
+  setActiveWordItem(index);
+  els.wordPlaybackStatus.textContent = `${index + 1} of ${words.length}: ${word.fr}`;
+  return playMp3Only(word.say || word.fr, "fr");
+}
+
+async function playAllWords() {
+  if (wordPlaybackIsPlaying) return;
+  wordPlaybackIsPlaying = true;
+  wordPlaybackStopped = false;
+  const runId = wordPlaybackRunId + 1;
+  wordPlaybackRunId = runId;
+  stopListening();
+  let playbackFailed = false;
+
+  for (let index = 0; index < words.length; index += 1) {
+    if (wordPlaybackStopped || runId !== wordPlaybackRunId) break;
+    if (!(await playWordAtIndex(index))) {
+      playbackFailed = true;
+      break;
+    }
+    await wait(450);
+  }
+
+  if (runId !== wordPlaybackRunId) return;
+  wordPlaybackIsPlaying = false;
+  setActiveWordItem(-1);
+  els.wordPlaybackStatus.textContent = playbackFailed
+    ? "Playback stopped because audio did not start."
+    : wordPlaybackStopped
+      ? "Stopped."
+      : `Finished all ${words.length} words.`;
+}
+
+function stopWords() {
+  wordPlaybackStopped = true;
+  wordPlaybackRunId += 1;
+  wordPlaybackIsPlaying = false;
+  stopCurrentAudio();
+  setActiveWordItem(-1);
+  if (els.wordPlaybackStatus) els.wordPlaybackStatus.textContent = "Stopped.";
 }
 
 function switchMode(mode) {
@@ -248,9 +317,15 @@ function makeListeningList() {
 }
 
 function setActiveListeningItem(index) {
+  let activeItem = null;
   document.querySelectorAll(".listening-item").forEach((item, itemIndex) => {
-    item.classList.toggle("active", itemIndex === index);
+    const isActive = itemIndex === index;
+    item.classList.toggle("active", isActive);
+    if (isActive) activeItem = item;
   });
+  if (activeItem) {
+    activeItem.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }
 }
 
 function renderListeningList() {
@@ -348,6 +423,7 @@ function stopListening() {
 }
 
 function resetLessonState() {
+  stopWords();
   stopListening();
   currentWordIndex = 0;
   currentCategory = "";
@@ -448,6 +524,8 @@ document.querySelector("#playWord").addEventListener("click", () => {
   if (word) speak(word.say || word.fr, "word");
 });
 
+document.querySelector("#playAllWords").addEventListener("click", playAllWords);
+document.querySelector("#stopWords").addEventListener("click", stopWords);
 document.querySelector("#nextQuestion").addEventListener("click", renderQuiz);
 document.querySelector("#playAllListening").addEventListener("click", playAllListening);
 document.querySelector("#stopListening").addEventListener("click", stopListening);

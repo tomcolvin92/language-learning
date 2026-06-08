@@ -329,6 +329,20 @@ select {
   gap: 8px;
 }
 
+.word-bank-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+}
+
+.word-bank-actions p {
+  flex-basis: 100%;
+  margin: 0;
+  color: var(--muted);
+  font-weight: 800;
+}
+
 .listening-list {
   display: grid;
   gap: 8px;
@@ -346,6 +360,7 @@ select {
   border-radius: 8px;
   padding: 12px;
   background: #fbfdff;
+  scroll-margin: 12px;
 }
 
 .listening-item.active {
@@ -403,6 +418,12 @@ select {
   border-radius: 8px;
   background: #fff;
   padding: 10px 12px;
+  scroll-margin: 12px;
+}
+
+.word-item.active {
+  border-color: #a8c5ff;
+  background: #eef4ff;
 }
 
 .word-item strong {
