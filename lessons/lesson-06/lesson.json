@@ -118,5 +118,9 @@
       "fr": "Putain, t’es trop mignon.",
       "en": "Damn, you’re too cute."
     }
-  ]
+  ],
+  "audioVoices": [
+    "marin"
+  ],
+  "englishVoice": "cedar"
 }

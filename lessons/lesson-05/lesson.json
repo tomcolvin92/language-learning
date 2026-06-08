@@ -824,5 +824,12 @@
       "fr": "je fais à l'école.",
       "en": "I do / I am doing at school."
     }
-  ]
+  ],
+  "audioVoices": [
+    "marin",
+    "cedar",
+    "coral",
+    "sage"
+  ],
+  "englishVoice": "cedar"
 }

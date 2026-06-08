@@ -17,8 +17,14 @@
         </header>
 
         <section class="lesson-panel">
-          <label for="lessonSelect">Lesson</label>
-          <select id="lessonSelect"></select>
+          <div class="lesson-panel-header">
+            <label>Lessons</label>
+            <div class="lesson-actions">
+              <button id="selectAllLessons" type="button">All</button>
+              <button id="selectFirstLesson" type="button">First only</button>
+            </div>
+          </div>
+          <div class="lesson-toggle-list" id="lessonToggleList" aria-label="Lessons"></div>
         </section>
 
         <section class="player-panel">
@@ -53,6 +59,10 @@
                 <option value="1.15">Fast</option>
               </select>
             </label>
+            <label>
+              <span>French voice</span>
+              <select id="voiceSelect"></select>
+            </label>
             <label class="loop-control">
               <input id="loopPlayback" type="checkbox" />
               <span>Loop</span>
@@ -80,6 +90,6 @@
     </main>
 
     <script src="lessons/bundle.js"></script>
-    <script src="app.js?v=9"></script>
+    <script src="app.js?v=11"></script>
   </body>
 </html>

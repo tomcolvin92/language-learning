@@ -114,14 +114,57 @@ select {
 
 .lesson-panel {
   display: grid;
-  gap: 8px;
+  gap: 10px;
   margin-bottom: 22px;
 }
 
-.lesson-panel select {
-  width: 100%;
-  min-height: 56px;
-  font-size: 1.05rem;
+.lesson-panel-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+
+.lesson-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.lesson-actions button {
+  min-height: 36px;
+  padding: 0 12px;
+}
+
+.lesson-toggle-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 8px;
+}
+
+.lesson-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 50px;
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.lesson-toggle input {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 auto;
+}
+
+.lesson-toggle:has(input:checked) {
+  border-color: #a8c5ff;
+  background: #eef4ff;
+  color: var(--blue);
 }
 
 .player-panel {
@@ -174,7 +217,7 @@ select {
 
 .player-controls {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 12px;
   margin-bottom: 14px;
 }
@@ -297,6 +340,15 @@ select {
   display: block;
 }
 
+.item-text small {
+  display: block;
+  margin-bottom: 2px;
+  color: var(--blue);
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
 .item-text strong {
   font-size: 1.15rem;
 }
@@ -338,6 +390,11 @@ select {
 
   .mode-toggle {
     width: 100%;
+  }
+
+  .lesson-panel-header {
+    align-items: flex-start;
+    flex-direction: column;
   }
 
   .item-list {

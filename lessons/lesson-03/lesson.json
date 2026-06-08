@@ -814,5 +814,12 @@
       "fr": "je veux une banane.",
       "en": "I want a banana."
     }
-  ]
+  ],
+  "audioVoices": [
+    "marin",
+    "cedar",
+    "coral",
+    "sage"
+  ],
+  "englishVoice": "cedar"
 }

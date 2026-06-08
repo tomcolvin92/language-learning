@@ -828,5 +828,12 @@
       "fr": "c'est ma sœur.",
       "en": "It is my sister."
     }
-  ]
+  ],
+  "audioVoices": [
+    "marin",
+    "cedar",
+    "coral",
+    "sage"
+  ],
+  "englishVoice": "cedar"
 }

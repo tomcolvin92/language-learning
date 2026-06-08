@@ -36,5 +36,24 @@
       "level": 6,
       "path": "lessons/lesson-06/lesson.json"
     }
+  ],
+  "defaultVoice": "marin",
+  "voices": [
+    {
+      "id": "marin",
+      "label": "Marin"
+    },
+    {
+      "id": "cedar",
+      "label": "Cedar"
+    },
+    {
+      "id": "coral",
+      "label": "Coral"
+    },
+    {
+      "id": "sage",
+      "label": "Sage"
+    }
   ]
 }

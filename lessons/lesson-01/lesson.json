@@ -848,5 +848,12 @@
       "fr": "c'est très bon.",
       "en": "It is very good."
     }
-  ]
+  ],
+  "audioVoices": [
+    "marin",
+    "cedar",
+    "coral",
+    "sage"
+  ],
+  "englishVoice": "cedar"
 }

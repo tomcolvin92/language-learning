@@ -812,5 +812,12 @@
       "fr": "la fenêtre est derrière la maison.",
       "en": "The window is behind the house."
     }
-  ]
+  ],
+  "audioVoices": [
+    "marin",
+    "cedar",
+    "coral",
+    "sage"
+  ],
+  "englishVoice": "cedar"
 }

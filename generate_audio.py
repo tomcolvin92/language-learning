@@ -18,7 +18,7 @@ ENV_FILE = ROOT / ".env.local"
 LESSONS_DIR = ROOT / "lessons"
 API_URL = "https://api.openai.com/v1/audio/speech"
 MODEL = "gpt-4o-mini-tts"
-FRENCH_VOICE = "marin"
+DEFAULT_FRENCH_VOICES = ("marin", "cedar", "coral", "sage")
 ENGLISH_VOICE = "cedar"
 
 def load_env_file() -> None:
@@ -41,15 +41,15 @@ def slugify(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", without_marks.lower()).strip("-")
 
 
-def unique_items(items: list[tuple[str, str, str, Path]]) -> list[tuple[str, str, str, Path]]:
+def unique_items(items: list[tuple[str, str, str, Path, str]]) -> list[tuple[str, str, str, Path, str]]:
     seen: set[Path] = set()
-    unique: list[tuple[str, str, str, Path]] = []
-    for lang, text, instructions, output_path in items:
+    unique: list[tuple[str, str, str, Path, str]] = []
+    for lang, text, instructions, output_path, voice in items:
         key = output_path
         if key in seen:
             continue
         seen.add(key)
-        unique.append((lang, text, instructions, output_path))
+        unique.append((lang, text, instructions, output_path, voice))
     return unique
 
 
@@ -81,40 +81,47 @@ def lesson_number(path: Path) -> int | None:
     return int(match.group(1)) if match else None
 
 
-def lesson_audio_path(lesson_path: Path, lang: str, text: str) -> Path:
+def lesson_audio_path(lesson_path: Path, lang: str, text: str, voice: str | None = None) -> Path:
+    if lang == "fr":
+        if not voice:
+            raise ValueError("French audio requires a voice folder.")
+        return lesson_path.parent / "audio" / lang / voice / f"{slugify(text)}.mp3"
     return lesson_path.parent / "audio" / lang / f"{slugify(text)}.mp3"
 
 
-def items_from_lesson(lesson_path: Path) -> list[tuple[str, str, str, Path]]:
+def items_from_lesson(lesson_path: Path, french_voices: tuple[str, ...]) -> list[tuple[str, str, str, Path, str]]:
     lesson = json.loads(lesson_path.read_text(encoding="utf-8"))
     french_instructions = "Speak in clear, natural French from France. Use a warm tutor voice and a calm beginner-friendly pace."
     english_instructions = "Speak in clear, natural British English. Use a warm tutor voice and a calm beginner-friendly pace."
-    items: list[tuple[str, str, str, Path]] = []
+    items: list[tuple[str, str, str, Path, str]] = []
 
     for word in lesson.get("words", []):
         text = word.get("say") or word["fr"]
-        items.append(("fr", text, french_instructions, lesson_audio_path(lesson_path, "fr", text)))
-        items.append(("en", word["en"], english_instructions, lesson_audio_path(lesson_path, "en", word["en"])))
+        for voice in french_voices:
+            items.append(("fr", text, french_instructions, lesson_audio_path(lesson_path, "fr", text, voice), voice))
+        items.append(("en", word["en"], english_instructions, lesson_audio_path(lesson_path, "en", word["en"]), ENGLISH_VOICE))
 
     sentence_groups = lesson.get("sentenceGroups", {})
     for group in sentence_groups.values():
         for sentence in group:
-            items.append(("fr", sentence["fr"], french_instructions, lesson_audio_path(lesson_path, "fr", sentence["fr"])))
-            items.append(("en", sentence["en"], english_instructions, lesson_audio_path(lesson_path, "en", sentence["en"])))
+            for voice in french_voices:
+                items.append(("fr", sentence["fr"], french_instructions, lesson_audio_path(lesson_path, "fr", sentence["fr"], voice), voice))
+            items.append(("en", sentence["en"], english_instructions, lesson_audio_path(lesson_path, "en", sentence["en"]), ENGLISH_VOICE))
 
     for sentence in lesson.get("listeningSentences", []):
-        items.append(("fr", sentence["fr"], french_instructions, lesson_audio_path(lesson_path, "fr", sentence["fr"])))
-        items.append(("en", sentence["en"], english_instructions, lesson_audio_path(lesson_path, "en", sentence["en"])))
+        for voice in french_voices:
+            items.append(("fr", sentence["fr"], french_instructions, lesson_audio_path(lesson_path, "fr", sentence["fr"], voice), voice))
+        items.append(("en", sentence["en"], english_instructions, lesson_audio_path(lesson_path, "en", sentence["en"]), ENGLISH_VOICE))
 
     return items
 
 
-def speech_request(api_key: str, lang: str, text: str, instructions: str, output_path: Path) -> None:
+def speech_request(api_key: str, lang: str, text: str, instructions: str, output_path: Path, voice: str) -> None:
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
     payload = {
         "model": MODEL,
-        "voice": FRENCH_VOICE if lang == "fr" else ENGLISH_VOICE,
+        "voice": voice,
         "input": text,
         "instructions": instructions,
     }
@@ -128,17 +135,30 @@ def speech_request(api_key: str, lang: str, text: str, instructions: str, output
         method="POST",
     )
 
-    try:
-        with urllib.request.urlopen(request, timeout=90) as response:
-            output_path.write_bytes(response.read())
-    except urllib.error.HTTPError as error:
-        message = error.read().decode("utf-8", errors="replace")
-        raise RuntimeError(f"OpenAI request failed for {text!r}: {error.code} {message}") from error
+    for attempt in range(1, 4):
+        try:
+            with urllib.request.urlopen(request, timeout=120) as response:
+                output_path.write_bytes(response.read())
+            return
+        except urllib.error.HTTPError as error:
+            message = error.read().decode("utf-8", errors="replace")
+            raise RuntimeError(f"OpenAI request failed for {text!r}: {error.code} {message}") from error
+        except (TimeoutError, urllib.error.URLError) as error:
+            if attempt == 3:
+                raise RuntimeError(f"OpenAI request timed out for {text!r} after 3 attempts.") from error
+            wait_seconds = attempt * 3
+            print(f"Retrying {lang}/{voice}: {text} after timeout ({wait_seconds}s)")
+            time.sleep(wait_seconds)
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Generate missing lesson MP3 files from lesson JSON files.")
     parser.add_argument("--lessons", help="Optional lesson range, for example 1-5 or 1-20.")
+    parser.add_argument(
+        "--voices",
+        default=",".join(DEFAULT_FRENCH_VOICES),
+        help="Comma-separated French voices to generate, for example marin,cedar,coral,sage.",
+    )
     args = parser.parse_args()
 
     load_env_file()
@@ -156,19 +176,24 @@ def main() -> int:
         print("No lesson.json files found in lessons/lesson-*.", file=sys.stderr)
         return 1
 
-    items: list[tuple[str, str, str, Path]] = []
+    french_voices = tuple(voice.strip() for voice in args.voices.split(",") if voice.strip())
+    if not french_voices:
+        print("No French voices selected.", file=sys.stderr)
+        return 1
+
+    items: list[tuple[str, str, str, Path, str]] = []
     for lesson_path in paths:
-        items.extend(items_from_lesson(lesson_path))
+        items.extend(items_from_lesson(lesson_path, french_voices))
 
     generated = 0
     skipped = 0
-    for lang, text, instructions, output_path in unique_items(items):
+    for lang, text, instructions, output_path, voice in unique_items(items):
         if output_path.exists() and output_path.stat().st_size > 0:
             skipped += 1
             continue
 
-        print(f"Generating {lang}: {text}")
-        speech_request(api_key, lang, text, instructions, output_path)
+        print(f"Generating {lang}/{voice}: {text}")
+        speech_request(api_key, lang, text, instructions, output_path, voice)
         generated += 1
         time.sleep(0.2)
 

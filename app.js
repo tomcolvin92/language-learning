@@ -1,5 +1,8 @@
 let lessonManifest = [];
-let currentLesson = null;
+let selectedLessonPaths = [];
+let currentLessons = [];
+let availableVoices = [];
+let selectedVoice = "marin";
 let playerMode = "sentences";
 let items = [];
 let playbackStopped = false;
@@ -11,11 +14,14 @@ let currentAudioResolve = null;
 const els = {
   lessonLevel: document.querySelector("#lessonLevel"),
   lessonTitle: document.querySelector("#lessonTitle"),
-  lessonSelect: document.querySelector("#lessonSelect"),
+  lessonToggleList: document.querySelector("#lessonToggleList"),
+  selectAllLessons: document.querySelector("#selectAllLessons"),
+  selectFirstLesson: document.querySelector("#selectFirstLesson"),
   playerTitle: document.querySelector("#playerTitle"),
   playStatus: document.querySelector("#playStatus"),
   repeatCount: document.querySelector("#repeatCount"),
   frSpeed: document.querySelector("#frSpeed"),
+  voiceSelect: document.querySelector("#voiceSelect"),
   loopPlayback: document.querySelector("#loopPlayback"),
   playAll: document.querySelector("#playAll"),
   stopPlayback: document.querySelector("#stopPlayback"),
@@ -35,8 +41,11 @@ function audioSlug(text) {
     .replace(/^-|-$/g, "");
 }
 
-function audioPath(text, lang) {
-  return `${currentLesson.audioBase}/${lang}/${audioSlug(text)}.mp3`;
+function audioPath(text, lang, audioBase, voice) {
+  if (lang === "fr") {
+    return `${audioBase}/${lang}/${voice}/${audioSlug(text)}.mp3`;
+  }
+  return `${audioBase}/${lang}/${audioSlug(text)}.mp3`;
 }
 
 function stopCurrentAudio() {
@@ -51,9 +60,9 @@ function stopCurrentAudio() {
   }
 }
 
-function playAudioFile(text, lang, playbackRate = 1) {
+function playAudioFile(text, lang, playbackRate = 1, audioBase = currentLessons[0]?.audioBase, voice = selectedVoice) {
   return new Promise((resolve, reject) => {
-    const path = audioPath(text, lang);
+    const path = audioPath(text, lang, audioBase, voice);
     const audio = new Audio(path);
     currentAudio = audio;
     currentAudioResolve = resolve;
@@ -90,10 +99,10 @@ function showAudioIssue(issue) {
   els.voiceStatus.textContent = "A matching MP3 file could not be loaded from the local server.";
 }
 
-async function playMp3Only(text, lang, playbackRate = 1) {
+async function playMp3Only(text, lang, playbackRate = 1, audioBase, voice) {
   els.speechNote.hidden = true;
   try {
-    await playAudioFile(text, lang, playbackRate);
+    await playAudioFile(text, lang, playbackRate, audioBase, voice);
     return true;
   } catch (issue) {
     showAudioIssue(issue);
@@ -109,27 +118,57 @@ function shuffle(list) {
   return [...list].sort(() => Math.random() - 0.5);
 }
 
+function voiceLabel(voiceId) {
+  const voice = availableVoices.find((item) => item.id === voiceId);
+  return voice?.label || voiceId;
+}
+
+function lessonVoices(lesson) {
+  return lesson.audioVoices?.length ? lesson.audioVoices : ["marin"];
+}
+
+function resolveVoice(item) {
+  const voices = item.voices?.length ? item.voices : ["marin"];
+  if (selectedVoice === "random") {
+    return voices[Math.floor(Math.random() * voices.length)];
+  }
+  return voices.includes(selectedVoice) ? selectedVoice : voices[0];
+}
+
+function voiceSummary() {
+  if (selectedVoice === "random") return "Random French voice";
+  return `${voiceLabel(selectedVoice)} French voice`;
+}
+
 function makeItems() {
-  if (!currentLesson) return [];
+  if (currentLessons.length === 0) return [];
   if (playerMode === "words") {
-    return (currentLesson.words || []).map((word) => ({
-      id: word.id,
+    return currentLessons.flatMap((lesson) => (lesson.words || []).map((word) => ({
+      id: `${lesson.id}-${word.id}`,
       fr: word.say || word.fr,
       displayFr: word.fr,
       en: word.en,
       sound: word.sound || "",
-      kind: "word"
-    }));
+      kind: "word",
+      lessonId: lesson.id,
+      lessonTitle: lesson.title,
+      audioBase: lesson.audioBase,
+      voices: lessonVoices(lesson)
+    })));
   }
 
-  return (currentLesson.listeningSentences || []).map((sentence) => ({
-    id: sentence.id,
+  return currentLessons.flatMap((lesson) => (lesson.listeningSentences || []).map((sentence) => ({
+    id: `${lesson.id}-${sentence.id}`,
     fr: sentence.fr,
     displayFr: sentence.fr,
     en: sentence.en,
     sound: "",
-    kind: "sentence"
-  }));
+    kind: "sentence",
+    lessonId: lesson.id,
+    lessonTitle: lesson.title,
+    audioBase: lesson.audioBase,
+    voices: lessonVoices(lesson)
+  })));
 }
 
 function setActiveItem(index) {
@@ -153,6 +192,7 @@ function renderItems(nextItems = makeItems()) {
     row.innerHTML = `
       <span class="item-number">${index + 1}</span>
       <div class="item-text">
+        <small>${item.lessonTitle} · ${selectedVoice === "random" ? "Random voice" : voiceLabel(resolveVoice(item))}</small>
         <strong>${item.displayFr}</strong>
         ${item.sound ? `<em>${item.sound}</em>` : ""}
         <span>${item.en}</span>
@@ -170,7 +210,7 @@ function renderItems(nextItems = makeItems()) {
 
   const noun = playerMode === "words" ? "words" : "sentences";
   els.playerTitle.textContent = `${items.length} ${noun}`;
-  els.playStatus.textContent = `${items.length} ${noun} ready.`;
+  els.playStatus.textContent = `${items.length} ${noun} ready with ${voiceSummary()}.`;
 }
 
 function renderModeButtons() {
@@ -180,10 +220,15 @@ function renderModeButtons() {
 }
 
 function renderLessonShell() {
-  document.querySelector("h1").textContent = currentLesson.title;
-  els.lessonLevel.textContent = `Level ${currentLesson.level}`;
+  if (currentLessons.length === 1) {
+    document.querySelector("h1").textContent = currentLessons[0].title;
+    els.lessonLevel.textContent = `Level ${currentLessons[0].level}`;
+  } else {
+    document.querySelector("h1").textContent = `${currentLessons.length} lessons selected`;
+    els.lessonLevel.textContent = "Combined practice";
+  }
   els.voiceStatus.textContent = "Lesson MP3 audio is active.";
-  els.audioStatus.textContent = `${currentLesson.id} is loaded from JSON. No browser speech fallback.`;
+  els.audioStatus.textContent = `${currentLessons.map((lesson) => lesson.id).join(", ")} loaded from JSON. French voice: ${voiceSummary()}.`;
 }
 
 async function playItemAtIndex(index) {
@@ -192,20 +237,21 @@ async function playItemAtIndex(index) {
 
   const repeats = Number.parseInt(els.repeatCount.value, 10) || 1;
   const frSpeed = Number.parseFloat(els.frSpeed.value) || 1;
+  const voice = resolveVoice(item);
   setActiveItem(index);
   els.playStatus.textContent = `${index + 1} of ${items.length}: ${item.displayFr}`;
 
   for (let repeat = 0; repeat < repeats; repeat += 1) {
     if (playbackStopped) return false;
-    els.playStatus.textContent = `${index + 1} of ${items.length}: French ${repeat + 1} of ${repeats} — ${item.displayFr}`;
-    if (!(await playMp3Only(item.fr, "fr", frSpeed))) return false;
+    els.playStatus.textContent = `${index + 1} of ${items.length}: ${voiceLabel(voice)} French ${repeat + 1} of ${repeats} — ${item.displayFr}`;
+    if (!(await playMp3Only(item.fr, "fr", frSpeed, item.audioBase, voice))) return false;
     if (repeat < repeats - 1) await wait(300);
   }
 
   if (item.en && !playbackStopped) {
     await wait(450);
     els.playStatus.textContent = `${index + 1} of ${items.length}: English — ${item.en}`;
-    if (!(await playMp3Only(item.en, "en"))) return false;
+    if (!(await playMp3Only(item.en, "en", 1, item.audioBase))) return false;
   }
 
   return true;
@@ -261,18 +307,51 @@ function stopPlayback() {
 }
 
 function renderLessonOptions() {
-  els.lessonSelect.innerHTML = "";
+  els.lessonToggleList.innerHTML = "";
   lessonManifest.forEach((lesson) => {
-    const option = document.createElement("option");
-    option.value = lesson.path;
-    option.textContent = `Level ${lesson.level}: ${lesson.title}`;
-    els.lessonSelect.append(option);
+    const label = document.createElement("label");
+    label.className = "lesson-toggle";
+    label.innerHTML = `
+      <input type="checkbox" value="${lesson.path}" />
+      <span>Level ${lesson.level}: ${lesson.title}</span>
+    `;
+    const input = label.querySelector("input");
+    input.addEventListener("change", () => {
+      const selected = [...els.lessonToggleList.querySelectorAll("input:checked")].map((item) => item.value);
+      if (selected.length === 0) {
+        input.checked = true;
+        return;
+      }
+      selectedLessonPaths = selected;
+      loadSelectedLessons();
+    });
+    els.lessonToggleList.append(label);
   });
+}
+
+function renderVoiceOptions() {
+  els.voiceSelect.innerHTML = "";
+  const randomOption = document.createElement("option");
+  randomOption.value = "random";
+  randomOption.textContent = "Random";
+  els.voiceSelect.append(randomOption);
+
+  availableVoices.forEach((voice) => {
+    const option = document.createElement("option");
+    option.value = voice.id;
+    option.textContent = voice.label;
+    els.voiceSelect.append(option);
+  });
+
+  els.voiceSelect.value = selectedVoice;
 }
 
 async function loadManifest() {
   if (window.LESSON_BUNDLE?.manifest?.lessons) {
-    lessonManifest = window.LESSON_BUNDLE.manifest.lessons;
+    const manifest = window.LESSON_BUNDLE.manifest;
+    lessonManifest = manifest.lessons;
+    availableVoices = manifest.voices || [{ id: "marin", label: "Marin" }];
+    selectedVoice = manifest.defaultVoice || availableVoices[0]?.id || "marin";
     return;
   }
 
@@ -280,6 +359,8 @@ async function loadManifest() {
   if (!response.ok) throw new Error("Could not load lessons/index.json");
   const manifest = await response.json();
   lessonManifest = manifest.lessons || [];
+  availableVoices = manifest.voices || [{ id: "marin", label: "Marin" }];
+  selectedVoice = manifest.defaultVoice || availableVoices[0]?.id || "marin";
   if (lessonManifest.length === 0) throw new Error("No lessons are listed in lessons/index.json");
 }
 
@@ -289,14 +370,16 @@ function getBundledLesson(path) {
 }
 
 async function loadLesson(path) {
-  stopPlayback();
-  currentLesson = getBundledLesson(path);
-  if (!currentLesson) {
-    const response = await fetch(path);
-    if (!response.ok) throw new Error(`Could not load ${path}`);
-    currentLesson = await response.json();
-  }
+  const bundledLesson = getBundledLesson(path);
+  if (bundledLesson) return bundledLesson;
+  const response = await fetch(path);
+  if (!response.ok) throw new Error(`Could not load ${path}`);
+  return response.json();
+}
 
+async function loadSelectedLessons() {
+  stopPlayback();
+  currentLessons = await Promise.all(selectedLessonPaths.map(loadLesson));
   renderLessonShell();
   renderItems();
 }
@@ -305,7 +388,10 @@ async function initializeApp() {
   try {
     await loadManifest();
     renderLessonOptions();
-    await loadLesson(lessonManifest[0].path);
+    renderVoiceOptions();
+    selectedLessonPaths = [lessonManifest[0].path];
+    syncLessonToggles();
+    await loadSelectedLessons();
   } catch (error) {
     document.querySelector("h1").textContent = "Lesson Load Error";
     els.voiceStatus.textContent = error.message;
@@ -322,7 +408,31 @@ document.querySelectorAll("[data-player-mode]").forEach((button) => {
   });
 });
 
-els.lessonSelect.addEventListener("change", () => loadLesson(els.lessonSelect.value));
+function syncLessonToggles() {
+  const selected = new Set(selectedLessonPaths);
+  els.lessonToggleList.querySelectorAll("input").forEach((input) => {
+    input.checked = selected.has(input.value);
+  });
+}
+
+els.selectAllLessons.addEventListener("click", () => {
+  stopPlayback();
+  selectedLessonPaths = lessonManifest.map((lesson) => lesson.path);
+  syncLessonToggles();
+  loadSelectedLessons();
+});
+els.selectFirstLesson.addEventListener("click", () => {
+  stopPlayback();
+  selectedLessonPaths = [lessonManifest[0].path];
+  syncLessonToggles();
+  loadSelectedLessons();
+});
+els.voiceSelect.addEventListener("change", () => {
+  stopPlayback();
+  selectedVoice = els.voiceSelect.value;
+  renderLessonShell();
+  renderItems();
+});
 els.playAll.addEventListener("click", playAllItems);
 els.stopPlayback.addEventListener("click", stopPlayback);
 els.shuffleItems.addEventListener("click", () => {
