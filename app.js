@@ -32,6 +32,7 @@ const els = {
   voiceStatus: document.querySelector("#voiceStatus"),
   audioStatus: document.querySelector("#audioStatus"),
   listeningList: document.querySelector("#listeningList"),
+  listeningTitle: document.querySelector("#listeningTitle"),
   listeningStatus: document.querySelector("#listeningStatus")
 };
 
@@ -81,35 +82,44 @@ function playAudioFile(text, lang) {
     audio.onerror = () => {
       if (currentAudio === audio) currentAudio = null;
       if (currentAudioResolve === resolve) currentAudioResolve = null;
-      reject(new Error(`Missing audio file: ${path}`));
+      reject({ type: "load", path, error: audio.error });
     };
     audio.play().catch((error) => {
       if (currentAudio === audio) currentAudio = null;
       if (currentAudioResolve === resolve) currentAudioResolve = null;
-      reject(error);
+      reject({ type: "playback", path, error });
     });
   });
 }
 
-function showMissingAudio(text, lang) {
-  const path = audioPath(text, lang);
-  els.speechNote.textContent = `Missing local MP3: ${path}`;
+function showAudioIssue(issue) {
+  if (issue?.type === "playback") {
+    els.speechNote.textContent = "Audio was blocked by the browser. Click the play button again, or reload the page and try once more.";
+    els.speechNote.hidden = false;
+    els.voiceStatus.textContent = "The MP3 exists, but playback did not start.";
+    return;
+  }
+
+  els.speechNote.textContent = `Could not load local MP3: ${issue?.path || "unknown file"}`;
   els.speechNote.hidden = false;
-  els.voiceStatus.textContent = "A matching MP3 file is missing.";
+  els.voiceStatus.textContent = "A matching MP3 file could not be loaded from the local server.";
 }
 
 function speak(text, kind = "word") {
   const lang = kind === "english" ? "en" : "fr";
   els.speechNote.hidden = true;
   stopCurrentAudio();
-  playAudioFile(text, lang).catch(() => showMissingAudio(text, lang));
+  playAudioFile(text, lang).catch(showAudioIssue);
 }
 
 async function playMp3Only(text, lang) {
+  els.speechNote.hidden = true;
   try {
     await playAudioFile(text, lang);
-  } catch {
-    showMissingAudio(text, lang);
+    return true;
+  } catch (issue) {
+    showAudioIssue(issue);
+    return false;
   }
 }
 
@@ -231,8 +241,9 @@ function chooseAnswer(button, answer) {
 }
 
 function makeListeningList() {
-  listeningSentences = shuffle(listeningTemplates).slice(0, 30);
+  listeningSentences = shuffle(listeningTemplates);
   renderListeningList();
+  els.listeningTitle.textContent = `${listeningSentences.length} listening sentences`;
   els.listeningStatus.textContent = "French twice, then English.";
 }
 
@@ -270,13 +281,13 @@ async function playListeningSentence(index) {
   const sentence = listeningSentences[index];
   setActiveListeningItem(index);
   els.listeningStatus.textContent = `${index + 1} of ${listeningSentences.length}: listen in French twice, then English.`;
-  await playMp3Only(sentence.fr, "fr");
+  if (!(await playMp3Only(sentence.fr, "fr"))) return;
   await wait(350);
   if (listeningStopped) return;
-  await playMp3Only(sentence.fr, "fr");
+  if (!(await playMp3Only(sentence.fr, "fr"))) return;
   await wait(450);
   if (listeningStopped) return;
-  await playMp3Only(sentence.en, "en");
+  if (!(await playMp3Only(sentence.en, "en"))) return;
   setActiveListeningItem(-1);
   if (!listeningIsPlaying) els.listeningStatus.textContent = "French twice, then English.";
 }
@@ -288,6 +299,7 @@ async function playAllListening() {
   const runId = listeningRunId + 1;
   listeningRunId = runId;
   stopCurrentAudio();
+  let playbackFailed = false;
 
   for (let index = 0; index < listeningSentences.length; index += 1) {
     if (listeningStopped || runId !== listeningRunId) break;
@@ -295,22 +307,35 @@ async function playAllListening() {
     setActiveListeningItem(index);
     els.listeningStatus.textContent = `${index + 1} of ${listeningSentences.length}: listen in French twice, then English.`;
 
-    await playMp3Only(sentence.fr, "fr");
+    if (!(await playMp3Only(sentence.fr, "fr"))) {
+      playbackFailed = true;
+      break;
+    }
     await wait(350);
     if (listeningStopped || runId !== listeningRunId) break;
 
-    await playMp3Only(sentence.fr, "fr");
+    if (!(await playMp3Only(sentence.fr, "fr"))) {
+      playbackFailed = true;
+      break;
+    }
     await wait(450);
     if (listeningStopped || runId !== listeningRunId) break;
 
-    await playMp3Only(sentence.en, "en");
+    if (!(await playMp3Only(sentence.en, "en"))) {
+      playbackFailed = true;
+      break;
+    }
     await wait(650);
   }
 
   if (runId !== listeningRunId) return;
   listeningIsPlaying = false;
   setActiveListeningItem(-1);
-  els.listeningStatus.textContent = listeningStopped ? "Stopped." : "Finished all 30 sentences.";
+  els.listeningStatus.textContent = playbackFailed
+    ? "Playback stopped because audio did not start."
+    : listeningStopped
+      ? "Stopped."
+      : `Finished all ${listeningSentences.length} sentences.`;
 }
 
 function stopListening() {
@@ -331,6 +356,7 @@ function resetLessonState() {
   els.feedback.textContent = "";
   els.answers.innerHTML = "";
   els.speechNote.hidden = true;
+  els.voiceStatus.textContent = "Lesson MP3 audio is active.";
 }
 
 function renderLessonShell() {
@@ -343,9 +369,12 @@ function renderLessonShell() {
 
 async function loadLesson(path) {
   resetLessonState();
-  const response = await fetch(path);
-  if (!response.ok) throw new Error(`Could not load ${path}`);
-  currentLesson = await response.json();
+  currentLesson = getBundledLesson(path);
+  if (!currentLesson) {
+    const response = await fetch(path);
+    if (!response.ok) throw new Error(`Could not load ${path}`);
+    currentLesson = await response.json();
+  }
   words = currentLesson.words || [];
   listeningTemplates = currentLesson.listeningSentences || [];
   renderLessonShell();
@@ -367,11 +396,21 @@ function renderLessonOptions() {
 }
 
 async function loadManifest() {
+  if (window.LESSON_BUNDLE?.manifest?.lessons) {
+    lessonManifest = window.LESSON_BUNDLE.manifest.lessons;
+    return;
+  }
+
   const response = await fetch("lessons/index.json");
   if (!response.ok) throw new Error("Could not load lessons/index.json");
   const manifest = await response.json();
   lessonManifest = manifest.lessons || [];
   if (lessonManifest.length === 0) throw new Error("No lessons are listed in lessons/index.json");
+}
+
+function getBundledLesson(path) {
+  const lessonId = path.match(/lesson-\d+/)?.[0];
+  return lessonId ? window.LESSON_BUNDLE?.lessons?.[lessonId] : null;
 }
 
 async function initializeApp() {
@@ -382,7 +421,7 @@ async function initializeApp() {
   } catch (error) {
     document.querySelector("h1").textContent = "Lesson Load Error";
     els.voiceStatus.textContent = error.message;
-    els.audioStatus.textContent = "Check lessons/index.json and the selected lesson JSON file.";
+    els.audioStatus.textContent = "Open through a local server, or rebuild lessons/bundle.js if lesson files changed.";
   }
 }
 

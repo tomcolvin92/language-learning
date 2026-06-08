@@ -1,90 +1,852 @@
 {
   "id": "lesson-01",
-  "title": "French First Words",
+  "title": "Core greetings & identity",
   "level": 1,
   "audioBase": "lessons/lesson-01/audio",
   "words": [
-    { "id": "bonjour", "fr": "bonjour", "en": "hello", "say": "bonjour", "sound": "bohn-zhoor", "category": "Greetings" },
-    { "id": "salut", "fr": "salut", "en": "hi", "say": "salut", "sound": "sah-loo", "category": "Greetings" },
-    { "id": "au-revoir", "fr": "au revoir", "en": "goodbye", "say": "au revoir", "sound": "oh ruh-vwahr", "category": "Greetings" },
-    { "id": "merci", "fr": "merci", "en": "thank you", "say": "merci", "sound": "mehr-see", "category": "Greetings" },
-    { "id": "s-il-vous-plait", "fr": "s'il vous plaît", "en": "please", "say": "s'il vous plaît", "sound": "seel voo pleh", "category": "Greetings" },
-    { "id": "oui", "fr": "oui", "en": "yes", "say": "oui", "sound": "wee", "category": "Basics" },
-    { "id": "non", "fr": "non", "en": "no", "say": "non", "sound": "noh", "category": "Basics" },
-    { "id": "je", "fr": "je", "en": "I", "say": "je", "sound": "zhuh", "category": "Basics" },
-    { "id": "tu", "fr": "tu", "en": "you", "say": "tu", "sound": "too", "category": "Basics" },
-    { "id": "un", "fr": "un", "en": "one", "say": "un", "sound": "uhn", "category": "Numbers" },
-    { "id": "deux", "fr": "deux", "en": "two", "say": "deux", "sound": "duh", "category": "Numbers" },
-    { "id": "trois", "fr": "trois", "en": "three", "say": "trois", "sound": "twah", "category": "Numbers" },
-    { "id": "eau", "fr": "eau", "en": "water", "say": "eau", "sound": "oh", "category": "Food" },
-    { "id": "pain", "fr": "pain", "en": "bread", "say": "pain", "sound": "pan", "category": "Food" },
-    { "id": "pomme", "fr": "pomme", "en": "apple", "say": "pomme", "sound": "pom", "category": "Food" },
-    { "id": "lait", "fr": "lait", "en": "milk", "say": "lait", "sound": "leh", "category": "Food" },
-    { "id": "maison", "fr": "maison", "en": "house", "say": "maison", "sound": "meh-zon", "category": "Places" },
-    { "id": "ecole", "fr": "école", "en": "school", "say": "école", "sound": "ay-kol", "category": "Places" },
-    { "id": "rue", "fr": "rue", "en": "street", "say": "rue", "sound": "rew", "category": "Places" },
-    { "id": "content", "fr": "content", "en": "happy", "say": "content", "sound": "kon-tahn", "category": "Feelings" },
-    { "id": "triste", "fr": "triste", "en": "sad", "say": "triste", "sound": "treest", "category": "Feelings" },
-    { "id": "fatigue", "fr": "fatigué", "en": "tired", "say": "fatigué", "sound": "fah-tee-gay", "category": "Feelings" }
+    {
+      "id": "bonjour",
+      "fr": "bonjour",
+      "en": "hello",
+      "say": "bonjour",
+      "sound": "",
+      "category": "Greeting"
+    },
+    {
+      "id": "salut",
+      "fr": "salut",
+      "en": "hi",
+      "say": "salut",
+      "sound": "",
+      "category": "Greeting"
+    },
+    {
+      "id": "merci",
+      "fr": "merci",
+      "en": "thank you",
+      "say": "merci",
+      "sound": "",
+      "category": "Phrase"
+    },
+    {
+      "id": "oui",
+      "fr": "oui",
+      "en": "yes",
+      "say": "oui",
+      "sound": "",
+      "category": "Word"
+    },
+    {
+      "id": "non",
+      "fr": "non",
+      "en": "no",
+      "say": "non",
+      "sound": "",
+      "category": "Word"
+    },
+    {
+      "id": "je",
+      "fr": "je",
+      "en": "I",
+      "say": "je",
+      "sound": "",
+      "category": "Pronoun"
+    },
+    {
+      "id": "tu",
+      "fr": "tu",
+      "en": "you",
+      "say": "tu",
+      "sound": "",
+      "category": "Pronoun"
+    },
+    {
+      "id": "il",
+      "fr": "il",
+      "en": "he/it",
+      "say": "il",
+      "sound": "",
+      "category": "Pronoun"
+    },
+    {
+      "id": "elle",
+      "fr": "elle",
+      "en": "she/it",
+      "say": "elle",
+      "sound": "",
+      "category": "Pronoun"
+    },
+    {
+      "id": "nous",
+      "fr": "nous",
+      "en": "we",
+      "say": "nous",
+      "sound": "",
+      "category": "Pronoun"
+    },
+    {
+      "id": "vous",
+      "fr": "vous",
+      "en": "you (formal/plural)",
+      "say": "vous",
+      "sound": "",
+      "category": "Pronoun"
+    },
+    {
+      "id": "je-suis",
+      "fr": "je suis",
+      "en": "I am",
+      "say": "je suis",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "tu-es",
+      "fr": "tu es",
+      "en": "you are",
+      "say": "tu es",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "il-est",
+      "fr": "il est",
+      "en": "he/it is",
+      "say": "il est",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "elle-est",
+      "fr": "elle est",
+      "en": "she/it is",
+      "say": "elle est",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "c-est",
+      "fr": "c'est",
+      "en": "it is / that's",
+      "say": "c'est",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "ca-va",
+      "fr": "ça va",
+      "en": "it's going / are you okay?",
+      "say": "ça va",
+      "sound": "",
+      "category": "Phrase"
+    },
+    {
+      "id": "ici",
+      "fr": "ici",
+      "en": "here",
+      "say": "ici",
+      "sound": "",
+      "category": "Adverb"
+    },
+    {
+      "id": "la",
+      "fr": "là",
+      "en": "there",
+      "say": "là",
+      "sound": "",
+      "category": "Adverb"
+    },
+    {
+      "id": "bien",
+      "fr": "bien",
+      "en": "well/good",
+      "say": "bien",
+      "sound": "",
+      "category": "Adverb"
+    },
+    {
+      "id": "tres",
+      "fr": "très",
+      "en": "very",
+      "say": "très",
+      "sound": "",
+      "category": "Adverb"
+    },
+    {
+      "id": "bon",
+      "fr": "bon",
+      "en": "good",
+      "say": "bon",
+      "sound": "",
+      "category": "Adjective"
+    },
+    {
+      "id": "bonne",
+      "fr": "bonne",
+      "en": "good (feminine)",
+      "say": "bonne",
+      "sound": "",
+      "category": "Adjective"
+    },
+    {
+      "id": "petit",
+      "fr": "petit",
+      "en": "small",
+      "say": "petit",
+      "sound": "",
+      "category": "Adjective"
+    },
+    {
+      "id": "petite",
+      "fr": "petite",
+      "en": "small (feminine)",
+      "say": "petite",
+      "sound": "",
+      "category": "Adjective"
+    }
   ],
   "sentenceGroups": {
     "greeting": [
-      { "id": "bonjour-je-m-appelle-tom", "fr": "Bonjour, je m'appelle Tom.", "en": "Hello, my name is Tom." },
-      { "id": "salut-comment-ca-va", "fr": "Salut, comment ça va ?", "en": "Hi, how are you?" },
-      { "id": "merci-beaucoup", "fr": "Merci beaucoup.", "en": "Thank you very much." }
+      {
+        "id": "bonjour",
+        "fr": "bonjour.",
+        "en": "Hello."
+      },
+      {
+        "id": "salut",
+        "fr": "salut.",
+        "en": "Hi."
+      },
+      {
+        "id": "merci",
+        "fr": "merci.",
+        "en": "Thank you."
+      }
     ],
-    "food": [
-      { "id": "je-voudrais-de-l-eau", "fr": "Je voudrais de l'eau.", "en": "I would like some water." },
-      { "id": "tu-manges-une-pomme", "fr": "Tu manges une pomme.", "en": "You eat an apple." },
-      { "id": "le-pain-est-bon", "fr": "Le pain est bon.", "en": "The bread is good." }
+    "core-word": [
+      {
+        "id": "oui",
+        "fr": "oui.",
+        "en": "Yes."
+      },
+      {
+        "id": "non",
+        "fr": "non.",
+        "en": "No."
+      }
     ],
-    "place": [
-      { "id": "je-vais-a-l-ecole", "fr": "Je vais à l'école.", "en": "I am going to school." },
-      { "id": "la-maison-est-grande", "fr": "La maison est grande.", "en": "The house is big." },
-      { "id": "la-rue-est-calme", "fr": "La rue est calme.", "en": "The street is quiet." }
+    "formula": [
+      {
+        "id": "ca-va",
+        "fr": "ça va.",
+        "en": "It's going well / are you okay?"
+      },
+      {
+        "id": "merci-c-est-bon",
+        "fr": "merci, c'est bon.",
+        "en": "Thanks, it is good."
+      },
+      {
+        "id": "merci-c-est-bien",
+        "fr": "merci, c'est bien.",
+        "en": "Thanks, it is fine."
+      }
     ],
-    "feeling": [
-      { "id": "je-suis-content", "fr": "Je suis content.", "en": "I am happy." },
-      { "id": "tu-es-fatigue", "fr": "Tu es fatigué.", "en": "You are tired." },
-      { "id": "je-ne-suis-pas-triste", "fr": "Je ne suis pas triste.", "en": "I am not sad." }
+    "etre-place": [
+      {
+        "id": "je-suis-ici",
+        "fr": "je suis ici.",
+        "en": "I am here."
+      },
+      {
+        "id": "tu-es-ici",
+        "fr": "tu es ici.",
+        "en": "You are here."
+      },
+      {
+        "id": "il-est-ici",
+        "fr": "il est ici.",
+        "en": "He is here."
+      },
+      {
+        "id": "elle-est-ici",
+        "fr": "elle est ici.",
+        "en": "She is here."
+      },
+      {
+        "id": "je-suis-la",
+        "fr": "je suis là.",
+        "en": "I am there."
+      },
+      {
+        "id": "tu-es-la",
+        "fr": "tu es là.",
+        "en": "You are there."
+      },
+      {
+        "id": "il-est-la",
+        "fr": "il est là.",
+        "en": "He is there."
+      },
+      {
+        "id": "elle-est-la",
+        "fr": "elle est là.",
+        "en": "She is there."
+      }
+    ],
+    "c-est-adjective": [
+      {
+        "id": "c-est-bon",
+        "fr": "c'est bon.",
+        "en": "It is good."
+      },
+      {
+        "id": "c-est-petit",
+        "fr": "c'est petit.",
+        "en": "It is small."
+      },
+      {
+        "id": "c-est-bonne",
+        "fr": "c'est bonne.",
+        "en": "It is good."
+      },
+      {
+        "id": "c-est-tres-bonne",
+        "fr": "c'est très bonne.",
+        "en": "It is very good."
+      }
+    ],
+    "intensifier": [
+      {
+        "id": "c-est-tres-bon",
+        "fr": "c'est très bon.",
+        "en": "It is very good."
+      },
+      {
+        "id": "je-suis-tres-bien",
+        "fr": "je suis très bien.",
+        "en": "I am very well."
+      },
+      {
+        "id": "tu-es-tres-bien",
+        "fr": "tu es très bien.",
+        "en": "You are very well."
+      },
+      {
+        "id": "il-est-tres-bien",
+        "fr": "il est très bien.",
+        "en": "He is very well."
+      },
+      {
+        "id": "elle-est-tres-bien",
+        "fr": "elle est très bien.",
+        "en": "She is very well."
+      },
+      {
+        "id": "c-est-tres-petit",
+        "fr": "c'est très petit.",
+        "en": "It is very small."
+      }
+    ],
+    "c-est-adverb": [
+      {
+        "id": "c-est-bien",
+        "fr": "c'est bien.",
+        "en": "It is good / fine."
+      }
+    ],
+    "state": [
+      {
+        "id": "je-suis-bien",
+        "fr": "je suis bien.",
+        "en": "I am well."
+      },
+      {
+        "id": "tu-es-bien",
+        "fr": "tu es bien.",
+        "en": "You are well."
+      },
+      {
+        "id": "il-est-bien",
+        "fr": "il est bien.",
+        "en": "He is well."
+      },
+      {
+        "id": "elle-est-bien",
+        "fr": "elle est bien.",
+        "en": "She is well."
+      }
+    ],
+    "controlled-feminine-adjective-exposure": [
+      {
+        "id": "c-est-petite",
+        "fr": "c'est petite.",
+        "en": "It is small."
+      },
+      {
+        "id": "c-est-tres-petite",
+        "fr": "c'est très petite.",
+        "en": "It is very small."
+      }
+    ],
+    "greeting-question": [
+      {
+        "id": "bonjour-ca-va",
+        "fr": "bonjour, ça va ?",
+        "en": "Hello, are you okay?"
+      },
+      {
+        "id": "salut-ca-va",
+        "fr": "salut, ça va ?",
+        "en": "Hi, are you okay?"
+      }
+    ],
+    "answer": [
+      {
+        "id": "oui-ca-va",
+        "fr": "oui, ça va.",
+        "en": "Yes, I am okay."
+      },
+      {
+        "id": "non-ca-va",
+        "fr": "non, ça va.",
+        "en": "No, it's okay."
+      },
+      {
+        "id": "merci-ca-va-bien",
+        "fr": "merci, ça va bien.",
+        "en": "Thanks, I am well."
+      }
+    ],
+    "c-est-place": [
+      {
+        "id": "c-est-la",
+        "fr": "c'est là.",
+        "en": "It is there."
+      },
+      {
+        "id": "c-est-ici",
+        "fr": "c'est ici.",
+        "en": "It is here."
+      }
+    ],
+    "combined-greeting": [
+      {
+        "id": "bonjour-je-suis-ici",
+        "fr": "bonjour, je suis ici.",
+        "en": "Hello, I am here."
+      },
+      {
+        "id": "salut-je-suis-la",
+        "fr": "salut, je suis là.",
+        "en": "Hi, I am there."
+      }
+    ],
+    "agreement": [
+      {
+        "id": "oui-c-est-bon",
+        "fr": "oui, c'est bon.",
+        "en": "Yes, it is good."
+      },
+      {
+        "id": "non-c-est-bien",
+        "fr": "non, c'est bien.",
+        "en": "No, it is fine."
+      }
+    ],
+    "greeting-review": [
+      {
+        "id": "bonjour-2",
+        "fr": "bonjour.",
+        "en": "Hello."
+      },
+      {
+        "id": "salut-2",
+        "fr": "salut.",
+        "en": "Hi."
+      },
+      {
+        "id": "merci-2",
+        "fr": "merci.",
+        "en": "Thank you."
+      }
+    ],
+    "core-word-review": [
+      {
+        "id": "oui-2",
+        "fr": "oui.",
+        "en": "Yes."
+      },
+      {
+        "id": "non-2",
+        "fr": "non.",
+        "en": "No."
+      }
+    ],
+    "formula-review": [
+      {
+        "id": "ca-va-2",
+        "fr": "ça va.",
+        "en": "It's going well / are you okay?"
+      }
+    ],
+    "etre-place-review": [
+      {
+        "id": "je-suis-ici-2",
+        "fr": "je suis ici.",
+        "en": "I am here."
+      },
+      {
+        "id": "tu-es-ici-2",
+        "fr": "tu es ici.",
+        "en": "You are here."
+      },
+      {
+        "id": "il-est-ici-2",
+        "fr": "il est ici.",
+        "en": "He is here."
+      },
+      {
+        "id": "elle-est-ici-2",
+        "fr": "elle est ici.",
+        "en": "She is here."
+      },
+      {
+        "id": "je-suis-la-2",
+        "fr": "je suis là.",
+        "en": "I am there."
+      },
+      {
+        "id": "tu-es-la-2",
+        "fr": "tu es là.",
+        "en": "You are there."
+      },
+      {
+        "id": "il-est-la-2",
+        "fr": "il est là.",
+        "en": "He is there."
+      },
+      {
+        "id": "elle-est-la-2",
+        "fr": "elle est là.",
+        "en": "She is there."
+      }
+    ],
+    "c-est-adjective-review": [
+      {
+        "id": "c-est-bon-2",
+        "fr": "c'est bon.",
+        "en": "It is good."
+      }
+    ],
+    "intensifier-review": [
+      {
+        "id": "c-est-tres-bon-2",
+        "fr": "c'est très bon.",
+        "en": "It is very good."
+      }
     ]
   },
   "listeningSentences": [
-    { "id": "bonjour", "fr": "Bonjour.", "en": "Hello." },
-    { "id": "salut", "fr": "Salut.", "en": "Hi." },
-    { "id": "au-revoir", "fr": "Au revoir.", "en": "Goodbye." },
-    { "id": "merci", "fr": "Merci.", "en": "Thank you." },
-    { "id": "oui-merci", "fr": "Oui, merci.", "en": "Yes, thank you." },
-    { "id": "non-merci", "fr": "Non, merci.", "en": "No, thank you." },
-    { "id": "s-il-vous-plait", "fr": "S'il vous plaît.", "en": "Please." },
-    { "id": "je-suis-content", "fr": "Je suis content.", "en": "I am happy." },
-    { "id": "je-suis-triste", "fr": "Je suis triste.", "en": "I am sad." },
-    { "id": "je-suis-fatigue", "fr": "Je suis fatigué.", "en": "I am tired." },
-    { "id": "tu-es-content", "fr": "Tu es content.", "en": "You are happy." },
-    { "id": "tu-es-triste", "fr": "Tu es triste.", "en": "You are sad." },
-    { "id": "tu-es-fatigue", "fr": "Tu es fatigué.", "en": "You are tired." },
-    { "id": "je-mange-une-pomme", "fr": "Je mange une pomme.", "en": "I eat an apple." },
-    { "id": "tu-manges-une-pomme", "fr": "Tu manges une pomme.", "en": "You eat an apple." },
-    { "id": "je-voudrais-de-l-eau", "fr": "Je voudrais de l'eau.", "en": "I would like some water." },
-    { "id": "je-voudrais-du-pain", "fr": "Je voudrais du pain.", "en": "I would like some bread." },
-    { "id": "je-voudrais-du-lait", "fr": "Je voudrais du lait.", "en": "I would like some milk." },
-    { "id": "la-pomme-est-bonne", "fr": "La pomme est bonne.", "en": "The apple is good." },
-    { "id": "le-pain-est-bon", "fr": "Le pain est bon.", "en": "The bread is good." },
-    { "id": "l-eau-est-bonne", "fr": "L'eau est bonne.", "en": "The water is good." },
-    { "id": "le-lait-est-bon", "fr": "Le lait est bon.", "en": "The milk is good." },
-    { "id": "je-vais-a-l-ecole", "fr": "Je vais à l'école.", "en": "I am going to school." },
-    { "id": "tu-vas-a-l-ecole", "fr": "Tu vas à l'école.", "en": "You are going to school." },
-    { "id": "je-vais-a-la-maison", "fr": "Je vais à la maison.", "en": "I am going home." },
-    { "id": "tu-vas-a-la-maison", "fr": "Tu vas à la maison.", "en": "You are going home." },
-    { "id": "la-maison-est-grande", "fr": "La maison est grande.", "en": "The house is big." },
-    { "id": "la-rue-est-calme", "fr": "La rue est calme.", "en": "The street is quiet." },
-    { "id": "un-deux-trois", "fr": "Un, deux, trois.", "en": "One, two, three." },
-    { "id": "bonjour-merci-au-revoir", "fr": "Bonjour, merci, au revoir.", "en": "Hello, thank you, goodbye." },
-    { "id": "salut-je-suis-content", "fr": "Salut, je suis content.", "en": "Hi, I am happy." },
-    { "id": "oui-je-voudrais-une-pomme", "fr": "Oui, je voudrais une pomme.", "en": "Yes, I would like an apple." },
-    { "id": "non-je-suis-fatigue", "fr": "Non, je suis fatigué.", "en": "No, I am tired." },
-    { "id": "merci-pour-l-eau", "fr": "Merci pour l'eau.", "en": "Thank you for the water." },
-    { "id": "s-il-vous-plait-du-pain", "fr": "S'il vous plaît, du pain.", "en": "Bread, please." },
-    { "id": "je-suis-a-l-ecole", "fr": "Je suis à l'école.", "en": "I am at school." }
+    {
+      "id": "bonjour",
+      "fr": "bonjour.",
+      "en": "Hello."
+    },
+    {
+      "id": "salut",
+      "fr": "salut.",
+      "en": "Hi."
+    },
+    {
+      "id": "merci",
+      "fr": "merci.",
+      "en": "Thank you."
+    },
+    {
+      "id": "oui",
+      "fr": "oui.",
+      "en": "Yes."
+    },
+    {
+      "id": "non",
+      "fr": "non.",
+      "en": "No."
+    },
+    {
+      "id": "ca-va",
+      "fr": "ça va.",
+      "en": "It's going well / are you okay?"
+    },
+    {
+      "id": "je-suis-ici",
+      "fr": "je suis ici.",
+      "en": "I am here."
+    },
+    {
+      "id": "tu-es-ici",
+      "fr": "tu es ici.",
+      "en": "You are here."
+    },
+    {
+      "id": "il-est-ici",
+      "fr": "il est ici.",
+      "en": "He is here."
+    },
+    {
+      "id": "elle-est-ici",
+      "fr": "elle est ici.",
+      "en": "She is here."
+    },
+    {
+      "id": "je-suis-la",
+      "fr": "je suis là.",
+      "en": "I am there."
+    },
+    {
+      "id": "tu-es-la",
+      "fr": "tu es là.",
+      "en": "You are there."
+    },
+    {
+      "id": "il-est-la",
+      "fr": "il est là.",
+      "en": "He is there."
+    },
+    {
+      "id": "elle-est-la",
+      "fr": "elle est là.",
+      "en": "She is there."
+    },
+    {
+      "id": "c-est-bon",
+      "fr": "c'est bon.",
+      "en": "It is good."
+    },
+    {
+      "id": "c-est-tres-bon",
+      "fr": "c'est très bon.",
+      "en": "It is very good."
+    },
+    {
+      "id": "c-est-bien",
+      "fr": "c'est bien.",
+      "en": "It is good / fine."
+    },
+    {
+      "id": "je-suis-bien",
+      "fr": "je suis bien.",
+      "en": "I am well."
+    },
+    {
+      "id": "tu-es-bien",
+      "fr": "tu es bien.",
+      "en": "You are well."
+    },
+    {
+      "id": "il-est-bien",
+      "fr": "il est bien.",
+      "en": "He is well."
+    },
+    {
+      "id": "elle-est-bien",
+      "fr": "elle est bien.",
+      "en": "She is well."
+    },
+    {
+      "id": "c-est-petit",
+      "fr": "c'est petit.",
+      "en": "It is small."
+    },
+    {
+      "id": "c-est-petite",
+      "fr": "c'est petite.",
+      "en": "It is small."
+    },
+    {
+      "id": "bonjour-ca-va",
+      "fr": "bonjour, ça va ?",
+      "en": "Hello, are you okay?"
+    },
+    {
+      "id": "salut-ca-va",
+      "fr": "salut, ça va ?",
+      "en": "Hi, are you okay?"
+    },
+    {
+      "id": "oui-ca-va",
+      "fr": "oui, ça va.",
+      "en": "Yes, I am okay."
+    },
+    {
+      "id": "non-ca-va",
+      "fr": "non, ça va.",
+      "en": "No, it's okay."
+    },
+    {
+      "id": "merci-ca-va-bien",
+      "fr": "merci, ça va bien.",
+      "en": "Thanks, I am well."
+    },
+    {
+      "id": "je-suis-tres-bien",
+      "fr": "je suis très bien.",
+      "en": "I am very well."
+    },
+    {
+      "id": "tu-es-tres-bien",
+      "fr": "tu es très bien.",
+      "en": "You are very well."
+    },
+    {
+      "id": "il-est-tres-bien",
+      "fr": "il est très bien.",
+      "en": "He is very well."
+    },
+    {
+      "id": "elle-est-tres-bien",
+      "fr": "elle est très bien.",
+      "en": "She is very well."
+    },
+    {
+      "id": "c-est-la",
+      "fr": "c'est là.",
+      "en": "It is there."
+    },
+    {
+      "id": "c-est-ici",
+      "fr": "c'est ici.",
+      "en": "It is here."
+    },
+    {
+      "id": "c-est-tres-petit",
+      "fr": "c'est très petit.",
+      "en": "It is very small."
+    },
+    {
+      "id": "c-est-tres-petite",
+      "fr": "c'est très petite.",
+      "en": "It is very small."
+    },
+    {
+      "id": "bonjour-je-suis-ici",
+      "fr": "bonjour, je suis ici.",
+      "en": "Hello, I am here."
+    },
+    {
+      "id": "salut-je-suis-la",
+      "fr": "salut, je suis là.",
+      "en": "Hi, I am there."
+    },
+    {
+      "id": "oui-c-est-bon",
+      "fr": "oui, c'est bon.",
+      "en": "Yes, it is good."
+    },
+    {
+      "id": "non-c-est-bien",
+      "fr": "non, c'est bien.",
+      "en": "No, it is fine."
+    },
+    {
+      "id": "merci-c-est-bon",
+      "fr": "merci, c'est bon.",
+      "en": "Thanks, it is good."
+    },
+    {
+      "id": "merci-c-est-bien",
+      "fr": "merci, c'est bien.",
+      "en": "Thanks, it is fine."
+    },
+    {
+      "id": "c-est-bonne",
+      "fr": "c'est bonne.",
+      "en": "It is good."
+    },
+    {
+      "id": "c-est-tres-bonne",
+      "fr": "c'est très bonne.",
+      "en": "It is very good."
+    },
+    {
+      "id": "bonjour-2",
+      "fr": "bonjour.",
+      "en": "Hello."
+    },
+    {
+      "id": "salut-2",
+      "fr": "salut.",
+      "en": "Hi."
+    },
+    {
+      "id": "merci-2",
+      "fr": "merci.",
+      "en": "Thank you."
+    },
+    {
+      "id": "oui-2",
+      "fr": "oui.",
+      "en": "Yes."
+    },
+    {
+      "id": "non-2",
+      "fr": "non.",
+      "en": "No."
+    },
+    {
+      "id": "ca-va-2",
+      "fr": "ça va.",
+      "en": "It's going well / are you okay?"
+    },
+    {
+      "id": "je-suis-ici-2",
+      "fr": "je suis ici.",
+      "en": "I am here."
+    },
+    {
+      "id": "tu-es-ici-2",
+      "fr": "tu es ici.",
+      "en": "You are here."
+    },
+    {
+      "id": "il-est-ici-2",
+      "fr": "il est ici.",
+      "en": "He is here."
+    },
+    {
+      "id": "elle-est-ici-2",
+      "fr": "elle est ici.",
+      "en": "She is here."
+    },
+    {
+      "id": "je-suis-la-2",
+      "fr": "je suis là.",
+      "en": "I am there."
+    },
+    {
+      "id": "tu-es-la-2",
+      "fr": "tu es là.",
+      "en": "You are there."
+    },
+    {
+      "id": "il-est-la-2",
+      "fr": "il est là.",
+      "en": "He is there."
+    },
+    {
+      "id": "elle-est-la-2",
+      "fr": "elle est là.",
+      "en": "She is there."
+    },
+    {
+      "id": "c-est-bon-2",
+      "fr": "c'est bon.",
+      "en": "It is good."
+    },
+    {
+      "id": "c-est-tres-bon-2",
+      "fr": "c'est très bon.",
+      "en": "It is very good."
+    }
   ]
 }

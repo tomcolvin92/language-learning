@@ -2,9 +2,39 @@
   "lessons": [
     {
       "id": "lesson-01",
-      "title": "French First Words",
+      "title": "Core greetings & identity",
       "level": 1,
       "path": "lessons/lesson-01/lesson.json"
+    },
+    {
+      "id": "lesson-02",
+      "title": "People & basic nouns",
+      "level": 2,
+      "path": "lessons/lesson-02/lesson.json"
+    },
+    {
+      "id": "lesson-03",
+      "title": "Food & drink",
+      "level": 3,
+      "path": "lessons/lesson-03/lesson.json"
+    },
+    {
+      "id": "lesson-04",
+      "title": "Home & places",
+      "level": 4,
+      "path": "lessons/lesson-04/lesson.json"
+    },
+    {
+      "id": "lesson-05",
+      "title": "Daily actions",
+      "level": 5,
+      "path": "lessons/lesson-05/lesson.json"
+    },
+    {
+      "id": "lesson-06",
+      "title": "Bonus playful insults",
+      "level": 6,
+      "path": "lessons/lesson-06/lesson.json"
     }
   ]
 }

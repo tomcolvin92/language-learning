@@ -1,0 +1,818 @@
+{
+  "id": "lesson-03",
+  "title": "Food & drink",
+  "level": 3,
+  "audioBase": "lessons/lesson-03/audio",
+  "words": [
+    {
+      "id": "j-ai",
+      "fr": "j'ai",
+      "en": "I have",
+      "say": "j'ai",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "tu-as",
+      "fr": "tu as",
+      "en": "you have",
+      "say": "tu as",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "il-a",
+      "fr": "il a",
+      "en": "he/it has",
+      "say": "il a",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "elle-a",
+      "fr": "elle a",
+      "en": "she/it has",
+      "say": "elle a",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "j-aime",
+      "fr": "j'aime",
+      "en": "I like/love",
+      "say": "j'aime",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "tu-aimes",
+      "fr": "tu aimes",
+      "en": "you like/love",
+      "say": "tu aimes",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "je-veux",
+      "fr": "je veux",
+      "en": "I want",
+      "say": "je veux",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "tu-veux",
+      "fr": "tu veux",
+      "en": "you want",
+      "say": "tu veux",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "de-l-eau",
+      "fr": "de l'eau",
+      "en": "some water",
+      "say": "de l'eau",
+      "sound": "",
+      "category": "Noun Phrase"
+    },
+    {
+      "id": "du-cafe",
+      "fr": "du café",
+      "en": "some coffee",
+      "say": "du café",
+      "sound": "",
+      "category": "Noun Phrase"
+    },
+    {
+      "id": "du-the",
+      "fr": "du thé",
+      "en": "some tea",
+      "say": "du thé",
+      "sound": "",
+      "category": "Noun Phrase"
+    },
+    {
+      "id": "du-pain",
+      "fr": "du pain",
+      "en": "some bread",
+      "say": "du pain",
+      "sound": "",
+      "category": "Noun Phrase"
+    },
+    {
+      "id": "du-riz",
+      "fr": "du riz",
+      "en": "some rice",
+      "say": "du riz",
+      "sound": "",
+      "category": "Noun Phrase"
+    },
+    {
+      "id": "un-fruit",
+      "fr": "un fruit",
+      "en": "a fruit",
+      "say": "un fruit",
+      "sound": "",
+      "category": "Noun Phrase"
+    },
+    {
+      "id": "une-pomme",
+      "fr": "une pomme",
+      "en": "an apple",
+      "say": "une pomme",
+      "sound": "",
+      "category": "Noun Phrase"
+    },
+    {
+      "id": "une-banane",
+      "fr": "une banane",
+      "en": "a banana",
+      "say": "une banane",
+      "sound": "",
+      "category": "Noun Phrase"
+    },
+    {
+      "id": "un-uf",
+      "fr": "un œuf",
+      "en": "an egg",
+      "say": "un œuf",
+      "sound": "",
+      "category": "Noun Phrase"
+    },
+    {
+      "id": "du-poisson",
+      "fr": "du poisson",
+      "en": "some fish",
+      "say": "du poisson",
+      "sound": "",
+      "category": "Noun Phrase"
+    },
+    {
+      "id": "du-poulet",
+      "fr": "du poulet",
+      "en": "some chicken",
+      "say": "du poulet",
+      "sound": "",
+      "category": "Noun Phrase"
+    },
+    {
+      "id": "du-fromage",
+      "fr": "du fromage",
+      "en": "some cheese",
+      "say": "du fromage",
+      "sound": "",
+      "category": "Noun Phrase"
+    },
+    {
+      "id": "la-soupe",
+      "fr": "la soupe",
+      "en": "the soup",
+      "say": "la soupe",
+      "sound": "",
+      "category": "Noun Phrase"
+    },
+    {
+      "id": "le-repas",
+      "fr": "le repas",
+      "en": "the meal",
+      "say": "le repas",
+      "sound": "",
+      "category": "Noun Phrase"
+    },
+    {
+      "id": "manger",
+      "fr": "manger",
+      "en": "to eat",
+      "say": "manger",
+      "sound": "",
+      "category": "Infinitive"
+    },
+    {
+      "id": "boire",
+      "fr": "boire",
+      "en": "to drink",
+      "say": "boire",
+      "sound": "",
+      "category": "Infinitive"
+    },
+    {
+      "id": "beaucoup",
+      "fr": "beaucoup",
+      "en": "a lot/much",
+      "say": "beaucoup",
+      "sound": "",
+      "category": "Adverb"
+    }
+  ],
+  "sentenceGroups": {
+    "avoir-food": [
+      {
+        "id": "j-ai-de-l-eau",
+        "fr": "j'ai de l'eau.",
+        "en": "I have some water."
+      },
+      {
+        "id": "tu-as-de-l-eau",
+        "fr": "tu as de l'eau.",
+        "en": "You have some water."
+      },
+      {
+        "id": "j-ai-du-cafe",
+        "fr": "j'ai du café.",
+        "en": "I have some coffee."
+      },
+      {
+        "id": "tu-as-du-cafe",
+        "fr": "tu as du café.",
+        "en": "You have some coffee."
+      },
+      {
+        "id": "j-ai-du-the",
+        "fr": "j'ai du thé.",
+        "en": "I have some tea."
+      },
+      {
+        "id": "tu-as-du-the",
+        "fr": "tu as du thé.",
+        "en": "You have some tea."
+      },
+      {
+        "id": "j-ai-du-pain",
+        "fr": "j'ai du pain.",
+        "en": "I have some bread."
+      },
+      {
+        "id": "tu-as-du-pain",
+        "fr": "tu as du pain.",
+        "en": "You have some bread."
+      },
+      {
+        "id": "j-ai-du-riz",
+        "fr": "j'ai du riz.",
+        "en": "I have some rice."
+      },
+      {
+        "id": "tu-as-du-riz",
+        "fr": "tu as du riz.",
+        "en": "You have some rice."
+      },
+      {
+        "id": "j-ai-un-fruit",
+        "fr": "j'ai un fruit.",
+        "en": "I have a fruit."
+      },
+      {
+        "id": "tu-as-un-fruit",
+        "fr": "tu as un fruit.",
+        "en": "You have a fruit."
+      },
+      {
+        "id": "j-ai-une-pomme",
+        "fr": "j'ai une pomme.",
+        "en": "I have an apple."
+      },
+      {
+        "id": "tu-as-une-pomme",
+        "fr": "tu as une pomme.",
+        "en": "You have an apple."
+      },
+      {
+        "id": "j-ai-une-banane",
+        "fr": "j'ai une banane.",
+        "en": "I have a banana."
+      },
+      {
+        "id": "tu-as-une-banane",
+        "fr": "tu as une banane.",
+        "en": "You have a banana."
+      },
+      {
+        "id": "j-ai-un-uf",
+        "fr": "j'ai un œuf.",
+        "en": "I have an egg."
+      },
+      {
+        "id": "tu-as-un-uf",
+        "fr": "tu as un œuf.",
+        "en": "You have an egg."
+      },
+      {
+        "id": "j-ai-du-poisson",
+        "fr": "j'ai du poisson.",
+        "en": "I have some fish."
+      },
+      {
+        "id": "tu-as-du-poisson",
+        "fr": "tu as du poisson.",
+        "en": "You have some fish."
+      },
+      {
+        "id": "j-ai-du-poulet",
+        "fr": "j'ai du poulet.",
+        "en": "I have some chicken."
+      },
+      {
+        "id": "tu-as-du-poulet",
+        "fr": "tu as du poulet.",
+        "en": "You have some chicken."
+      },
+      {
+        "id": "j-ai-du-fromage",
+        "fr": "j'ai du fromage.",
+        "en": "I have some cheese."
+      },
+      {
+        "id": "tu-as-du-fromage",
+        "fr": "tu as du fromage.",
+        "en": "You have some cheese."
+      },
+      {
+        "id": "j-ai-la-soupe",
+        "fr": "j'ai la soupe.",
+        "en": "I have the soup."
+      },
+      {
+        "id": "tu-as-la-soupe",
+        "fr": "tu as la soupe.",
+        "en": "You have the soup."
+      },
+      {
+        "id": "j-ai-le-repas",
+        "fr": "j'ai le repas.",
+        "en": "I have the meal."
+      },
+      {
+        "id": "tu-as-le-repas",
+        "fr": "tu as le repas.",
+        "en": "You have the meal."
+      }
+    ],
+    "aimer-noun": [
+      {
+        "id": "j-aime-de-l-eau",
+        "fr": "j'aime de l'eau.",
+        "en": "I like some water."
+      },
+      {
+        "id": "tu-aimes-de-l-eau",
+        "fr": "tu aimes de l'eau.",
+        "en": "You like some water."
+      },
+      {
+        "id": "j-aime-du-cafe",
+        "fr": "j'aime du café.",
+        "en": "I like some coffee."
+      },
+      {
+        "id": "tu-aimes-du-cafe",
+        "fr": "tu aimes du café.",
+        "en": "You like some coffee."
+      },
+      {
+        "id": "j-aime-du-the",
+        "fr": "j'aime du thé.",
+        "en": "I like some tea."
+      },
+      {
+        "id": "tu-aimes-du-the",
+        "fr": "tu aimes du thé.",
+        "en": "You like some tea."
+      },
+      {
+        "id": "j-aime-du-pain",
+        "fr": "j'aime du pain.",
+        "en": "I like some bread."
+      },
+      {
+        "id": "tu-aimes-du-pain",
+        "fr": "tu aimes du pain.",
+        "en": "You like some bread."
+      },
+      {
+        "id": "j-aime-du-riz",
+        "fr": "j'aime du riz.",
+        "en": "I like some rice."
+      },
+      {
+        "id": "tu-aimes-du-riz",
+        "fr": "tu aimes du riz.",
+        "en": "You like some rice."
+      },
+      {
+        "id": "j-aime-un-fruit",
+        "fr": "j'aime un fruit.",
+        "en": "I like a fruit."
+      },
+      {
+        "id": "tu-aimes-un-fruit",
+        "fr": "tu aimes un fruit.",
+        "en": "You like a fruit."
+      },
+      {
+        "id": "j-aime-une-pomme",
+        "fr": "j'aime une pomme.",
+        "en": "I like an apple."
+      },
+      {
+        "id": "tu-aimes-une-pomme",
+        "fr": "tu aimes une pomme.",
+        "en": "You like an apple."
+      },
+      {
+        "id": "j-aime-une-banane",
+        "fr": "j'aime une banane.",
+        "en": "I like a banana."
+      },
+      {
+        "id": "tu-aimes-une-banane",
+        "fr": "tu aimes une banane.",
+        "en": "You like a banana."
+      },
+      {
+        "id": "j-aime-un-uf",
+        "fr": "j'aime un œuf.",
+        "en": "I like an egg."
+      },
+      {
+        "id": "tu-aimes-un-uf",
+        "fr": "tu aimes un œuf.",
+        "en": "You like an egg."
+      },
+      {
+        "id": "j-aime-du-poisson",
+        "fr": "j'aime du poisson.",
+        "en": "I like some fish."
+      },
+      {
+        "id": "tu-aimes-du-poisson",
+        "fr": "tu aimes du poisson.",
+        "en": "You like some fish."
+      },
+      {
+        "id": "j-aime-du-poulet",
+        "fr": "j'aime du poulet.",
+        "en": "I like some chicken."
+      },
+      {
+        "id": "tu-aimes-du-poulet",
+        "fr": "tu aimes du poulet.",
+        "en": "You like some chicken."
+      },
+      {
+        "id": "j-aime-du-fromage",
+        "fr": "j'aime du fromage.",
+        "en": "I like some cheese."
+      },
+      {
+        "id": "tu-aimes-du-fromage",
+        "fr": "tu aimes du fromage.",
+        "en": "You like some cheese."
+      }
+    ],
+    "vouloir-noun": [
+      {
+        "id": "je-veux-de-l-eau",
+        "fr": "je veux de l'eau.",
+        "en": "I want some water."
+      },
+      {
+        "id": "je-veux-du-cafe",
+        "fr": "je veux du café.",
+        "en": "I want some coffee."
+      },
+      {
+        "id": "je-veux-du-the",
+        "fr": "je veux du thé.",
+        "en": "I want some tea."
+      },
+      {
+        "id": "je-veux-du-pain",
+        "fr": "je veux du pain.",
+        "en": "I want some bread."
+      },
+      {
+        "id": "je-veux-du-riz",
+        "fr": "je veux du riz.",
+        "en": "I want some rice."
+      },
+      {
+        "id": "je-veux-un-fruit",
+        "fr": "je veux un fruit.",
+        "en": "I want a fruit."
+      },
+      {
+        "id": "je-veux-une-pomme",
+        "fr": "je veux une pomme.",
+        "en": "I want an apple."
+      },
+      {
+        "id": "je-veux-une-banane",
+        "fr": "je veux une banane.",
+        "en": "I want a banana."
+      }
+    ]
+  },
+  "listeningSentences": [
+    {
+      "id": "j-ai-de-l-eau",
+      "fr": "j'ai de l'eau.",
+      "en": "I have some water."
+    },
+    {
+      "id": "tu-as-de-l-eau",
+      "fr": "tu as de l'eau.",
+      "en": "You have some water."
+    },
+    {
+      "id": "j-ai-du-cafe",
+      "fr": "j'ai du café.",
+      "en": "I have some coffee."
+    },
+    {
+      "id": "tu-as-du-cafe",
+      "fr": "tu as du café.",
+      "en": "You have some coffee."
+    },
+    {
+      "id": "j-ai-du-the",
+      "fr": "j'ai du thé.",
+      "en": "I have some tea."
+    },
+    {
+      "id": "tu-as-du-the",
+      "fr": "tu as du thé.",
+      "en": "You have some tea."
+    },
+    {
+      "id": "j-ai-du-pain",
+      "fr": "j'ai du pain.",
+      "en": "I have some bread."
+    },
+    {
+      "id": "tu-as-du-pain",
+      "fr": "tu as du pain.",
+      "en": "You have some bread."
+    },
+    {
+      "id": "j-ai-du-riz",
+      "fr": "j'ai du riz.",
+      "en": "I have some rice."
+    },
+    {
+      "id": "tu-as-du-riz",
+      "fr": "tu as du riz.",
+      "en": "You have some rice."
+    },
+    {
+      "id": "j-ai-un-fruit",
+      "fr": "j'ai un fruit.",
+      "en": "I have a fruit."
+    },
+    {
+      "id": "tu-as-un-fruit",
+      "fr": "tu as un fruit.",
+      "en": "You have a fruit."
+    },
+    {
+      "id": "j-ai-une-pomme",
+      "fr": "j'ai une pomme.",
+      "en": "I have an apple."
+    },
+    {
+      "id": "tu-as-une-pomme",
+      "fr": "tu as une pomme.",
+      "en": "You have an apple."
+    },
+    {
+      "id": "j-ai-une-banane",
+      "fr": "j'ai une banane.",
+      "en": "I have a banana."
+    },
+    {
+      "id": "tu-as-une-banane",
+      "fr": "tu as une banane.",
+      "en": "You have a banana."
+    },
+    {
+      "id": "j-ai-un-uf",
+      "fr": "j'ai un œuf.",
+      "en": "I have an egg."
+    },
+    {
+      "id": "tu-as-un-uf",
+      "fr": "tu as un œuf.",
+      "en": "You have an egg."
+    },
+    {
+      "id": "j-ai-du-poisson",
+      "fr": "j'ai du poisson.",
+      "en": "I have some fish."
+    },
+    {
+      "id": "tu-as-du-poisson",
+      "fr": "tu as du poisson.",
+      "en": "You have some fish."
+    },
+    {
+      "id": "j-ai-du-poulet",
+      "fr": "j'ai du poulet.",
+      "en": "I have some chicken."
+    },
+    {
+      "id": "tu-as-du-poulet",
+      "fr": "tu as du poulet.",
+      "en": "You have some chicken."
+    },
+    {
+      "id": "j-ai-du-fromage",
+      "fr": "j'ai du fromage.",
+      "en": "I have some cheese."
+    },
+    {
+      "id": "tu-as-du-fromage",
+      "fr": "tu as du fromage.",
+      "en": "You have some cheese."
+    },
+    {
+      "id": "j-ai-la-soupe",
+      "fr": "j'ai la soupe.",
+      "en": "I have the soup."
+    },
+    {
+      "id": "tu-as-la-soupe",
+      "fr": "tu as la soupe.",
+      "en": "You have the soup."
+    },
+    {
+      "id": "j-ai-le-repas",
+      "fr": "j'ai le repas.",
+      "en": "I have the meal."
+    },
+    {
+      "id": "tu-as-le-repas",
+      "fr": "tu as le repas.",
+      "en": "You have the meal."
+    },
+    {
+      "id": "j-aime-de-l-eau",
+      "fr": "j'aime de l'eau.",
+      "en": "I like some water."
+    },
+    {
+      "id": "tu-aimes-de-l-eau",
+      "fr": "tu aimes de l'eau.",
+      "en": "You like some water."
+    },
+    {
+      "id": "j-aime-du-cafe",
+      "fr": "j'aime du café.",
+      "en": "I like some coffee."
+    },
+    {
+      "id": "tu-aimes-du-cafe",
+      "fr": "tu aimes du café.",
+      "en": "You like some coffee."
+    },
+    {
+      "id": "j-aime-du-the",
+      "fr": "j'aime du thé.",
+      "en": "I like some tea."
+    },
+    {
+      "id": "tu-aimes-du-the",
+      "fr": "tu aimes du thé.",
+      "en": "You like some tea."
+    },
+    {
+      "id": "j-aime-du-pain",
+      "fr": "j'aime du pain.",
+      "en": "I like some bread."
+    },
+    {
+      "id": "tu-aimes-du-pain",
+      "fr": "tu aimes du pain.",
+      "en": "You like some bread."
+    },
+    {
+      "id": "j-aime-du-riz",
+      "fr": "j'aime du riz.",
+      "en": "I like some rice."
+    },
+    {
+      "id": "tu-aimes-du-riz",
+      "fr": "tu aimes du riz.",
+      "en": "You like some rice."
+    },
+    {
+      "id": "j-aime-un-fruit",
+      "fr": "j'aime un fruit.",
+      "en": "I like a fruit."
+    },
+    {
+      "id": "tu-aimes-un-fruit",
+      "fr": "tu aimes un fruit.",
+      "en": "You like a fruit."
+    },
+    {
+      "id": "j-aime-une-pomme",
+      "fr": "j'aime une pomme.",
+      "en": "I like an apple."
+    },
+    {
+      "id": "tu-aimes-une-pomme",
+      "fr": "tu aimes une pomme.",
+      "en": "You like an apple."
+    },
+    {
+      "id": "j-aime-une-banane",
+      "fr": "j'aime une banane.",
+      "en": "I like a banana."
+    },
+    {
+      "id": "tu-aimes-une-banane",
+      "fr": "tu aimes une banane.",
+      "en": "You like a banana."
+    },
+    {
+      "id": "j-aime-un-uf",
+      "fr": "j'aime un œuf.",
+      "en": "I like an egg."
+    },
+    {
+      "id": "tu-aimes-un-uf",
+      "fr": "tu aimes un œuf.",
+      "en": "You like an egg."
+    },
+    {
+      "id": "j-aime-du-poisson",
+      "fr": "j'aime du poisson.",
+      "en": "I like some fish."
+    },
+    {
+      "id": "tu-aimes-du-poisson",
+      "fr": "tu aimes du poisson.",
+      "en": "You like some fish."
+    },
+    {
+      "id": "j-aime-du-poulet",
+      "fr": "j'aime du poulet.",
+      "en": "I like some chicken."
+    },
+    {
+      "id": "tu-aimes-du-poulet",
+      "fr": "tu aimes du poulet.",
+      "en": "You like some chicken."
+    },
+    {
+      "id": "j-aime-du-fromage",
+      "fr": "j'aime du fromage.",
+      "en": "I like some cheese."
+    },
+    {
+      "id": "tu-aimes-du-fromage",
+      "fr": "tu aimes du fromage.",
+      "en": "You like some cheese."
+    },
+    {
+      "id": "je-veux-de-l-eau",
+      "fr": "je veux de l'eau.",
+      "en": "I want some water."
+    },
+    {
+      "id": "je-veux-du-cafe",
+      "fr": "je veux du café.",
+      "en": "I want some coffee."
+    },
+    {
+      "id": "je-veux-du-the",
+      "fr": "je veux du thé.",
+      "en": "I want some tea."
+    },
+    {
+      "id": "je-veux-du-pain",
+      "fr": "je veux du pain.",
+      "en": "I want some bread."
+    },
+    {
+      "id": "je-veux-du-riz",
+      "fr": "je veux du riz.",
+      "en": "I want some rice."
+    },
+    {
+      "id": "je-veux-un-fruit",
+      "fr": "je veux un fruit.",
+      "en": "I want a fruit."
+    },
+    {
+      "id": "je-veux-une-pomme",
+      "fr": "je veux une pomme.",
+      "en": "I want an apple."
+    },
+    {
+      "id": "je-veux-une-banane",
+      "fr": "je veux une banane.",
+      "en": "I want a banana."
+    }
+  ]
+}

@@ -1,3 +1,4 @@
 .env.local
 /audio/
 .DS_Store
+__pycache__/

@@ -1,0 +1,832 @@
+{
+  "id": "lesson-02",
+  "title": "People & basic nouns",
+  "level": 2,
+  "audioBase": "lessons/lesson-02/audio",
+  "words": [
+    {
+      "id": "un",
+      "fr": "un",
+      "en": "a/an (masc.)",
+      "say": "un",
+      "sound": "",
+      "category": "Article"
+    },
+    {
+      "id": "une",
+      "fr": "une",
+      "en": "a/an (fem.)",
+      "say": "une",
+      "sound": "",
+      "category": "Article"
+    },
+    {
+      "id": "le",
+      "fr": "le",
+      "en": "the (masc.)",
+      "say": "le",
+      "sound": "",
+      "category": "Article"
+    },
+    {
+      "id": "la",
+      "fr": "la",
+      "en": "the (fem.)",
+      "say": "la",
+      "sound": "",
+      "category": "Article"
+    },
+    {
+      "id": "les",
+      "fr": "les",
+      "en": "the (plural)",
+      "say": "les",
+      "sound": "",
+      "category": "Article"
+    },
+    {
+      "id": "homme",
+      "fr": "homme",
+      "en": "man",
+      "say": "homme",
+      "sound": "",
+      "category": "Noun"
+    },
+    {
+      "id": "femme",
+      "fr": "femme",
+      "en": "woman",
+      "say": "femme",
+      "sound": "",
+      "category": "Noun"
+    },
+    {
+      "id": "garcon",
+      "fr": "garçon",
+      "en": "boy",
+      "say": "garçon",
+      "sound": "",
+      "category": "Noun"
+    },
+    {
+      "id": "fille",
+      "fr": "fille",
+      "en": "girl",
+      "say": "fille",
+      "sound": "",
+      "category": "Noun"
+    },
+    {
+      "id": "ami",
+      "fr": "ami",
+      "en": "friend (male)",
+      "say": "ami",
+      "sound": "",
+      "category": "Noun"
+    },
+    {
+      "id": "amie",
+      "fr": "amie",
+      "en": "friend (female)",
+      "say": "amie",
+      "sound": "",
+      "category": "Noun"
+    },
+    {
+      "id": "mere",
+      "fr": "mère",
+      "en": "mother",
+      "say": "mère",
+      "sound": "",
+      "category": "Noun"
+    },
+    {
+      "id": "pere",
+      "fr": "père",
+      "en": "father",
+      "say": "père",
+      "sound": "",
+      "category": "Noun"
+    },
+    {
+      "id": "frere",
+      "fr": "frère",
+      "en": "brother",
+      "say": "frère",
+      "sound": "",
+      "category": "Noun"
+    },
+    {
+      "id": "s-ur",
+      "fr": "sœur",
+      "en": "sister",
+      "say": "sœur",
+      "sound": "",
+      "category": "Noun"
+    },
+    {
+      "id": "enfant",
+      "fr": "enfant",
+      "en": "child",
+      "say": "enfant",
+      "sound": "",
+      "category": "Noun"
+    },
+    {
+      "id": "personne",
+      "fr": "personne",
+      "en": "person",
+      "say": "personne",
+      "sound": "",
+      "category": "Noun"
+    },
+    {
+      "id": "famille",
+      "fr": "famille",
+      "en": "family",
+      "say": "famille",
+      "sound": "",
+      "category": "Noun"
+    },
+    {
+      "id": "ma",
+      "fr": "ma",
+      "en": "my (fem.)",
+      "say": "ma",
+      "sound": "",
+      "category": "Possessive"
+    },
+    {
+      "id": "mon",
+      "fr": "mon",
+      "en": "my (masc.)",
+      "say": "mon",
+      "sound": "",
+      "category": "Possessive"
+    },
+    {
+      "id": "ton",
+      "fr": "ton",
+      "en": "your (masc.)",
+      "say": "ton",
+      "sound": "",
+      "category": "Possessive"
+    },
+    {
+      "id": "ta",
+      "fr": "ta",
+      "en": "your (fem.)",
+      "say": "ta",
+      "sound": "",
+      "category": "Possessive"
+    },
+    {
+      "id": "avec",
+      "fr": "avec",
+      "en": "with",
+      "say": "avec",
+      "sound": "",
+      "category": "Preposition"
+    },
+    {
+      "id": "sans",
+      "fr": "sans",
+      "en": "without",
+      "say": "sans",
+      "sound": "",
+      "category": "Preposition"
+    },
+    {
+      "id": "aussi",
+      "fr": "aussi",
+      "en": "also/too",
+      "say": "aussi",
+      "sound": "",
+      "category": "Adverb"
+    }
+  ],
+  "sentenceGroups": {
+    "c-est-article-noun": [
+      {
+        "id": "c-est-un-homme",
+        "fr": "c'est un homme.",
+        "en": "It is a man."
+      },
+      {
+        "id": "c-est-une-femme",
+        "fr": "c'est une femme.",
+        "en": "It is a woman."
+      },
+      {
+        "id": "c-est-un-garcon",
+        "fr": "c'est un garçon.",
+        "en": "It is a boy."
+      },
+      {
+        "id": "c-est-une-fille",
+        "fr": "c'est une fille.",
+        "en": "It is a girl."
+      },
+      {
+        "id": "c-est-un-ami",
+        "fr": "c'est un ami.",
+        "en": "It is a male friend."
+      },
+      {
+        "id": "c-est-une-amie",
+        "fr": "c'est une amie.",
+        "en": "It is a female friend."
+      },
+      {
+        "id": "c-est-ma-mere",
+        "fr": "c'est ma mère.",
+        "en": "It is my mother."
+      },
+      {
+        "id": "c-est-mon-pere",
+        "fr": "c'est mon père.",
+        "en": "It is my father."
+      },
+      {
+        "id": "c-est-mon-frere",
+        "fr": "c'est mon frère.",
+        "en": "It is my brother."
+      },
+      {
+        "id": "c-est-ma-s-ur",
+        "fr": "c'est ma sœur.",
+        "en": "It is my sister."
+      },
+      {
+        "id": "c-est-un-enfant",
+        "fr": "c'est un enfant.",
+        "en": "It is a child."
+      },
+      {
+        "id": "c-est-ma-famille",
+        "fr": "c'est ma famille.",
+        "en": "It is my family."
+      }
+    ],
+    "noun-etre": [
+      {
+        "id": "un-homme-est-ici",
+        "fr": "un homme est ici.",
+        "en": "A man is here."
+      },
+      {
+        "id": "un-homme-est-la",
+        "fr": "un homme est là.",
+        "en": "A man is there."
+      },
+      {
+        "id": "une-femme-est-ici",
+        "fr": "une femme est ici.",
+        "en": "A woman is here."
+      },
+      {
+        "id": "une-femme-est-la",
+        "fr": "une femme est là.",
+        "en": "A woman is there."
+      },
+      {
+        "id": "un-garcon-est-ici",
+        "fr": "un garçon est ici.",
+        "en": "A boy is here."
+      },
+      {
+        "id": "un-garcon-est-la",
+        "fr": "un garçon est là.",
+        "en": "A boy is there."
+      },
+      {
+        "id": "une-fille-est-ici",
+        "fr": "une fille est ici.",
+        "en": "A girl is here."
+      },
+      {
+        "id": "une-fille-est-la",
+        "fr": "une fille est là.",
+        "en": "A girl is there."
+      },
+      {
+        "id": "un-ami-est-ici",
+        "fr": "un ami est ici.",
+        "en": "A male friend is here."
+      },
+      {
+        "id": "un-ami-est-la",
+        "fr": "un ami est là.",
+        "en": "A male friend is there."
+      },
+      {
+        "id": "une-amie-est-ici",
+        "fr": "une amie est ici.",
+        "en": "A female friend is here."
+      },
+      {
+        "id": "une-amie-est-la",
+        "fr": "une amie est là.",
+        "en": "A female friend is there."
+      },
+      {
+        "id": "ma-mere-est-ici",
+        "fr": "ma mère est ici.",
+        "en": "My mother is here."
+      },
+      {
+        "id": "ma-mere-est-la",
+        "fr": "ma mère est là.",
+        "en": "My mother is there."
+      },
+      {
+        "id": "mon-pere-est-ici",
+        "fr": "mon père est ici.",
+        "en": "My father is here."
+      },
+      {
+        "id": "mon-pere-est-la",
+        "fr": "mon père est là.",
+        "en": "My father is there."
+      }
+    ],
+    "family-state": [
+      {
+        "id": "ma-mere-est-tres-bien",
+        "fr": "ma mère est très bien.",
+        "en": "My mother is very well."
+      },
+      {
+        "id": "mon-pere-est-tres-bien",
+        "fr": "mon père est très bien.",
+        "en": "My father is very well."
+      },
+      {
+        "id": "mon-frere-est-tres-bien",
+        "fr": "mon frère est très bien.",
+        "en": "My brother is very well."
+      },
+      {
+        "id": "ma-s-ur-est-tres-bien",
+        "fr": "ma sœur est très bien.",
+        "en": "My sister is very well."
+      },
+      {
+        "id": "un-enfant-est-tres-bien",
+        "fr": "un enfant est très bien.",
+        "en": "A child is very well."
+      },
+      {
+        "id": "ma-famille-est-tres-bien",
+        "fr": "ma famille est très bien.",
+        "en": "My family is very well."
+      }
+    ],
+    "avec": [
+      {
+        "id": "ma-mere-est-avec-mon-pere",
+        "fr": "ma mère est avec mon père.",
+        "en": "My mother is with my father."
+      },
+      {
+        "id": "mon-frere-est-avec-ma-s-ur",
+        "fr": "mon frère est avec ma sœur.",
+        "en": "My brother is with my sister."
+      },
+      {
+        "id": "un-ami-est-avec-une-amie",
+        "fr": "un ami est avec une amie.",
+        "en": "A male friend is with a female friend."
+      },
+      {
+        "id": "un-garcon-est-avec-une-fille",
+        "fr": "un garçon est avec une fille.",
+        "en": "A boy is with a girl."
+      }
+    ],
+    "sans": [
+      {
+        "id": "ma-mere-est-sans-mon-pere",
+        "fr": "ma mère est sans mon père.",
+        "en": "My mother is without my father."
+      },
+      {
+        "id": "mon-frere-est-sans-ma-s-ur",
+        "fr": "mon frère est sans ma sœur.",
+        "en": "My brother is without my sister."
+      },
+      {
+        "id": "un-ami-est-sans-une-amie",
+        "fr": "un ami est sans une amie.",
+        "en": "A male friend is without a female friend."
+      },
+      {
+        "id": "un-garcon-est-sans-une-fille",
+        "fr": "un garçon est sans une fille.",
+        "en": "A boy is without a girl."
+      }
+    ],
+    "aussi": [
+      {
+        "id": "ma-mere-est-ici-aussi",
+        "fr": "ma mère est ici aussi.",
+        "en": "My mother is here too."
+      },
+      {
+        "id": "mon-frere-est-ici-aussi",
+        "fr": "mon frère est ici aussi.",
+        "en": "My brother is here too."
+      },
+      {
+        "id": "un-ami-est-ici-aussi",
+        "fr": "un ami est ici aussi.",
+        "en": "A male friend is here too."
+      },
+      {
+        "id": "un-garcon-est-ici-aussi",
+        "fr": "un garçon est ici aussi.",
+        "en": "A boy is here too."
+      }
+    ],
+    "family-sentence": [
+      {
+        "id": "bonjour-ma-famille-est-ici",
+        "fr": "bonjour, ma famille est ici.",
+        "en": "Hello, my family is here."
+      }
+    ],
+    "friend-sentence": [
+      {
+        "id": "salut-mon-ami-est-la",
+        "fr": "salut, mon ami est là.",
+        "en": "Hi, my friend is there."
+      }
+    ],
+    "adjective-noun": [
+      {
+        "id": "c-est-une-bonne-personne",
+        "fr": "c'est une bonne personne.",
+        "en": "It is a good person."
+      },
+      {
+        "id": "c-est-un-bon-ami",
+        "fr": "c'est un bon ami.",
+        "en": "It is a good friend."
+      }
+    ],
+    "c-est-article-noun-review": [
+      {
+        "id": "c-est-un-homme-2",
+        "fr": "c'est un homme.",
+        "en": "It is a man."
+      },
+      {
+        "id": "c-est-une-femme-2",
+        "fr": "c'est une femme.",
+        "en": "It is a woman."
+      },
+      {
+        "id": "c-est-un-garcon-2",
+        "fr": "c'est un garçon.",
+        "en": "It is a boy."
+      },
+      {
+        "id": "c-est-une-fille-2",
+        "fr": "c'est une fille.",
+        "en": "It is a girl."
+      },
+      {
+        "id": "c-est-un-ami-2",
+        "fr": "c'est un ami.",
+        "en": "It is a male friend."
+      },
+      {
+        "id": "c-est-une-amie-2",
+        "fr": "c'est une amie.",
+        "en": "It is a female friend."
+      },
+      {
+        "id": "c-est-ma-mere-2",
+        "fr": "c'est ma mère.",
+        "en": "It is my mother."
+      },
+      {
+        "id": "c-est-mon-pere-2",
+        "fr": "c'est mon père.",
+        "en": "It is my father."
+      },
+      {
+        "id": "c-est-mon-frere-2",
+        "fr": "c'est mon frère.",
+        "en": "It is my brother."
+      },
+      {
+        "id": "c-est-ma-s-ur-2",
+        "fr": "c'est ma sœur.",
+        "en": "It is my sister."
+      }
+    ]
+  },
+  "listeningSentences": [
+    {
+      "id": "c-est-un-homme",
+      "fr": "c'est un homme.",
+      "en": "It is a man."
+    },
+    {
+      "id": "c-est-une-femme",
+      "fr": "c'est une femme.",
+      "en": "It is a woman."
+    },
+    {
+      "id": "c-est-un-garcon",
+      "fr": "c'est un garçon.",
+      "en": "It is a boy."
+    },
+    {
+      "id": "c-est-une-fille",
+      "fr": "c'est une fille.",
+      "en": "It is a girl."
+    },
+    {
+      "id": "c-est-un-ami",
+      "fr": "c'est un ami.",
+      "en": "It is a male friend."
+    },
+    {
+      "id": "c-est-une-amie",
+      "fr": "c'est une amie.",
+      "en": "It is a female friend."
+    },
+    {
+      "id": "c-est-ma-mere",
+      "fr": "c'est ma mère.",
+      "en": "It is my mother."
+    },
+    {
+      "id": "c-est-mon-pere",
+      "fr": "c'est mon père.",
+      "en": "It is my father."
+    },
+    {
+      "id": "c-est-mon-frere",
+      "fr": "c'est mon frère.",
+      "en": "It is my brother."
+    },
+    {
+      "id": "c-est-ma-s-ur",
+      "fr": "c'est ma sœur.",
+      "en": "It is my sister."
+    },
+    {
+      "id": "c-est-un-enfant",
+      "fr": "c'est un enfant.",
+      "en": "It is a child."
+    },
+    {
+      "id": "c-est-ma-famille",
+      "fr": "c'est ma famille.",
+      "en": "It is my family."
+    },
+    {
+      "id": "un-homme-est-ici",
+      "fr": "un homme est ici.",
+      "en": "A man is here."
+    },
+    {
+      "id": "un-homme-est-la",
+      "fr": "un homme est là.",
+      "en": "A man is there."
+    },
+    {
+      "id": "une-femme-est-ici",
+      "fr": "une femme est ici.",
+      "en": "A woman is here."
+    },
+    {
+      "id": "une-femme-est-la",
+      "fr": "une femme est là.",
+      "en": "A woman is there."
+    },
+    {
+      "id": "un-garcon-est-ici",
+      "fr": "un garçon est ici.",
+      "en": "A boy is here."
+    },
+    {
+      "id": "un-garcon-est-la",
+      "fr": "un garçon est là.",
+      "en": "A boy is there."
+    },
+    {
+      "id": "une-fille-est-ici",
+      "fr": "une fille est ici.",
+      "en": "A girl is here."
+    },
+    {
+      "id": "une-fille-est-la",
+      "fr": "une fille est là.",
+      "en": "A girl is there."
+    },
+    {
+      "id": "un-ami-est-ici",
+      "fr": "un ami est ici.",
+      "en": "A male friend is here."
+    },
+    {
+      "id": "un-ami-est-la",
+      "fr": "un ami est là.",
+      "en": "A male friend is there."
+    },
+    {
+      "id": "une-amie-est-ici",
+      "fr": "une amie est ici.",
+      "en": "A female friend is here."
+    },
+    {
+      "id": "une-amie-est-la",
+      "fr": "une amie est là.",
+      "en": "A female friend is there."
+    },
+    {
+      "id": "ma-mere-est-ici",
+      "fr": "ma mère est ici.",
+      "en": "My mother is here."
+    },
+    {
+      "id": "ma-mere-est-la",
+      "fr": "ma mère est là.",
+      "en": "My mother is there."
+    },
+    {
+      "id": "mon-pere-est-ici",
+      "fr": "mon père est ici.",
+      "en": "My father is here."
+    },
+    {
+      "id": "mon-pere-est-la",
+      "fr": "mon père est là.",
+      "en": "My father is there."
+    },
+    {
+      "id": "ma-mere-est-tres-bien",
+      "fr": "ma mère est très bien.",
+      "en": "My mother is very well."
+    },
+    {
+      "id": "mon-pere-est-tres-bien",
+      "fr": "mon père est très bien.",
+      "en": "My father is very well."
+    },
+    {
+      "id": "mon-frere-est-tres-bien",
+      "fr": "mon frère est très bien.",
+      "en": "My brother is very well."
+    },
+    {
+      "id": "ma-s-ur-est-tres-bien",
+      "fr": "ma sœur est très bien.",
+      "en": "My sister is very well."
+    },
+    {
+      "id": "un-enfant-est-tres-bien",
+      "fr": "un enfant est très bien.",
+      "en": "A child is very well."
+    },
+    {
+      "id": "ma-famille-est-tres-bien",
+      "fr": "ma famille est très bien.",
+      "en": "My family is very well."
+    },
+    {
+      "id": "ma-mere-est-avec-mon-pere",
+      "fr": "ma mère est avec mon père.",
+      "en": "My mother is with my father."
+    },
+    {
+      "id": "ma-mere-est-sans-mon-pere",
+      "fr": "ma mère est sans mon père.",
+      "en": "My mother is without my father."
+    },
+    {
+      "id": "ma-mere-est-ici-aussi",
+      "fr": "ma mère est ici aussi.",
+      "en": "My mother is here too."
+    },
+    {
+      "id": "mon-frere-est-avec-ma-s-ur",
+      "fr": "mon frère est avec ma sœur.",
+      "en": "My brother is with my sister."
+    },
+    {
+      "id": "mon-frere-est-sans-ma-s-ur",
+      "fr": "mon frère est sans ma sœur.",
+      "en": "My brother is without my sister."
+    },
+    {
+      "id": "mon-frere-est-ici-aussi",
+      "fr": "mon frère est ici aussi.",
+      "en": "My brother is here too."
+    },
+    {
+      "id": "un-ami-est-avec-une-amie",
+      "fr": "un ami est avec une amie.",
+      "en": "A male friend is with a female friend."
+    },
+    {
+      "id": "un-ami-est-sans-une-amie",
+      "fr": "un ami est sans une amie.",
+      "en": "A male friend is without a female friend."
+    },
+    {
+      "id": "un-ami-est-ici-aussi",
+      "fr": "un ami est ici aussi.",
+      "en": "A male friend is here too."
+    },
+    {
+      "id": "un-garcon-est-avec-une-fille",
+      "fr": "un garçon est avec une fille.",
+      "en": "A boy is with a girl."
+    },
+    {
+      "id": "un-garcon-est-sans-une-fille",
+      "fr": "un garçon est sans une fille.",
+      "en": "A boy is without a girl."
+    },
+    {
+      "id": "un-garcon-est-ici-aussi",
+      "fr": "un garçon est ici aussi.",
+      "en": "A boy is here too."
+    },
+    {
+      "id": "bonjour-ma-famille-est-ici",
+      "fr": "bonjour, ma famille est ici.",
+      "en": "Hello, my family is here."
+    },
+    {
+      "id": "salut-mon-ami-est-la",
+      "fr": "salut, mon ami est là.",
+      "en": "Hi, my friend is there."
+    },
+    {
+      "id": "c-est-une-bonne-personne",
+      "fr": "c'est une bonne personne.",
+      "en": "It is a good person."
+    },
+    {
+      "id": "c-est-un-bon-ami",
+      "fr": "c'est un bon ami.",
+      "en": "It is a good friend."
+    },
+    {
+      "id": "c-est-un-homme-2",
+      "fr": "c'est un homme.",
+      "en": "It is a man."
+    },
+    {
+      "id": "c-est-une-femme-2",
+      "fr": "c'est une femme.",
+      "en": "It is a woman."
+    },
+    {
+      "id": "c-est-un-garcon-2",
+      "fr": "c'est un garçon.",
+      "en": "It is a boy."
+    },
+    {
+      "id": "c-est-une-fille-2",
+      "fr": "c'est une fille.",
+      "en": "It is a girl."
+    },
+    {
+      "id": "c-est-un-ami-2",
+      "fr": "c'est un ami.",
+      "en": "It is a male friend."
+    },
+    {
+      "id": "c-est-une-amie-2",
+      "fr": "c'est une amie.",
+      "en": "It is a female friend."
+    },
+    {
+      "id": "c-est-ma-mere-2",
+      "fr": "c'est ma mère.",
+      "en": "It is my mother."
+    },
+    {
+      "id": "c-est-mon-pere-2",
+      "fr": "c'est mon père.",
+      "en": "It is my father."
+    },
+    {
+      "id": "c-est-mon-frere-2",
+      "fr": "c'est mon frère.",
+      "en": "It is my brother."
+    },
+    {
+      "id": "c-est-ma-s-ur-2",
+      "fr": "c'est ma sœur.",
+      "en": "It is my sister."
+    }
+  ]
+}

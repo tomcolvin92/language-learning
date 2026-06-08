@@ -1,0 +1,122 @@
+{
+  "id": "lesson-06",
+  "title": "Bonus playful insults",
+  "level": 6,
+  "audioBase": "lessons/lesson-06/audio",
+  "words": [
+    {
+      "id": "espece-de-petit-monstre",
+      "fr": "Espèce de petit monstre !",
+      "en": "You little monster!",
+      "say": "Espèce de petit monstre !",
+      "sound": "ess-PESS duh puh-TEE mon-str",
+      "category": "Bonus Phrases"
+    },
+    {
+      "id": "andouille",
+      "fr": "Andouille !",
+      "en": "Silly sausage! / Dummy!",
+      "say": "Andouille !",
+      "sound": "ahn-DOOY",
+      "category": "Bonus Phrases"
+    },
+    {
+      "id": "t-es-bete",
+      "fr": "T’es bête !",
+      "en": "You’re silly!",
+      "say": "T’es bête !",
+      "sound": "teh BET",
+      "category": "Bonus Phrases"
+    },
+    {
+      "id": "mais-t-es-fou-ou-quoi",
+      "fr": "Mais t’es fou ou quoi ?",
+      "en": "Are you crazy or what?",
+      "say": "Mais t’es fou ou quoi ?",
+      "sound": "meh teh FOO oo KWA",
+      "category": "Bonus Phrases"
+    },
+    {
+      "id": "arrete-espece-d-andouille",
+      "fr": "Arrête, espèce d’andouille !",
+      "en": "Stop it, you silly thing!",
+      "say": "Arrête, espèce d’andouille !",
+      "sound": "ah-RET, ess-PESS dahn-DOOY",
+      "category": "Bonus Phrases"
+    },
+    {
+      "id": "putain-t-es-trop-mignon",
+      "fr": "Putain, t’es trop mignon.",
+      "en": "Damn, you’re too cute.",
+      "say": "Putain, t’es trop mignon.",
+      "sound": "poo-TAN, teh tro mee-NYON",
+      "category": "Bonus Phrases"
+    }
+  ],
+  "sentenceGroups": {
+    "bonus": [
+      {
+        "id": "espece-de-petit-monstre",
+        "fr": "Espèce de petit monstre !",
+        "en": "You little monster!"
+      },
+      {
+        "id": "andouille",
+        "fr": "Andouille !",
+        "en": "Silly sausage! / Dummy!"
+      },
+      {
+        "id": "t-es-bete",
+        "fr": "T’es bête !",
+        "en": "You’re silly!"
+      },
+      {
+        "id": "mais-t-es-fou-ou-quoi",
+        "fr": "Mais t’es fou ou quoi ?",
+        "en": "Are you crazy or what?"
+      },
+      {
+        "id": "arrete-espece-d-andouille",
+        "fr": "Arrête, espèce d’andouille !",
+        "en": "Stop it, you silly thing!"
+      },
+      {
+        "id": "putain-t-es-trop-mignon",
+        "fr": "Putain, t’es trop mignon.",
+        "en": "Damn, you’re too cute."
+      }
+    ]
+  },
+  "listeningSentences": [
+    {
+      "id": "espece-de-petit-monstre",
+      "fr": "Espèce de petit monstre !",
+      "en": "You little monster!"
+    },
+    {
+      "id": "andouille",
+      "fr": "Andouille !",
+      "en": "Silly sausage! / Dummy!"
+    },
+    {
+      "id": "t-es-bete",
+      "fr": "T’es bête !",
+      "en": "You’re silly!"
+    },
+    {
+      "id": "mais-t-es-fou-ou-quoi",
+      "fr": "Mais t’es fou ou quoi ?",
+      "en": "Are you crazy or what?"
+    },
+    {
+      "id": "arrete-espece-d-andouille",
+      "fr": "Arrête, espèce d’andouille !",
+      "en": "Stop it, you silly thing!"
+    },
+    {
+      "id": "putain-t-es-trop-mignon",
+      "fr": "Putain, t’es trop mignon.",
+      "en": "Damn, you’re too cute."
+    }
+  ]
+}

@@ -1,0 +1,828 @@
+{
+  "id": "lesson-05",
+  "title": "Daily actions",
+  "level": 5,
+  "audioBase": "lessons/lesson-05/audio",
+  "words": [
+    {
+      "id": "je-vais",
+      "fr": "je vais",
+      "en": "I go / I am going",
+      "say": "je vais",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "tu-vas",
+      "fr": "tu vas",
+      "en": "you go / you are going",
+      "say": "tu vas",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "il-va",
+      "fr": "il va",
+      "en": "he goes / he is going",
+      "say": "il va",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "elle-va",
+      "fr": "elle va",
+      "en": "she goes / she is going",
+      "say": "elle va",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "nous-allons",
+      "fr": "nous allons",
+      "en": "we go / we are going",
+      "say": "nous allons",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "je-fais",
+      "fr": "je fais",
+      "en": "I do/make",
+      "say": "je fais",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "tu-fais",
+      "fr": "tu fais",
+      "en": "you do/make",
+      "say": "tu fais",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "je-regarde",
+      "fr": "je regarde",
+      "en": "I watch/look at",
+      "say": "je regarde",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "tu-regardes",
+      "fr": "tu regardes",
+      "en": "you watch/look at",
+      "say": "tu regardes",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "j-ecoute",
+      "fr": "j'écoute",
+      "en": "I listen to",
+      "say": "j'écoute",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "tu-ecoutes",
+      "fr": "tu écoutes",
+      "en": "you listen to",
+      "say": "tu écoutes",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "je-parle",
+      "fr": "je parle",
+      "en": "I speak/talk",
+      "say": "je parle",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "tu-parles",
+      "fr": "tu parles",
+      "en": "you speak/talk",
+      "say": "tu parles",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "je-lis",
+      "fr": "je lis",
+      "en": "I read",
+      "say": "je lis",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "tu-lis",
+      "fr": "tu lis",
+      "en": "you read",
+      "say": "tu lis",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "je-dors",
+      "fr": "je dors",
+      "en": "I sleep",
+      "say": "je dors",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "tu-dors",
+      "fr": "tu dors",
+      "en": "you sleep",
+      "say": "tu dors",
+      "sound": "",
+      "category": "Verb Chunk"
+    },
+    {
+      "id": "aller",
+      "fr": "aller",
+      "en": "to go",
+      "say": "aller",
+      "sound": "",
+      "category": "Infinitive"
+    },
+    {
+      "id": "faire",
+      "fr": "faire",
+      "en": "to do/make",
+      "say": "faire",
+      "sound": "",
+      "category": "Infinitive"
+    },
+    {
+      "id": "regarder",
+      "fr": "regarder",
+      "en": "to watch/look at",
+      "say": "regarder",
+      "sound": "",
+      "category": "Infinitive"
+    },
+    {
+      "id": "ecouter",
+      "fr": "écouter",
+      "en": "to listen to",
+      "say": "écouter",
+      "sound": "",
+      "category": "Infinitive"
+    },
+    {
+      "id": "parler",
+      "fr": "parler",
+      "en": "to speak/talk",
+      "say": "parler",
+      "sound": "",
+      "category": "Infinitive"
+    },
+    {
+      "id": "lire",
+      "fr": "lire",
+      "en": "to read",
+      "say": "lire",
+      "sound": "",
+      "category": "Infinitive"
+    },
+    {
+      "id": "dormir",
+      "fr": "dormir",
+      "en": "to sleep",
+      "say": "dormir",
+      "sound": "",
+      "category": "Infinitive"
+    },
+    {
+      "id": "maintenant",
+      "fr": "maintenant",
+      "en": "now",
+      "say": "maintenant",
+      "sound": "",
+      "category": "Adverb"
+    }
+  ],
+  "sentenceGroups": {
+    "present-action-place": [
+      {
+        "id": "je-vais-a-la-maison",
+        "fr": "je vais à la maison.",
+        "en": "I go / I am going at home."
+      },
+      {
+        "id": "je-vais-a-l-ecole",
+        "fr": "je vais à l'école.",
+        "en": "I go / I am going at school."
+      },
+      {
+        "id": "je-vais-au-travail",
+        "fr": "je vais au travail.",
+        "en": "I go / I am going at work."
+      },
+      {
+        "id": "je-vais-au-cafe",
+        "fr": "je vais au café.",
+        "en": "I go / I am going at the café."
+      },
+      {
+        "id": "je-vais-au-parc",
+        "fr": "je vais au parc.",
+        "en": "I go / I am going at the park."
+      },
+      {
+        "id": "tu-vas-a-la-maison",
+        "fr": "tu vas à la maison.",
+        "en": "you go / you are going at home."
+      },
+      {
+        "id": "tu-vas-a-l-ecole",
+        "fr": "tu vas à l'école.",
+        "en": "you go / you are going at school."
+      },
+      {
+        "id": "tu-vas-au-travail",
+        "fr": "tu vas au travail.",
+        "en": "you go / you are going at work."
+      },
+      {
+        "id": "tu-vas-au-cafe",
+        "fr": "tu vas au café.",
+        "en": "you go / you are going at the café."
+      },
+      {
+        "id": "tu-vas-au-parc",
+        "fr": "tu vas au parc.",
+        "en": "you go / you are going at the park."
+      },
+      {
+        "id": "je-fais-a-la-maison",
+        "fr": "je fais à la maison.",
+        "en": "I do / I am doing at home."
+      },
+      {
+        "id": "je-fais-a-l-ecole",
+        "fr": "je fais à l'école.",
+        "en": "I do / I am doing at school."
+      },
+      {
+        "id": "je-fais-au-travail",
+        "fr": "je fais au travail.",
+        "en": "I do / I am doing at work."
+      },
+      {
+        "id": "je-fais-au-cafe",
+        "fr": "je fais au café.",
+        "en": "I do / I am doing at the café."
+      },
+      {
+        "id": "je-fais-au-parc",
+        "fr": "je fais au parc.",
+        "en": "I do / I am doing at the park."
+      },
+      {
+        "id": "tu-fais-a-la-maison",
+        "fr": "tu fais à la maison.",
+        "en": "you do / you are doing at home."
+      },
+      {
+        "id": "tu-fais-a-l-ecole",
+        "fr": "tu fais à l'école.",
+        "en": "you do / you are doing at school."
+      },
+      {
+        "id": "tu-fais-au-travail",
+        "fr": "tu fais au travail.",
+        "en": "you do / you are doing at work."
+      },
+      {
+        "id": "tu-fais-au-cafe",
+        "fr": "tu fais au café.",
+        "en": "you do / you are doing at the café."
+      },
+      {
+        "id": "tu-fais-au-parc",
+        "fr": "tu fais au parc.",
+        "en": "you do / you are doing at the park."
+      }
+    ],
+    "present-action-object": [
+      {
+        "id": "je-regarde-le-repas",
+        "fr": "je regarde le repas.",
+        "en": "I watch / I am watching the meal."
+      },
+      {
+        "id": "tu-regardes-le-repas",
+        "fr": "tu regardes le repas.",
+        "en": "you watch / you are watching the meal."
+      },
+      {
+        "id": "j-ecoute-du-cafe",
+        "fr": "j'écoute du café.",
+        "en": "I listen to / I am listening to some coffee."
+      },
+      {
+        "id": "tu-ecoutes-du-cafe",
+        "fr": "tu écoutes du café.",
+        "en": "you listen to / you are listening to some coffee."
+      }
+    ],
+    "present-maintenant": [
+      {
+        "id": "je-parle-maintenant",
+        "fr": "je parle maintenant.",
+        "en": "I speak / I am speaking now."
+      },
+      {
+        "id": "tu-parles-maintenant",
+        "fr": "tu parles maintenant.",
+        "en": "you speak / you are speaking now."
+      },
+      {
+        "id": "je-lis-maintenant",
+        "fr": "je lis maintenant.",
+        "en": "I read / I am reading now."
+      },
+      {
+        "id": "tu-lis-maintenant",
+        "fr": "tu lis maintenant.",
+        "en": "you read / you are reading now."
+      },
+      {
+        "id": "je-dors-maintenant",
+        "fr": "je dors maintenant.",
+        "en": "I sleep / I am sleeping now."
+      },
+      {
+        "id": "tu-dors-maintenant",
+        "fr": "tu dors maintenant.",
+        "en": "you sleep / you are sleeping now."
+      }
+    ],
+    "vouloir-infinitive": [
+      {
+        "id": "je-veux-aller",
+        "fr": "je veux aller.",
+        "en": "I want to go."
+      },
+      {
+        "id": "tu-veux-aller",
+        "fr": "tu veux aller.",
+        "en": "You want to go."
+      },
+      {
+        "id": "je-veux-faire",
+        "fr": "je veux faire.",
+        "en": "I want to do."
+      },
+      {
+        "id": "tu-veux-faire",
+        "fr": "tu veux faire.",
+        "en": "You want to do."
+      },
+      {
+        "id": "je-veux-regarder",
+        "fr": "je veux regarder.",
+        "en": "I want to watch."
+      },
+      {
+        "id": "tu-veux-regarder",
+        "fr": "tu veux regarder.",
+        "en": "You want to watch."
+      },
+      {
+        "id": "je-veux-ecouter",
+        "fr": "je veux écouter.",
+        "en": "I want to listen."
+      },
+      {
+        "id": "tu-veux-ecouter",
+        "fr": "tu veux écouter.",
+        "en": "You want to listen."
+      },
+      {
+        "id": "je-veux-parler",
+        "fr": "je veux parler.",
+        "en": "I want to speak."
+      },
+      {
+        "id": "tu-veux-parler",
+        "fr": "tu veux parler.",
+        "en": "You want to speak."
+      },
+      {
+        "id": "je-veux-lire",
+        "fr": "je veux lire.",
+        "en": "I want to read."
+      },
+      {
+        "id": "tu-veux-lire",
+        "fr": "tu veux lire.",
+        "en": "You want to read."
+      },
+      {
+        "id": "je-veux-dormir",
+        "fr": "je veux dormir.",
+        "en": "I want to sleep."
+      },
+      {
+        "id": "tu-veux-dormir",
+        "fr": "tu veux dormir.",
+        "en": "You want to sleep."
+      }
+    ],
+    "infinitive-avec": [
+      {
+        "id": "j-aime-parler-avec-mon-amie",
+        "fr": "j'aime parler avec mon amie.",
+        "en": "I like speaking with my female friend."
+      }
+    ],
+    "coordination": [
+      {
+        "id": "j-aime-ecouter-et-parler",
+        "fr": "j'aime écouter et parler.",
+        "en": "I like listening and speaking."
+      }
+    ],
+    "faire-object": [
+      {
+        "id": "je-fais-le-repas-maintenant",
+        "fr": "je fais le repas maintenant.",
+        "en": "I am making the meal now."
+      },
+      {
+        "id": "tu-fais-du-cafe-maintenant",
+        "fr": "tu fais du café maintenant.",
+        "en": "You are making coffee now."
+      }
+    ],
+    "present-action-place-review": [
+      {
+        "id": "je-vais-a-la-maison-2",
+        "fr": "je vais à la maison.",
+        "en": "I go / I am going at home."
+      },
+      {
+        "id": "je-vais-a-l-ecole-2",
+        "fr": "je vais à l'école.",
+        "en": "I go / I am going at school."
+      },
+      {
+        "id": "je-vais-au-travail-2",
+        "fr": "je vais au travail.",
+        "en": "I go / I am going at work."
+      },
+      {
+        "id": "je-vais-au-cafe-2",
+        "fr": "je vais au café.",
+        "en": "I go / I am going at the café."
+      },
+      {
+        "id": "je-vais-au-parc-2",
+        "fr": "je vais au parc.",
+        "en": "I go / I am going at the park."
+      },
+      {
+        "id": "tu-vas-a-la-maison-2",
+        "fr": "tu vas à la maison.",
+        "en": "you go / you are going at home."
+      },
+      {
+        "id": "tu-vas-a-l-ecole-2",
+        "fr": "tu vas à l'école.",
+        "en": "you go / you are going at school."
+      },
+      {
+        "id": "tu-vas-au-travail-2",
+        "fr": "tu vas au travail.",
+        "en": "you go / you are going at work."
+      },
+      {
+        "id": "tu-vas-au-cafe-2",
+        "fr": "tu vas au café.",
+        "en": "you go / you are going at the café."
+      },
+      {
+        "id": "tu-vas-au-parc-2",
+        "fr": "tu vas au parc.",
+        "en": "you go / you are going at the park."
+      },
+      {
+        "id": "je-fais-a-la-maison-2",
+        "fr": "je fais à la maison.",
+        "en": "I do / I am doing at home."
+      },
+      {
+        "id": "je-fais-a-l-ecole-2",
+        "fr": "je fais à l'école.",
+        "en": "I do / I am doing at school."
+      }
+    ]
+  },
+  "listeningSentences": [
+    {
+      "id": "je-vais-a-la-maison",
+      "fr": "je vais à la maison.",
+      "en": "I go / I am going at home."
+    },
+    {
+      "id": "je-vais-a-l-ecole",
+      "fr": "je vais à l'école.",
+      "en": "I go / I am going at school."
+    },
+    {
+      "id": "je-vais-au-travail",
+      "fr": "je vais au travail.",
+      "en": "I go / I am going at work."
+    },
+    {
+      "id": "je-vais-au-cafe",
+      "fr": "je vais au café.",
+      "en": "I go / I am going at the café."
+    },
+    {
+      "id": "je-vais-au-parc",
+      "fr": "je vais au parc.",
+      "en": "I go / I am going at the park."
+    },
+    {
+      "id": "tu-vas-a-la-maison",
+      "fr": "tu vas à la maison.",
+      "en": "you go / you are going at home."
+    },
+    {
+      "id": "tu-vas-a-l-ecole",
+      "fr": "tu vas à l'école.",
+      "en": "you go / you are going at school."
+    },
+    {
+      "id": "tu-vas-au-travail",
+      "fr": "tu vas au travail.",
+      "en": "you go / you are going at work."
+    },
+    {
+      "id": "tu-vas-au-cafe",
+      "fr": "tu vas au café.",
+      "en": "you go / you are going at the café."
+    },
+    {
+      "id": "tu-vas-au-parc",
+      "fr": "tu vas au parc.",
+      "en": "you go / you are going at the park."
+    },
+    {
+      "id": "je-fais-a-la-maison",
+      "fr": "je fais à la maison.",
+      "en": "I do / I am doing at home."
+    },
+    {
+      "id": "je-fais-a-l-ecole",
+      "fr": "je fais à l'école.",
+      "en": "I do / I am doing at school."
+    },
+    {
+      "id": "je-fais-au-travail",
+      "fr": "je fais au travail.",
+      "en": "I do / I am doing at work."
+    },
+    {
+      "id": "je-fais-au-cafe",
+      "fr": "je fais au café.",
+      "en": "I do / I am doing at the café."
+    },
+    {
+      "id": "je-fais-au-parc",
+      "fr": "je fais au parc.",
+      "en": "I do / I am doing at the park."
+    },
+    {
+      "id": "tu-fais-a-la-maison",
+      "fr": "tu fais à la maison.",
+      "en": "you do / you are doing at home."
+    },
+    {
+      "id": "tu-fais-a-l-ecole",
+      "fr": "tu fais à l'école.",
+      "en": "you do / you are doing at school."
+    },
+    {
+      "id": "tu-fais-au-travail",
+      "fr": "tu fais au travail.",
+      "en": "you do / you are doing at work."
+    },
+    {
+      "id": "tu-fais-au-cafe",
+      "fr": "tu fais au café.",
+      "en": "you do / you are doing at the café."
+    },
+    {
+      "id": "tu-fais-au-parc",
+      "fr": "tu fais au parc.",
+      "en": "you do / you are doing at the park."
+    },
+    {
+      "id": "je-regarde-le-repas",
+      "fr": "je regarde le repas.",
+      "en": "I watch / I am watching the meal."
+    },
+    {
+      "id": "tu-regardes-le-repas",
+      "fr": "tu regardes le repas.",
+      "en": "you watch / you are watching the meal."
+    },
+    {
+      "id": "j-ecoute-du-cafe",
+      "fr": "j'écoute du café.",
+      "en": "I listen to / I am listening to some coffee."
+    },
+    {
+      "id": "tu-ecoutes-du-cafe",
+      "fr": "tu écoutes du café.",
+      "en": "you listen to / you are listening to some coffee."
+    },
+    {
+      "id": "je-parle-maintenant",
+      "fr": "je parle maintenant.",
+      "en": "I speak / I am speaking now."
+    },
+    {
+      "id": "tu-parles-maintenant",
+      "fr": "tu parles maintenant.",
+      "en": "you speak / you are speaking now."
+    },
+    {
+      "id": "je-lis-maintenant",
+      "fr": "je lis maintenant.",
+      "en": "I read / I am reading now."
+    },
+    {
+      "id": "tu-lis-maintenant",
+      "fr": "tu lis maintenant.",
+      "en": "you read / you are reading now."
+    },
+    {
+      "id": "je-dors-maintenant",
+      "fr": "je dors maintenant.",
+      "en": "I sleep / I am sleeping now."
+    },
+    {
+      "id": "tu-dors-maintenant",
+      "fr": "tu dors maintenant.",
+      "en": "you sleep / you are sleeping now."
+    },
+    {
+      "id": "je-veux-aller",
+      "fr": "je veux aller.",
+      "en": "I want to go."
+    },
+    {
+      "id": "tu-veux-aller",
+      "fr": "tu veux aller.",
+      "en": "You want to go."
+    },
+    {
+      "id": "je-veux-faire",
+      "fr": "je veux faire.",
+      "en": "I want to do."
+    },
+    {
+      "id": "tu-veux-faire",
+      "fr": "tu veux faire.",
+      "en": "You want to do."
+    },
+    {
+      "id": "je-veux-regarder",
+      "fr": "je veux regarder.",
+      "en": "I want to watch."
+    },
+    {
+      "id": "tu-veux-regarder",
+      "fr": "tu veux regarder.",
+      "en": "You want to watch."
+    },
+    {
+      "id": "je-veux-ecouter",
+      "fr": "je veux écouter.",
+      "en": "I want to listen."
+    },
+    {
+      "id": "tu-veux-ecouter",
+      "fr": "tu veux écouter.",
+      "en": "You want to listen."
+    },
+    {
+      "id": "je-veux-parler",
+      "fr": "je veux parler.",
+      "en": "I want to speak."
+    },
+    {
+      "id": "tu-veux-parler",
+      "fr": "tu veux parler.",
+      "en": "You want to speak."
+    },
+    {
+      "id": "je-veux-lire",
+      "fr": "je veux lire.",
+      "en": "I want to read."
+    },
+    {
+      "id": "tu-veux-lire",
+      "fr": "tu veux lire.",
+      "en": "You want to read."
+    },
+    {
+      "id": "je-veux-dormir",
+      "fr": "je veux dormir.",
+      "en": "I want to sleep."
+    },
+    {
+      "id": "tu-veux-dormir",
+      "fr": "tu veux dormir.",
+      "en": "You want to sleep."
+    },
+    {
+      "id": "j-aime-parler-avec-mon-amie",
+      "fr": "j'aime parler avec mon amie.",
+      "en": "I like speaking with my female friend."
+    },
+    {
+      "id": "j-aime-ecouter-et-parler",
+      "fr": "j'aime écouter et parler.",
+      "en": "I like listening and speaking."
+    },
+    {
+      "id": "je-fais-le-repas-maintenant",
+      "fr": "je fais le repas maintenant.",
+      "en": "I am making the meal now."
+    },
+    {
+      "id": "tu-fais-du-cafe-maintenant",
+      "fr": "tu fais du café maintenant.",
+      "en": "You are making coffee now."
+    },
+    {
+      "id": "je-vais-a-la-maison-2",
+      "fr": "je vais à la maison.",
+      "en": "I go / I am going at home."
+    },
+    {
+      "id": "je-vais-a-l-ecole-2",
+      "fr": "je vais à l'école.",
+      "en": "I go / I am going at school."
+    },
+    {
+      "id": "je-vais-au-travail-2",
+      "fr": "je vais au travail.",
+      "en": "I go / I am going at work."
+    },
+    {
+      "id": "je-vais-au-cafe-2",
+      "fr": "je vais au café.",
+      "en": "I go / I am going at the café."
+    },
+    {
+      "id": "je-vais-au-parc-2",
+      "fr": "je vais au parc.",
+      "en": "I go / I am going at the park."
+    },
+    {
+      "id": "tu-vas-a-la-maison-2",
+      "fr": "tu vas à la maison.",
+      "en": "you go / you are going at home."
+    },
+    {
+      "id": "tu-vas-a-l-ecole-2",
+      "fr": "tu vas à l'école.",
+      "en": "you go / you are going at school."
+    },
+    {
+      "id": "tu-vas-au-travail-2",
+      "fr": "tu vas au travail.",
+      "en": "you go / you are going at work."
+    },
+    {
+      "id": "tu-vas-au-cafe-2",
+      "fr": "tu vas au café.",
+      "en": "you go / you are going at the café."
+    },
+    {
+      "id": "tu-vas-au-parc-2",
+      "fr": "tu vas au parc.",
+      "en": "you go / you are going at the park."
+    },
+    {
+      "id": "je-fais-a-la-maison-2",
+      "fr": "je fais à la maison.",
+      "en": "I do / I am doing at home."
+    },
+    {
+      "id": "je-fais-a-l-ecole-2",
+      "fr": "je fais à l'école.",
+      "en": "I do / I am doing at school."
+    }
+  ]
+}

@@ -1,0 +1,816 @@
+{
+  "id": "lesson-04",
+  "title": "Home & places",
+  "level": 4,
+  "audioBase": "lessons/lesson-04/audio",
+  "words": [
+    {
+      "id": "je-suis-a",
+      "fr": "je suis à",
+      "en": "I am at/in",
+      "say": "je suis à",
+      "sound": "",
+      "category": "Chunk"
+    },
+    {
+      "id": "tu-es-a",
+      "fr": "tu es à",
+      "en": "you are at/in",
+      "say": "tu es à",
+      "sound": "",
+      "category": "Chunk"
+    },
+    {
+      "id": "il-est-a",
+      "fr": "il est à",
+      "en": "he is at/in",
+      "say": "il est à",
+      "sound": "",
+      "category": "Chunk"
+    },
+    {
+      "id": "elle-est-a",
+      "fr": "elle est à",
+      "en": "she is at/in",
+      "say": "elle est à",
+      "sound": "",
+      "category": "Chunk"
+    },
+    {
+      "id": "dans",
+      "fr": "dans",
+      "en": "in/inside",
+      "say": "dans",
+      "sound": "",
+      "category": "Preposition"
+    },
+    {
+      "id": "a-la-maison",
+      "fr": "à la maison",
+      "en": "at home",
+      "say": "à la maison",
+      "sound": "",
+      "category": "Place Phrase"
+    },
+    {
+      "id": "a-l-ecole",
+      "fr": "à l'école",
+      "en": "at school",
+      "say": "à l'école",
+      "sound": "",
+      "category": "Place Phrase"
+    },
+    {
+      "id": "au-travail",
+      "fr": "au travail",
+      "en": "at work",
+      "say": "au travail",
+      "sound": "",
+      "category": "Place Phrase"
+    },
+    {
+      "id": "au-cafe",
+      "fr": "au café",
+      "en": "at the café",
+      "say": "au café",
+      "sound": "",
+      "category": "Place Phrase"
+    },
+    {
+      "id": "au-parc",
+      "fr": "au parc",
+      "en": "at the park",
+      "say": "au parc",
+      "sound": "",
+      "category": "Place Phrase"
+    },
+    {
+      "id": "au-restaurant",
+      "fr": "au restaurant",
+      "en": "at the restaurant",
+      "say": "au restaurant",
+      "sound": "",
+      "category": "Place Phrase"
+    },
+    {
+      "id": "au-magasin",
+      "fr": "au magasin",
+      "en": "at the shop",
+      "say": "au magasin",
+      "sound": "",
+      "category": "Place Phrase"
+    },
+    {
+      "id": "dans-la-rue",
+      "fr": "dans la rue",
+      "en": "in the street",
+      "say": "dans la rue",
+      "sound": "",
+      "category": "Place Phrase"
+    },
+    {
+      "id": "dans-la-ville",
+      "fr": "dans la ville",
+      "en": "in the city",
+      "say": "dans la ville",
+      "sound": "",
+      "category": "Place Phrase"
+    },
+    {
+      "id": "dans-le-jardin",
+      "fr": "dans le jardin",
+      "en": "in the garden",
+      "say": "dans le jardin",
+      "sound": "",
+      "category": "Place Phrase"
+    },
+    {
+      "id": "la-chambre",
+      "fr": "la chambre",
+      "en": "the bedroom",
+      "say": "la chambre",
+      "sound": "",
+      "category": "Noun Phrase"
+    },
+    {
+      "id": "la-cuisine",
+      "fr": "la cuisine",
+      "en": "the kitchen",
+      "say": "la cuisine",
+      "sound": "",
+      "category": "Noun Phrase"
+    },
+    {
+      "id": "la-table",
+      "fr": "la table",
+      "en": "the table",
+      "say": "la table",
+      "sound": "",
+      "category": "Noun Phrase"
+    },
+    {
+      "id": "la-chaise",
+      "fr": "la chaise",
+      "en": "the chair",
+      "say": "la chaise",
+      "sound": "",
+      "category": "Noun Phrase"
+    },
+    {
+      "id": "la-porte",
+      "fr": "la porte",
+      "en": "the door",
+      "say": "la porte",
+      "sound": "",
+      "category": "Noun Phrase"
+    },
+    {
+      "id": "la-fenetre",
+      "fr": "la fenêtre",
+      "en": "the window",
+      "say": "la fenêtre",
+      "sound": "",
+      "category": "Noun Phrase"
+    },
+    {
+      "id": "pres-de",
+      "fr": "près de",
+      "en": "near",
+      "say": "près de",
+      "sound": "",
+      "category": "Preposition"
+    },
+    {
+      "id": "loin-de",
+      "fr": "loin de",
+      "en": "far from",
+      "say": "loin de",
+      "sound": "",
+      "category": "Preposition"
+    },
+    {
+      "id": "devant",
+      "fr": "devant",
+      "en": "in front",
+      "say": "devant",
+      "sound": "",
+      "category": "Preposition/Adverb"
+    },
+    {
+      "id": "derriere",
+      "fr": "derrière",
+      "en": "behind",
+      "say": "derrière",
+      "sound": "",
+      "category": "Preposition/Adverb"
+    }
+  ],
+  "sentenceGroups": {
+    "location": [
+      {
+        "id": "je-suis-a-la-maison",
+        "fr": "je suis à la maison.",
+        "en": "I am at home."
+      },
+      {
+        "id": "tu-es-a-la-maison",
+        "fr": "tu es à la maison.",
+        "en": "You are at home."
+      },
+      {
+        "id": "je-suis-a-l-ecole",
+        "fr": "je suis à l'école.",
+        "en": "I am at school."
+      },
+      {
+        "id": "tu-es-a-l-ecole",
+        "fr": "tu es à l'école.",
+        "en": "You are at school."
+      },
+      {
+        "id": "je-suis-au-travail",
+        "fr": "je suis au travail.",
+        "en": "I am at work."
+      },
+      {
+        "id": "tu-es-au-travail",
+        "fr": "tu es au travail.",
+        "en": "You are at work."
+      },
+      {
+        "id": "je-suis-au-cafe",
+        "fr": "je suis au café.",
+        "en": "I am at the café."
+      },
+      {
+        "id": "tu-es-au-cafe",
+        "fr": "tu es au café.",
+        "en": "You are at the café."
+      },
+      {
+        "id": "je-suis-au-parc",
+        "fr": "je suis au parc.",
+        "en": "I am at the park."
+      },
+      {
+        "id": "tu-es-au-parc",
+        "fr": "tu es au parc.",
+        "en": "You are at the park."
+      },
+      {
+        "id": "je-suis-au-restaurant",
+        "fr": "je suis au restaurant.",
+        "en": "I am at the restaurant."
+      },
+      {
+        "id": "tu-es-au-restaurant",
+        "fr": "tu es au restaurant.",
+        "en": "You are at the restaurant."
+      },
+      {
+        "id": "je-suis-au-magasin",
+        "fr": "je suis au magasin.",
+        "en": "I am at the shop."
+      },
+      {
+        "id": "tu-es-au-magasin",
+        "fr": "tu es au magasin.",
+        "en": "You are at the shop."
+      },
+      {
+        "id": "je-suis-dans-la-rue",
+        "fr": "je suis dans la rue.",
+        "en": "I am in the street."
+      },
+      {
+        "id": "tu-es-dans-la-rue",
+        "fr": "tu es dans la rue.",
+        "en": "You are in the street."
+      },
+      {
+        "id": "je-suis-dans-la-ville",
+        "fr": "je suis dans la ville.",
+        "en": "I am in the city."
+      },
+      {
+        "id": "tu-es-dans-la-ville",
+        "fr": "tu es dans la ville.",
+        "en": "You are in the city."
+      },
+      {
+        "id": "je-suis-dans-le-jardin",
+        "fr": "je suis dans le jardin.",
+        "en": "I am in the garden."
+      },
+      {
+        "id": "tu-es-dans-le-jardin",
+        "fr": "tu es dans le jardin.",
+        "en": "You are in the garden."
+      },
+      {
+        "id": "je-suis-dans-la-chambre",
+        "fr": "je suis dans la chambre.",
+        "en": "I am in the bedroom."
+      },
+      {
+        "id": "tu-es-dans-la-chambre",
+        "fr": "tu es dans la chambre.",
+        "en": "You are in the bedroom."
+      },
+      {
+        "id": "je-suis-dans-la-cuisine",
+        "fr": "je suis dans la cuisine.",
+        "en": "I am in the kitchen."
+      },
+      {
+        "id": "tu-es-dans-la-cuisine",
+        "fr": "tu es dans la cuisine.",
+        "en": "You are in the kitchen."
+      },
+      {
+        "id": "il-est-a-la-maison",
+        "fr": "il est à la maison.",
+        "en": "He is at home."
+      },
+      {
+        "id": "elle-est-a-la-maison",
+        "fr": "elle est à la maison.",
+        "en": "She is at home."
+      },
+      {
+        "id": "il-est-a-l-ecole",
+        "fr": "il est à l'école.",
+        "en": "He is at school."
+      },
+      {
+        "id": "elle-est-a-l-ecole",
+        "fr": "elle est à l'école.",
+        "en": "She is at school."
+      },
+      {
+        "id": "il-est-au-travail",
+        "fr": "il est au travail.",
+        "en": "He is at work."
+      },
+      {
+        "id": "elle-est-au-travail",
+        "fr": "elle est au travail.",
+        "en": "She is at work."
+      },
+      {
+        "id": "il-est-au-cafe",
+        "fr": "il est au café.",
+        "en": "He is at the café."
+      },
+      {
+        "id": "elle-est-au-cafe",
+        "fr": "elle est au café.",
+        "en": "She is at the café."
+      },
+      {
+        "id": "il-est-au-parc",
+        "fr": "il est au parc.",
+        "en": "He is at the park."
+      },
+      {
+        "id": "elle-est-au-parc",
+        "fr": "elle est au parc.",
+        "en": "She is at the park."
+      },
+      {
+        "id": "il-est-au-restaurant",
+        "fr": "il est au restaurant.",
+        "en": "He is at the restaurant."
+      },
+      {
+        "id": "elle-est-au-restaurant",
+        "fr": "elle est au restaurant.",
+        "en": "She is at the restaurant."
+      },
+      {
+        "id": "il-est-au-magasin",
+        "fr": "il est au magasin.",
+        "en": "He is at the shop."
+      },
+      {
+        "id": "elle-est-au-magasin",
+        "fr": "elle est au magasin.",
+        "en": "She is at the shop."
+      },
+      {
+        "id": "il-est-dans-la-rue",
+        "fr": "il est dans la rue.",
+        "en": "He is in the street."
+      },
+      {
+        "id": "elle-est-dans-la-rue",
+        "fr": "elle est dans la rue.",
+        "en": "She is in the street."
+      },
+      {
+        "id": "il-est-dans-la-ville",
+        "fr": "il est dans la ville.",
+        "en": "He is in the city."
+      },
+      {
+        "id": "elle-est-dans-la-ville",
+        "fr": "elle est dans la ville.",
+        "en": "She is in the city."
+      },
+      {
+        "id": "il-est-dans-le-jardin",
+        "fr": "il est dans le jardin.",
+        "en": "He is in the garden."
+      },
+      {
+        "id": "elle-est-dans-le-jardin",
+        "fr": "elle est dans le jardin.",
+        "en": "She is in the garden."
+      }
+    ],
+    "preposition": [
+      {
+        "id": "la-table-est-pres-de-la-maison",
+        "fr": "la table est près de la maison.",
+        "en": "The table is near the house."
+      },
+      {
+        "id": "la-table-est-loin-de-la-maison",
+        "fr": "la table est loin de la maison.",
+        "en": "The table is far from the house."
+      },
+      {
+        "id": "la-table-est-devant-la-maison",
+        "fr": "la table est devant la maison.",
+        "en": "The table is in front the house."
+      },
+      {
+        "id": "la-table-est-derriere-la-maison",
+        "fr": "la table est derrière la maison.",
+        "en": "The table is behind the house."
+      },
+      {
+        "id": "la-chaise-est-pres-de-la-maison",
+        "fr": "la chaise est près de la maison.",
+        "en": "The chair is near the house."
+      },
+      {
+        "id": "la-chaise-est-loin-de-la-maison",
+        "fr": "la chaise est loin de la maison.",
+        "en": "The chair is far from the house."
+      },
+      {
+        "id": "la-chaise-est-devant-la-maison",
+        "fr": "la chaise est devant la maison.",
+        "en": "The chair is in front the house."
+      },
+      {
+        "id": "la-chaise-est-derriere-la-maison",
+        "fr": "la chaise est derrière la maison.",
+        "en": "The chair is behind the house."
+      },
+      {
+        "id": "la-porte-est-pres-de-la-maison",
+        "fr": "la porte est près de la maison.",
+        "en": "The door is near the house."
+      },
+      {
+        "id": "la-porte-est-loin-de-la-maison",
+        "fr": "la porte est loin de la maison.",
+        "en": "The door is far from the house."
+      },
+      {
+        "id": "la-porte-est-devant-la-maison",
+        "fr": "la porte est devant la maison.",
+        "en": "The door is in front the house."
+      },
+      {
+        "id": "la-porte-est-derriere-la-maison",
+        "fr": "la porte est derrière la maison.",
+        "en": "The door is behind the house."
+      },
+      {
+        "id": "la-fenetre-est-pres-de-la-maison",
+        "fr": "la fenêtre est près de la maison.",
+        "en": "The window is near the house."
+      },
+      {
+        "id": "la-fenetre-est-loin-de-la-maison",
+        "fr": "la fenêtre est loin de la maison.",
+        "en": "The window is far from the house."
+      },
+      {
+        "id": "la-fenetre-est-devant-la-maison",
+        "fr": "la fenêtre est devant la maison.",
+        "en": "The window is in front the house."
+      },
+      {
+        "id": "la-fenetre-est-derriere-la-maison",
+        "fr": "la fenêtre est derrière la maison.",
+        "en": "The window is behind the house."
+      }
+    ]
+  },
+  "listeningSentences": [
+    {
+      "id": "je-suis-a-la-maison",
+      "fr": "je suis à la maison.",
+      "en": "I am at home."
+    },
+    {
+      "id": "tu-es-a-la-maison",
+      "fr": "tu es à la maison.",
+      "en": "You are at home."
+    },
+    {
+      "id": "je-suis-a-l-ecole",
+      "fr": "je suis à l'école.",
+      "en": "I am at school."
+    },
+    {
+      "id": "tu-es-a-l-ecole",
+      "fr": "tu es à l'école.",
+      "en": "You are at school."
+    },
+    {
+      "id": "je-suis-au-travail",
+      "fr": "je suis au travail.",
+      "en": "I am at work."
+    },
+    {
+      "id": "tu-es-au-travail",
+      "fr": "tu es au travail.",
+      "en": "You are at work."
+    },
+    {
+      "id": "je-suis-au-cafe",
+      "fr": "je suis au café.",
+      "en": "I am at the café."
+    },
+    {
+      "id": "tu-es-au-cafe",
+      "fr": "tu es au café.",
+      "en": "You are at the café."
+    },
+    {
+      "id": "je-suis-au-parc",
+      "fr": "je suis au parc.",
+      "en": "I am at the park."
+    },
+    {
+      "id": "tu-es-au-parc",
+      "fr": "tu es au parc.",
+      "en": "You are at the park."
+    },
+    {
+      "id": "je-suis-au-restaurant",
+      "fr": "je suis au restaurant.",
+      "en": "I am at the restaurant."
+    },
+    {
+      "id": "tu-es-au-restaurant",
+      "fr": "tu es au restaurant.",
+      "en": "You are at the restaurant."
+    },
+    {
+      "id": "je-suis-au-magasin",
+      "fr": "je suis au magasin.",
+      "en": "I am at the shop."
+    },
+    {
+      "id": "tu-es-au-magasin",
+      "fr": "tu es au magasin.",
+      "en": "You are at the shop."
+    },
+    {
+      "id": "je-suis-dans-la-rue",
+      "fr": "je suis dans la rue.",
+      "en": "I am in the street."
+    },
+    {
+      "id": "tu-es-dans-la-rue",
+      "fr": "tu es dans la rue.",
+      "en": "You are in the street."
+    },
+    {
+      "id": "je-suis-dans-la-ville",
+      "fr": "je suis dans la ville.",
+      "en": "I am in the city."
+    },
+    {
+      "id": "tu-es-dans-la-ville",
+      "fr": "tu es dans la ville.",
+      "en": "You are in the city."
+    },
+    {
+      "id": "je-suis-dans-le-jardin",
+      "fr": "je suis dans le jardin.",
+      "en": "I am in the garden."
+    },
+    {
+      "id": "tu-es-dans-le-jardin",
+      "fr": "tu es dans le jardin.",
+      "en": "You are in the garden."
+    },
+    {
+      "id": "je-suis-dans-la-chambre",
+      "fr": "je suis dans la chambre.",
+      "en": "I am in the bedroom."
+    },
+    {
+      "id": "tu-es-dans-la-chambre",
+      "fr": "tu es dans la chambre.",
+      "en": "You are in the bedroom."
+    },
+    {
+      "id": "je-suis-dans-la-cuisine",
+      "fr": "je suis dans la cuisine.",
+      "en": "I am in the kitchen."
+    },
+    {
+      "id": "tu-es-dans-la-cuisine",
+      "fr": "tu es dans la cuisine.",
+      "en": "You are in the kitchen."
+    },
+    {
+      "id": "il-est-a-la-maison",
+      "fr": "il est à la maison.",
+      "en": "He is at home."
+    },
+    {
+      "id": "elle-est-a-la-maison",
+      "fr": "elle est à la maison.",
+      "en": "She is at home."
+    },
+    {
+      "id": "il-est-a-l-ecole",
+      "fr": "il est à l'école.",
+      "en": "He is at school."
+    },
+    {
+      "id": "elle-est-a-l-ecole",
+      "fr": "elle est à l'école.",
+      "en": "She is at school."
+    },
+    {
+      "id": "il-est-au-travail",
+      "fr": "il est au travail.",
+      "en": "He is at work."
+    },
+    {
+      "id": "elle-est-au-travail",
+      "fr": "elle est au travail.",
+      "en": "She is at work."
+    },
+    {
+      "id": "il-est-au-cafe",
+      "fr": "il est au café.",
+      "en": "He is at the café."
+    },
+    {
+      "id": "elle-est-au-cafe",
+      "fr": "elle est au café.",
+      "en": "She is at the café."
+    },
+    {
+      "id": "il-est-au-parc",
+      "fr": "il est au parc.",
+      "en": "He is at the park."
+    },
+    {
+      "id": "elle-est-au-parc",
+      "fr": "elle est au parc.",
+      "en": "She is at the park."
+    },
+    {
+      "id": "il-est-au-restaurant",
+      "fr": "il est au restaurant.",
+      "en": "He is at the restaurant."
+    },
+    {
+      "id": "elle-est-au-restaurant",
+      "fr": "elle est au restaurant.",
+      "en": "She is at the restaurant."
+    },
+    {
+      "id": "il-est-au-magasin",
+      "fr": "il est au magasin.",
+      "en": "He is at the shop."
+    },
+    {
+      "id": "elle-est-au-magasin",
+      "fr": "elle est au magasin.",
+      "en": "She is at the shop."
+    },
+    {
+      "id": "il-est-dans-la-rue",
+      "fr": "il est dans la rue.",
+      "en": "He is in the street."
+    },
+    {
+      "id": "elle-est-dans-la-rue",
+      "fr": "elle est dans la rue.",
+      "en": "She is in the street."
+    },
+    {
+      "id": "il-est-dans-la-ville",
+      "fr": "il est dans la ville.",
+      "en": "He is in the city."
+    },
+    {
+      "id": "elle-est-dans-la-ville",
+      "fr": "elle est dans la ville.",
+      "en": "She is in the city."
+    },
+    {
+      "id": "il-est-dans-le-jardin",
+      "fr": "il est dans le jardin.",
+      "en": "He is in the garden."
+    },
+    {
+      "id": "elle-est-dans-le-jardin",
+      "fr": "elle est dans le jardin.",
+      "en": "She is in the garden."
+    },
+    {
+      "id": "la-table-est-pres-de-la-maison",
+      "fr": "la table est près de la maison.",
+      "en": "The table is near the house."
+    },
+    {
+      "id": "la-table-est-loin-de-la-maison",
+      "fr": "la table est loin de la maison.",
+      "en": "The table is far from the house."
+    },
+    {
+      "id": "la-table-est-devant-la-maison",
+      "fr": "la table est devant la maison.",
+      "en": "The table is in front the house."
+    },
+    {
+      "id": "la-table-est-derriere-la-maison",
+      "fr": "la table est derrière la maison.",
+      "en": "The table is behind the house."
+    },
+    {
+      "id": "la-chaise-est-pres-de-la-maison",
+      "fr": "la chaise est près de la maison.",
+      "en": "The chair is near the house."
+    },
+    {
+      "id": "la-chaise-est-loin-de-la-maison",
+      "fr": "la chaise est loin de la maison.",
+      "en": "The chair is far from the house."
+    },
+    {
+      "id": "la-chaise-est-devant-la-maison",
+      "fr": "la chaise est devant la maison.",
+      "en": "The chair is in front the house."
+    },
+    {
+      "id": "la-chaise-est-derriere-la-maison",
+      "fr": "la chaise est derrière la maison.",
+      "en": "The chair is behind the house."
+    },
+    {
+      "id": "la-porte-est-pres-de-la-maison",
+      "fr": "la porte est près de la maison.",
+      "en": "The door is near the house."
+    },
+    {
+      "id": "la-porte-est-loin-de-la-maison",
+      "fr": "la porte est loin de la maison.",
+      "en": "The door is far from the house."
+    },
+    {
+      "id": "la-porte-est-devant-la-maison",
+      "fr": "la porte est devant la maison.",
+      "en": "The door is in front the house."
+    },
+    {
+      "id": "la-porte-est-derriere-la-maison",
+      "fr": "la porte est derrière la maison.",
+      "en": "The door is behind the house."
+    },
+    {
+      "id": "la-fenetre-est-pres-de-la-maison",
+      "fr": "la fenêtre est près de la maison.",
+      "en": "The window is near the house."
+    },
+    {
+      "id": "la-fenetre-est-loin-de-la-maison",
+      "fr": "la fenêtre est loin de la maison.",
+      "en": "The window is far from the house."
+    },
+    {
+      "id": "la-fenetre-est-devant-la-maison",
+      "fr": "la fenêtre est devant la maison.",
+      "en": "The window is in front the house."
+    },
+    {
+      "id": "la-fenetre-est-derriere-la-maison",
+      "fr": "la fenêtre est derrière la maison.",
+      "en": "The window is behind the house."
+    }
+  ]
+}

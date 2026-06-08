@@ -9,6 +9,7 @@ import time
 import unicodedata
 import urllib.error
 import urllib.request
+import argparse
 from pathlib import Path
 
 
@@ -54,6 +55,30 @@ def unique_items(items: list[tuple[str, str, str, Path]]) -> list[tuple[str, str
 
 def lesson_paths() -> list[Path]:
     return sorted(LESSONS_DIR.glob("lesson-*/lesson.json"))
+
+
+def parse_lesson_range(value: str | None) -> set[int] | None:
+    if not value:
+        return None
+
+    lessons: set[int] = set()
+    for part in value.split(","):
+        part = part.strip()
+        if not part:
+            continue
+        if "-" in part:
+            start_text, end_text = part.split("-", 1)
+            start = int(start_text)
+            end = int(end_text)
+            lessons.update(range(start, end + 1))
+        else:
+            lessons.add(int(part))
+    return lessons
+
+
+def lesson_number(path: Path) -> int | None:
+    match = re.search(r"lesson-(\d+)", path.parent.name)
+    return int(match.group(1)) if match else None
 
 
 def lesson_audio_path(lesson_path: Path, lang: str, text: str) -> Path:
@@ -111,13 +136,21 @@ def speech_request(api_key: str, lang: str, text: str, instructions: str, output
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description="Generate missing lesson MP3 files from lesson JSON files.")
+    parser.add_argument("--lessons", help="Optional lesson range, for example 1-5 or 1-20.")
+    args = parser.parse_args()
+
     load_env_file()
     api_key = os.environ.get("OPENAI_API_KEY")
     if not api_key:
         print("Missing OPENAI_API_KEY. Add it to .env.local or your environment.", file=sys.stderr)
         return 1
 
+    selected_lessons = parse_lesson_range(args.lessons)
     paths = lesson_paths()
+    if selected_lessons is not None:
+        paths = [path for path in paths if lesson_number(path) in selected_lessons]
+
     if not paths:
         print("No lesson.json files found in lessons/lesson-*.", file=sys.stderr)
         return 1
