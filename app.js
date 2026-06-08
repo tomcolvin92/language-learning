@@ -1,51 +1,29 @@
 let lessonManifest = [];
 let currentLesson = null;
-let words = [];
-let listeningTemplates = [];
-let currentWordIndex = 0;
-let currentCategory = "";
-let score = 0;
-let quizAnswer = null;
-let listeningSentences = [];
-let listeningStopped = false;
-let listeningIsPlaying = false;
-let listeningRunId = 0;
-let wordPlaybackStopped = false;
-let wordPlaybackIsPlaying = false;
-let wordPlaybackRunId = 0;
+let playerMode = "sentences";
+let items = [];
+let playbackStopped = false;
+let playbackIsPlaying = false;
+let playbackRunId = 0;
 let currentAudio = null;
 let currentAudioResolve = null;
 
 const els = {
-  score: document.querySelector("#score"),
   lessonLevel: document.querySelector("#lessonLevel"),
+  lessonTitle: document.querySelector("#lessonTitle"),
   lessonSelect: document.querySelector("#lessonSelect"),
-  bankTitle: document.querySelector("#bankTitle"),
-  categoryButtons: document.querySelector("#categoryButtons"),
-  wordCategory: document.querySelector("#wordCategory"),
-  frenchWord: document.querySelector("#frenchWord"),
-  pronunciation: document.querySelector("#pronunciation"),
-  englishWord: document.querySelector("#englishWord"),
-  playAllWords: document.querySelector("#playAllWords"),
-  stopWords: document.querySelector("#stopWords"),
-  wordPlaybackStatus: document.querySelector("#wordPlaybackStatus"),
-  wordList: document.querySelector("#wordList"),
-  quizPrompt: document.querySelector("#quizPrompt"),
-  quizPromptType: document.querySelector("#quizPromptType"),
-  answers: document.querySelector("#answers"),
-  feedback: document.querySelector("#feedback"),
+  playerTitle: document.querySelector("#playerTitle"),
+  playStatus: document.querySelector("#playStatus"),
+  repeatCount: document.querySelector("#repeatCount"),
+  frSpeed: document.querySelector("#frSpeed"),
+  loopPlayback: document.querySelector("#loopPlayback"),
+  playAll: document.querySelector("#playAll"),
+  stopPlayback: document.querySelector("#stopPlayback"),
+  shuffleItems: document.querySelector("#shuffleItems"),
+  itemList: document.querySelector("#itemList"),
   speechNote: document.querySelector("#speechNote"),
   voiceStatus: document.querySelector("#voiceStatus"),
-  audioStatus: document.querySelector("#audioStatus"),
-  listeningList: document.querySelector("#listeningList"),
-  listeningTitle: document.querySelector("#listeningTitle"),
-  listeningStatus: document.querySelector("#listeningStatus")
-};
-
-const modes = {
-  words: document.querySelector("#wordMode"),
-  quiz: document.querySelector("#quizMode"),
-  listening: document.querySelector("#listeningMode")
+  audioStatus: document.querySelector("#audioStatus")
 };
 
 function audioSlug(text) {
@@ -73,13 +51,14 @@ function stopCurrentAudio() {
   }
 }
 
-function playAudioFile(text, lang) {
+function playAudioFile(text, lang, playbackRate = 1) {
   return new Promise((resolve, reject) => {
     const path = audioPath(text, lang);
     const audio = new Audio(path);
     currentAudio = audio;
     currentAudioResolve = resolve;
     audio.preload = "auto";
+    audio.playbackRate = playbackRate;
     audio.onended = () => {
       if (currentAudio === audio) currentAudio = null;
       if (currentAudioResolve === resolve) currentAudioResolve = null;
@@ -100,7 +79,7 @@ function playAudioFile(text, lang) {
 
 function showAudioIssue(issue) {
   if (issue?.type === "playback") {
-    els.speechNote.textContent = "Audio was blocked by the browser. Click the play button again, or reload the page and try once more.";
+    els.speechNote.textContent = "Audio was blocked by the browser. Tap Play again, or reload the page and try once more.";
     els.speechNote.hidden = false;
     els.voiceStatus.textContent = "The MP3 exists, but playback did not start.";
     return;
@@ -111,17 +90,10 @@ function showAudioIssue(issue) {
   els.voiceStatus.textContent = "A matching MP3 file could not be loaded from the local server.";
 }
 
-function speak(text, kind = "word") {
-  const lang = kind === "english" ? "en" : "fr";
-  els.speechNote.hidden = true;
-  stopCurrentAudio();
-  playAudioFile(text, lang).catch(showAudioIssue);
-}
-
-async function playMp3Only(text, lang) {
+async function playMp3Only(text, lang, playbackRate = 1) {
   els.speechNote.hidden = true;
   try {
-    await playAudioFile(text, lang);
+    await playAudioFile(text, lang, playbackRate);
     return true;
   } catch (issue) {
     showAudioIssue(issue);
@@ -133,30 +105,36 @@ function wait(milliseconds) {
   return new Promise((resolve) => window.setTimeout(resolve, milliseconds));
 }
 
-function getVisibleWords() {
-  return words.filter((word) => word.category === currentCategory);
+function shuffle(list) {
+  return [...list].sort(() => Math.random() - 0.5);
 }
 
-function renderWord() {
-  const visible = getVisibleWords();
-  if (visible.length === 0) {
-    els.wordCategory.textContent = "No words";
-    els.frenchWord.textContent = "Lesson empty";
-    els.pronunciation.textContent = "";
-    els.englishWord.textContent = "";
-    return;
+function makeItems() {
+  if (!currentLesson) return [];
+  if (playerMode === "words") {
+    return (currentLesson.words || []).map((word) => ({
+      id: word.id,
+      fr: word.say || word.fr,
+      displayFr: word.fr,
+      en: word.en,
+      sound: word.sound || "",
+      kind: "word"
+    }));
   }
 
-  const word = visible[currentWordIndex % visible.length];
-  els.wordCategory.textContent = word.category;
-  els.frenchWord.textContent = word.fr;
-  els.pronunciation.textContent = word.sound || "";
-  els.englishWord.textContent = word.en;
+  return (currentLesson.listeningSentences || []).map((sentence) => ({
+    id: sentence.id,
+    fr: sentence.fr,
+    displayFr: sentence.fr,
+    en: sentence.en,
+    sound: "",
+    kind: "sentence"
+  }));
 }
 
-function setActiveWordItem(index) {
+function setActiveItem(index) {
   let activeItem = null;
-  document.querySelectorAll(".word-item").forEach((item, itemIndex) => {
+  document.querySelectorAll(".player-item").forEach((item, itemIndex) => {
     const isActive = itemIndex === index;
     item.classList.toggle("active", isActive);
     if (isActive) activeItem = item;
@@ -166,299 +144,120 @@ function setActiveWordItem(index) {
   }
 }
 
-function renderCategories() {
-  const categories = [...new Set(words.map((word) => word.category))];
-  currentCategory = categories.includes(currentCategory) ? currentCategory : categories[0] || "";
-  els.categoryButtons.innerHTML = "";
-
-  categories.forEach((category) => {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.textContent = category;
-    button.className = category === currentCategory ? "active" : "";
-    button.addEventListener("click", () => {
-      currentCategory = category;
-      currentWordIndex = 0;
-      renderCategories();
-      renderWord();
-    });
-    els.categoryButtons.append(button);
-  });
-}
-
-function renderWordBank() {
-  els.wordList.innerHTML = "";
-  words.forEach((word) => {
-    const item = document.createElement("div");
-    item.className = "word-item";
-    item.innerHTML = `<div><strong>${word.fr}</strong><span>${word.en}</span></div>`;
-    const button = document.createElement("button");
-    button.type = "button";
-    button.textContent = "▶";
-    button.setAttribute("aria-label", `Play ${word.fr}`);
-    button.addEventListener("click", () => speak(word.say || word.fr, "word"));
-    item.append(button);
-    els.wordList.append(item);
-  });
-  els.wordPlaybackStatus.textContent = `${words.length} words in this lesson.`;
-}
-
-async function playWordAtIndex(index) {
-  const word = words[index];
-  if (!word) return false;
-  currentCategory = word.category;
-  const visibleIndex = getVisibleWords().findIndex((visibleWord) => visibleWord.id === word.id);
-  currentWordIndex = Math.max(visibleIndex, 0);
-  renderCategories();
-  renderWord();
-  setActiveWordItem(index);
-  els.wordPlaybackStatus.textContent = `${index + 1} of ${words.length}: ${word.fr}`;
-  return playMp3Only(word.say || word.fr, "fr");
-}
-
-async function playAllWords() {
-  if (wordPlaybackIsPlaying) return;
-  wordPlaybackIsPlaying = true;
-  wordPlaybackStopped = false;
-  const runId = wordPlaybackRunId + 1;
-  wordPlaybackRunId = runId;
-  stopListening();
-  let playbackFailed = false;
-
-  for (let index = 0; index < words.length; index += 1) {
-    if (wordPlaybackStopped || runId !== wordPlaybackRunId) break;
-    if (!(await playWordAtIndex(index))) {
-      playbackFailed = true;
-      break;
-    }
-    await wait(450);
-  }
-
-  if (runId !== wordPlaybackRunId) return;
-  wordPlaybackIsPlaying = false;
-  setActiveWordItem(-1);
-  els.wordPlaybackStatus.textContent = playbackFailed
-    ? "Playback stopped because audio did not start."
-    : wordPlaybackStopped
-      ? "Stopped."
-      : `Finished all ${words.length} words.`;
-}
-
-function stopWords() {
-  wordPlaybackStopped = true;
-  wordPlaybackRunId += 1;
-  wordPlaybackIsPlaying = false;
-  stopCurrentAudio();
-  setActiveWordItem(-1);
-  if (els.wordPlaybackStatus) els.wordPlaybackStatus.textContent = "Stopped.";
-}
-
-function switchMode(mode) {
-  Object.entries(modes).forEach(([name, element]) => {
-    element.classList.toggle("hidden", name !== mode);
-  });
-  document.querySelectorAll(".tab").forEach((tab) => {
-    tab.classList.toggle("active", tab.dataset.mode === mode);
-  });
-  if (mode === "quiz") renderQuiz();
-  if (mode === "listening" && listeningSentences.length === 0) makeListeningList();
-}
-
-function shuffle(items) {
-  return [...items].sort(() => Math.random() - 0.5);
-}
-
-function renderQuiz() {
-  els.feedback.textContent = "";
-  els.answers.innerHTML = "";
-
-  if (words.length < 4) {
-    els.quizPromptType.textContent = "Not enough words";
-    els.quizPrompt.textContent = "Add more words to test";
-    return;
-  }
-
-  const question = words[Math.floor(Math.random() * words.length)];
-  quizAnswer = question.en;
-  els.quizPromptType.textContent = "Translate this word";
-  els.quizPrompt.textContent = question.fr;
-
-  const wrongAnswers = shuffle(words.filter((word) => word.en !== question.en)).slice(0, 3).map((word) => word.en);
-  shuffle([question.en, ...wrongAnswers]).forEach((answer) => {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.textContent = answer;
-    button.addEventListener("click", () => chooseAnswer(button, answer));
-    els.answers.append(button);
-  });
-}
-
-function chooseAnswer(button, answer) {
-  const buttons = [...els.answers.querySelectorAll("button")];
-  buttons.forEach((item) => {
-    item.disabled = true;
-    if (item.textContent === quizAnswer) item.classList.add("correct");
-  });
-  if (answer === quizAnswer) {
-    score += 1;
-    els.score.textContent = score;
-    els.feedback.textContent = "Correct. Très bien.";
-  } else {
-    button.classList.add("wrong");
-    els.feedback.textContent = `Almost. The answer is ${quizAnswer}.`;
-  }
-}
-
-function makeListeningList() {
-  listeningSentences = shuffle(listeningTemplates);
-  renderListeningList();
-  els.listeningTitle.textContent = `${listeningSentences.length} listening sentences`;
-  els.listeningStatus.textContent = "French twice, then English.";
-}
-
-function setActiveListeningItem(index) {
-  let activeItem = null;
-  document.querySelectorAll(".listening-item").forEach((item, itemIndex) => {
-    const isActive = itemIndex === index;
-    item.classList.toggle("active", isActive);
-    if (isActive) activeItem = item;
-  });
-  if (activeItem) {
-    activeItem.scrollIntoView({ behavior: "smooth", block: "nearest" });
-  }
-}
-
-function renderListeningList() {
-  els.listeningList.innerHTML = "";
-  listeningSentences.forEach((sentence, index) => {
-    const item = document.createElement("div");
-    item.className = "listening-item";
-    item.innerHTML = `
-      <span class="listening-number">${index + 1}</span>
-      <div class="listening-text">
-        <strong>${sentence.fr}</strong>
-        <span>${sentence.en}</span>
+function renderItems(nextItems = makeItems()) {
+  items = nextItems;
+  els.itemList.innerHTML = "";
+  items.forEach((item, index) => {
+    const row = document.createElement("article");
+    row.className = "player-item";
+    row.innerHTML = `
+      <span class="item-number">${index + 1}</span>
+      <div class="item-text">
+        <strong>${item.displayFr}</strong>
+        ${item.sound ? `<em>${item.sound}</em>` : ""}
+        <span>${item.en}</span>
       </div>
     `;
+
     const button = document.createElement("button");
     button.type = "button";
     button.textContent = "▶";
-    button.setAttribute("aria-label", `Play sentence ${index + 1}`);
-    button.addEventListener("click", () => playListeningSentence(index));
-    item.append(button);
-    els.listeningList.append(item);
+    button.setAttribute("aria-label", `Play ${item.displayFr}`);
+    button.addEventListener("click", () => playSingleItem(index));
+    row.append(button);
+    els.itemList.append(row);
   });
+
+  const noun = playerMode === "words" ? "words" : "sentences";
+  els.playerTitle.textContent = `${items.length} ${noun}`;
+  els.playStatus.textContent = `${items.length} ${noun} ready.`;
 }
 
-async function playListeningSentence(index) {
-  listeningStopped = false;
-  stopCurrentAudio();
-  const sentence = listeningSentences[index];
-  setActiveListeningItem(index);
-  els.listeningStatus.textContent = `${index + 1} of ${listeningSentences.length}: listen in French twice, then English.`;
-  if (!(await playMp3Only(sentence.fr, "fr"))) return;
-  await wait(350);
-  if (listeningStopped) return;
-  if (!(await playMp3Only(sentence.fr, "fr"))) return;
-  await wait(450);
-  if (listeningStopped) return;
-  if (!(await playMp3Only(sentence.en, "en"))) return;
-  setActiveListeningItem(-1);
-  if (!listeningIsPlaying) els.listeningStatus.textContent = "French twice, then English.";
-}
-
-async function playAllListening() {
-  if (listeningIsPlaying) return;
-  listeningIsPlaying = true;
-  listeningStopped = false;
-  const runId = listeningRunId + 1;
-  listeningRunId = runId;
-  stopCurrentAudio();
-  let playbackFailed = false;
-
-  for (let index = 0; index < listeningSentences.length; index += 1) {
-    if (listeningStopped || runId !== listeningRunId) break;
-    const sentence = listeningSentences[index];
-    setActiveListeningItem(index);
-    els.listeningStatus.textContent = `${index + 1} of ${listeningSentences.length}: listen in French twice, then English.`;
-
-    if (!(await playMp3Only(sentence.fr, "fr"))) {
-      playbackFailed = true;
-      break;
-    }
-    await wait(350);
-    if (listeningStopped || runId !== listeningRunId) break;
-
-    if (!(await playMp3Only(sentence.fr, "fr"))) {
-      playbackFailed = true;
-      break;
-    }
-    await wait(450);
-    if (listeningStopped || runId !== listeningRunId) break;
-
-    if (!(await playMp3Only(sentence.en, "en"))) {
-      playbackFailed = true;
-      break;
-    }
-    await wait(650);
-  }
-
-  if (runId !== listeningRunId) return;
-  listeningIsPlaying = false;
-  setActiveListeningItem(-1);
-  els.listeningStatus.textContent = playbackFailed
-    ? "Playback stopped because audio did not start."
-    : listeningStopped
-      ? "Stopped."
-      : `Finished all ${listeningSentences.length} sentences.`;
-}
-
-function stopListening() {
-  listeningStopped = true;
-  listeningRunId += 1;
-  listeningIsPlaying = false;
-  stopCurrentAudio();
-  setActiveListeningItem(-1);
-  els.listeningStatus.textContent = "Stopped.";
-}
-
-function resetLessonState() {
-  stopWords();
-  stopListening();
-  currentWordIndex = 0;
-  currentCategory = "";
-  quizAnswer = null;
-  listeningSentences = [];
-  els.feedback.textContent = "";
-  els.answers.innerHTML = "";
-  els.speechNote.hidden = true;
-  els.voiceStatus.textContent = "Lesson MP3 audio is active.";
+function renderModeButtons() {
+  document.querySelectorAll("[data-player-mode]").forEach((button) => {
+    button.classList.toggle("active", button.dataset.playerMode === playerMode);
+  });
 }
 
 function renderLessonShell() {
   document.querySelector("h1").textContent = currentLesson.title;
   els.lessonLevel.textContent = `Level ${currentLesson.level}`;
-  els.bankTitle.textContent = `${currentLesson.title} Words`;
   els.voiceStatus.textContent = "Lesson MP3 audio is active.";
   els.audioStatus.textContent = `${currentLesson.id} is loaded from JSON. No browser speech fallback.`;
 }
 
-async function loadLesson(path) {
-  resetLessonState();
-  currentLesson = getBundledLesson(path);
-  if (!currentLesson) {
-    const response = await fetch(path);
-    if (!response.ok) throw new Error(`Could not load ${path}`);
-    currentLesson = await response.json();
+async function playItemAtIndex(index) {
+  const item = items[index];
+  if (!item) return false;
+
+  const repeats = Number.parseInt(els.repeatCount.value, 10) || 1;
+  const frSpeed = Number.parseFloat(els.frSpeed.value) || 1;
+  setActiveItem(index);
+  els.playStatus.textContent = `${index + 1} of ${items.length}: ${item.displayFr}`;
+
+  for (let repeat = 0; repeat < repeats; repeat += 1) {
+    if (playbackStopped) return false;
+    els.playStatus.textContent = `${index + 1} of ${items.length}: French ${repeat + 1} of ${repeats} — ${item.displayFr}`;
+    if (!(await playMp3Only(item.fr, "fr", frSpeed))) return false;
+    if (repeat < repeats - 1) await wait(300);
   }
-  words = currentLesson.words || [];
-  listeningTemplates = currentLesson.listeningSentences || [];
-  renderLessonShell();
-  renderCategories();
-  renderWord();
-  renderWordBank();
-  makeListeningList();
-  switchMode(document.querySelector(".tab.active").dataset.mode);
+
+  if (item.en && !playbackStopped) {
+    await wait(450);
+    els.playStatus.textContent = `${index + 1} of ${items.length}: English — ${item.en}`;
+    if (!(await playMp3Only(item.en, "en"))) return false;
+  }
+
+  return true;
+}
+
+async function playSingleItem(index) {
+  stopPlayback();
+  playbackStopped = false;
+  playbackRunId += 1;
+  const runId = playbackRunId;
+  if (!(await playItemAtIndex(index))) return;
+  if (runId !== playbackRunId) return;
+  setActiveItem(-1);
+  els.playStatus.textContent = `${index + 1} of ${items.length} played.`;
+}
+
+async function playAllItems() {
+  if (playbackIsPlaying) return;
+  playbackIsPlaying = true;
+  playbackStopped = false;
+  const runId = playbackRunId + 1;
+  playbackRunId = runId;
+  let playbackFailed = false;
+
+  do {
+    for (let index = 0; index < items.length; index += 1) {
+      if (playbackStopped || runId !== playbackRunId) break;
+      if (!(await playItemAtIndex(index))) {
+        playbackFailed = !playbackStopped;
+        break;
+      }
+      await wait(650);
+    }
+  } while (els.loopPlayback.checked && !playbackStopped && !playbackFailed && runId === playbackRunId);
+
+  if (runId !== playbackRunId) return;
+  playbackIsPlaying = false;
+  setActiveItem(-1);
+  els.playStatus.textContent = playbackFailed
+    ? "Playback stopped because audio did not start."
+    : playbackStopped
+      ? "Stopped."
+      : `Finished all ${items.length} ${playerMode}.`;
+}
+
+function stopPlayback() {
+  playbackStopped = true;
+  playbackRunId += 1;
+  playbackIsPlaying = false;
+  stopCurrentAudio();
+  setActiveItem(-1);
+  els.playStatus.textContent = "Stopped.";
 }
 
 function renderLessonOptions() {
@@ -489,6 +288,19 @@ function getBundledLesson(path) {
   return lessonId ? window.LESSON_BUNDLE?.lessons?.[lessonId] : null;
 }
 
+async function loadLesson(path) {
+  stopPlayback();
+  currentLesson = getBundledLesson(path);
+  if (!currentLesson) {
+    const response = await fetch(path);
+    if (!response.ok) throw new Error(`Could not load ${path}`);
+    currentLesson = await response.json();
+  }
+
+  renderLessonShell();
+  renderItems();
+}
+
 async function initializeApp() {
   try {
     await loadManifest();
@@ -501,35 +313,21 @@ async function initializeApp() {
   }
 }
 
-document.querySelectorAll(".tab").forEach((tab) => {
-  tab.addEventListener("click", () => switchMode(tab.dataset.mode));
+document.querySelectorAll("[data-player-mode]").forEach((button) => {
+  button.addEventListener("click", () => {
+    stopPlayback();
+    playerMode = button.dataset.playerMode;
+    renderModeButtons();
+    renderItems();
+  });
 });
 
-document.querySelector("#prevWord").addEventListener("click", () => {
-  const visible = getVisibleWords();
-  if (visible.length === 0) return;
-  currentWordIndex = (currentWordIndex - 1 + visible.length) % visible.length;
-  renderWord();
-});
-
-document.querySelector("#nextWord").addEventListener("click", () => {
-  const visible = getVisibleWords();
-  if (visible.length === 0) return;
-  currentWordIndex = (currentWordIndex + 1) % visible.length;
-  renderWord();
-});
-
-document.querySelector("#playWord").addEventListener("click", () => {
-  const word = getVisibleWords()[currentWordIndex % getVisibleWords().length];
-  if (word) speak(word.say || word.fr, "word");
-});
-
-document.querySelector("#playAllWords").addEventListener("click", playAllWords);
-document.querySelector("#stopWords").addEventListener("click", stopWords);
-document.querySelector("#nextQuestion").addEventListener("click", renderQuiz);
-document.querySelector("#playAllListening").addEventListener("click", playAllListening);
-document.querySelector("#stopListening").addEventListener("click", stopListening);
-document.querySelector("#newListeningList").addEventListener("click", makeListeningList);
 els.lessonSelect.addEventListener("change", () => loadLesson(els.lessonSelect.value));
+els.playAll.addEventListener("click", playAllItems);
+els.stopPlayback.addEventListener("click", stopPlayback);
+els.shuffleItems.addEventListener("click", () => {
+  stopPlayback();
+  renderItems(shuffle(items));
+});
 
 initializeApp();

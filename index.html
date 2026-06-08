@@ -3,104 +3,83 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>French First Words</title>
+    <title>French Listening Trainer</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <main class="app-shell">
-      <section class="practice-panel">
-        <div class="top-bar">
+      <section class="app-panel">
+        <header class="top-bar">
           <div>
             <p class="eyebrow" id="lessonLevel">Level 1</p>
-            <h1>French First Words</h1>
+            <h1 id="lessonTitle">French Listening Trainer</h1>
           </div>
-          <div class="score">
-            <span id="score">0</span>
-            <small>score</small>
-          </div>
-        </div>
+        </header>
 
-        <div class="tabs" role="tablist" aria-label="Practice modes">
-          <button class="tab active" data-mode="words" type="button">Words</button>
-          <button class="tab" data-mode="quiz" type="button">Test</button>
-          <button class="tab" data-mode="listening" type="button">Listen</button>
-        </div>
-
-        <section class="word-card" id="wordMode">
-          <div class="category-row" id="categoryButtons"></div>
-          <article class="flashcard">
-            <p class="category" id="wordCategory">Greetings</p>
-            <h2 id="frenchWord">bonjour</h2>
-            <p class="pronunciation" id="pronunciation">bohn-zhoor</p>
-            <p class="translation" id="englishWord">hello</p>
-            <button class="icon-button primary" id="playWord" type="button" aria-label="Play word">
-              <span aria-hidden="true">▶</span>
-              Play word
-            </button>
-            <p class="speech-note" id="speechNote" hidden>Speech is not available in this browser.</p>
-          </article>
-          <div class="card-actions">
-            <button id="prevWord" type="button">Back</button>
-            <button id="nextWord" type="button">Next word</button>
-          </div>
-        </section>
-
-        <section class="quiz-card hidden" id="quizMode">
-          <p class="category" id="quizPromptType">Translate this word</p>
-          <h2 id="quizPrompt">merci</h2>
-          <div class="answers" id="answers"></div>
-          <p class="feedback" id="feedback" aria-live="polite"></p>
-          <button id="nextQuestion" type="button">Next question</button>
-        </section>
-
-        <section class="listening-card hidden" id="listeningMode">
-          <div class="listening-top">
-            <div>
-              <p class="category">Listening practice</p>
-              <h2 id="listeningTitle">Listening sentences</h2>
-              <p id="listeningStatus">French twice, then English.</p>
-            </div>
-            <div class="listening-actions">
-              <button class="icon-button primary" id="playAllListening" type="button">
-                <span aria-hidden="true">▶</span>
-                Play all
-              </button>
-              <button id="stopListening" type="button">Stop</button>
-              <button id="newListeningList" type="button">New list</button>
-            </div>
-          </div>
-          <div class="listening-list" id="listeningList"></div>
-        </section>
-      </section>
-
-      <aside class="word-bank">
-        <div class="bank-header">
-          <p class="eyebrow">Word bank</p>
-          <h2 id="bankTitle">First level words</h2>
-        </div>
-        <div class="lesson-panel">
+        <section class="lesson-panel">
           <label for="lessonSelect">Lesson</label>
           <select id="lessonSelect"></select>
-        </div>
-        <div class="voice-panel">
-          <p class="audio-label">Audio source</p>
-          <p id="voiceStatus">Local MP3 audio is active.</p>
-          <p class="audio-status" id="audioStatus">No browser speech fallback. Audio is AI-generated.</p>
-          <p class="version-status">Version long-chain-1 · play all test</p>
-        </div>
-        <div class="word-bank-actions">
-          <button class="icon-button primary" id="playAllWords" type="button">
-            <span aria-hidden="true">▶</span>
-            Play all
-          </button>
-          <button id="stopWords" type="button">Stop</button>
-          <p id="wordPlaybackStatus">Words ready.</p>
-        </div>
-        <div class="word-list" id="wordList"></div>
-      </aside>
+        </section>
+
+        <section class="player-panel">
+          <div class="player-top">
+            <div>
+              <p class="category">Player</p>
+              <h2 id="playerTitle">Sentences</h2>
+              <p id="playStatus">Choose words or sentences, then press Play all.</p>
+            </div>
+            <div class="mode-toggle" role="group" aria-label="Item type">
+              <button class="active" data-player-mode="sentences" type="button">Sentences</button>
+              <button data-player-mode="words" type="button">Words</button>
+            </div>
+          </div>
+
+          <div class="player-controls">
+            <label>
+              <span>French repeats</span>
+              <select id="repeatCount">
+                <option value="1">1 time</option>
+                <option value="2" selected>2 times</option>
+                <option value="3">3 times</option>
+                <option value="5">5 times</option>
+              </select>
+            </label>
+            <label>
+              <span>French speed</span>
+              <select id="frSpeed">
+                <option value="0.75">Slow</option>
+                <option value="0.9">Easy</option>
+                <option value="1" selected>Normal</option>
+                <option value="1.15">Fast</option>
+              </select>
+            </label>
+            <label class="loop-control">
+              <input id="loopPlayback" type="checkbox" />
+              <span>Loop</span>
+            </label>
+          </div>
+
+          <div class="player-actions">
+            <button class="icon-button primary" id="playAll" type="button">
+              <span aria-hidden="true">▶</span>
+              Play all
+            </button>
+            <button id="stopPlayback" type="button">Stop</button>
+            <button id="shuffleItems" type="button">Shuffle</button>
+          </div>
+
+          <p class="speech-note" id="speechNote" hidden>Speech is not available in this browser.</p>
+          <div class="audio-meta">
+            <p id="voiceStatus">Lesson MP3 audio is active.</p>
+            <p id="audioStatus">No browser speech fallback. Audio is AI-generated.</p>
+          </div>
+
+          <div class="item-list" id="itemList"></div>
+        </section>
+      </section>
     </main>
 
     <script src="lessons/bundle.js"></script>
-    <script src="app.js?v=7"></script>
+    <script src="app.js?v=9"></script>
   </body>
 </html>

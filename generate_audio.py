@@ -94,6 +94,7 @@ def items_from_lesson(lesson_path: Path) -> list[tuple[str, str, str, Path]]:
     for word in lesson.get("words", []):
         text = word.get("say") or word["fr"]
         items.append(("fr", text, french_instructions, lesson_audio_path(lesson_path, "fr", text)))
+        items.append(("en", word["en"], english_instructions, lesson_audio_path(lesson_path, "en", word["en"])))
 
     sentence_groups = lesson.get("sentenceGroups", {})
     for group in sentence_groups.values():
