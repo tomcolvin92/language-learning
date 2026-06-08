@@ -9,200 +9,225 @@
       "fr": "je vais",
       "en": "I go / I am going",
       "say": "je vais",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "zhuh veh",
+      "category": "Verb Chunk",
+      "pronunciation": "zhuh veh"
     },
     {
       "id": "tu-vas",
       "fr": "tu vas",
       "en": "you go / you are going",
       "say": "tu vas",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "tü vah",
+      "category": "Verb Chunk",
+      "pronunciation": "tü vah"
     },
     {
       "id": "il-va",
       "fr": "il va",
       "en": "he goes / he is going",
       "say": "il va",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "eel vah",
+      "category": "Verb Chunk",
+      "pronunciation": "eel vah"
     },
     {
       "id": "elle-va",
       "fr": "elle va",
       "en": "she goes / she is going",
       "say": "elle va",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "ehl vah",
+      "category": "Verb Chunk",
+      "pronunciation": "ehl vah"
     },
     {
       "id": "nous-allons",
       "fr": "nous allons",
       "en": "we go / we are going",
       "say": "nous allons",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "nooz ahloh(n)",
+      "category": "Verb Chunk",
+      "pronunciation": "nooz ahloh(n)"
     },
     {
       "id": "je-fais",
       "fr": "je fais",
       "en": "I do/make",
       "say": "je fais",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "zhuh feh",
+      "category": "Verb Chunk",
+      "pronunciation": "zhuh feh"
     },
     {
       "id": "tu-fais",
       "fr": "tu fais",
       "en": "you do/make",
       "say": "tu fais",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "tü feh",
+      "category": "Verb Chunk",
+      "pronunciation": "tü feh"
     },
     {
       "id": "je-regarde",
       "fr": "je regarde",
       "en": "I watch/look at",
       "say": "je regarde",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "zhuh ruh-gard",
+      "category": "Verb Chunk",
+      "pronunciation": "zhuh ruh-gard"
     },
     {
       "id": "tu-regardes",
       "fr": "tu regardes",
       "en": "you watch/look at",
       "say": "tu regardes",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "tü ruh-gard",
+      "category": "Verb Chunk",
+      "pronunciation": "tü ruh-gard"
     },
     {
       "id": "j-ecoute",
       "fr": "j'écoute",
       "en": "I listen to",
       "say": "j'écoute",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "zheh-KOOT",
+      "category": "Verb Chunk",
+      "pronunciation": "zheh-KOOT"
     },
     {
       "id": "tu-ecoutes",
       "fr": "tu écoutes",
       "en": "you listen to",
       "say": "tu écoutes",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "tü eh-KOOT",
+      "category": "Verb Chunk",
+      "pronunciation": "tü eh-KOOT"
     },
     {
       "id": "je-parle",
       "fr": "je parle",
       "en": "I speak/talk",
       "say": "je parle",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "zhuh parl",
+      "category": "Verb Chunk",
+      "pronunciation": "zhuh parl"
     },
     {
       "id": "tu-parles",
       "fr": "tu parles",
       "en": "you speak/talk",
       "say": "tu parles",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "tü parl",
+      "category": "Verb Chunk",
+      "pronunciation": "tü parl"
     },
     {
       "id": "je-lis",
       "fr": "je lis",
       "en": "I read",
       "say": "je lis",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "zhuh lee",
+      "category": "Verb Chunk",
+      "pronunciation": "zhuh lee"
     },
     {
       "id": "tu-lis",
       "fr": "tu lis",
       "en": "you read",
       "say": "tu lis",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "tü lee",
+      "category": "Verb Chunk",
+      "pronunciation": "tü lee"
     },
     {
       "id": "je-dors",
       "fr": "je dors",
       "en": "I sleep",
       "say": "je dors",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "zhuh dor",
+      "category": "Verb Chunk",
+      "pronunciation": "zhuh dor"
     },
     {
       "id": "tu-dors",
       "fr": "tu dors",
       "en": "you sleep",
       "say": "tu dors",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "tü dor",
+      "category": "Verb Chunk",
+      "pronunciation": "tü dor"
     },
     {
       "id": "aller",
       "fr": "aller",
       "en": "to go",
       "say": "aller",
-      "sound": "",
-      "category": "Infinitive"
+      "sound": "aller",
+      "category": "Infinitive",
+      "pronunciation": "aller"
     },
     {
       "id": "faire",
       "fr": "faire",
       "en": "to do/make",
       "say": "faire",
-      "sound": "",
-      "category": "Infinitive"
+      "sound": "faire",
+      "category": "Infinitive",
+      "pronunciation": "faire"
     },
     {
       "id": "regarder",
       "fr": "regarder",
       "en": "to watch/look at",
       "say": "regarder",
-      "sound": "",
-      "category": "Infinitive"
+      "sound": "ruh-gar-DAY",
+      "category": "Infinitive",
+      "pronunciation": "ruh-gar-DAY"
     },
     {
       "id": "ecouter",
       "fr": "écouter",
       "en": "to listen to",
       "say": "écouter",
-      "sound": "",
-      "category": "Infinitive"
+      "sound": "aykootay",
+      "category": "Infinitive",
+      "pronunciation": "aykootay"
     },
     {
       "id": "parler",
       "fr": "parler",
       "en": "to speak/talk",
       "say": "parler",
-      "sound": "",
-      "category": "Infinitive"
+      "sound": "pahrlay",
+      "category": "Infinitive",
+      "pronunciation": "pahrlay"
     },
     {
       "id": "lire",
       "fr": "lire",
       "en": "to read",
       "say": "lire",
-      "sound": "",
-      "category": "Infinitive"
+      "sound": "leer",
+      "category": "Infinitive",
+      "pronunciation": "leer"
     },
     {
       "id": "dormir",
       "fr": "dormir",
       "en": "to sleep",
       "say": "dormir",
-      "sound": "",
-      "category": "Infinitive"
+      "sound": "dormir",
+      "category": "Infinitive",
+      "pronunciation": "dormir"
     },
     {
       "id": "maintenant",
       "fr": "maintenant",
       "en": "now",
       "say": "maintenant",
-      "sound": "",
-      "category": "Adverb"
+      "sound": "meh(n)tnah(n)",
+      "category": "Adverb",
+      "pronunciation": "meh(n)tnah(n)"
     }
   ],
   "sentenceGroups": {
@@ -210,316 +235,436 @@
       {
         "id": "je-vais-a-la-maison",
         "fr": "je vais à la maison.",
-        "en": "I go / I am going at home."
+        "en": "I go / I am going at home.",
+        "pronunciation": "zhuh veh ah lah meh-ZOH(N)",
+        "sound": "zhuh veh ah lah meh-ZOH(N)"
       },
       {
         "id": "je-vais-a-l-ecole",
         "fr": "je vais à l'école.",
-        "en": "I go / I am going at school."
+        "en": "I go / I am going at school.",
+        "pronunciation": "zhuh veh ah leh-KOHL",
+        "sound": "zhuh veh ah leh-KOHL"
       },
       {
         "id": "je-vais-au-travail",
         "fr": "je vais au travail.",
-        "en": "I go / I am going at work."
+        "en": "I go / I am going at work.",
+        "pronunciation": "zhuh veh oh trah-VAI",
+        "sound": "zhuh veh oh trah-VAI"
       },
       {
         "id": "je-vais-au-cafe",
         "fr": "je vais au café.",
-        "en": "I go / I am going at the café."
+        "en": "I go / I am going at the café.",
+        "pronunciation": "zhuh veh oh kah-FEH",
+        "sound": "zhuh veh oh kah-FEH"
       },
       {
         "id": "je-vais-au-parc",
         "fr": "je vais au parc.",
-        "en": "I go / I am going at the park."
+        "en": "I go / I am going at the park.",
+        "pronunciation": "zhuh veh oh park",
+        "sound": "zhuh veh oh park"
       },
       {
         "id": "tu-vas-a-la-maison",
         "fr": "tu vas à la maison.",
-        "en": "you go / you are going at home."
+        "en": "you go / you are going at home.",
+        "pronunciation": "tü vah ah lah meh-ZOH(N)",
+        "sound": "tü vah ah lah meh-ZOH(N)"
       },
       {
         "id": "tu-vas-a-l-ecole",
         "fr": "tu vas à l'école.",
-        "en": "you go / you are going at school."
+        "en": "you go / you are going at school.",
+        "pronunciation": "tü vah ah leh-KOHL",
+        "sound": "tü vah ah leh-KOHL"
       },
       {
         "id": "tu-vas-au-travail",
         "fr": "tu vas au travail.",
-        "en": "you go / you are going at work."
+        "en": "you go / you are going at work.",
+        "pronunciation": "tü vah oh trah-VAI",
+        "sound": "tü vah oh trah-VAI"
       },
       {
         "id": "tu-vas-au-cafe",
         "fr": "tu vas au café.",
-        "en": "you go / you are going at the café."
+        "en": "you go / you are going at the café.",
+        "pronunciation": "tü vah oh kah-FEH",
+        "sound": "tü vah oh kah-FEH"
       },
       {
         "id": "tu-vas-au-parc",
         "fr": "tu vas au parc.",
-        "en": "you go / you are going at the park."
+        "en": "you go / you are going at the park.",
+        "pronunciation": "tü vah oh park",
+        "sound": "tü vah oh park"
       },
       {
         "id": "je-fais-a-la-maison",
         "fr": "je fais à la maison.",
-        "en": "I do / I am doing at home."
+        "en": "I do / I am doing at home.",
+        "pronunciation": "zhuh feh ah lah meh-ZOH(N)",
+        "sound": "zhuh feh ah lah meh-ZOH(N)"
       },
       {
         "id": "je-fais-a-l-ecole",
         "fr": "je fais à l'école.",
-        "en": "I do / I am doing at school."
+        "en": "I do / I am doing at school.",
+        "pronunciation": "zhuh feh ah leh-KOHL",
+        "sound": "zhuh feh ah leh-KOHL"
       },
       {
         "id": "je-fais-au-travail",
         "fr": "je fais au travail.",
-        "en": "I do / I am doing at work."
+        "en": "I do / I am doing at work.",
+        "pronunciation": "zhuh feh oh trah-VAI",
+        "sound": "zhuh feh oh trah-VAI"
       },
       {
         "id": "je-fais-au-cafe",
         "fr": "je fais au café.",
-        "en": "I do / I am doing at the café."
+        "en": "I do / I am doing at the café.",
+        "pronunciation": "zhuh feh oh kah-FEH",
+        "sound": "zhuh feh oh kah-FEH"
       },
       {
         "id": "je-fais-au-parc",
         "fr": "je fais au parc.",
-        "en": "I do / I am doing at the park."
+        "en": "I do / I am doing at the park.",
+        "pronunciation": "zhuh feh oh park",
+        "sound": "zhuh feh oh park"
       },
       {
         "id": "tu-fais-a-la-maison",
         "fr": "tu fais à la maison.",
-        "en": "you do / you are doing at home."
+        "en": "you do / you are doing at home.",
+        "pronunciation": "tü feh ah lah meh-ZOH(N)",
+        "sound": "tü feh ah lah meh-ZOH(N)"
       },
       {
         "id": "tu-fais-a-l-ecole",
         "fr": "tu fais à l'école.",
-        "en": "you do / you are doing at school."
+        "en": "you do / you are doing at school.",
+        "pronunciation": "tü feh ah leh-KOHL",
+        "sound": "tü feh ah leh-KOHL"
       },
       {
         "id": "tu-fais-au-travail",
         "fr": "tu fais au travail.",
-        "en": "you do / you are doing at work."
+        "en": "you do / you are doing at work.",
+        "pronunciation": "tü feh oh trah-VAI",
+        "sound": "tü feh oh trah-VAI"
       },
       {
         "id": "tu-fais-au-cafe",
         "fr": "tu fais au café.",
-        "en": "you do / you are doing at the café."
+        "en": "you do / you are doing at the café.",
+        "pronunciation": "tü feh oh kah-FEH",
+        "sound": "tü feh oh kah-FEH"
       },
       {
         "id": "tu-fais-au-parc",
         "fr": "tu fais au parc.",
-        "en": "you do / you are doing at the park."
+        "en": "you do / you are doing at the park.",
+        "pronunciation": "tü feh oh park",
+        "sound": "tü feh oh park"
       }
     ],
     "present-action-object": [
       {
         "id": "je-regarde-le-repas",
         "fr": "je regarde le repas.",
-        "en": "I watch / I am watching the meal."
+        "en": "I watch / I am watching the meal.",
+        "pronunciation": "zhuh ruh-gard luh ruh-PAH",
+        "sound": "zhuh ruh-gard luh ruh-PAH"
       },
       {
         "id": "tu-regardes-le-repas",
         "fr": "tu regardes le repas.",
-        "en": "you watch / you are watching the meal."
+        "en": "you watch / you are watching the meal.",
+        "pronunciation": "tü ruh-gard luh ruh-PAH",
+        "sound": "tü ruh-gard luh ruh-PAH"
       },
       {
         "id": "j-ecoute-du-cafe",
         "fr": "j'écoute du café.",
-        "en": "I listen to / I am listening to some coffee."
+        "en": "I listen to / I am listening to some coffee.",
+        "pronunciation": "zheh-KOOT dü kah-FEH",
+        "sound": "zheh-KOOT dü kah-FEH"
       },
       {
         "id": "tu-ecoutes-du-cafe",
         "fr": "tu écoutes du café.",
-        "en": "you listen to / you are listening to some coffee."
+        "en": "you listen to / you are listening to some coffee.",
+        "pronunciation": "tü eh-KOOT dü kah-FEH",
+        "sound": "tü eh-KOOT dü kah-FEH"
       }
     ],
     "present-maintenant": [
       {
         "id": "je-parle-maintenant",
         "fr": "je parle maintenant.",
-        "en": "I speak / I am speaking now."
+        "en": "I speak / I am speaking now.",
+        "pronunciation": "zhuh parl ma(n)t-NAH(N)",
+        "sound": "zhuh parl ma(n)t-NAH(N)"
       },
       {
         "id": "tu-parles-maintenant",
         "fr": "tu parles maintenant.",
-        "en": "you speak / you are speaking now."
+        "en": "you speak / you are speaking now.",
+        "pronunciation": "tü parl ma(n)t-NAH(N)",
+        "sound": "tü parl ma(n)t-NAH(N)"
       },
       {
         "id": "je-lis-maintenant",
         "fr": "je lis maintenant.",
-        "en": "I read / I am reading now."
+        "en": "I read / I am reading now.",
+        "pronunciation": "zhuh lee ma(n)t-NAH(N)",
+        "sound": "zhuh lee ma(n)t-NAH(N)"
       },
       {
         "id": "tu-lis-maintenant",
         "fr": "tu lis maintenant.",
-        "en": "you read / you are reading now."
+        "en": "you read / you are reading now.",
+        "pronunciation": "tü lee ma(n)t-NAH(N)",
+        "sound": "tü lee ma(n)t-NAH(N)"
       },
       {
         "id": "je-dors-maintenant",
         "fr": "je dors maintenant.",
-        "en": "I sleep / I am sleeping now."
+        "en": "I sleep / I am sleeping now.",
+        "pronunciation": "zhuh dor ma(n)t-NAH(N)",
+        "sound": "zhuh dor ma(n)t-NAH(N)"
       },
       {
         "id": "tu-dors-maintenant",
         "fr": "tu dors maintenant.",
-        "en": "you sleep / you are sleeping now."
+        "en": "you sleep / you are sleeping now.",
+        "pronunciation": "tü dor ma(n)t-NAH(N)",
+        "sound": "tü dor ma(n)t-NAH(N)"
       }
     ],
     "vouloir-infinitive": [
       {
         "id": "je-veux-aller",
         "fr": "je veux aller.",
-        "en": "I want to go."
+        "en": "I want to go.",
+        "pronunciation": "zhuh vuh aller",
+        "sound": "zhuh vuh aller"
       },
       {
         "id": "tu-veux-aller",
         "fr": "tu veux aller.",
-        "en": "You want to go."
+        "en": "You want to go.",
+        "pronunciation": "tü vuh aller",
+        "sound": "tü vuh aller"
       },
       {
         "id": "je-veux-faire",
         "fr": "je veux faire.",
-        "en": "I want to do."
+        "en": "I want to do.",
+        "pronunciation": "zhuh vuh faire",
+        "sound": "zhuh vuh faire"
       },
       {
         "id": "tu-veux-faire",
         "fr": "tu veux faire.",
-        "en": "You want to do."
+        "en": "You want to do.",
+        "pronunciation": "tü vuh faire",
+        "sound": "tü vuh faire"
       },
       {
         "id": "je-veux-regarder",
         "fr": "je veux regarder.",
-        "en": "I want to watch."
+        "en": "I want to watch.",
+        "pronunciation": "zhuh vuh ruh-gar-DAY",
+        "sound": "zhuh vuh ruh-gar-DAY"
       },
       {
         "id": "tu-veux-regarder",
         "fr": "tu veux regarder.",
-        "en": "You want to watch."
+        "en": "You want to watch.",
+        "pronunciation": "tü vuh ruh-gar-DAY",
+        "sound": "tü vuh ruh-gar-DAY"
       },
       {
         "id": "je-veux-ecouter",
         "fr": "je veux écouter.",
-        "en": "I want to listen."
+        "en": "I want to listen.",
+        "pronunciation": "zhuh vuh écouter",
+        "sound": "zhuh vuh écouter"
       },
       {
         "id": "tu-veux-ecouter",
         "fr": "tu veux écouter.",
-        "en": "You want to listen."
+        "en": "You want to listen.",
+        "pronunciation": "tü vuh écouter",
+        "sound": "tü vuh écouter"
       },
       {
         "id": "je-veux-parler",
         "fr": "je veux parler.",
-        "en": "I want to speak."
+        "en": "I want to speak.",
+        "pronunciation": "zhuh vuh par-LAY",
+        "sound": "zhuh vuh par-LAY"
       },
       {
         "id": "tu-veux-parler",
         "fr": "tu veux parler.",
-        "en": "You want to speak."
+        "en": "You want to speak.",
+        "pronunciation": "tü vuh par-LAY",
+        "sound": "tü vuh par-LAY"
       },
       {
         "id": "je-veux-lire",
         "fr": "je veux lire.",
-        "en": "I want to read."
+        "en": "I want to read.",
+        "pronunciation": "zhuh vuh leer",
+        "sound": "zhuh vuh leer"
       },
       {
         "id": "tu-veux-lire",
         "fr": "tu veux lire.",
-        "en": "You want to read."
+        "en": "You want to read.",
+        "pronunciation": "tü vuh leer",
+        "sound": "tü vuh leer"
       },
       {
         "id": "je-veux-dormir",
         "fr": "je veux dormir.",
-        "en": "I want to sleep."
+        "en": "I want to sleep.",
+        "pronunciation": "zhuh vuh dormir",
+        "sound": "zhuh vuh dormir"
       },
       {
         "id": "tu-veux-dormir",
         "fr": "tu veux dormir.",
-        "en": "You want to sleep."
+        "en": "You want to sleep.",
+        "pronunciation": "tü vuh dormir",
+        "sound": "tü vuh dormir"
       }
     ],
     "infinitive-avec": [
       {
         "id": "j-aime-parler-avec-mon-amie",
         "fr": "j'aime parler avec mon amie.",
-        "en": "I like speaking with my female friend."
+        "en": "I like speaking with my female friend.",
+        "pronunciation": "zhem par-LAY ah-VEK moh(n) amie",
+        "sound": "zhem par-LAY ah-VEK moh(n) amie"
       }
     ],
     "coordination": [
       {
         "id": "j-aime-ecouter-et-parler",
         "fr": "j'aime écouter et parler.",
-        "en": "I like listening and speaking."
+        "en": "I like listening and speaking.",
+        "pronunciation": "zhem écouter eh par-LAY",
+        "sound": "zhem écouter eh par-LAY"
       }
     ],
     "faire-object": [
       {
         "id": "je-fais-le-repas-maintenant",
         "fr": "je fais le repas maintenant.",
-        "en": "I am making the meal now."
+        "en": "I am making the meal now.",
+        "pronunciation": "zhuh feh luh ruh-PAH ma(n)t-NAH(N)",
+        "sound": "zhuh feh luh ruh-PAH ma(n)t-NAH(N)"
       },
       {
         "id": "tu-fais-du-cafe-maintenant",
         "fr": "tu fais du café maintenant.",
-        "en": "You are making coffee now."
+        "en": "You are making coffee now.",
+        "pronunciation": "tü feh dü kah-FEH ma(n)t-NAH(N)",
+        "sound": "tü feh dü kah-FEH ma(n)t-NAH(N)"
       }
     ],
     "present-action-place-review": [
       {
         "id": "je-vais-a-la-maison-2",
         "fr": "je vais à la maison.",
-        "en": "I go / I am going at home."
+        "en": "I go / I am going at home.",
+        "pronunciation": "zhuh veh ah lah meh-ZOH(N)",
+        "sound": "zhuh veh ah lah meh-ZOH(N)"
       },
       {
         "id": "je-vais-a-l-ecole-2",
         "fr": "je vais à l'école.",
-        "en": "I go / I am going at school."
+        "en": "I go / I am going at school.",
+        "pronunciation": "zhuh veh ah leh-KOHL",
+        "sound": "zhuh veh ah leh-KOHL"
       },
       {
         "id": "je-vais-au-travail-2",
         "fr": "je vais au travail.",
-        "en": "I go / I am going at work."
+        "en": "I go / I am going at work.",
+        "pronunciation": "zhuh veh oh trah-VAI",
+        "sound": "zhuh veh oh trah-VAI"
       },
       {
         "id": "je-vais-au-cafe-2",
         "fr": "je vais au café.",
-        "en": "I go / I am going at the café."
+        "en": "I go / I am going at the café.",
+        "pronunciation": "zhuh veh oh kah-FEH",
+        "sound": "zhuh veh oh kah-FEH"
       },
       {
         "id": "je-vais-au-parc-2",
         "fr": "je vais au parc.",
-        "en": "I go / I am going at the park."
+        "en": "I go / I am going at the park.",
+        "pronunciation": "zhuh veh oh park",
+        "sound": "zhuh veh oh park"
       },
       {
         "id": "tu-vas-a-la-maison-2",
         "fr": "tu vas à la maison.",
-        "en": "you go / you are going at home."
+        "en": "you go / you are going at home.",
+        "pronunciation": "tü vah ah lah meh-ZOH(N)",
+        "sound": "tü vah ah lah meh-ZOH(N)"
       },
       {
         "id": "tu-vas-a-l-ecole-2",
         "fr": "tu vas à l'école.",
-        "en": "you go / you are going at school."
+        "en": "you go / you are going at school.",
+        "pronunciation": "tü vah ah leh-KOHL",
+        "sound": "tü vah ah leh-KOHL"
       },
       {
         "id": "tu-vas-au-travail-2",
         "fr": "tu vas au travail.",
-        "en": "you go / you are going at work."
+        "en": "you go / you are going at work.",
+        "pronunciation": "tü vah oh trah-VAI",
+        "sound": "tü vah oh trah-VAI"
       },
       {
         "id": "tu-vas-au-cafe-2",
         "fr": "tu vas au café.",
-        "en": "you go / you are going at the café."
+        "en": "you go / you are going at the café.",
+        "pronunciation": "tü vah oh kah-FEH",
+        "sound": "tü vah oh kah-FEH"
       },
       {
         "id": "tu-vas-au-parc-2",
         "fr": "tu vas au parc.",
-        "en": "you go / you are going at the park."
+        "en": "you go / you are going at the park.",
+        "pronunciation": "tü vah oh park",
+        "sound": "tü vah oh park"
       },
       {
         "id": "je-fais-a-la-maison-2",
         "fr": "je fais à la maison.",
-        "en": "I do / I am doing at home."
+        "en": "I do / I am doing at home.",
+        "pronunciation": "zhuh feh ah lah meh-ZOH(N)",
+        "sound": "zhuh feh ah lah meh-ZOH(N)"
       },
       {
         "id": "je-fais-a-l-ecole-2",
         "fr": "je fais à l'école.",
-        "en": "I do / I am doing at school."
+        "en": "I do / I am doing at school.",
+        "pronunciation": "zhuh feh ah leh-KOHL",
+        "sound": "zhuh feh ah leh-KOHL"
       }
     ]
   },
@@ -527,302 +672,422 @@
     {
       "id": "je-vais-a-la-maison",
       "fr": "je vais à la maison.",
-      "en": "I go / I am going at home."
+      "en": "I go / I am going at home.",
+      "pronunciation": "zhuh veh ah lah meh-ZOH(N)",
+      "sound": "zhuh veh ah lah meh-ZOH(N)"
     },
     {
       "id": "je-vais-a-l-ecole",
       "fr": "je vais à l'école.",
-      "en": "I go / I am going at school."
+      "en": "I go / I am going at school.",
+      "pronunciation": "zhuh veh ah leh-KOHL",
+      "sound": "zhuh veh ah leh-KOHL"
     },
     {
       "id": "je-vais-au-travail",
       "fr": "je vais au travail.",
-      "en": "I go / I am going at work."
+      "en": "I go / I am going at work.",
+      "pronunciation": "zhuh veh oh trah-VAI",
+      "sound": "zhuh veh oh trah-VAI"
     },
     {
       "id": "je-vais-au-cafe",
       "fr": "je vais au café.",
-      "en": "I go / I am going at the café."
+      "en": "I go / I am going at the café.",
+      "pronunciation": "zhuh veh oh kah-FEH",
+      "sound": "zhuh veh oh kah-FEH"
     },
     {
       "id": "je-vais-au-parc",
       "fr": "je vais au parc.",
-      "en": "I go / I am going at the park."
+      "en": "I go / I am going at the park.",
+      "pronunciation": "zhuh veh oh park",
+      "sound": "zhuh veh oh park"
     },
     {
       "id": "tu-vas-a-la-maison",
       "fr": "tu vas à la maison.",
-      "en": "you go / you are going at home."
+      "en": "you go / you are going at home.",
+      "pronunciation": "tü vah ah lah meh-ZOH(N)",
+      "sound": "tü vah ah lah meh-ZOH(N)"
     },
     {
       "id": "tu-vas-a-l-ecole",
       "fr": "tu vas à l'école.",
-      "en": "you go / you are going at school."
+      "en": "you go / you are going at school.",
+      "pronunciation": "tü vah ah leh-KOHL",
+      "sound": "tü vah ah leh-KOHL"
     },
     {
       "id": "tu-vas-au-travail",
       "fr": "tu vas au travail.",
-      "en": "you go / you are going at work."
+      "en": "you go / you are going at work.",
+      "pronunciation": "tü vah oh trah-VAI",
+      "sound": "tü vah oh trah-VAI"
     },
     {
       "id": "tu-vas-au-cafe",
       "fr": "tu vas au café.",
-      "en": "you go / you are going at the café."
+      "en": "you go / you are going at the café.",
+      "pronunciation": "tü vah oh kah-FEH",
+      "sound": "tü vah oh kah-FEH"
     },
     {
       "id": "tu-vas-au-parc",
       "fr": "tu vas au parc.",
-      "en": "you go / you are going at the park."
+      "en": "you go / you are going at the park.",
+      "pronunciation": "tü vah oh park",
+      "sound": "tü vah oh park"
     },
     {
       "id": "je-fais-a-la-maison",
       "fr": "je fais à la maison.",
-      "en": "I do / I am doing at home."
+      "en": "I do / I am doing at home.",
+      "pronunciation": "zhuh feh ah lah meh-ZOH(N)",
+      "sound": "zhuh feh ah lah meh-ZOH(N)"
     },
     {
       "id": "je-fais-a-l-ecole",
       "fr": "je fais à l'école.",
-      "en": "I do / I am doing at school."
+      "en": "I do / I am doing at school.",
+      "pronunciation": "zhuh feh ah leh-KOHL",
+      "sound": "zhuh feh ah leh-KOHL"
     },
     {
       "id": "je-fais-au-travail",
       "fr": "je fais au travail.",
-      "en": "I do / I am doing at work."
+      "en": "I do / I am doing at work.",
+      "pronunciation": "zhuh feh oh trah-VAI",
+      "sound": "zhuh feh oh trah-VAI"
     },
     {
       "id": "je-fais-au-cafe",
       "fr": "je fais au café.",
-      "en": "I do / I am doing at the café."
+      "en": "I do / I am doing at the café.",
+      "pronunciation": "zhuh feh oh kah-FEH",
+      "sound": "zhuh feh oh kah-FEH"
     },
     {
       "id": "je-fais-au-parc",
       "fr": "je fais au parc.",
-      "en": "I do / I am doing at the park."
+      "en": "I do / I am doing at the park.",
+      "pronunciation": "zhuh feh oh park",
+      "sound": "zhuh feh oh park"
     },
     {
       "id": "tu-fais-a-la-maison",
       "fr": "tu fais à la maison.",
-      "en": "you do / you are doing at home."
+      "en": "you do / you are doing at home.",
+      "pronunciation": "tü feh ah lah meh-ZOH(N)",
+      "sound": "tü feh ah lah meh-ZOH(N)"
     },
     {
       "id": "tu-fais-a-l-ecole",
       "fr": "tu fais à l'école.",
-      "en": "you do / you are doing at school."
+      "en": "you do / you are doing at school.",
+      "pronunciation": "tü feh ah leh-KOHL",
+      "sound": "tü feh ah leh-KOHL"
     },
     {
       "id": "tu-fais-au-travail",
       "fr": "tu fais au travail.",
-      "en": "you do / you are doing at work."
+      "en": "you do / you are doing at work.",
+      "pronunciation": "tü feh oh trah-VAI",
+      "sound": "tü feh oh trah-VAI"
     },
     {
       "id": "tu-fais-au-cafe",
       "fr": "tu fais au café.",
-      "en": "you do / you are doing at the café."
+      "en": "you do / you are doing at the café.",
+      "pronunciation": "tü feh oh kah-FEH",
+      "sound": "tü feh oh kah-FEH"
     },
     {
       "id": "tu-fais-au-parc",
       "fr": "tu fais au parc.",
-      "en": "you do / you are doing at the park."
+      "en": "you do / you are doing at the park.",
+      "pronunciation": "tü feh oh park",
+      "sound": "tü feh oh park"
     },
     {
       "id": "je-regarde-le-repas",
       "fr": "je regarde le repas.",
-      "en": "I watch / I am watching the meal."
+      "en": "I watch / I am watching the meal.",
+      "pronunciation": "zhuh ruh-gard luh ruh-PAH",
+      "sound": "zhuh ruh-gard luh ruh-PAH"
     },
     {
       "id": "tu-regardes-le-repas",
       "fr": "tu regardes le repas.",
-      "en": "you watch / you are watching the meal."
+      "en": "you watch / you are watching the meal.",
+      "pronunciation": "tü ruh-gard luh ruh-PAH",
+      "sound": "tü ruh-gard luh ruh-PAH"
     },
     {
       "id": "j-ecoute-du-cafe",
       "fr": "j'écoute du café.",
-      "en": "I listen to / I am listening to some coffee."
+      "en": "I listen to / I am listening to some coffee.",
+      "pronunciation": "zheh-KOOT dü kah-FEH",
+      "sound": "zheh-KOOT dü kah-FEH"
     },
     {
       "id": "tu-ecoutes-du-cafe",
       "fr": "tu écoutes du café.",
-      "en": "you listen to / you are listening to some coffee."
+      "en": "you listen to / you are listening to some coffee.",
+      "pronunciation": "tü eh-KOOT dü kah-FEH",
+      "sound": "tü eh-KOOT dü kah-FEH"
     },
     {
       "id": "je-parle-maintenant",
       "fr": "je parle maintenant.",
-      "en": "I speak / I am speaking now."
+      "en": "I speak / I am speaking now.",
+      "pronunciation": "zhuh parl ma(n)t-NAH(N)",
+      "sound": "zhuh parl ma(n)t-NAH(N)"
     },
     {
       "id": "tu-parles-maintenant",
       "fr": "tu parles maintenant.",
-      "en": "you speak / you are speaking now."
+      "en": "you speak / you are speaking now.",
+      "pronunciation": "tü parl ma(n)t-NAH(N)",
+      "sound": "tü parl ma(n)t-NAH(N)"
     },
     {
       "id": "je-lis-maintenant",
       "fr": "je lis maintenant.",
-      "en": "I read / I am reading now."
+      "en": "I read / I am reading now.",
+      "pronunciation": "zhuh lee ma(n)t-NAH(N)",
+      "sound": "zhuh lee ma(n)t-NAH(N)"
     },
     {
       "id": "tu-lis-maintenant",
       "fr": "tu lis maintenant.",
-      "en": "you read / you are reading now."
+      "en": "you read / you are reading now.",
+      "pronunciation": "tü lee ma(n)t-NAH(N)",
+      "sound": "tü lee ma(n)t-NAH(N)"
     },
     {
       "id": "je-dors-maintenant",
       "fr": "je dors maintenant.",
-      "en": "I sleep / I am sleeping now."
+      "en": "I sleep / I am sleeping now.",
+      "pronunciation": "zhuh dor ma(n)t-NAH(N)",
+      "sound": "zhuh dor ma(n)t-NAH(N)"
     },
     {
       "id": "tu-dors-maintenant",
       "fr": "tu dors maintenant.",
-      "en": "you sleep / you are sleeping now."
+      "en": "you sleep / you are sleeping now.",
+      "pronunciation": "tü dor ma(n)t-NAH(N)",
+      "sound": "tü dor ma(n)t-NAH(N)"
     },
     {
       "id": "je-veux-aller",
       "fr": "je veux aller.",
-      "en": "I want to go."
+      "en": "I want to go.",
+      "pronunciation": "zhuh vuh aller",
+      "sound": "zhuh vuh aller"
     },
     {
       "id": "tu-veux-aller",
       "fr": "tu veux aller.",
-      "en": "You want to go."
+      "en": "You want to go.",
+      "pronunciation": "tü vuh aller",
+      "sound": "tü vuh aller"
     },
     {
       "id": "je-veux-faire",
       "fr": "je veux faire.",
-      "en": "I want to do."
+      "en": "I want to do.",
+      "pronunciation": "zhuh vuh faire",
+      "sound": "zhuh vuh faire"
     },
     {
       "id": "tu-veux-faire",
       "fr": "tu veux faire.",
-      "en": "You want to do."
+      "en": "You want to do.",
+      "pronunciation": "tü vuh faire",
+      "sound": "tü vuh faire"
     },
     {
       "id": "je-veux-regarder",
       "fr": "je veux regarder.",
-      "en": "I want to watch."
+      "en": "I want to watch.",
+      "pronunciation": "zhuh vuh ruh-gar-DAY",
+      "sound": "zhuh vuh ruh-gar-DAY"
     },
     {
       "id": "tu-veux-regarder",
       "fr": "tu veux regarder.",
-      "en": "You want to watch."
+      "en": "You want to watch.",
+      "pronunciation": "tü vuh ruh-gar-DAY",
+      "sound": "tü vuh ruh-gar-DAY"
     },
     {
       "id": "je-veux-ecouter",
       "fr": "je veux écouter.",
-      "en": "I want to listen."
+      "en": "I want to listen.",
+      "pronunciation": "zhuh vuh écouter",
+      "sound": "zhuh vuh écouter"
     },
     {
       "id": "tu-veux-ecouter",
       "fr": "tu veux écouter.",
-      "en": "You want to listen."
+      "en": "You want to listen.",
+      "pronunciation": "tü vuh écouter",
+      "sound": "tü vuh écouter"
     },
     {
       "id": "je-veux-parler",
       "fr": "je veux parler.",
-      "en": "I want to speak."
+      "en": "I want to speak.",
+      "pronunciation": "zhuh vuh par-LAY",
+      "sound": "zhuh vuh par-LAY"
     },
     {
       "id": "tu-veux-parler",
       "fr": "tu veux parler.",
-      "en": "You want to speak."
+      "en": "You want to speak.",
+      "pronunciation": "tü vuh par-LAY",
+      "sound": "tü vuh par-LAY"
     },
     {
       "id": "je-veux-lire",
       "fr": "je veux lire.",
-      "en": "I want to read."
+      "en": "I want to read.",
+      "pronunciation": "zhuh vuh leer",
+      "sound": "zhuh vuh leer"
     },
     {
       "id": "tu-veux-lire",
       "fr": "tu veux lire.",
-      "en": "You want to read."
+      "en": "You want to read.",
+      "pronunciation": "tü vuh leer",
+      "sound": "tü vuh leer"
     },
     {
       "id": "je-veux-dormir",
       "fr": "je veux dormir.",
-      "en": "I want to sleep."
+      "en": "I want to sleep.",
+      "pronunciation": "zhuh vuh dormir",
+      "sound": "zhuh vuh dormir"
     },
     {
       "id": "tu-veux-dormir",
       "fr": "tu veux dormir.",
-      "en": "You want to sleep."
+      "en": "You want to sleep.",
+      "pronunciation": "tü vuh dormir",
+      "sound": "tü vuh dormir"
     },
     {
       "id": "j-aime-parler-avec-mon-amie",
       "fr": "j'aime parler avec mon amie.",
-      "en": "I like speaking with my female friend."
+      "en": "I like speaking with my female friend.",
+      "pronunciation": "zhem par-LAY ah-VEK moh(n) amie",
+      "sound": "zhem par-LAY ah-VEK moh(n) amie"
     },
     {
       "id": "j-aime-ecouter-et-parler",
       "fr": "j'aime écouter et parler.",
-      "en": "I like listening and speaking."
+      "en": "I like listening and speaking.",
+      "pronunciation": "zhem écouter eh par-LAY",
+      "sound": "zhem écouter eh par-LAY"
     },
     {
       "id": "je-fais-le-repas-maintenant",
       "fr": "je fais le repas maintenant.",
-      "en": "I am making the meal now."
+      "en": "I am making the meal now.",
+      "pronunciation": "zhuh feh luh ruh-PAH ma(n)t-NAH(N)",
+      "sound": "zhuh feh luh ruh-PAH ma(n)t-NAH(N)"
     },
     {
       "id": "tu-fais-du-cafe-maintenant",
       "fr": "tu fais du café maintenant.",
-      "en": "You are making coffee now."
+      "en": "You are making coffee now.",
+      "pronunciation": "tü feh dü kah-FEH ma(n)t-NAH(N)",
+      "sound": "tü feh dü kah-FEH ma(n)t-NAH(N)"
     },
     {
       "id": "je-vais-a-la-maison-2",
       "fr": "je vais à la maison.",
-      "en": "I go / I am going at home."
+      "en": "I go / I am going at home.",
+      "pronunciation": "zhuh veh ah lah meh-ZOH(N)",
+      "sound": "zhuh veh ah lah meh-ZOH(N)"
     },
     {
       "id": "je-vais-a-l-ecole-2",
       "fr": "je vais à l'école.",
-      "en": "I go / I am going at school."
+      "en": "I go / I am going at school.",
+      "pronunciation": "zhuh veh ah leh-KOHL",
+      "sound": "zhuh veh ah leh-KOHL"
     },
     {
       "id": "je-vais-au-travail-2",
       "fr": "je vais au travail.",
-      "en": "I go / I am going at work."
+      "en": "I go / I am going at work.",
+      "pronunciation": "zhuh veh oh trah-VAI",
+      "sound": "zhuh veh oh trah-VAI"
     },
     {
       "id": "je-vais-au-cafe-2",
       "fr": "je vais au café.",
-      "en": "I go / I am going at the café."
+      "en": "I go / I am going at the café.",
+      "pronunciation": "zhuh veh oh kah-FEH",
+      "sound": "zhuh veh oh kah-FEH"
     },
     {
       "id": "je-vais-au-parc-2",
       "fr": "je vais au parc.",
-      "en": "I go / I am going at the park."
+      "en": "I go / I am going at the park.",
+      "pronunciation": "zhuh veh oh park",
+      "sound": "zhuh veh oh park"
     },
     {
       "id": "tu-vas-a-la-maison-2",
       "fr": "tu vas à la maison.",
-      "en": "you go / you are going at home."
+      "en": "you go / you are going at home.",
+      "pronunciation": "tü vah ah lah meh-ZOH(N)",
+      "sound": "tü vah ah lah meh-ZOH(N)"
     },
     {
       "id": "tu-vas-a-l-ecole-2",
       "fr": "tu vas à l'école.",
-      "en": "you go / you are going at school."
+      "en": "you go / you are going at school.",
+      "pronunciation": "tü vah ah leh-KOHL",
+      "sound": "tü vah ah leh-KOHL"
     },
     {
       "id": "tu-vas-au-travail-2",
       "fr": "tu vas au travail.",
-      "en": "you go / you are going at work."
+      "en": "you go / you are going at work.",
+      "pronunciation": "tü vah oh trah-VAI",
+      "sound": "tü vah oh trah-VAI"
     },
     {
       "id": "tu-vas-au-cafe-2",
       "fr": "tu vas au café.",
-      "en": "you go / you are going at the café."
+      "en": "you go / you are going at the café.",
+      "pronunciation": "tü vah oh kah-FEH",
+      "sound": "tü vah oh kah-FEH"
     },
     {
       "id": "tu-vas-au-parc-2",
       "fr": "tu vas au parc.",
-      "en": "you go / you are going at the park."
+      "en": "you go / you are going at the park.",
+      "pronunciation": "tü vah oh park",
+      "sound": "tü vah oh park"
     },
     {
       "id": "je-fais-a-la-maison-2",
       "fr": "je fais à la maison.",
-      "en": "I do / I am doing at home."
+      "en": "I do / I am doing at home.",
+      "pronunciation": "zhuh feh ah lah meh-ZOH(N)",
+      "sound": "zhuh feh ah lah meh-ZOH(N)"
     },
     {
       "id": "je-fais-a-l-ecole-2",
       "fr": "je fais à l'école.",
-      "en": "I do / I am doing at school."
+      "en": "I do / I am doing at school.",
+      "pronunciation": "zhuh feh ah leh-KOHL",
+      "sound": "zhuh feh ah leh-KOHL"
     }
   ],
   "audioVoices": [

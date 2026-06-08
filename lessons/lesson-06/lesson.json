@@ -10,7 +10,8 @@
       "en": "You little monster!",
       "say": "Espèce de petit monstre !",
       "sound": "ess-PESS duh puh-TEE mon-str",
-      "category": "Bonus Phrases"
+      "category": "Bonus Phrases",
+      "pronunciation": "ess-PESS duh puh-TEE mon-str"
     },
     {
       "id": "andouille",
@@ -18,7 +19,8 @@
       "en": "Silly sausage! / Dummy!",
       "say": "Andouille !",
       "sound": "ahn-DOOY",
-      "category": "Bonus Phrases"
+      "category": "Bonus Phrases",
+      "pronunciation": "ahn-DOOY"
     },
     {
       "id": "t-es-bete",
@@ -26,7 +28,8 @@
       "en": "You’re silly!",
       "say": "T’es bête !",
       "sound": "teh BET",
-      "category": "Bonus Phrases"
+      "category": "Bonus Phrases",
+      "pronunciation": "teh BET"
     },
     {
       "id": "mais-t-es-fou-ou-quoi",
@@ -34,23 +37,26 @@
       "en": "Are you crazy or what?",
       "say": "Mais t’es fou ou quoi ?",
       "sound": "meh teh FOO oo KWA",
-      "category": "Bonus Phrases"
+      "category": "Bonus Phrases",
+      "pronunciation": "meh teh FOO oo KWA"
     },
     {
       "id": "arrete-espece-d-andouille",
       "fr": "Arrête, espèce d’andouille !",
       "en": "Stop it, you silly thing!",
       "say": "Arrête, espèce d’andouille !",
-      "sound": "ah-RET, ess-PESS dahn-DOOY",
-      "category": "Bonus Phrases"
+      "sound": "ah-RET ess-PESS dahn-DOOY",
+      "category": "Bonus Phrases",
+      "pronunciation": "ah-RET ess-PESS dahn-DOOY"
     },
     {
       "id": "putain-t-es-trop-mignon",
       "fr": "Putain, t’es trop mignon.",
       "en": "Damn, you’re too cute.",
       "say": "Putain, t’es trop mignon.",
-      "sound": "poo-TAN, teh tro mee-NYON",
-      "category": "Bonus Phrases"
+      "sound": "poo-TAN teh tro mee-NYON",
+      "category": "Bonus Phrases",
+      "pronunciation": "poo-TAN teh tro mee-NYON"
     }
   ],
   "sentenceGroups": {
@@ -58,32 +64,44 @@
       {
         "id": "espece-de-petit-monstre",
         "fr": "Espèce de petit monstre !",
-        "en": "You little monster!"
+        "en": "You little monster!",
+        "pronunciation": "ess-PESS duh puh-TEE mon-str",
+        "sound": "ess-PESS duh puh-TEE mon-str"
       },
       {
         "id": "andouille",
         "fr": "Andouille !",
-        "en": "Silly sausage! / Dummy!"
+        "en": "Silly sausage! / Dummy!",
+        "pronunciation": "ahn-DOOY",
+        "sound": "ahn-DOOY"
       },
       {
         "id": "t-es-bete",
         "fr": "T’es bête !",
-        "en": "You’re silly!"
+        "en": "You’re silly!",
+        "pronunciation": "teh BET",
+        "sound": "teh BET"
       },
       {
         "id": "mais-t-es-fou-ou-quoi",
         "fr": "Mais t’es fou ou quoi ?",
-        "en": "Are you crazy or what?"
+        "en": "Are you crazy or what?",
+        "pronunciation": "meh teh FOO oo KWA",
+        "sound": "meh teh FOO oo KWA"
       },
       {
         "id": "arrete-espece-d-andouille",
         "fr": "Arrête, espèce d’andouille !",
-        "en": "Stop it, you silly thing!"
+        "en": "Stop it, you silly thing!",
+        "pronunciation": "ah-RET ess-PESS dahn-DOOY",
+        "sound": "ah-RET ess-PESS dahn-DOOY"
       },
       {
         "id": "putain-t-es-trop-mignon",
         "fr": "Putain, t’es trop mignon.",
-        "en": "Damn, you’re too cute."
+        "en": "Damn, you’re too cute.",
+        "pronunciation": "poo-TAN teh tro mee-NYON",
+        "sound": "poo-TAN teh tro mee-NYON"
       }
     ]
   },
@@ -91,32 +109,44 @@
     {
       "id": "espece-de-petit-monstre",
       "fr": "Espèce de petit monstre !",
-      "en": "You little monster!"
+      "en": "You little monster!",
+      "pronunciation": "ess-PESS duh puh-TEE mon-str",
+      "sound": "ess-PESS duh puh-TEE mon-str"
     },
     {
       "id": "andouille",
       "fr": "Andouille !",
-      "en": "Silly sausage! / Dummy!"
+      "en": "Silly sausage! / Dummy!",
+      "pronunciation": "ahn-DOOY",
+      "sound": "ahn-DOOY"
     },
     {
       "id": "t-es-bete",
       "fr": "T’es bête !",
-      "en": "You’re silly!"
+      "en": "You’re silly!",
+      "pronunciation": "teh BET",
+      "sound": "teh BET"
     },
     {
       "id": "mais-t-es-fou-ou-quoi",
       "fr": "Mais t’es fou ou quoi ?",
-      "en": "Are you crazy or what?"
+      "en": "Are you crazy or what?",
+      "pronunciation": "meh teh FOO oo KWA",
+      "sound": "meh teh FOO oo KWA"
     },
     {
       "id": "arrete-espece-d-andouille",
       "fr": "Arrête, espèce d’andouille !",
-      "en": "Stop it, you silly thing!"
+      "en": "Stop it, you silly thing!",
+      "pronunciation": "ah-RET ess-PESS dahn-DOOY",
+      "sound": "ah-RET ess-PESS dahn-DOOY"
     },
     {
       "id": "putain-t-es-trop-mignon",
       "fr": "Putain, t’es trop mignon.",
-      "en": "Damn, you’re too cute."
+      "en": "Damn, you’re too cute.",
+      "pronunciation": "poo-TAN teh tro mee-NYON",
+      "sound": "poo-TAN teh tro mee-NYON"
     }
   ],
   "audioVoices": [

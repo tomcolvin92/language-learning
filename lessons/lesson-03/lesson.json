@@ -9,200 +9,225 @@
       "fr": "j'ai",
       "en": "I have",
       "say": "j'ai",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "zheh",
+      "category": "Verb Chunk",
+      "pronunciation": "zheh"
     },
     {
       "id": "tu-as",
       "fr": "tu as",
       "en": "you have",
       "say": "tu as",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "tü as",
+      "category": "Verb Chunk",
+      "pronunciation": "tü as"
     },
     {
       "id": "il-a",
       "fr": "il a",
       "en": "he/it has",
       "say": "il a",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "eel ah",
+      "category": "Verb Chunk",
+      "pronunciation": "eel ah"
     },
     {
       "id": "elle-a",
       "fr": "elle a",
       "en": "she/it has",
       "say": "elle a",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "ehl ah",
+      "category": "Verb Chunk",
+      "pronunciation": "ehl ah"
     },
     {
       "id": "j-aime",
       "fr": "j'aime",
       "en": "I like/love",
       "say": "j'aime",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "zhehm",
+      "category": "Verb Chunk",
+      "pronunciation": "zhehm"
     },
     {
       "id": "tu-aimes",
       "fr": "tu aimes",
       "en": "you like/love",
       "say": "tu aimes",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "tü ehm",
+      "category": "Verb Chunk",
+      "pronunciation": "tü ehm"
     },
     {
       "id": "je-veux",
       "fr": "je veux",
       "en": "I want",
       "say": "je veux",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "zhuh veu",
+      "category": "Verb Chunk",
+      "pronunciation": "zhuh veu"
     },
     {
       "id": "tu-veux",
       "fr": "tu veux",
       "en": "you want",
       "say": "tu veux",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "tü veu",
+      "category": "Verb Chunk",
+      "pronunciation": "tü veu"
     },
     {
       "id": "de-l-eau",
       "fr": "de l'eau",
       "en": "some water",
       "say": "de l'eau",
-      "sound": "",
-      "category": "Noun Phrase"
+      "sound": "duh loh",
+      "category": "Noun Phrase",
+      "pronunciation": "duh loh"
     },
     {
       "id": "du-cafe",
       "fr": "du café",
       "en": "some coffee",
       "say": "du café",
-      "sound": "",
-      "category": "Noun Phrase"
+      "sound": "dü kah-FEH",
+      "category": "Noun Phrase",
+      "pronunciation": "dü kah-FEH"
     },
     {
       "id": "du-the",
       "fr": "du thé",
       "en": "some tea",
       "say": "du thé",
-      "sound": "",
-      "category": "Noun Phrase"
+      "sound": "dü tay",
+      "category": "Noun Phrase",
+      "pronunciation": "dü tay"
     },
     {
       "id": "du-pain",
       "fr": "du pain",
       "en": "some bread",
       "say": "du pain",
-      "sound": "",
-      "category": "Noun Phrase"
+      "sound": "dü pa(n)",
+      "category": "Noun Phrase",
+      "pronunciation": "dü pa(n)"
     },
     {
       "id": "du-riz",
       "fr": "du riz",
       "en": "some rice",
       "say": "du riz",
-      "sound": "",
-      "category": "Noun Phrase"
+      "sound": "dü ree",
+      "category": "Noun Phrase",
+      "pronunciation": "dü ree"
     },
     {
       "id": "un-fruit",
       "fr": "un fruit",
       "en": "a fruit",
       "say": "un fruit",
-      "sound": "",
-      "category": "Noun Phrase"
+      "sound": "uh(n) fruit",
+      "category": "Noun Phrase",
+      "pronunciation": "uh(n) fruit"
     },
     {
       "id": "une-pomme",
       "fr": "une pomme",
       "en": "an apple",
       "say": "une pomme",
-      "sound": "",
-      "category": "Noun Phrase"
+      "sound": "ün pum",
+      "category": "Noun Phrase",
+      "pronunciation": "ün pum"
     },
     {
       "id": "une-banane",
       "fr": "une banane",
       "en": "a banana",
       "say": "une banane",
-      "sound": "",
-      "category": "Noun Phrase"
+      "sound": "ün banane",
+      "category": "Noun Phrase",
+      "pronunciation": "ün banane"
     },
     {
       "id": "un-uf",
       "fr": "un œuf",
       "en": "an egg",
       "say": "un œuf",
-      "sound": "",
-      "category": "Noun Phrase"
+      "sound": "uh(n) oeuf",
+      "category": "Noun Phrase",
+      "pronunciation": "uh(n) oeuf"
     },
     {
       "id": "du-poisson",
       "fr": "du poisson",
       "en": "some fish",
       "say": "du poisson",
-      "sound": "",
-      "category": "Noun Phrase"
+      "sound": "dü pwa-SOH(N)",
+      "category": "Noun Phrase",
+      "pronunciation": "dü pwa-SOH(N)"
     },
     {
       "id": "du-poulet",
       "fr": "du poulet",
       "en": "some chicken",
       "say": "du poulet",
-      "sound": "",
-      "category": "Noun Phrase"
+      "sound": "dü poo-LEH",
+      "category": "Noun Phrase",
+      "pronunciation": "dü poo-LEH"
     },
     {
       "id": "du-fromage",
       "fr": "du fromage",
       "en": "some cheese",
       "say": "du fromage",
-      "sound": "",
-      "category": "Noun Phrase"
+      "sound": "dü froh-MAHZH",
+      "category": "Noun Phrase",
+      "pronunciation": "dü froh-MAHZH"
     },
     {
       "id": "la-soupe",
       "fr": "la soupe",
       "en": "the soup",
       "say": "la soupe",
-      "sound": "",
-      "category": "Noun Phrase"
+      "sound": "lah soupe",
+      "category": "Noun Phrase",
+      "pronunciation": "lah soupe"
     },
     {
       "id": "le-repas",
       "fr": "le repas",
       "en": "the meal",
       "say": "le repas",
-      "sound": "",
-      "category": "Noun Phrase"
+      "sound": "luh ruh-PAH",
+      "category": "Noun Phrase",
+      "pronunciation": "luh ruh-PAH"
     },
     {
       "id": "manger",
       "fr": "manger",
       "en": "to eat",
       "say": "manger",
-      "sound": "",
-      "category": "Infinitive"
+      "sound": "mahn-ZHAY",
+      "category": "Infinitive",
+      "pronunciation": "mahn-ZHAY"
     },
     {
       "id": "boire",
       "fr": "boire",
       "en": "to drink",
       "say": "boire",
-      "sound": "",
-      "category": "Infinitive"
+      "sound": "boire",
+      "category": "Infinitive",
+      "pronunciation": "boire"
     },
     {
       "id": "beaucoup",
       "fr": "beaucoup",
       "en": "a lot/much",
       "say": "beaucoup",
-      "sound": "",
-      "category": "Adverb"
+      "sound": "bohkoo",
+      "category": "Adverb",
+      "pronunciation": "bohkoo"
     }
   ],
   "sentenceGroups": {
@@ -210,306 +235,426 @@
       {
         "id": "j-ai-de-l-eau",
         "fr": "j'ai de l'eau.",
-        "en": "I have some water."
+        "en": "I have some water.",
+        "pronunciation": "zheh duh loh",
+        "sound": "zheh duh loh"
       },
       {
         "id": "tu-as-de-l-eau",
         "fr": "tu as de l'eau.",
-        "en": "You have some water."
+        "en": "You have some water.",
+        "pronunciation": "tü as duh loh",
+        "sound": "tü as duh loh"
       },
       {
         "id": "j-ai-du-cafe",
         "fr": "j'ai du café.",
-        "en": "I have some coffee."
+        "en": "I have some coffee.",
+        "pronunciation": "zheh dü kah-FEH",
+        "sound": "zheh dü kah-FEH"
       },
       {
         "id": "tu-as-du-cafe",
         "fr": "tu as du café.",
-        "en": "You have some coffee."
+        "en": "You have some coffee.",
+        "pronunciation": "tü as dü kah-FEH",
+        "sound": "tü as dü kah-FEH"
       },
       {
         "id": "j-ai-du-the",
         "fr": "j'ai du thé.",
-        "en": "I have some tea."
+        "en": "I have some tea.",
+        "pronunciation": "zheh dü tay",
+        "sound": "zheh dü tay"
       },
       {
         "id": "tu-as-du-the",
         "fr": "tu as du thé.",
-        "en": "You have some tea."
+        "en": "You have some tea.",
+        "pronunciation": "tü as dü tay",
+        "sound": "tü as dü tay"
       },
       {
         "id": "j-ai-du-pain",
         "fr": "j'ai du pain.",
-        "en": "I have some bread."
+        "en": "I have some bread.",
+        "pronunciation": "zheh dü pa(n)",
+        "sound": "zheh dü pa(n)"
       },
       {
         "id": "tu-as-du-pain",
         "fr": "tu as du pain.",
-        "en": "You have some bread."
+        "en": "You have some bread.",
+        "pronunciation": "tü as dü pa(n)",
+        "sound": "tü as dü pa(n)"
       },
       {
         "id": "j-ai-du-riz",
         "fr": "j'ai du riz.",
-        "en": "I have some rice."
+        "en": "I have some rice.",
+        "pronunciation": "zheh dü ree",
+        "sound": "zheh dü ree"
       },
       {
         "id": "tu-as-du-riz",
         "fr": "tu as du riz.",
-        "en": "You have some rice."
+        "en": "You have some rice.",
+        "pronunciation": "tü as dü ree",
+        "sound": "tü as dü ree"
       },
       {
         "id": "j-ai-un-fruit",
         "fr": "j'ai un fruit.",
-        "en": "I have a fruit."
+        "en": "I have a fruit.",
+        "pronunciation": "zheh uh(n) fruit",
+        "sound": "zheh uh(n) fruit"
       },
       {
         "id": "tu-as-un-fruit",
         "fr": "tu as un fruit.",
-        "en": "You have a fruit."
+        "en": "You have a fruit.",
+        "pronunciation": "tü as uh(n) fruit",
+        "sound": "tü as uh(n) fruit"
       },
       {
         "id": "j-ai-une-pomme",
         "fr": "j'ai une pomme.",
-        "en": "I have an apple."
+        "en": "I have an apple.",
+        "pronunciation": "zheh ün pum",
+        "sound": "zheh ün pum"
       },
       {
         "id": "tu-as-une-pomme",
         "fr": "tu as une pomme.",
-        "en": "You have an apple."
+        "en": "You have an apple.",
+        "pronunciation": "tü as ün pum",
+        "sound": "tü as ün pum"
       },
       {
         "id": "j-ai-une-banane",
         "fr": "j'ai une banane.",
-        "en": "I have a banana."
+        "en": "I have a banana.",
+        "pronunciation": "zheh ün banane",
+        "sound": "zheh ün banane"
       },
       {
         "id": "tu-as-une-banane",
         "fr": "tu as une banane.",
-        "en": "You have a banana."
+        "en": "You have a banana.",
+        "pronunciation": "tü as ün banane",
+        "sound": "tü as ün banane"
       },
       {
         "id": "j-ai-un-uf",
         "fr": "j'ai un œuf.",
-        "en": "I have an egg."
+        "en": "I have an egg.",
+        "pronunciation": "zheh uh(n) oeuf",
+        "sound": "zheh uh(n) oeuf"
       },
       {
         "id": "tu-as-un-uf",
         "fr": "tu as un œuf.",
-        "en": "You have an egg."
+        "en": "You have an egg.",
+        "pronunciation": "tü as uh(n) oeuf",
+        "sound": "tü as uh(n) oeuf"
       },
       {
         "id": "j-ai-du-poisson",
         "fr": "j'ai du poisson.",
-        "en": "I have some fish."
+        "en": "I have some fish.",
+        "pronunciation": "zheh dü pwa-SOH(N)",
+        "sound": "zheh dü pwa-SOH(N)"
       },
       {
         "id": "tu-as-du-poisson",
         "fr": "tu as du poisson.",
-        "en": "You have some fish."
+        "en": "You have some fish.",
+        "pronunciation": "tü as dü pwa-SOH(N)",
+        "sound": "tü as dü pwa-SOH(N)"
       },
       {
         "id": "j-ai-du-poulet",
         "fr": "j'ai du poulet.",
-        "en": "I have some chicken."
+        "en": "I have some chicken.",
+        "pronunciation": "zheh dü poo-LEH",
+        "sound": "zheh dü poo-LEH"
       },
       {
         "id": "tu-as-du-poulet",
         "fr": "tu as du poulet.",
-        "en": "You have some chicken."
+        "en": "You have some chicken.",
+        "pronunciation": "tü as dü poo-LEH",
+        "sound": "tü as dü poo-LEH"
       },
       {
         "id": "j-ai-du-fromage",
         "fr": "j'ai du fromage.",
-        "en": "I have some cheese."
+        "en": "I have some cheese.",
+        "pronunciation": "zheh dü froh-MAHZH",
+        "sound": "zheh dü froh-MAHZH"
       },
       {
         "id": "tu-as-du-fromage",
         "fr": "tu as du fromage.",
-        "en": "You have some cheese."
+        "en": "You have some cheese.",
+        "pronunciation": "tü as dü froh-MAHZH",
+        "sound": "tü as dü froh-MAHZH"
       },
       {
         "id": "j-ai-la-soupe",
         "fr": "j'ai la soupe.",
-        "en": "I have the soup."
+        "en": "I have the soup.",
+        "pronunciation": "zheh lah soupe",
+        "sound": "zheh lah soupe"
       },
       {
         "id": "tu-as-la-soupe",
         "fr": "tu as la soupe.",
-        "en": "You have the soup."
+        "en": "You have the soup.",
+        "pronunciation": "tü as lah soupe",
+        "sound": "tü as lah soupe"
       },
       {
         "id": "j-ai-le-repas",
         "fr": "j'ai le repas.",
-        "en": "I have the meal."
+        "en": "I have the meal.",
+        "pronunciation": "zheh luh ruh-PAH",
+        "sound": "zheh luh ruh-PAH"
       },
       {
         "id": "tu-as-le-repas",
         "fr": "tu as le repas.",
-        "en": "You have the meal."
+        "en": "You have the meal.",
+        "pronunciation": "tü as luh ruh-PAH",
+        "sound": "tü as luh ruh-PAH"
       }
     ],
     "aimer-noun": [
       {
         "id": "j-aime-de-l-eau",
         "fr": "j'aime de l'eau.",
-        "en": "I like some water."
+        "en": "I like some water.",
+        "pronunciation": "zhem duh loh",
+        "sound": "zhem duh loh"
       },
       {
         "id": "tu-aimes-de-l-eau",
         "fr": "tu aimes de l'eau.",
-        "en": "You like some water."
+        "en": "You like some water.",
+        "pronunciation": "tü aimes duh loh",
+        "sound": "tü aimes duh loh"
       },
       {
         "id": "j-aime-du-cafe",
         "fr": "j'aime du café.",
-        "en": "I like some coffee."
+        "en": "I like some coffee.",
+        "pronunciation": "zhem dü kah-FEH",
+        "sound": "zhem dü kah-FEH"
       },
       {
         "id": "tu-aimes-du-cafe",
         "fr": "tu aimes du café.",
-        "en": "You like some coffee."
+        "en": "You like some coffee.",
+        "pronunciation": "tü aimes dü kah-FEH",
+        "sound": "tü aimes dü kah-FEH"
       },
       {
         "id": "j-aime-du-the",
         "fr": "j'aime du thé.",
-        "en": "I like some tea."
+        "en": "I like some tea.",
+        "pronunciation": "zhem dü tay",
+        "sound": "zhem dü tay"
       },
       {
         "id": "tu-aimes-du-the",
         "fr": "tu aimes du thé.",
-        "en": "You like some tea."
+        "en": "You like some tea.",
+        "pronunciation": "tü aimes dü tay",
+        "sound": "tü aimes dü tay"
       },
       {
         "id": "j-aime-du-pain",
         "fr": "j'aime du pain.",
-        "en": "I like some bread."
+        "en": "I like some bread.",
+        "pronunciation": "zhem dü pa(n)",
+        "sound": "zhem dü pa(n)"
       },
       {
         "id": "tu-aimes-du-pain",
         "fr": "tu aimes du pain.",
-        "en": "You like some bread."
+        "en": "You like some bread.",
+        "pronunciation": "tü aimes dü pa(n)",
+        "sound": "tü aimes dü pa(n)"
       },
       {
         "id": "j-aime-du-riz",
         "fr": "j'aime du riz.",
-        "en": "I like some rice."
+        "en": "I like some rice.",
+        "pronunciation": "zhem dü ree",
+        "sound": "zhem dü ree"
       },
       {
         "id": "tu-aimes-du-riz",
         "fr": "tu aimes du riz.",
-        "en": "You like some rice."
+        "en": "You like some rice.",
+        "pronunciation": "tü aimes dü ree",
+        "sound": "tü aimes dü ree"
       },
       {
         "id": "j-aime-un-fruit",
         "fr": "j'aime un fruit.",
-        "en": "I like a fruit."
+        "en": "I like a fruit.",
+        "pronunciation": "zhem uh(n) fruit",
+        "sound": "zhem uh(n) fruit"
       },
       {
         "id": "tu-aimes-un-fruit",
         "fr": "tu aimes un fruit.",
-        "en": "You like a fruit."
+        "en": "You like a fruit.",
+        "pronunciation": "tü aimes uh(n) fruit",
+        "sound": "tü aimes uh(n) fruit"
       },
       {
         "id": "j-aime-une-pomme",
         "fr": "j'aime une pomme.",
-        "en": "I like an apple."
+        "en": "I like an apple.",
+        "pronunciation": "zhem ün pum",
+        "sound": "zhem ün pum"
       },
       {
         "id": "tu-aimes-une-pomme",
         "fr": "tu aimes une pomme.",
-        "en": "You like an apple."
+        "en": "You like an apple.",
+        "pronunciation": "tü aimes ün pum",
+        "sound": "tü aimes ün pum"
       },
       {
         "id": "j-aime-une-banane",
         "fr": "j'aime une banane.",
-        "en": "I like a banana."
+        "en": "I like a banana.",
+        "pronunciation": "zhem ün banane",
+        "sound": "zhem ün banane"
       },
       {
         "id": "tu-aimes-une-banane",
         "fr": "tu aimes une banane.",
-        "en": "You like a banana."
+        "en": "You like a banana.",
+        "pronunciation": "tü aimes ün banane",
+        "sound": "tü aimes ün banane"
       },
       {
         "id": "j-aime-un-uf",
         "fr": "j'aime un œuf.",
-        "en": "I like an egg."
+        "en": "I like an egg.",
+        "pronunciation": "zhem uh(n) oeuf",
+        "sound": "zhem uh(n) oeuf"
       },
       {
         "id": "tu-aimes-un-uf",
         "fr": "tu aimes un œuf.",
-        "en": "You like an egg."
+        "en": "You like an egg.",
+        "pronunciation": "tü aimes uh(n) oeuf",
+        "sound": "tü aimes uh(n) oeuf"
       },
       {
         "id": "j-aime-du-poisson",
         "fr": "j'aime du poisson.",
-        "en": "I like some fish."
+        "en": "I like some fish.",
+        "pronunciation": "zhem dü pwa-SOH(N)",
+        "sound": "zhem dü pwa-SOH(N)"
       },
       {
         "id": "tu-aimes-du-poisson",
         "fr": "tu aimes du poisson.",
-        "en": "You like some fish."
+        "en": "You like some fish.",
+        "pronunciation": "tü aimes dü pwa-SOH(N)",
+        "sound": "tü aimes dü pwa-SOH(N)"
       },
       {
         "id": "j-aime-du-poulet",
         "fr": "j'aime du poulet.",
-        "en": "I like some chicken."
+        "en": "I like some chicken.",
+        "pronunciation": "zhem dü poo-LEH",
+        "sound": "zhem dü poo-LEH"
       },
       {
         "id": "tu-aimes-du-poulet",
         "fr": "tu aimes du poulet.",
-        "en": "You like some chicken."
+        "en": "You like some chicken.",
+        "pronunciation": "tü aimes dü poo-LEH",
+        "sound": "tü aimes dü poo-LEH"
       },
       {
         "id": "j-aime-du-fromage",
         "fr": "j'aime du fromage.",
-        "en": "I like some cheese."
+        "en": "I like some cheese.",
+        "pronunciation": "zhem dü froh-MAHZH",
+        "sound": "zhem dü froh-MAHZH"
       },
       {
         "id": "tu-aimes-du-fromage",
         "fr": "tu aimes du fromage.",
-        "en": "You like some cheese."
+        "en": "You like some cheese.",
+        "pronunciation": "tü aimes dü froh-MAHZH",
+        "sound": "tü aimes dü froh-MAHZH"
       }
     ],
     "vouloir-noun": [
       {
         "id": "je-veux-de-l-eau",
         "fr": "je veux de l'eau.",
-        "en": "I want some water."
+        "en": "I want some water.",
+        "pronunciation": "zhuh vuh duh loh",
+        "sound": "zhuh vuh duh loh"
       },
       {
         "id": "je-veux-du-cafe",
         "fr": "je veux du café.",
-        "en": "I want some coffee."
+        "en": "I want some coffee.",
+        "pronunciation": "zhuh vuh dü kah-FEH",
+        "sound": "zhuh vuh dü kah-FEH"
       },
       {
         "id": "je-veux-du-the",
         "fr": "je veux du thé.",
-        "en": "I want some tea."
+        "en": "I want some tea.",
+        "pronunciation": "zhuh vuh dü tay",
+        "sound": "zhuh vuh dü tay"
       },
       {
         "id": "je-veux-du-pain",
         "fr": "je veux du pain.",
-        "en": "I want some bread."
+        "en": "I want some bread.",
+        "pronunciation": "zhuh vuh dü pa(n)",
+        "sound": "zhuh vuh dü pa(n)"
       },
       {
         "id": "je-veux-du-riz",
         "fr": "je veux du riz.",
-        "en": "I want some rice."
+        "en": "I want some rice.",
+        "pronunciation": "zhuh vuh dü ree",
+        "sound": "zhuh vuh dü ree"
       },
       {
         "id": "je-veux-un-fruit",
         "fr": "je veux un fruit.",
-        "en": "I want a fruit."
+        "en": "I want a fruit.",
+        "pronunciation": "zhuh vuh uh(n) fruit",
+        "sound": "zhuh vuh uh(n) fruit"
       },
       {
         "id": "je-veux-une-pomme",
         "fr": "je veux une pomme.",
-        "en": "I want an apple."
+        "en": "I want an apple.",
+        "pronunciation": "zhuh vuh ün pum",
+        "sound": "zhuh vuh ün pum"
       },
       {
         "id": "je-veux-une-banane",
         "fr": "je veux une banane.",
-        "en": "I want a banana."
+        "en": "I want a banana.",
+        "pronunciation": "zhuh vuh ün banane",
+        "sound": "zhuh vuh ün banane"
       }
     ]
   },
@@ -517,302 +662,422 @@
     {
       "id": "j-ai-de-l-eau",
       "fr": "j'ai de l'eau.",
-      "en": "I have some water."
+      "en": "I have some water.",
+      "pronunciation": "zheh duh loh",
+      "sound": "zheh duh loh"
     },
     {
       "id": "tu-as-de-l-eau",
       "fr": "tu as de l'eau.",
-      "en": "You have some water."
+      "en": "You have some water.",
+      "pronunciation": "tü as duh loh",
+      "sound": "tü as duh loh"
     },
     {
       "id": "j-ai-du-cafe",
       "fr": "j'ai du café.",
-      "en": "I have some coffee."
+      "en": "I have some coffee.",
+      "pronunciation": "zheh dü kah-FEH",
+      "sound": "zheh dü kah-FEH"
     },
     {
       "id": "tu-as-du-cafe",
       "fr": "tu as du café.",
-      "en": "You have some coffee."
+      "en": "You have some coffee.",
+      "pronunciation": "tü as dü kah-FEH",
+      "sound": "tü as dü kah-FEH"
     },
     {
       "id": "j-ai-du-the",
       "fr": "j'ai du thé.",
-      "en": "I have some tea."
+      "en": "I have some tea.",
+      "pronunciation": "zheh dü tay",
+      "sound": "zheh dü tay"
     },
     {
       "id": "tu-as-du-the",
       "fr": "tu as du thé.",
-      "en": "You have some tea."
+      "en": "You have some tea.",
+      "pronunciation": "tü as dü tay",
+      "sound": "tü as dü tay"
     },
     {
       "id": "j-ai-du-pain",
       "fr": "j'ai du pain.",
-      "en": "I have some bread."
+      "en": "I have some bread.",
+      "pronunciation": "zheh dü pa(n)",
+      "sound": "zheh dü pa(n)"
     },
     {
       "id": "tu-as-du-pain",
       "fr": "tu as du pain.",
-      "en": "You have some bread."
+      "en": "You have some bread.",
+      "pronunciation": "tü as dü pa(n)",
+      "sound": "tü as dü pa(n)"
     },
     {
       "id": "j-ai-du-riz",
       "fr": "j'ai du riz.",
-      "en": "I have some rice."
+      "en": "I have some rice.",
+      "pronunciation": "zheh dü ree",
+      "sound": "zheh dü ree"
     },
     {
       "id": "tu-as-du-riz",
       "fr": "tu as du riz.",
-      "en": "You have some rice."
+      "en": "You have some rice.",
+      "pronunciation": "tü as dü ree",
+      "sound": "tü as dü ree"
     },
     {
       "id": "j-ai-un-fruit",
       "fr": "j'ai un fruit.",
-      "en": "I have a fruit."
+      "en": "I have a fruit.",
+      "pronunciation": "zheh uh(n) fruit",
+      "sound": "zheh uh(n) fruit"
     },
     {
       "id": "tu-as-un-fruit",
       "fr": "tu as un fruit.",
-      "en": "You have a fruit."
+      "en": "You have a fruit.",
+      "pronunciation": "tü as uh(n) fruit",
+      "sound": "tü as uh(n) fruit"
     },
     {
       "id": "j-ai-une-pomme",
       "fr": "j'ai une pomme.",
-      "en": "I have an apple."
+      "en": "I have an apple.",
+      "pronunciation": "zheh ün pum",
+      "sound": "zheh ün pum"
     },
     {
       "id": "tu-as-une-pomme",
       "fr": "tu as une pomme.",
-      "en": "You have an apple."
+      "en": "You have an apple.",
+      "pronunciation": "tü as ün pum",
+      "sound": "tü as ün pum"
     },
     {
       "id": "j-ai-une-banane",
       "fr": "j'ai une banane.",
-      "en": "I have a banana."
+      "en": "I have a banana.",
+      "pronunciation": "zheh ün banane",
+      "sound": "zheh ün banane"
     },
     {
       "id": "tu-as-une-banane",
       "fr": "tu as une banane.",
-      "en": "You have a banana."
+      "en": "You have a banana.",
+      "pronunciation": "tü as ün banane",
+      "sound": "tü as ün banane"
     },
     {
       "id": "j-ai-un-uf",
       "fr": "j'ai un œuf.",
-      "en": "I have an egg."
+      "en": "I have an egg.",
+      "pronunciation": "zheh uh(n) oeuf",
+      "sound": "zheh uh(n) oeuf"
     },
     {
       "id": "tu-as-un-uf",
       "fr": "tu as un œuf.",
-      "en": "You have an egg."
+      "en": "You have an egg.",
+      "pronunciation": "tü as uh(n) oeuf",
+      "sound": "tü as uh(n) oeuf"
     },
     {
       "id": "j-ai-du-poisson",
       "fr": "j'ai du poisson.",
-      "en": "I have some fish."
+      "en": "I have some fish.",
+      "pronunciation": "zheh dü pwa-SOH(N)",
+      "sound": "zheh dü pwa-SOH(N)"
     },
     {
       "id": "tu-as-du-poisson",
       "fr": "tu as du poisson.",
-      "en": "You have some fish."
+      "en": "You have some fish.",
+      "pronunciation": "tü as dü pwa-SOH(N)",
+      "sound": "tü as dü pwa-SOH(N)"
     },
     {
       "id": "j-ai-du-poulet",
       "fr": "j'ai du poulet.",
-      "en": "I have some chicken."
+      "en": "I have some chicken.",
+      "pronunciation": "zheh dü poo-LEH",
+      "sound": "zheh dü poo-LEH"
     },
     {
       "id": "tu-as-du-poulet",
       "fr": "tu as du poulet.",
-      "en": "You have some chicken."
+      "en": "You have some chicken.",
+      "pronunciation": "tü as dü poo-LEH",
+      "sound": "tü as dü poo-LEH"
     },
     {
       "id": "j-ai-du-fromage",
       "fr": "j'ai du fromage.",
-      "en": "I have some cheese."
+      "en": "I have some cheese.",
+      "pronunciation": "zheh dü froh-MAHZH",
+      "sound": "zheh dü froh-MAHZH"
     },
     {
       "id": "tu-as-du-fromage",
       "fr": "tu as du fromage.",
-      "en": "You have some cheese."
+      "en": "You have some cheese.",
+      "pronunciation": "tü as dü froh-MAHZH",
+      "sound": "tü as dü froh-MAHZH"
     },
     {
       "id": "j-ai-la-soupe",
       "fr": "j'ai la soupe.",
-      "en": "I have the soup."
+      "en": "I have the soup.",
+      "pronunciation": "zheh lah soupe",
+      "sound": "zheh lah soupe"
     },
     {
       "id": "tu-as-la-soupe",
       "fr": "tu as la soupe.",
-      "en": "You have the soup."
+      "en": "You have the soup.",
+      "pronunciation": "tü as lah soupe",
+      "sound": "tü as lah soupe"
     },
     {
       "id": "j-ai-le-repas",
       "fr": "j'ai le repas.",
-      "en": "I have the meal."
+      "en": "I have the meal.",
+      "pronunciation": "zheh luh ruh-PAH",
+      "sound": "zheh luh ruh-PAH"
     },
     {
       "id": "tu-as-le-repas",
       "fr": "tu as le repas.",
-      "en": "You have the meal."
+      "en": "You have the meal.",
+      "pronunciation": "tü as luh ruh-PAH",
+      "sound": "tü as luh ruh-PAH"
     },
     {
       "id": "j-aime-de-l-eau",
       "fr": "j'aime de l'eau.",
-      "en": "I like some water."
+      "en": "I like some water.",
+      "pronunciation": "zhem duh loh",
+      "sound": "zhem duh loh"
     },
     {
       "id": "tu-aimes-de-l-eau",
       "fr": "tu aimes de l'eau.",
-      "en": "You like some water."
+      "en": "You like some water.",
+      "pronunciation": "tü aimes duh loh",
+      "sound": "tü aimes duh loh"
     },
     {
       "id": "j-aime-du-cafe",
       "fr": "j'aime du café.",
-      "en": "I like some coffee."
+      "en": "I like some coffee.",
+      "pronunciation": "zhem dü kah-FEH",
+      "sound": "zhem dü kah-FEH"
     },
     {
       "id": "tu-aimes-du-cafe",
       "fr": "tu aimes du café.",
-      "en": "You like some coffee."
+      "en": "You like some coffee.",
+      "pronunciation": "tü aimes dü kah-FEH",
+      "sound": "tü aimes dü kah-FEH"
     },
     {
       "id": "j-aime-du-the",
       "fr": "j'aime du thé.",
-      "en": "I like some tea."
+      "en": "I like some tea.",
+      "pronunciation": "zhem dü tay",
+      "sound": "zhem dü tay"
     },
     {
       "id": "tu-aimes-du-the",
       "fr": "tu aimes du thé.",
-      "en": "You like some tea."
+      "en": "You like some tea.",
+      "pronunciation": "tü aimes dü tay",
+      "sound": "tü aimes dü tay"
     },
     {
       "id": "j-aime-du-pain",
       "fr": "j'aime du pain.",
-      "en": "I like some bread."
+      "en": "I like some bread.",
+      "pronunciation": "zhem dü pa(n)",
+      "sound": "zhem dü pa(n)"
     },
     {
       "id": "tu-aimes-du-pain",
       "fr": "tu aimes du pain.",
-      "en": "You like some bread."
+      "en": "You like some bread.",
+      "pronunciation": "tü aimes dü pa(n)",
+      "sound": "tü aimes dü pa(n)"
     },
     {
       "id": "j-aime-du-riz",
       "fr": "j'aime du riz.",
-      "en": "I like some rice."
+      "en": "I like some rice.",
+      "pronunciation": "zhem dü ree",
+      "sound": "zhem dü ree"
     },
     {
       "id": "tu-aimes-du-riz",
       "fr": "tu aimes du riz.",
-      "en": "You like some rice."
+      "en": "You like some rice.",
+      "pronunciation": "tü aimes dü ree",
+      "sound": "tü aimes dü ree"
     },
     {
       "id": "j-aime-un-fruit",
       "fr": "j'aime un fruit.",
-      "en": "I like a fruit."
+      "en": "I like a fruit.",
+      "pronunciation": "zhem uh(n) fruit",
+      "sound": "zhem uh(n) fruit"
     },
     {
       "id": "tu-aimes-un-fruit",
       "fr": "tu aimes un fruit.",
-      "en": "You like a fruit."
+      "en": "You like a fruit.",
+      "pronunciation": "tü aimes uh(n) fruit",
+      "sound": "tü aimes uh(n) fruit"
     },
     {
       "id": "j-aime-une-pomme",
       "fr": "j'aime une pomme.",
-      "en": "I like an apple."
+      "en": "I like an apple.",
+      "pronunciation": "zhem ün pum",
+      "sound": "zhem ün pum"
     },
     {
       "id": "tu-aimes-une-pomme",
       "fr": "tu aimes une pomme.",
-      "en": "You like an apple."
+      "en": "You like an apple.",
+      "pronunciation": "tü aimes ün pum",
+      "sound": "tü aimes ün pum"
     },
     {
       "id": "j-aime-une-banane",
       "fr": "j'aime une banane.",
-      "en": "I like a banana."
+      "en": "I like a banana.",
+      "pronunciation": "zhem ün banane",
+      "sound": "zhem ün banane"
     },
     {
       "id": "tu-aimes-une-banane",
       "fr": "tu aimes une banane.",
-      "en": "You like a banana."
+      "en": "You like a banana.",
+      "pronunciation": "tü aimes ün banane",
+      "sound": "tü aimes ün banane"
     },
     {
       "id": "j-aime-un-uf",
       "fr": "j'aime un œuf.",
-      "en": "I like an egg."
+      "en": "I like an egg.",
+      "pronunciation": "zhem uh(n) oeuf",
+      "sound": "zhem uh(n) oeuf"
     },
     {
       "id": "tu-aimes-un-uf",
       "fr": "tu aimes un œuf.",
-      "en": "You like an egg."
+      "en": "You like an egg.",
+      "pronunciation": "tü aimes uh(n) oeuf",
+      "sound": "tü aimes uh(n) oeuf"
     },
     {
       "id": "j-aime-du-poisson",
       "fr": "j'aime du poisson.",
-      "en": "I like some fish."
+      "en": "I like some fish.",
+      "pronunciation": "zhem dü pwa-SOH(N)",
+      "sound": "zhem dü pwa-SOH(N)"
     },
     {
       "id": "tu-aimes-du-poisson",
       "fr": "tu aimes du poisson.",
-      "en": "You like some fish."
+      "en": "You like some fish.",
+      "pronunciation": "tü aimes dü pwa-SOH(N)",
+      "sound": "tü aimes dü pwa-SOH(N)"
     },
     {
       "id": "j-aime-du-poulet",
       "fr": "j'aime du poulet.",
-      "en": "I like some chicken."
+      "en": "I like some chicken.",
+      "pronunciation": "zhem dü poo-LEH",
+      "sound": "zhem dü poo-LEH"
     },
     {
       "id": "tu-aimes-du-poulet",
       "fr": "tu aimes du poulet.",
-      "en": "You like some chicken."
+      "en": "You like some chicken.",
+      "pronunciation": "tü aimes dü poo-LEH",
+      "sound": "tü aimes dü poo-LEH"
     },
     {
       "id": "j-aime-du-fromage",
       "fr": "j'aime du fromage.",
-      "en": "I like some cheese."
+      "en": "I like some cheese.",
+      "pronunciation": "zhem dü froh-MAHZH",
+      "sound": "zhem dü froh-MAHZH"
     },
     {
       "id": "tu-aimes-du-fromage",
       "fr": "tu aimes du fromage.",
-      "en": "You like some cheese."
+      "en": "You like some cheese.",
+      "pronunciation": "tü aimes dü froh-MAHZH",
+      "sound": "tü aimes dü froh-MAHZH"
     },
     {
       "id": "je-veux-de-l-eau",
       "fr": "je veux de l'eau.",
-      "en": "I want some water."
+      "en": "I want some water.",
+      "pronunciation": "zhuh vuh duh loh",
+      "sound": "zhuh vuh duh loh"
     },
     {
       "id": "je-veux-du-cafe",
       "fr": "je veux du café.",
-      "en": "I want some coffee."
+      "en": "I want some coffee.",
+      "pronunciation": "zhuh vuh dü kah-FEH",
+      "sound": "zhuh vuh dü kah-FEH"
     },
     {
       "id": "je-veux-du-the",
       "fr": "je veux du thé.",
-      "en": "I want some tea."
+      "en": "I want some tea.",
+      "pronunciation": "zhuh vuh dü tay",
+      "sound": "zhuh vuh dü tay"
     },
     {
       "id": "je-veux-du-pain",
       "fr": "je veux du pain.",
-      "en": "I want some bread."
+      "en": "I want some bread.",
+      "pronunciation": "zhuh vuh dü pa(n)",
+      "sound": "zhuh vuh dü pa(n)"
     },
     {
       "id": "je-veux-du-riz",
       "fr": "je veux du riz.",
-      "en": "I want some rice."
+      "en": "I want some rice.",
+      "pronunciation": "zhuh vuh dü ree",
+      "sound": "zhuh vuh dü ree"
     },
     {
       "id": "je-veux-un-fruit",
       "fr": "je veux un fruit.",
-      "en": "I want a fruit."
+      "en": "I want a fruit.",
+      "pronunciation": "zhuh vuh uh(n) fruit",
+      "sound": "zhuh vuh uh(n) fruit"
     },
     {
       "id": "je-veux-une-pomme",
       "fr": "je veux une pomme.",
-      "en": "I want an apple."
+      "en": "I want an apple.",
+      "pronunciation": "zhuh vuh ün pum",
+      "sound": "zhuh vuh ün pum"
     },
     {
       "id": "je-veux-une-banane",
       "fr": "je veux une banane.",
-      "en": "I want a banana."
+      "en": "I want a banana.",
+      "pronunciation": "zhuh vuh ün banane",
+      "sound": "zhuh vuh ün banane"
     }
   ],
   "audioVoices": [

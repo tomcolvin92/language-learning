@@ -9,200 +9,225 @@
       "fr": "je suis à",
       "en": "I am at/in",
       "say": "je suis à",
-      "sound": "",
-      "category": "Chunk"
+      "sound": "zhuh swee ah",
+      "category": "Chunk",
+      "pronunciation": "zhuh swee ah"
     },
     {
       "id": "tu-es-a",
       "fr": "tu es à",
       "en": "you are at/in",
       "say": "tu es à",
-      "sound": "",
-      "category": "Chunk"
+      "sound": "tü eh ah",
+      "category": "Chunk",
+      "pronunciation": "tü eh ah"
     },
     {
       "id": "il-est-a",
       "fr": "il est à",
       "en": "he is at/in",
       "say": "il est à",
-      "sound": "",
-      "category": "Chunk"
+      "sound": "eel eh ah",
+      "category": "Chunk",
+      "pronunciation": "eel eh ah"
     },
     {
       "id": "elle-est-a",
       "fr": "elle est à",
       "en": "she is at/in",
       "say": "elle est à",
-      "sound": "",
-      "category": "Chunk"
+      "sound": "ehl eh ah",
+      "category": "Chunk",
+      "pronunciation": "ehl eh ah"
     },
     {
       "id": "dans",
       "fr": "dans",
       "en": "in/inside",
       "say": "dans",
-      "sound": "",
-      "category": "Preposition"
+      "sound": "dah(n)",
+      "category": "Preposition",
+      "pronunciation": "dah(n)"
     },
     {
       "id": "a-la-maison",
       "fr": "à la maison",
       "en": "at home",
       "say": "à la maison",
-      "sound": "",
-      "category": "Place Phrase"
+      "sound": "ah lah meh-ZOH(N)",
+      "category": "Place Phrase",
+      "pronunciation": "ah lah meh-ZOH(N)"
     },
     {
       "id": "a-l-ecole",
       "fr": "à l'école",
       "en": "at school",
       "say": "à l'école",
-      "sound": "",
-      "category": "Place Phrase"
+      "sound": "ah leh-KOHL",
+      "category": "Place Phrase",
+      "pronunciation": "ah leh-KOHL"
     },
     {
       "id": "au-travail",
       "fr": "au travail",
       "en": "at work",
       "say": "au travail",
-      "sound": "",
-      "category": "Place Phrase"
+      "sound": "oh trah-VAI",
+      "category": "Place Phrase",
+      "pronunciation": "oh trah-VAI"
     },
     {
       "id": "au-cafe",
       "fr": "au café",
       "en": "at the café",
       "say": "au café",
-      "sound": "",
-      "category": "Place Phrase"
+      "sound": "oh kah-FEH",
+      "category": "Place Phrase",
+      "pronunciation": "oh kah-FEH"
     },
     {
       "id": "au-parc",
       "fr": "au parc",
       "en": "at the park",
       "say": "au parc",
-      "sound": "",
-      "category": "Place Phrase"
+      "sound": "oh park",
+      "category": "Place Phrase",
+      "pronunciation": "oh park"
     },
     {
       "id": "au-restaurant",
       "fr": "au restaurant",
       "en": "at the restaurant",
       "say": "au restaurant",
-      "sound": "",
-      "category": "Place Phrase"
+      "sound": "oh res-toh-RAH(N)",
+      "category": "Place Phrase",
+      "pronunciation": "oh res-toh-RAH(N)"
     },
     {
       "id": "au-magasin",
       "fr": "au magasin",
       "en": "at the shop",
       "say": "au magasin",
-      "sound": "",
-      "category": "Place Phrase"
+      "sound": "oh mah-gah-ZA(N)",
+      "category": "Place Phrase",
+      "pronunciation": "oh mah-gah-ZA(N)"
     },
     {
       "id": "dans-la-rue",
       "fr": "dans la rue",
       "en": "in the street",
       "say": "dans la rue",
-      "sound": "",
-      "category": "Place Phrase"
+      "sound": "dah(n) lah rü",
+      "category": "Place Phrase",
+      "pronunciation": "dah(n) lah rü"
     },
     {
       "id": "dans-la-ville",
       "fr": "dans la ville",
       "en": "in the city",
       "say": "dans la ville",
-      "sound": "",
-      "category": "Place Phrase"
+      "sound": "dah(n) lah veel",
+      "category": "Place Phrase",
+      "pronunciation": "dah(n) lah veel"
     },
     {
       "id": "dans-le-jardin",
       "fr": "dans le jardin",
       "en": "in the garden",
       "say": "dans le jardin",
-      "sound": "",
-      "category": "Place Phrase"
+      "sound": "dah(n) luh zhar-DAH(N)",
+      "category": "Place Phrase",
+      "pronunciation": "dah(n) luh zhar-DAH(N)"
     },
     {
       "id": "la-chambre",
       "fr": "la chambre",
       "en": "the bedroom",
       "say": "la chambre",
-      "sound": "",
-      "category": "Noun Phrase"
+      "sound": "lah shah(n)br",
+      "category": "Noun Phrase",
+      "pronunciation": "lah shah(n)br"
     },
     {
       "id": "la-cuisine",
       "fr": "la cuisine",
       "en": "the kitchen",
       "say": "la cuisine",
-      "sound": "",
-      "category": "Noun Phrase"
+      "sound": "lah kwee-ZEEN",
+      "category": "Noun Phrase",
+      "pronunciation": "lah kwee-ZEEN"
     },
     {
       "id": "la-table",
       "fr": "la table",
       "en": "the table",
       "say": "la table",
-      "sound": "",
-      "category": "Noun Phrase"
+      "sound": "lah tahbl",
+      "category": "Noun Phrase",
+      "pronunciation": "lah tahbl"
     },
     {
       "id": "la-chaise",
       "fr": "la chaise",
       "en": "the chair",
       "say": "la chaise",
-      "sound": "",
-      "category": "Noun Phrase"
+      "sound": "lah shehz",
+      "category": "Noun Phrase",
+      "pronunciation": "lah shehz"
     },
     {
       "id": "la-porte",
       "fr": "la porte",
       "en": "the door",
       "say": "la porte",
-      "sound": "",
-      "category": "Noun Phrase"
+      "sound": "lah port",
+      "category": "Noun Phrase",
+      "pronunciation": "lah port"
     },
     {
       "id": "la-fenetre",
       "fr": "la fenêtre",
       "en": "the window",
       "say": "la fenêtre",
-      "sound": "",
-      "category": "Noun Phrase"
+      "sound": "lah fuh-NEH-tr",
+      "category": "Noun Phrase",
+      "pronunciation": "lah fuh-NEH-tr"
     },
     {
       "id": "pres-de",
       "fr": "près de",
       "en": "near",
       "say": "près de",
-      "sound": "",
-      "category": "Preposition"
+      "sound": "preh duh",
+      "category": "Preposition",
+      "pronunciation": "preh duh"
     },
     {
       "id": "loin-de",
       "fr": "loin de",
       "en": "far from",
       "say": "loin de",
-      "sound": "",
-      "category": "Preposition"
+      "sound": "lwa(n) duh",
+      "category": "Preposition",
+      "pronunciation": "lwa(n) duh"
     },
     {
       "id": "devant",
       "fr": "devant",
       "en": "in front",
       "say": "devant",
-      "sound": "",
-      "category": "Preposition/Adverb"
+      "sound": "duh-VAH(N)",
+      "category": "Preposition/Adverb",
+      "pronunciation": "duh-VAH(N)"
     },
     {
       "id": "derriere",
       "fr": "derrière",
       "en": "behind",
       "say": "derrière",
-      "sound": "",
-      "category": "Preposition/Adverb"
+      "sound": "deh-RYEHR",
+      "category": "Preposition/Adverb",
+      "pronunciation": "deh-RYEHR"
     }
   ],
   "sentenceGroups": {
@@ -210,304 +235,424 @@
       {
         "id": "je-suis-a-la-maison",
         "fr": "je suis à la maison.",
-        "en": "I am at home."
+        "en": "I am at home.",
+        "pronunciation": "zhuh swee ah lah meh-ZOH(N)",
+        "sound": "zhuh swee ah lah meh-ZOH(N)"
       },
       {
         "id": "tu-es-a-la-maison",
         "fr": "tu es à la maison.",
-        "en": "You are at home."
+        "en": "You are at home.",
+        "pronunciation": "tü eh ah lah meh-ZOH(N)",
+        "sound": "tü eh ah lah meh-ZOH(N)"
       },
       {
         "id": "je-suis-a-l-ecole",
         "fr": "je suis à l'école.",
-        "en": "I am at school."
+        "en": "I am at school.",
+        "pronunciation": "zhuh swee ah leh-KOHL",
+        "sound": "zhuh swee ah leh-KOHL"
       },
       {
         "id": "tu-es-a-l-ecole",
         "fr": "tu es à l'école.",
-        "en": "You are at school."
+        "en": "You are at school.",
+        "pronunciation": "tü eh ah leh-KOHL",
+        "sound": "tü eh ah leh-KOHL"
       },
       {
         "id": "je-suis-au-travail",
         "fr": "je suis au travail.",
-        "en": "I am at work."
+        "en": "I am at work.",
+        "pronunciation": "zhuh swee oh trah-VAI",
+        "sound": "zhuh swee oh trah-VAI"
       },
       {
         "id": "tu-es-au-travail",
         "fr": "tu es au travail.",
-        "en": "You are at work."
+        "en": "You are at work.",
+        "pronunciation": "tü eh oh trah-VAI",
+        "sound": "tü eh oh trah-VAI"
       },
       {
         "id": "je-suis-au-cafe",
         "fr": "je suis au café.",
-        "en": "I am at the café."
+        "en": "I am at the café.",
+        "pronunciation": "zhuh swee oh kah-FEH",
+        "sound": "zhuh swee oh kah-FEH"
       },
       {
         "id": "tu-es-au-cafe",
         "fr": "tu es au café.",
-        "en": "You are at the café."
+        "en": "You are at the café.",
+        "pronunciation": "tü eh oh kah-FEH",
+        "sound": "tü eh oh kah-FEH"
       },
       {
         "id": "je-suis-au-parc",
         "fr": "je suis au parc.",
-        "en": "I am at the park."
+        "en": "I am at the park.",
+        "pronunciation": "zhuh swee oh park",
+        "sound": "zhuh swee oh park"
       },
       {
         "id": "tu-es-au-parc",
         "fr": "tu es au parc.",
-        "en": "You are at the park."
+        "en": "You are at the park.",
+        "pronunciation": "tü eh oh park",
+        "sound": "tü eh oh park"
       },
       {
         "id": "je-suis-au-restaurant",
         "fr": "je suis au restaurant.",
-        "en": "I am at the restaurant."
+        "en": "I am at the restaurant.",
+        "pronunciation": "zhuh swee oh res-toh-RAH(N)",
+        "sound": "zhuh swee oh res-toh-RAH(N)"
       },
       {
         "id": "tu-es-au-restaurant",
         "fr": "tu es au restaurant.",
-        "en": "You are at the restaurant."
+        "en": "You are at the restaurant.",
+        "pronunciation": "tü eh oh res-toh-RAH(N)",
+        "sound": "tü eh oh res-toh-RAH(N)"
       },
       {
         "id": "je-suis-au-magasin",
         "fr": "je suis au magasin.",
-        "en": "I am at the shop."
+        "en": "I am at the shop.",
+        "pronunciation": "zhuh swee oh mah-gah-ZA(N)",
+        "sound": "zhuh swee oh mah-gah-ZA(N)"
       },
       {
         "id": "tu-es-au-magasin",
         "fr": "tu es au magasin.",
-        "en": "You are at the shop."
+        "en": "You are at the shop.",
+        "pronunciation": "tü eh oh mah-gah-ZA(N)",
+        "sound": "tü eh oh mah-gah-ZA(N)"
       },
       {
         "id": "je-suis-dans-la-rue",
         "fr": "je suis dans la rue.",
-        "en": "I am in the street."
+        "en": "I am in the street.",
+        "pronunciation": "zhuh swee dah(n) lah rü",
+        "sound": "zhuh swee dah(n) lah rü"
       },
       {
         "id": "tu-es-dans-la-rue",
         "fr": "tu es dans la rue.",
-        "en": "You are in the street."
+        "en": "You are in the street.",
+        "pronunciation": "tü eh dah(n) lah rü",
+        "sound": "tü eh dah(n) lah rü"
       },
       {
         "id": "je-suis-dans-la-ville",
         "fr": "je suis dans la ville.",
-        "en": "I am in the city."
+        "en": "I am in the city.",
+        "pronunciation": "zhuh swee dah(n) lah veel",
+        "sound": "zhuh swee dah(n) lah veel"
       },
       {
         "id": "tu-es-dans-la-ville",
         "fr": "tu es dans la ville.",
-        "en": "You are in the city."
+        "en": "You are in the city.",
+        "pronunciation": "tü eh dah(n) lah veel",
+        "sound": "tü eh dah(n) lah veel"
       },
       {
         "id": "je-suis-dans-le-jardin",
         "fr": "je suis dans le jardin.",
-        "en": "I am in the garden."
+        "en": "I am in the garden.",
+        "pronunciation": "zhuh swee dah(n) luh zhar-DAH(N)",
+        "sound": "zhuh swee dah(n) luh zhar-DAH(N)"
       },
       {
         "id": "tu-es-dans-le-jardin",
         "fr": "tu es dans le jardin.",
-        "en": "You are in the garden."
+        "en": "You are in the garden.",
+        "pronunciation": "tü eh dah(n) luh zhar-DAH(N)",
+        "sound": "tü eh dah(n) luh zhar-DAH(N)"
       },
       {
         "id": "je-suis-dans-la-chambre",
         "fr": "je suis dans la chambre.",
-        "en": "I am in the bedroom."
+        "en": "I am in the bedroom.",
+        "pronunciation": "zhuh swee dah(n) lah shah(n)br",
+        "sound": "zhuh swee dah(n) lah shah(n)br"
       },
       {
         "id": "tu-es-dans-la-chambre",
         "fr": "tu es dans la chambre.",
-        "en": "You are in the bedroom."
+        "en": "You are in the bedroom.",
+        "pronunciation": "tü eh dah(n) lah shah(n)br",
+        "sound": "tü eh dah(n) lah shah(n)br"
       },
       {
         "id": "je-suis-dans-la-cuisine",
         "fr": "je suis dans la cuisine.",
-        "en": "I am in the kitchen."
+        "en": "I am in the kitchen.",
+        "pronunciation": "zhuh swee dah(n) lah kwee-ZEEN",
+        "sound": "zhuh swee dah(n) lah kwee-ZEEN"
       },
       {
         "id": "tu-es-dans-la-cuisine",
         "fr": "tu es dans la cuisine.",
-        "en": "You are in the kitchen."
+        "en": "You are in the kitchen.",
+        "pronunciation": "tü eh dah(n) lah kwee-ZEEN",
+        "sound": "tü eh dah(n) lah kwee-ZEEN"
       },
       {
         "id": "il-est-a-la-maison",
         "fr": "il est à la maison.",
-        "en": "He is at home."
+        "en": "He is at home.",
+        "pronunciation": "eel eh ah lah meh-ZOH(N)",
+        "sound": "eel eh ah lah meh-ZOH(N)"
       },
       {
         "id": "elle-est-a-la-maison",
         "fr": "elle est à la maison.",
-        "en": "She is at home."
+        "en": "She is at home.",
+        "pronunciation": "ehl eh ah lah meh-ZOH(N)",
+        "sound": "ehl eh ah lah meh-ZOH(N)"
       },
       {
         "id": "il-est-a-l-ecole",
         "fr": "il est à l'école.",
-        "en": "He is at school."
+        "en": "He is at school.",
+        "pronunciation": "eel eh ah leh-KOHL",
+        "sound": "eel eh ah leh-KOHL"
       },
       {
         "id": "elle-est-a-l-ecole",
         "fr": "elle est à l'école.",
-        "en": "She is at school."
+        "en": "She is at school.",
+        "pronunciation": "ehl eh ah leh-KOHL",
+        "sound": "ehl eh ah leh-KOHL"
       },
       {
         "id": "il-est-au-travail",
         "fr": "il est au travail.",
-        "en": "He is at work."
+        "en": "He is at work.",
+        "pronunciation": "eel eh oh trah-VAI",
+        "sound": "eel eh oh trah-VAI"
       },
       {
         "id": "elle-est-au-travail",
         "fr": "elle est au travail.",
-        "en": "She is at work."
+        "en": "She is at work.",
+        "pronunciation": "ehl eh oh trah-VAI",
+        "sound": "ehl eh oh trah-VAI"
       },
       {
         "id": "il-est-au-cafe",
         "fr": "il est au café.",
-        "en": "He is at the café."
+        "en": "He is at the café.",
+        "pronunciation": "eel eh oh kah-FEH",
+        "sound": "eel eh oh kah-FEH"
       },
       {
         "id": "elle-est-au-cafe",
         "fr": "elle est au café.",
-        "en": "She is at the café."
+        "en": "She is at the café.",
+        "pronunciation": "ehl eh oh kah-FEH",
+        "sound": "ehl eh oh kah-FEH"
       },
       {
         "id": "il-est-au-parc",
         "fr": "il est au parc.",
-        "en": "He is at the park."
+        "en": "He is at the park.",
+        "pronunciation": "eel eh oh park",
+        "sound": "eel eh oh park"
       },
       {
         "id": "elle-est-au-parc",
         "fr": "elle est au parc.",
-        "en": "She is at the park."
+        "en": "She is at the park.",
+        "pronunciation": "ehl eh oh park",
+        "sound": "ehl eh oh park"
       },
       {
         "id": "il-est-au-restaurant",
         "fr": "il est au restaurant.",
-        "en": "He is at the restaurant."
+        "en": "He is at the restaurant.",
+        "pronunciation": "eel eh oh res-toh-RAH(N)",
+        "sound": "eel eh oh res-toh-RAH(N)"
       },
       {
         "id": "elle-est-au-restaurant",
         "fr": "elle est au restaurant.",
-        "en": "She is at the restaurant."
+        "en": "She is at the restaurant.",
+        "pronunciation": "ehl eh oh res-toh-RAH(N)",
+        "sound": "ehl eh oh res-toh-RAH(N)"
       },
       {
         "id": "il-est-au-magasin",
         "fr": "il est au magasin.",
-        "en": "He is at the shop."
+        "en": "He is at the shop.",
+        "pronunciation": "eel eh oh mah-gah-ZA(N)",
+        "sound": "eel eh oh mah-gah-ZA(N)"
       },
       {
         "id": "elle-est-au-magasin",
         "fr": "elle est au magasin.",
-        "en": "She is at the shop."
+        "en": "She is at the shop.",
+        "pronunciation": "ehl eh oh mah-gah-ZA(N)",
+        "sound": "ehl eh oh mah-gah-ZA(N)"
       },
       {
         "id": "il-est-dans-la-rue",
         "fr": "il est dans la rue.",
-        "en": "He is in the street."
+        "en": "He is in the street.",
+        "pronunciation": "eel eh dah(n) lah rü",
+        "sound": "eel eh dah(n) lah rü"
       },
       {
         "id": "elle-est-dans-la-rue",
         "fr": "elle est dans la rue.",
-        "en": "She is in the street."
+        "en": "She is in the street.",
+        "pronunciation": "ehl eh dah(n) lah rü",
+        "sound": "ehl eh dah(n) lah rü"
       },
       {
         "id": "il-est-dans-la-ville",
         "fr": "il est dans la ville.",
-        "en": "He is in the city."
+        "en": "He is in the city.",
+        "pronunciation": "eel eh dah(n) lah veel",
+        "sound": "eel eh dah(n) lah veel"
       },
       {
         "id": "elle-est-dans-la-ville",
         "fr": "elle est dans la ville.",
-        "en": "She is in the city."
+        "en": "She is in the city.",
+        "pronunciation": "ehl eh dah(n) lah veel",
+        "sound": "ehl eh dah(n) lah veel"
       },
       {
         "id": "il-est-dans-le-jardin",
         "fr": "il est dans le jardin.",
-        "en": "He is in the garden."
+        "en": "He is in the garden.",
+        "pronunciation": "eel eh dah(n) luh zhar-DAH(N)",
+        "sound": "eel eh dah(n) luh zhar-DAH(N)"
       },
       {
         "id": "elle-est-dans-le-jardin",
         "fr": "elle est dans le jardin.",
-        "en": "She is in the garden."
+        "en": "She is in the garden.",
+        "pronunciation": "ehl eh dah(n) luh zhar-DAH(N)",
+        "sound": "ehl eh dah(n) luh zhar-DAH(N)"
       }
     ],
     "preposition": [
       {
         "id": "la-table-est-pres-de-la-maison",
         "fr": "la table est près de la maison.",
-        "en": "The table is near the house."
+        "en": "The table is near the house.",
+        "pronunciation": "lah tahbl eh preh duh lah meh-ZOH(N)",
+        "sound": "lah tahbl eh preh duh lah meh-ZOH(N)"
       },
       {
         "id": "la-table-est-loin-de-la-maison",
         "fr": "la table est loin de la maison.",
-        "en": "The table is far from the house."
+        "en": "The table is far from the house.",
+        "pronunciation": "lah tahbl eh lwa(n) duh lah meh-ZOH(N)",
+        "sound": "lah tahbl eh lwa(n) duh lah meh-ZOH(N)"
       },
       {
         "id": "la-table-est-devant-la-maison",
         "fr": "la table est devant la maison.",
-        "en": "The table is in front the house."
+        "en": "The table is in front the house.",
+        "pronunciation": "lah tahbl eh duh-VAH(N) lah meh-ZOH(N)",
+        "sound": "lah tahbl eh duh-VAH(N) lah meh-ZOH(N)"
       },
       {
         "id": "la-table-est-derriere-la-maison",
         "fr": "la table est derrière la maison.",
-        "en": "The table is behind the house."
+        "en": "The table is behind the house.",
+        "pronunciation": "lah tahbl eh deh-RYEHR lah meh-ZOH(N)",
+        "sound": "lah tahbl eh deh-RYEHR lah meh-ZOH(N)"
       },
       {
         "id": "la-chaise-est-pres-de-la-maison",
         "fr": "la chaise est près de la maison.",
-        "en": "The chair is near the house."
+        "en": "The chair is near the house.",
+        "pronunciation": "lah shehz eh preh duh lah meh-ZOH(N)",
+        "sound": "lah shehz eh preh duh lah meh-ZOH(N)"
       },
       {
         "id": "la-chaise-est-loin-de-la-maison",
         "fr": "la chaise est loin de la maison.",
-        "en": "The chair is far from the house."
+        "en": "The chair is far from the house.",
+        "pronunciation": "lah shehz eh lwa(n) duh lah meh-ZOH(N)",
+        "sound": "lah shehz eh lwa(n) duh lah meh-ZOH(N)"
       },
       {
         "id": "la-chaise-est-devant-la-maison",
         "fr": "la chaise est devant la maison.",
-        "en": "The chair is in front the house."
+        "en": "The chair is in front the house.",
+        "pronunciation": "lah shehz eh duh-VAH(N) lah meh-ZOH(N)",
+        "sound": "lah shehz eh duh-VAH(N) lah meh-ZOH(N)"
       },
       {
         "id": "la-chaise-est-derriere-la-maison",
         "fr": "la chaise est derrière la maison.",
-        "en": "The chair is behind the house."
+        "en": "The chair is behind the house.",
+        "pronunciation": "lah shehz eh deh-RYEHR lah meh-ZOH(N)",
+        "sound": "lah shehz eh deh-RYEHR lah meh-ZOH(N)"
       },
       {
         "id": "la-porte-est-pres-de-la-maison",
         "fr": "la porte est près de la maison.",
-        "en": "The door is near the house."
+        "en": "The door is near the house.",
+        "pronunciation": "lah port eh preh duh lah meh-ZOH(N)",
+        "sound": "lah port eh preh duh lah meh-ZOH(N)"
       },
       {
         "id": "la-porte-est-loin-de-la-maison",
         "fr": "la porte est loin de la maison.",
-        "en": "The door is far from the house."
+        "en": "The door is far from the house.",
+        "pronunciation": "lah port eh lwa(n) duh lah meh-ZOH(N)",
+        "sound": "lah port eh lwa(n) duh lah meh-ZOH(N)"
       },
       {
         "id": "la-porte-est-devant-la-maison",
         "fr": "la porte est devant la maison.",
-        "en": "The door is in front the house."
+        "en": "The door is in front the house.",
+        "pronunciation": "lah port eh duh-VAH(N) lah meh-ZOH(N)",
+        "sound": "lah port eh duh-VAH(N) lah meh-ZOH(N)"
       },
       {
         "id": "la-porte-est-derriere-la-maison",
         "fr": "la porte est derrière la maison.",
-        "en": "The door is behind the house."
+        "en": "The door is behind the house.",
+        "pronunciation": "lah port eh deh-RYEHR lah meh-ZOH(N)",
+        "sound": "lah port eh deh-RYEHR lah meh-ZOH(N)"
       },
       {
         "id": "la-fenetre-est-pres-de-la-maison",
         "fr": "la fenêtre est près de la maison.",
-        "en": "The window is near the house."
+        "en": "The window is near the house.",
+        "pronunciation": "lah fuh-NEH-tr eh preh duh lah meh-ZOH(N)",
+        "sound": "lah fuh-NEH-tr eh preh duh lah meh-ZOH(N)"
       },
       {
         "id": "la-fenetre-est-loin-de-la-maison",
         "fr": "la fenêtre est loin de la maison.",
-        "en": "The window is far from the house."
+        "en": "The window is far from the house.",
+        "pronunciation": "lah fuh-NEH-tr eh lwa(n) duh lah meh-ZOH(N)",
+        "sound": "lah fuh-NEH-tr eh lwa(n) duh lah meh-ZOH(N)"
       },
       {
         "id": "la-fenetre-est-devant-la-maison",
         "fr": "la fenêtre est devant la maison.",
-        "en": "The window is in front the house."
+        "en": "The window is in front the house.",
+        "pronunciation": "lah fuh-NEH-tr eh duh-VAH(N) lah meh-ZOH(N)",
+        "sound": "lah fuh-NEH-tr eh duh-VAH(N) lah meh-ZOH(N)"
       },
       {
         "id": "la-fenetre-est-derriere-la-maison",
         "fr": "la fenêtre est derrière la maison.",
-        "en": "The window is behind the house."
+        "en": "The window is behind the house.",
+        "pronunciation": "lah fuh-NEH-tr eh deh-RYEHR lah meh-ZOH(N)",
+        "sound": "lah fuh-NEH-tr eh deh-RYEHR lah meh-ZOH(N)"
       }
     ]
   },
@@ -515,302 +660,422 @@
     {
       "id": "je-suis-a-la-maison",
       "fr": "je suis à la maison.",
-      "en": "I am at home."
+      "en": "I am at home.",
+      "pronunciation": "zhuh swee ah lah meh-ZOH(N)",
+      "sound": "zhuh swee ah lah meh-ZOH(N)"
     },
     {
       "id": "tu-es-a-la-maison",
       "fr": "tu es à la maison.",
-      "en": "You are at home."
+      "en": "You are at home.",
+      "pronunciation": "tü eh ah lah meh-ZOH(N)",
+      "sound": "tü eh ah lah meh-ZOH(N)"
     },
     {
       "id": "je-suis-a-l-ecole",
       "fr": "je suis à l'école.",
-      "en": "I am at school."
+      "en": "I am at school.",
+      "pronunciation": "zhuh swee ah leh-KOHL",
+      "sound": "zhuh swee ah leh-KOHL"
     },
     {
       "id": "tu-es-a-l-ecole",
       "fr": "tu es à l'école.",
-      "en": "You are at school."
+      "en": "You are at school.",
+      "pronunciation": "tü eh ah leh-KOHL",
+      "sound": "tü eh ah leh-KOHL"
     },
     {
       "id": "je-suis-au-travail",
       "fr": "je suis au travail.",
-      "en": "I am at work."
+      "en": "I am at work.",
+      "pronunciation": "zhuh swee oh trah-VAI",
+      "sound": "zhuh swee oh trah-VAI"
     },
     {
       "id": "tu-es-au-travail",
       "fr": "tu es au travail.",
-      "en": "You are at work."
+      "en": "You are at work.",
+      "pronunciation": "tü eh oh trah-VAI",
+      "sound": "tü eh oh trah-VAI"
     },
     {
       "id": "je-suis-au-cafe",
       "fr": "je suis au café.",
-      "en": "I am at the café."
+      "en": "I am at the café.",
+      "pronunciation": "zhuh swee oh kah-FEH",
+      "sound": "zhuh swee oh kah-FEH"
     },
     {
       "id": "tu-es-au-cafe",
       "fr": "tu es au café.",
-      "en": "You are at the café."
+      "en": "You are at the café.",
+      "pronunciation": "tü eh oh kah-FEH",
+      "sound": "tü eh oh kah-FEH"
     },
     {
       "id": "je-suis-au-parc",
       "fr": "je suis au parc.",
-      "en": "I am at the park."
+      "en": "I am at the park.",
+      "pronunciation": "zhuh swee oh park",
+      "sound": "zhuh swee oh park"
     },
     {
       "id": "tu-es-au-parc",
       "fr": "tu es au parc.",
-      "en": "You are at the park."
+      "en": "You are at the park.",
+      "pronunciation": "tü eh oh park",
+      "sound": "tü eh oh park"
     },
     {
       "id": "je-suis-au-restaurant",
       "fr": "je suis au restaurant.",
-      "en": "I am at the restaurant."
+      "en": "I am at the restaurant.",
+      "pronunciation": "zhuh swee oh res-toh-RAH(N)",
+      "sound": "zhuh swee oh res-toh-RAH(N)"
     },
     {
       "id": "tu-es-au-restaurant",
       "fr": "tu es au restaurant.",
-      "en": "You are at the restaurant."
+      "en": "You are at the restaurant.",
+      "pronunciation": "tü eh oh res-toh-RAH(N)",
+      "sound": "tü eh oh res-toh-RAH(N)"
     },
     {
       "id": "je-suis-au-magasin",
       "fr": "je suis au magasin.",
-      "en": "I am at the shop."
+      "en": "I am at the shop.",
+      "pronunciation": "zhuh swee oh mah-gah-ZA(N)",
+      "sound": "zhuh swee oh mah-gah-ZA(N)"
     },
     {
       "id": "tu-es-au-magasin",
       "fr": "tu es au magasin.",
-      "en": "You are at the shop."
+      "en": "You are at the shop.",
+      "pronunciation": "tü eh oh mah-gah-ZA(N)",
+      "sound": "tü eh oh mah-gah-ZA(N)"
     },
     {
       "id": "je-suis-dans-la-rue",
       "fr": "je suis dans la rue.",
-      "en": "I am in the street."
+      "en": "I am in the street.",
+      "pronunciation": "zhuh swee dah(n) lah rü",
+      "sound": "zhuh swee dah(n) lah rü"
     },
     {
       "id": "tu-es-dans-la-rue",
       "fr": "tu es dans la rue.",
-      "en": "You are in the street."
+      "en": "You are in the street.",
+      "pronunciation": "tü eh dah(n) lah rü",
+      "sound": "tü eh dah(n) lah rü"
     },
     {
       "id": "je-suis-dans-la-ville",
       "fr": "je suis dans la ville.",
-      "en": "I am in the city."
+      "en": "I am in the city.",
+      "pronunciation": "zhuh swee dah(n) lah veel",
+      "sound": "zhuh swee dah(n) lah veel"
     },
     {
       "id": "tu-es-dans-la-ville",
       "fr": "tu es dans la ville.",
-      "en": "You are in the city."
+      "en": "You are in the city.",
+      "pronunciation": "tü eh dah(n) lah veel",
+      "sound": "tü eh dah(n) lah veel"
     },
     {
       "id": "je-suis-dans-le-jardin",
       "fr": "je suis dans le jardin.",
-      "en": "I am in the garden."
+      "en": "I am in the garden.",
+      "pronunciation": "zhuh swee dah(n) luh zhar-DAH(N)",
+      "sound": "zhuh swee dah(n) luh zhar-DAH(N)"
     },
     {
       "id": "tu-es-dans-le-jardin",
       "fr": "tu es dans le jardin.",
-      "en": "You are in the garden."
+      "en": "You are in the garden.",
+      "pronunciation": "tü eh dah(n) luh zhar-DAH(N)",
+      "sound": "tü eh dah(n) luh zhar-DAH(N)"
     },
     {
       "id": "je-suis-dans-la-chambre",
       "fr": "je suis dans la chambre.",
-      "en": "I am in the bedroom."
+      "en": "I am in the bedroom.",
+      "pronunciation": "zhuh swee dah(n) lah shah(n)br",
+      "sound": "zhuh swee dah(n) lah shah(n)br"
     },
     {
       "id": "tu-es-dans-la-chambre",
       "fr": "tu es dans la chambre.",
-      "en": "You are in the bedroom."
+      "en": "You are in the bedroom.",
+      "pronunciation": "tü eh dah(n) lah shah(n)br",
+      "sound": "tü eh dah(n) lah shah(n)br"
     },
     {
       "id": "je-suis-dans-la-cuisine",
       "fr": "je suis dans la cuisine.",
-      "en": "I am in the kitchen."
+      "en": "I am in the kitchen.",
+      "pronunciation": "zhuh swee dah(n) lah kwee-ZEEN",
+      "sound": "zhuh swee dah(n) lah kwee-ZEEN"
     },
     {
       "id": "tu-es-dans-la-cuisine",
       "fr": "tu es dans la cuisine.",
-      "en": "You are in the kitchen."
+      "en": "You are in the kitchen.",
+      "pronunciation": "tü eh dah(n) lah kwee-ZEEN",
+      "sound": "tü eh dah(n) lah kwee-ZEEN"
     },
     {
       "id": "il-est-a-la-maison",
       "fr": "il est à la maison.",
-      "en": "He is at home."
+      "en": "He is at home.",
+      "pronunciation": "eel eh ah lah meh-ZOH(N)",
+      "sound": "eel eh ah lah meh-ZOH(N)"
     },
     {
       "id": "elle-est-a-la-maison",
       "fr": "elle est à la maison.",
-      "en": "She is at home."
+      "en": "She is at home.",
+      "pronunciation": "ehl eh ah lah meh-ZOH(N)",
+      "sound": "ehl eh ah lah meh-ZOH(N)"
     },
     {
       "id": "il-est-a-l-ecole",
       "fr": "il est à l'école.",
-      "en": "He is at school."
+      "en": "He is at school.",
+      "pronunciation": "eel eh ah leh-KOHL",
+      "sound": "eel eh ah leh-KOHL"
     },
     {
       "id": "elle-est-a-l-ecole",
       "fr": "elle est à l'école.",
-      "en": "She is at school."
+      "en": "She is at school.",
+      "pronunciation": "ehl eh ah leh-KOHL",
+      "sound": "ehl eh ah leh-KOHL"
     },
     {
       "id": "il-est-au-travail",
       "fr": "il est au travail.",
-      "en": "He is at work."
+      "en": "He is at work.",
+      "pronunciation": "eel eh oh trah-VAI",
+      "sound": "eel eh oh trah-VAI"
     },
     {
       "id": "elle-est-au-travail",
       "fr": "elle est au travail.",
-      "en": "She is at work."
+      "en": "She is at work.",
+      "pronunciation": "ehl eh oh trah-VAI",
+      "sound": "ehl eh oh trah-VAI"
     },
     {
       "id": "il-est-au-cafe",
       "fr": "il est au café.",
-      "en": "He is at the café."
+      "en": "He is at the café.",
+      "pronunciation": "eel eh oh kah-FEH",
+      "sound": "eel eh oh kah-FEH"
     },
     {
       "id": "elle-est-au-cafe",
       "fr": "elle est au café.",
-      "en": "She is at the café."
+      "en": "She is at the café.",
+      "pronunciation": "ehl eh oh kah-FEH",
+      "sound": "ehl eh oh kah-FEH"
     },
     {
       "id": "il-est-au-parc",
       "fr": "il est au parc.",
-      "en": "He is at the park."
+      "en": "He is at the park.",
+      "pronunciation": "eel eh oh park",
+      "sound": "eel eh oh park"
     },
     {
       "id": "elle-est-au-parc",
       "fr": "elle est au parc.",
-      "en": "She is at the park."
+      "en": "She is at the park.",
+      "pronunciation": "ehl eh oh park",
+      "sound": "ehl eh oh park"
     },
     {
       "id": "il-est-au-restaurant",
       "fr": "il est au restaurant.",
-      "en": "He is at the restaurant."
+      "en": "He is at the restaurant.",
+      "pronunciation": "eel eh oh res-toh-RAH(N)",
+      "sound": "eel eh oh res-toh-RAH(N)"
     },
     {
       "id": "elle-est-au-restaurant",
       "fr": "elle est au restaurant.",
-      "en": "She is at the restaurant."
+      "en": "She is at the restaurant.",
+      "pronunciation": "ehl eh oh res-toh-RAH(N)",
+      "sound": "ehl eh oh res-toh-RAH(N)"
     },
     {
       "id": "il-est-au-magasin",
       "fr": "il est au magasin.",
-      "en": "He is at the shop."
+      "en": "He is at the shop.",
+      "pronunciation": "eel eh oh mah-gah-ZA(N)",
+      "sound": "eel eh oh mah-gah-ZA(N)"
     },
     {
       "id": "elle-est-au-magasin",
       "fr": "elle est au magasin.",
-      "en": "She is at the shop."
+      "en": "She is at the shop.",
+      "pronunciation": "ehl eh oh mah-gah-ZA(N)",
+      "sound": "ehl eh oh mah-gah-ZA(N)"
     },
     {
       "id": "il-est-dans-la-rue",
       "fr": "il est dans la rue.",
-      "en": "He is in the street."
+      "en": "He is in the street.",
+      "pronunciation": "eel eh dah(n) lah rü",
+      "sound": "eel eh dah(n) lah rü"
     },
     {
       "id": "elle-est-dans-la-rue",
       "fr": "elle est dans la rue.",
-      "en": "She is in the street."
+      "en": "She is in the street.",
+      "pronunciation": "ehl eh dah(n) lah rü",
+      "sound": "ehl eh dah(n) lah rü"
     },
     {
       "id": "il-est-dans-la-ville",
       "fr": "il est dans la ville.",
-      "en": "He is in the city."
+      "en": "He is in the city.",
+      "pronunciation": "eel eh dah(n) lah veel",
+      "sound": "eel eh dah(n) lah veel"
     },
     {
       "id": "elle-est-dans-la-ville",
       "fr": "elle est dans la ville.",
-      "en": "She is in the city."
+      "en": "She is in the city.",
+      "pronunciation": "ehl eh dah(n) lah veel",
+      "sound": "ehl eh dah(n) lah veel"
     },
     {
       "id": "il-est-dans-le-jardin",
       "fr": "il est dans le jardin.",
-      "en": "He is in the garden."
+      "en": "He is in the garden.",
+      "pronunciation": "eel eh dah(n) luh zhar-DAH(N)",
+      "sound": "eel eh dah(n) luh zhar-DAH(N)"
     },
     {
       "id": "elle-est-dans-le-jardin",
       "fr": "elle est dans le jardin.",
-      "en": "She is in the garden."
+      "en": "She is in the garden.",
+      "pronunciation": "ehl eh dah(n) luh zhar-DAH(N)",
+      "sound": "ehl eh dah(n) luh zhar-DAH(N)"
     },
     {
       "id": "la-table-est-pres-de-la-maison",
       "fr": "la table est près de la maison.",
-      "en": "The table is near the house."
+      "en": "The table is near the house.",
+      "pronunciation": "lah tahbl eh preh duh lah meh-ZOH(N)",
+      "sound": "lah tahbl eh preh duh lah meh-ZOH(N)"
     },
     {
       "id": "la-table-est-loin-de-la-maison",
       "fr": "la table est loin de la maison.",
-      "en": "The table is far from the house."
+      "en": "The table is far from the house.",
+      "pronunciation": "lah tahbl eh lwa(n) duh lah meh-ZOH(N)",
+      "sound": "lah tahbl eh lwa(n) duh lah meh-ZOH(N)"
     },
     {
       "id": "la-table-est-devant-la-maison",
       "fr": "la table est devant la maison.",
-      "en": "The table is in front the house."
+      "en": "The table is in front the house.",
+      "pronunciation": "lah tahbl eh duh-VAH(N) lah meh-ZOH(N)",
+      "sound": "lah tahbl eh duh-VAH(N) lah meh-ZOH(N)"
     },
     {
       "id": "la-table-est-derriere-la-maison",
       "fr": "la table est derrière la maison.",
-      "en": "The table is behind the house."
+      "en": "The table is behind the house.",
+      "pronunciation": "lah tahbl eh deh-RYEHR lah meh-ZOH(N)",
+      "sound": "lah tahbl eh deh-RYEHR lah meh-ZOH(N)"
     },
     {
       "id": "la-chaise-est-pres-de-la-maison",
       "fr": "la chaise est près de la maison.",
-      "en": "The chair is near the house."
+      "en": "The chair is near the house.",
+      "pronunciation": "lah shehz eh preh duh lah meh-ZOH(N)",
+      "sound": "lah shehz eh preh duh lah meh-ZOH(N)"
     },
     {
       "id": "la-chaise-est-loin-de-la-maison",
       "fr": "la chaise est loin de la maison.",
-      "en": "The chair is far from the house."
+      "en": "The chair is far from the house.",
+      "pronunciation": "lah shehz eh lwa(n) duh lah meh-ZOH(N)",
+      "sound": "lah shehz eh lwa(n) duh lah meh-ZOH(N)"
     },
     {
       "id": "la-chaise-est-devant-la-maison",
       "fr": "la chaise est devant la maison.",
-      "en": "The chair is in front the house."
+      "en": "The chair is in front the house.",
+      "pronunciation": "lah shehz eh duh-VAH(N) lah meh-ZOH(N)",
+      "sound": "lah shehz eh duh-VAH(N) lah meh-ZOH(N)"
     },
     {
       "id": "la-chaise-est-derriere-la-maison",
       "fr": "la chaise est derrière la maison.",
-      "en": "The chair is behind the house."
+      "en": "The chair is behind the house.",
+      "pronunciation": "lah shehz eh deh-RYEHR lah meh-ZOH(N)",
+      "sound": "lah shehz eh deh-RYEHR lah meh-ZOH(N)"
     },
     {
       "id": "la-porte-est-pres-de-la-maison",
       "fr": "la porte est près de la maison.",
-      "en": "The door is near the house."
+      "en": "The door is near the house.",
+      "pronunciation": "lah port eh preh duh lah meh-ZOH(N)",
+      "sound": "lah port eh preh duh lah meh-ZOH(N)"
     },
     {
       "id": "la-porte-est-loin-de-la-maison",
       "fr": "la porte est loin de la maison.",
-      "en": "The door is far from the house."
+      "en": "The door is far from the house.",
+      "pronunciation": "lah port eh lwa(n) duh lah meh-ZOH(N)",
+      "sound": "lah port eh lwa(n) duh lah meh-ZOH(N)"
     },
     {
       "id": "la-porte-est-devant-la-maison",
       "fr": "la porte est devant la maison.",
-      "en": "The door is in front the house."
+      "en": "The door is in front the house.",
+      "pronunciation": "lah port eh duh-VAH(N) lah meh-ZOH(N)",
+      "sound": "lah port eh duh-VAH(N) lah meh-ZOH(N)"
     },
     {
       "id": "la-porte-est-derriere-la-maison",
       "fr": "la porte est derrière la maison.",
-      "en": "The door is behind the house."
+      "en": "The door is behind the house.",
+      "pronunciation": "lah port eh deh-RYEHR lah meh-ZOH(N)",
+      "sound": "lah port eh deh-RYEHR lah meh-ZOH(N)"
     },
     {
       "id": "la-fenetre-est-pres-de-la-maison",
       "fr": "la fenêtre est près de la maison.",
-      "en": "The window is near the house."
+      "en": "The window is near the house.",
+      "pronunciation": "lah fuh-NEH-tr eh preh duh lah meh-ZOH(N)",
+      "sound": "lah fuh-NEH-tr eh preh duh lah meh-ZOH(N)"
     },
     {
       "id": "la-fenetre-est-loin-de-la-maison",
       "fr": "la fenêtre est loin de la maison.",
-      "en": "The window is far from the house."
+      "en": "The window is far from the house.",
+      "pronunciation": "lah fuh-NEH-tr eh lwa(n) duh lah meh-ZOH(N)",
+      "sound": "lah fuh-NEH-tr eh lwa(n) duh lah meh-ZOH(N)"
     },
     {
       "id": "la-fenetre-est-devant-la-maison",
       "fr": "la fenêtre est devant la maison.",
-      "en": "The window is in front the house."
+      "en": "The window is in front the house.",
+      "pronunciation": "lah fuh-NEH-tr eh duh-VAH(N) lah meh-ZOH(N)",
+      "sound": "lah fuh-NEH-tr eh duh-VAH(N) lah meh-ZOH(N)"
     },
     {
       "id": "la-fenetre-est-derriere-la-maison",
       "fr": "la fenêtre est derrière la maison.",
-      "en": "The window is behind the house."
+      "en": "The window is behind the house.",
+      "pronunciation": "lah fuh-NEH-tr eh deh-RYEHR lah meh-ZOH(N)",
+      "sound": "lah fuh-NEH-tr eh deh-RYEHR lah meh-ZOH(N)"
     }
   ],
   "audioVoices": [

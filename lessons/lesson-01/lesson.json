@@ -9,200 +9,225 @@
       "fr": "bonjour",
       "en": "hello",
       "say": "bonjour",
-      "sound": "",
-      "category": "Greeting"
+      "sound": "bohn-ZHOOR",
+      "category": "Greeting",
+      "pronunciation": "bohn-ZHOOR"
     },
     {
       "id": "salut",
       "fr": "salut",
       "en": "hi",
       "say": "salut",
-      "sound": "",
-      "category": "Greeting"
+      "sound": "sah-LÜ",
+      "category": "Greeting",
+      "pronunciation": "sah-LÜ"
     },
     {
       "id": "merci",
       "fr": "merci",
       "en": "thank you",
       "say": "merci",
-      "sound": "",
-      "category": "Phrase"
+      "sound": "mehrsee",
+      "category": "Phrase",
+      "pronunciation": "mehrsee"
     },
     {
       "id": "oui",
       "fr": "oui",
       "en": "yes",
       "say": "oui",
-      "sound": "",
-      "category": "Word"
+      "sound": "wee",
+      "category": "Word",
+      "pronunciation": "wee"
     },
     {
       "id": "non",
       "fr": "non",
       "en": "no",
       "say": "non",
-      "sound": "",
-      "category": "Word"
+      "sound": "noh(n)",
+      "category": "Word",
+      "pronunciation": "noh(n)"
     },
     {
       "id": "je",
       "fr": "je",
       "en": "I",
       "say": "je",
-      "sound": "",
-      "category": "Pronoun"
+      "sound": "zhuh",
+      "category": "Pronoun",
+      "pronunciation": "zhuh"
     },
     {
       "id": "tu",
       "fr": "tu",
       "en": "you",
       "say": "tu",
-      "sound": "",
-      "category": "Pronoun"
+      "sound": "tü",
+      "category": "Pronoun",
+      "pronunciation": "tü"
     },
     {
       "id": "il",
       "fr": "il",
       "en": "he/it",
       "say": "il",
-      "sound": "",
-      "category": "Pronoun"
+      "sound": "eel",
+      "category": "Pronoun",
+      "pronunciation": "eel"
     },
     {
       "id": "elle",
       "fr": "elle",
       "en": "she/it",
       "say": "elle",
-      "sound": "",
-      "category": "Pronoun"
+      "sound": "ehl",
+      "category": "Pronoun",
+      "pronunciation": "ehl"
     },
     {
       "id": "nous",
       "fr": "nous",
       "en": "we",
       "say": "nous",
-      "sound": "",
-      "category": "Pronoun"
+      "sound": "noo",
+      "category": "Pronoun",
+      "pronunciation": "noo"
     },
     {
       "id": "vous",
       "fr": "vous",
       "en": "you (formal/plural)",
       "say": "vous",
-      "sound": "",
-      "category": "Pronoun"
+      "sound": "voo",
+      "category": "Pronoun",
+      "pronunciation": "voo"
     },
     {
       "id": "je-suis",
       "fr": "je suis",
       "en": "I am",
       "say": "je suis",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "zhuh swee",
+      "category": "Verb Chunk",
+      "pronunciation": "zhuh swee"
     },
     {
       "id": "tu-es",
       "fr": "tu es",
       "en": "you are",
       "say": "tu es",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "tü eh",
+      "category": "Verb Chunk",
+      "pronunciation": "tü eh"
     },
     {
       "id": "il-est",
       "fr": "il est",
       "en": "he/it is",
       "say": "il est",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "eel eh",
+      "category": "Verb Chunk",
+      "pronunciation": "eel eh"
     },
     {
       "id": "elle-est",
       "fr": "elle est",
       "en": "she/it is",
       "say": "elle est",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "ehl eh",
+      "category": "Verb Chunk",
+      "pronunciation": "ehl eh"
     },
     {
       "id": "c-est",
       "fr": "c'est",
       "en": "it is / that's",
       "say": "c'est",
-      "sound": "",
-      "category": "Verb Chunk"
+      "sound": "seh",
+      "category": "Verb Chunk",
+      "pronunciation": "seh"
     },
     {
       "id": "ca-va",
       "fr": "ça va",
       "en": "it's going / are you okay?",
       "say": "ça va",
-      "sound": "",
-      "category": "Phrase"
+      "sound": "sah vah",
+      "category": "Phrase",
+      "pronunciation": "sah vah"
     },
     {
       "id": "ici",
       "fr": "ici",
       "en": "here",
       "say": "ici",
-      "sound": "",
-      "category": "Adverb"
+      "sound": "eesee",
+      "category": "Adverb",
+      "pronunciation": "eesee"
     },
     {
       "id": "la",
       "fr": "là",
       "en": "there",
       "say": "là",
-      "sound": "",
-      "category": "Adverb"
+      "sound": "lah",
+      "category": "Adverb",
+      "pronunciation": "lah"
     },
     {
       "id": "bien",
       "fr": "bien",
       "en": "well/good",
       "say": "bien",
-      "sound": "",
-      "category": "Adverb"
+      "sound": "byeh(n)",
+      "category": "Adverb",
+      "pronunciation": "byeh(n)"
     },
     {
       "id": "tres",
       "fr": "très",
       "en": "very",
       "say": "très",
-      "sound": "",
-      "category": "Adverb"
+      "sound": "treh",
+      "category": "Adverb",
+      "pronunciation": "treh"
     },
     {
       "id": "bon",
       "fr": "bon",
       "en": "good",
       "say": "bon",
-      "sound": "",
-      "category": "Adjective"
+      "sound": "boh(n)",
+      "category": "Adjective",
+      "pronunciation": "boh(n)"
     },
     {
       "id": "bonne",
       "fr": "bonne",
       "en": "good (feminine)",
       "say": "bonne",
-      "sound": "",
-      "category": "Adjective"
+      "sound": "bun",
+      "category": "Adjective",
+      "pronunciation": "bun"
     },
     {
       "id": "petit",
       "fr": "petit",
       "en": "small",
       "say": "petit",
-      "sound": "",
-      "category": "Adjective"
+      "sound": "puhtee",
+      "category": "Adjective",
+      "pronunciation": "puhtee"
     },
     {
       "id": "petite",
       "fr": "petite",
       "en": "small (feminine)",
       "say": "petite",
-      "sound": "",
-      "category": "Adjective"
+      "sound": "puh-TEET",
+      "category": "Adjective",
+      "pronunciation": "puh-TEET"
     }
   ],
   "sentenceGroups": {
@@ -210,340 +235,460 @@
       {
         "id": "bonjour",
         "fr": "bonjour.",
-        "en": "Hello."
+        "en": "Hello.",
+        "pronunciation": "bohn-ZHOOR",
+        "sound": "bohn-ZHOOR"
       },
       {
         "id": "salut",
         "fr": "salut.",
-        "en": "Hi."
+        "en": "Hi.",
+        "pronunciation": "sah-LÜ",
+        "sound": "sah-LÜ"
       },
       {
         "id": "merci",
         "fr": "merci.",
-        "en": "Thank you."
+        "en": "Thank you.",
+        "pronunciation": "mehr-SEE",
+        "sound": "mehr-SEE"
       }
     ],
     "core-word": [
       {
         "id": "oui",
         "fr": "oui.",
-        "en": "Yes."
+        "en": "Yes.",
+        "pronunciation": "wee",
+        "sound": "wee"
       },
       {
         "id": "non",
         "fr": "non.",
-        "en": "No."
+        "en": "No.",
+        "pronunciation": "noh(n)",
+        "sound": "noh(n)"
       }
     ],
     "formula": [
       {
         "id": "ca-va",
         "fr": "ça va.",
-        "en": "It's going well / are you okay?"
+        "en": "It's going well / are you okay?",
+        "pronunciation": "sah vah",
+        "sound": "sah vah"
       },
       {
         "id": "merci-c-est-bon",
         "fr": "merci, c'est bon.",
-        "en": "Thanks, it is good."
+        "en": "Thanks, it is good.",
+        "pronunciation": "mehr-SEE seh boh(n)",
+        "sound": "mehr-SEE seh boh(n)"
       },
       {
         "id": "merci-c-est-bien",
         "fr": "merci, c'est bien.",
-        "en": "Thanks, it is fine."
+        "en": "Thanks, it is fine.",
+        "pronunciation": "mehr-SEE seh byeh(n)",
+        "sound": "mehr-SEE seh byeh(n)"
       }
     ],
     "etre-place": [
       {
         "id": "je-suis-ici",
         "fr": "je suis ici.",
-        "en": "I am here."
+        "en": "I am here.",
+        "pronunciation": "zhuh swee-z eesee",
+        "sound": "zhuh swee-z eesee"
       },
       {
         "id": "tu-es-ici",
         "fr": "tu es ici.",
-        "en": "You are here."
+        "en": "You are here.",
+        "pronunciation": "tü ehz eesee",
+        "sound": "tü ehz eesee"
       },
       {
         "id": "il-est-ici",
         "fr": "il est ici.",
-        "en": "He is here."
+        "en": "He is here.",
+        "pronunciation": "eel eht eesee",
+        "sound": "eel eht eesee"
       },
       {
         "id": "elle-est-ici",
         "fr": "elle est ici.",
-        "en": "She is here."
+        "en": "She is here.",
+        "pronunciation": "ehl eht eesee",
+        "sound": "ehl eht eesee"
       },
       {
         "id": "je-suis-la",
         "fr": "je suis là.",
-        "en": "I am there."
+        "en": "I am there.",
+        "pronunciation": "zhuh swee lah",
+        "sound": "zhuh swee lah"
       },
       {
         "id": "tu-es-la",
         "fr": "tu es là.",
-        "en": "You are there."
+        "en": "You are there.",
+        "pronunciation": "tü eh lah",
+        "sound": "tü eh lah"
       },
       {
         "id": "il-est-la",
         "fr": "il est là.",
-        "en": "He is there."
+        "en": "He is there.",
+        "pronunciation": "eel eh lah",
+        "sound": "eel eh lah"
       },
       {
         "id": "elle-est-la",
         "fr": "elle est là.",
-        "en": "She is there."
+        "en": "She is there.",
+        "pronunciation": "ehl eh lah",
+        "sound": "ehl eh lah"
       }
     ],
     "c-est-adjective": [
       {
         "id": "c-est-bon",
         "fr": "c'est bon.",
-        "en": "It is good."
+        "en": "It is good.",
+        "pronunciation": "seh boh(n)",
+        "sound": "seh boh(n)"
       },
       {
         "id": "c-est-petit",
         "fr": "c'est petit.",
-        "en": "It is small."
+        "en": "It is small.",
+        "pronunciation": "seh puh-TEE",
+        "sound": "seh puh-TEE"
       },
       {
         "id": "c-est-bonne",
         "fr": "c'est bonne.",
-        "en": "It is good."
+        "en": "It is good.",
+        "pronunciation": "seh bun",
+        "sound": "seh bun"
       },
       {
         "id": "c-est-tres-bonne",
         "fr": "c'est très bonne.",
-        "en": "It is very good."
+        "en": "It is very good.",
+        "pronunciation": "seh treh bun",
+        "sound": "seh treh bun"
       }
     ],
     "intensifier": [
       {
         "id": "c-est-tres-bon",
         "fr": "c'est très bon.",
-        "en": "It is very good."
+        "en": "It is very good.",
+        "pronunciation": "seh treh boh(n)",
+        "sound": "seh treh boh(n)"
       },
       {
         "id": "je-suis-tres-bien",
         "fr": "je suis très bien.",
-        "en": "I am very well."
+        "en": "I am very well.",
+        "pronunciation": "zhuh swee treh byeh(n)",
+        "sound": "zhuh swee treh byeh(n)"
       },
       {
         "id": "tu-es-tres-bien",
         "fr": "tu es très bien.",
-        "en": "You are very well."
+        "en": "You are very well.",
+        "pronunciation": "tü eh treh byeh(n)",
+        "sound": "tü eh treh byeh(n)"
       },
       {
         "id": "il-est-tres-bien",
         "fr": "il est très bien.",
-        "en": "He is very well."
+        "en": "He is very well.",
+        "pronunciation": "eel eh treh byeh(n)",
+        "sound": "eel eh treh byeh(n)"
       },
       {
         "id": "elle-est-tres-bien",
         "fr": "elle est très bien.",
-        "en": "She is very well."
+        "en": "She is very well.",
+        "pronunciation": "ehl eh treh byeh(n)",
+        "sound": "ehl eh treh byeh(n)"
       },
       {
         "id": "c-est-tres-petit",
         "fr": "c'est très petit.",
-        "en": "It is very small."
+        "en": "It is very small.",
+        "pronunciation": "seh treh puh-TEE",
+        "sound": "seh treh puh-TEE"
       }
     ],
     "c-est-adverb": [
       {
         "id": "c-est-bien",
         "fr": "c'est bien.",
-        "en": "It is good / fine."
+        "en": "It is good / fine.",
+        "pronunciation": "seh byeh(n)",
+        "sound": "seh byeh(n)"
       }
     ],
     "state": [
       {
         "id": "je-suis-bien",
         "fr": "je suis bien.",
-        "en": "I am well."
+        "en": "I am well.",
+        "pronunciation": "zhuh swee byeh(n)",
+        "sound": "zhuh swee byeh(n)"
       },
       {
         "id": "tu-es-bien",
         "fr": "tu es bien.",
-        "en": "You are well."
+        "en": "You are well.",
+        "pronunciation": "tü eh byeh(n)",
+        "sound": "tü eh byeh(n)"
       },
       {
         "id": "il-est-bien",
         "fr": "il est bien.",
-        "en": "He is well."
+        "en": "He is well.",
+        "pronunciation": "eel eh byeh(n)",
+        "sound": "eel eh byeh(n)"
       },
       {
         "id": "elle-est-bien",
         "fr": "elle est bien.",
-        "en": "She is well."
+        "en": "She is well.",
+        "pronunciation": "ehl eh byeh(n)",
+        "sound": "ehl eh byeh(n)"
       }
     ],
     "controlled-feminine-adjective-exposure": [
       {
         "id": "c-est-petite",
         "fr": "c'est petite.",
-        "en": "It is small."
+        "en": "It is small.",
+        "pronunciation": "seh puh-TEET",
+        "sound": "seh puh-TEET"
       },
       {
         "id": "c-est-tres-petite",
         "fr": "c'est très petite.",
-        "en": "It is very small."
+        "en": "It is very small.",
+        "pronunciation": "seh treh puh-TEET",
+        "sound": "seh treh puh-TEET"
       }
     ],
     "greeting-question": [
       {
         "id": "bonjour-ca-va",
         "fr": "bonjour, ça va ?",
-        "en": "Hello, are you okay?"
+        "en": "Hello, are you okay?",
+        "pronunciation": "bohn-ZHOOR sah vah",
+        "sound": "bohn-ZHOOR sah vah"
       },
       {
         "id": "salut-ca-va",
         "fr": "salut, ça va ?",
-        "en": "Hi, are you okay?"
+        "en": "Hi, are you okay?",
+        "pronunciation": "sah-LÜ sah vah",
+        "sound": "sah-LÜ sah vah"
       }
     ],
     "answer": [
       {
         "id": "oui-ca-va",
         "fr": "oui, ça va.",
-        "en": "Yes, I am okay."
+        "en": "Yes, I am okay.",
+        "pronunciation": "wee sah vah",
+        "sound": "wee sah vah"
       },
       {
         "id": "non-ca-va",
         "fr": "non, ça va.",
-        "en": "No, it's okay."
+        "en": "No, it's okay.",
+        "pronunciation": "noh(n) sah vah",
+        "sound": "noh(n) sah vah"
       },
       {
         "id": "merci-ca-va-bien",
         "fr": "merci, ça va bien.",
-        "en": "Thanks, I am well."
+        "en": "Thanks, I am well.",
+        "pronunciation": "mehr-SEE sah vah byeh(n)",
+        "sound": "mehr-SEE sah vah byeh(n)"
       }
     ],
     "c-est-place": [
       {
         "id": "c-est-la",
         "fr": "c'est là.",
-        "en": "It is there."
+        "en": "It is there.",
+        "pronunciation": "seh lah",
+        "sound": "seh lah"
       },
       {
         "id": "c-est-ici",
         "fr": "c'est ici.",
-        "en": "It is here."
+        "en": "It is here.",
+        "pronunciation": "seh ee-SEE",
+        "sound": "seh ee-SEE"
       }
     ],
     "combined-greeting": [
       {
         "id": "bonjour-je-suis-ici",
         "fr": "bonjour, je suis ici.",
-        "en": "Hello, I am here."
+        "en": "Hello, I am here.",
+        "pronunciation": "bohn-ZHOOR zhuh swee ee-SEE",
+        "sound": "bohn-ZHOOR zhuh swee ee-SEE"
       },
       {
         "id": "salut-je-suis-la",
         "fr": "salut, je suis là.",
-        "en": "Hi, I am there."
+        "en": "Hi, I am there.",
+        "pronunciation": "sah-LÜ zhuh swee lah",
+        "sound": "sah-LÜ zhuh swee lah"
       }
     ],
     "agreement": [
       {
         "id": "oui-c-est-bon",
         "fr": "oui, c'est bon.",
-        "en": "Yes, it is good."
+        "en": "Yes, it is good.",
+        "pronunciation": "wee seh boh(n)",
+        "sound": "wee seh boh(n)"
       },
       {
         "id": "non-c-est-bien",
         "fr": "non, c'est bien.",
-        "en": "No, it is fine."
+        "en": "No, it is fine.",
+        "pronunciation": "noh(n) seh byeh(n)",
+        "sound": "noh(n) seh byeh(n)"
       }
     ],
     "greeting-review": [
       {
         "id": "bonjour-2",
         "fr": "bonjour.",
-        "en": "Hello."
+        "en": "Hello.",
+        "pronunciation": "bohn-ZHOOR",
+        "sound": "bohn-ZHOOR"
       },
       {
         "id": "salut-2",
         "fr": "salut.",
-        "en": "Hi."
+        "en": "Hi.",
+        "pronunciation": "sah-LÜ",
+        "sound": "sah-LÜ"
       },
       {
         "id": "merci-2",
         "fr": "merci.",
-        "en": "Thank you."
+        "en": "Thank you.",
+        "pronunciation": "mehr-SEE",
+        "sound": "mehr-SEE"
       }
     ],
     "core-word-review": [
       {
         "id": "oui-2",
         "fr": "oui.",
-        "en": "Yes."
+        "en": "Yes.",
+        "pronunciation": "wee",
+        "sound": "wee"
       },
       {
         "id": "non-2",
         "fr": "non.",
-        "en": "No."
+        "en": "No.",
+        "pronunciation": "noh(n)",
+        "sound": "noh(n)"
       }
     ],
     "formula-review": [
       {
         "id": "ca-va-2",
         "fr": "ça va.",
-        "en": "It's going well / are you okay?"
+        "en": "It's going well / are you okay?",
+        "pronunciation": "sah vah",
+        "sound": "sah vah"
       }
     ],
     "etre-place-review": [
       {
         "id": "je-suis-ici-2",
         "fr": "je suis ici.",
-        "en": "I am here."
+        "en": "I am here.",
+        "pronunciation": "zhuh swee-z eesee",
+        "sound": "zhuh swee-z eesee"
       },
       {
         "id": "tu-es-ici-2",
         "fr": "tu es ici.",
-        "en": "You are here."
+        "en": "You are here.",
+        "pronunciation": "tü ehz eesee",
+        "sound": "tü ehz eesee"
       },
       {
         "id": "il-est-ici-2",
         "fr": "il est ici.",
-        "en": "He is here."
+        "en": "He is here.",
+        "pronunciation": "eel eht eesee",
+        "sound": "eel eht eesee"
       },
       {
         "id": "elle-est-ici-2",
         "fr": "elle est ici.",
-        "en": "She is here."
+        "en": "She is here.",
+        "pronunciation": "ehl eht eesee",
+        "sound": "ehl eht eesee"
       },
       {
         "id": "je-suis-la-2",
         "fr": "je suis là.",
-        "en": "I am there."
+        "en": "I am there.",
+        "pronunciation": "zhuh swee lah",
+        "sound": "zhuh swee lah"
       },
       {
         "id": "tu-es-la-2",
         "fr": "tu es là.",
-        "en": "You are there."
+        "en": "You are there.",
+        "pronunciation": "tü eh lah",
+        "sound": "tü eh lah"
       },
       {
         "id": "il-est-la-2",
         "fr": "il est là.",
-        "en": "He is there."
+        "en": "He is there.",
+        "pronunciation": "eel eh lah",
+        "sound": "eel eh lah"
       },
       {
         "id": "elle-est-la-2",
         "fr": "elle est là.",
-        "en": "She is there."
+        "en": "She is there.",
+        "pronunciation": "ehl eh lah",
+        "sound": "ehl eh lah"
       }
     ],
     "c-est-adjective-review": [
       {
         "id": "c-est-bon-2",
         "fr": "c'est bon.",
-        "en": "It is good."
+        "en": "It is good.",
+        "pronunciation": "seh boh(n)",
+        "sound": "seh boh(n)"
       }
     ],
     "intensifier-review": [
       {
         "id": "c-est-tres-bon-2",
         "fr": "c'est très bon.",
-        "en": "It is very good."
+        "en": "It is very good.",
+        "pronunciation": "seh treh boh(n)",
+        "sound": "seh treh boh(n)"
       }
     ]
   },
@@ -551,302 +696,422 @@
     {
       "id": "bonjour",
       "fr": "bonjour.",
-      "en": "Hello."
+      "en": "Hello.",
+      "pronunciation": "bohn-ZHOOR",
+      "sound": "bohn-ZHOOR"
     },
     {
       "id": "salut",
       "fr": "salut.",
-      "en": "Hi."
+      "en": "Hi.",
+      "pronunciation": "sah-LÜ",
+      "sound": "sah-LÜ"
     },
     {
       "id": "merci",
       "fr": "merci.",
-      "en": "Thank you."
+      "en": "Thank you.",
+      "pronunciation": "mehr-SEE",
+      "sound": "mehr-SEE"
     },
     {
       "id": "oui",
       "fr": "oui.",
-      "en": "Yes."
+      "en": "Yes.",
+      "pronunciation": "wee",
+      "sound": "wee"
     },
     {
       "id": "non",
       "fr": "non.",
-      "en": "No."
+      "en": "No.",
+      "pronunciation": "noh(n)",
+      "sound": "noh(n)"
     },
     {
       "id": "ca-va",
       "fr": "ça va.",
-      "en": "It's going well / are you okay?"
+      "en": "It's going well / are you okay?",
+      "pronunciation": "sah vah",
+      "sound": "sah vah"
     },
     {
       "id": "je-suis-ici",
       "fr": "je suis ici.",
-      "en": "I am here."
+      "en": "I am here.",
+      "pronunciation": "zhuh swee-z eesee",
+      "sound": "zhuh swee-z eesee"
     },
     {
       "id": "tu-es-ici",
       "fr": "tu es ici.",
-      "en": "You are here."
+      "en": "You are here.",
+      "pronunciation": "tü ehz eesee",
+      "sound": "tü ehz eesee"
     },
     {
       "id": "il-est-ici",
       "fr": "il est ici.",
-      "en": "He is here."
+      "en": "He is here.",
+      "pronunciation": "eel eht eesee",
+      "sound": "eel eht eesee"
     },
     {
       "id": "elle-est-ici",
       "fr": "elle est ici.",
-      "en": "She is here."
+      "en": "She is here.",
+      "pronunciation": "ehl eht eesee",
+      "sound": "ehl eht eesee"
     },
     {
       "id": "je-suis-la",
       "fr": "je suis là.",
-      "en": "I am there."
+      "en": "I am there.",
+      "pronunciation": "zhuh swee lah",
+      "sound": "zhuh swee lah"
     },
     {
       "id": "tu-es-la",
       "fr": "tu es là.",
-      "en": "You are there."
+      "en": "You are there.",
+      "pronunciation": "tü eh lah",
+      "sound": "tü eh lah"
     },
     {
       "id": "il-est-la",
       "fr": "il est là.",
-      "en": "He is there."
+      "en": "He is there.",
+      "pronunciation": "eel eh lah",
+      "sound": "eel eh lah"
     },
     {
       "id": "elle-est-la",
       "fr": "elle est là.",
-      "en": "She is there."
+      "en": "She is there.",
+      "pronunciation": "ehl eh lah",
+      "sound": "ehl eh lah"
     },
     {
       "id": "c-est-bon",
       "fr": "c'est bon.",
-      "en": "It is good."
+      "en": "It is good.",
+      "pronunciation": "seh boh(n)",
+      "sound": "seh boh(n)"
     },
     {
       "id": "c-est-tres-bon",
       "fr": "c'est très bon.",
-      "en": "It is very good."
+      "en": "It is very good.",
+      "pronunciation": "seh treh boh(n)",
+      "sound": "seh treh boh(n)"
     },
     {
       "id": "c-est-bien",
       "fr": "c'est bien.",
-      "en": "It is good / fine."
+      "en": "It is good / fine.",
+      "pronunciation": "seh byeh(n)",
+      "sound": "seh byeh(n)"
     },
     {
       "id": "je-suis-bien",
       "fr": "je suis bien.",
-      "en": "I am well."
+      "en": "I am well.",
+      "pronunciation": "zhuh swee byeh(n)",
+      "sound": "zhuh swee byeh(n)"
     },
     {
       "id": "tu-es-bien",
       "fr": "tu es bien.",
-      "en": "You are well."
+      "en": "You are well.",
+      "pronunciation": "tü eh byeh(n)",
+      "sound": "tü eh byeh(n)"
     },
     {
       "id": "il-est-bien",
       "fr": "il est bien.",
-      "en": "He is well."
+      "en": "He is well.",
+      "pronunciation": "eel eh byeh(n)",
+      "sound": "eel eh byeh(n)"
     },
     {
       "id": "elle-est-bien",
       "fr": "elle est bien.",
-      "en": "She is well."
+      "en": "She is well.",
+      "pronunciation": "ehl eh byeh(n)",
+      "sound": "ehl eh byeh(n)"
     },
     {
       "id": "c-est-petit",
       "fr": "c'est petit.",
-      "en": "It is small."
+      "en": "It is small.",
+      "pronunciation": "seh puh-TEE",
+      "sound": "seh puh-TEE"
     },
     {
       "id": "c-est-petite",
       "fr": "c'est petite.",
-      "en": "It is small."
+      "en": "It is small.",
+      "pronunciation": "seh puh-TEET",
+      "sound": "seh puh-TEET"
     },
     {
       "id": "bonjour-ca-va",
       "fr": "bonjour, ça va ?",
-      "en": "Hello, are you okay?"
+      "en": "Hello, are you okay?",
+      "pronunciation": "bohn-ZHOOR sah vah",
+      "sound": "bohn-ZHOOR sah vah"
     },
     {
       "id": "salut-ca-va",
       "fr": "salut, ça va ?",
-      "en": "Hi, are you okay?"
+      "en": "Hi, are you okay?",
+      "pronunciation": "sah-LÜ sah vah",
+      "sound": "sah-LÜ sah vah"
     },
     {
       "id": "oui-ca-va",
       "fr": "oui, ça va.",
-      "en": "Yes, I am okay."
+      "en": "Yes, I am okay.",
+      "pronunciation": "wee sah vah",
+      "sound": "wee sah vah"
     },
     {
       "id": "non-ca-va",
       "fr": "non, ça va.",
-      "en": "No, it's okay."
+      "en": "No, it's okay.",
+      "pronunciation": "noh(n) sah vah",
+      "sound": "noh(n) sah vah"
     },
     {
       "id": "merci-ca-va-bien",
       "fr": "merci, ça va bien.",
-      "en": "Thanks, I am well."
+      "en": "Thanks, I am well.",
+      "pronunciation": "mehr-SEE sah vah byeh(n)",
+      "sound": "mehr-SEE sah vah byeh(n)"
     },
     {
       "id": "je-suis-tres-bien",
       "fr": "je suis très bien.",
-      "en": "I am very well."
+      "en": "I am very well.",
+      "pronunciation": "zhuh swee treh byeh(n)",
+      "sound": "zhuh swee treh byeh(n)"
     },
     {
       "id": "tu-es-tres-bien",
       "fr": "tu es très bien.",
-      "en": "You are very well."
+      "en": "You are very well.",
+      "pronunciation": "tü eh treh byeh(n)",
+      "sound": "tü eh treh byeh(n)"
     },
     {
       "id": "il-est-tres-bien",
       "fr": "il est très bien.",
-      "en": "He is very well."
+      "en": "He is very well.",
+      "pronunciation": "eel eh treh byeh(n)",
+      "sound": "eel eh treh byeh(n)"
     },
     {
       "id": "elle-est-tres-bien",
       "fr": "elle est très bien.",
-      "en": "She is very well."
+      "en": "She is very well.",
+      "pronunciation": "ehl eh treh byeh(n)",
+      "sound": "ehl eh treh byeh(n)"
     },
     {
       "id": "c-est-la",
       "fr": "c'est là.",
-      "en": "It is there."
+      "en": "It is there.",
+      "pronunciation": "seh lah",
+      "sound": "seh lah"
     },
     {
       "id": "c-est-ici",
       "fr": "c'est ici.",
-      "en": "It is here."
+      "en": "It is here.",
+      "pronunciation": "seh ee-SEE",
+      "sound": "seh ee-SEE"
     },
     {
       "id": "c-est-tres-petit",
       "fr": "c'est très petit.",
-      "en": "It is very small."
+      "en": "It is very small.",
+      "pronunciation": "seh treh puh-TEE",
+      "sound": "seh treh puh-TEE"
     },
     {
       "id": "c-est-tres-petite",
       "fr": "c'est très petite.",
-      "en": "It is very small."
+      "en": "It is very small.",
+      "pronunciation": "seh treh puh-TEET",
+      "sound": "seh treh puh-TEET"
     },
     {
       "id": "bonjour-je-suis-ici",
       "fr": "bonjour, je suis ici.",
-      "en": "Hello, I am here."
+      "en": "Hello, I am here.",
+      "pronunciation": "bohn-ZHOOR zhuh swee ee-SEE",
+      "sound": "bohn-ZHOOR zhuh swee ee-SEE"
     },
     {
       "id": "salut-je-suis-la",
       "fr": "salut, je suis là.",
-      "en": "Hi, I am there."
+      "en": "Hi, I am there.",
+      "pronunciation": "sah-LÜ zhuh swee lah",
+      "sound": "sah-LÜ zhuh swee lah"
     },
     {
       "id": "oui-c-est-bon",
       "fr": "oui, c'est bon.",
-      "en": "Yes, it is good."
+      "en": "Yes, it is good.",
+      "pronunciation": "wee seh boh(n)",
+      "sound": "wee seh boh(n)"
     },
     {
       "id": "non-c-est-bien",
       "fr": "non, c'est bien.",
-      "en": "No, it is fine."
+      "en": "No, it is fine.",
+      "pronunciation": "noh(n) seh byeh(n)",
+      "sound": "noh(n) seh byeh(n)"
     },
     {
       "id": "merci-c-est-bon",
       "fr": "merci, c'est bon.",
-      "en": "Thanks, it is good."
+      "en": "Thanks, it is good.",
+      "pronunciation": "mehr-SEE seh boh(n)",
+      "sound": "mehr-SEE seh boh(n)"
     },
     {
       "id": "merci-c-est-bien",
       "fr": "merci, c'est bien.",
-      "en": "Thanks, it is fine."
+      "en": "Thanks, it is fine.",
+      "pronunciation": "mehr-SEE seh byeh(n)",
+      "sound": "mehr-SEE seh byeh(n)"
     },
     {
       "id": "c-est-bonne",
       "fr": "c'est bonne.",
-      "en": "It is good."
+      "en": "It is good.",
+      "pronunciation": "seh bun",
+      "sound": "seh bun"
     },
     {
       "id": "c-est-tres-bonne",
       "fr": "c'est très bonne.",
-      "en": "It is very good."
+      "en": "It is very good.",
+      "pronunciation": "seh treh bun",
+      "sound": "seh treh bun"
     },
     {
       "id": "bonjour-2",
       "fr": "bonjour.",
-      "en": "Hello."
+      "en": "Hello.",
+      "pronunciation": "bohn-ZHOOR",
+      "sound": "bohn-ZHOOR"
     },
     {
       "id": "salut-2",
       "fr": "salut.",
-      "en": "Hi."
+      "en": "Hi.",
+      "pronunciation": "sah-LÜ",
+      "sound": "sah-LÜ"
     },
     {
       "id": "merci-2",
       "fr": "merci.",
-      "en": "Thank you."
+      "en": "Thank you.",
+      "pronunciation": "mehr-SEE",
+      "sound": "mehr-SEE"
     },
     {
       "id": "oui-2",
       "fr": "oui.",
-      "en": "Yes."
+      "en": "Yes.",
+      "pronunciation": "wee",
+      "sound": "wee"
     },
     {
       "id": "non-2",
       "fr": "non.",
-      "en": "No."
+      "en": "No.",
+      "pronunciation": "noh(n)",
+      "sound": "noh(n)"
     },
     {
       "id": "ca-va-2",
       "fr": "ça va.",
-      "en": "It's going well / are you okay?"
+      "en": "It's going well / are you okay?",
+      "pronunciation": "sah vah",
+      "sound": "sah vah"
     },
     {
       "id": "je-suis-ici-2",
       "fr": "je suis ici.",
-      "en": "I am here."
+      "en": "I am here.",
+      "pronunciation": "zhuh swee-z eesee",
+      "sound": "zhuh swee-z eesee"
     },
     {
       "id": "tu-es-ici-2",
       "fr": "tu es ici.",
-      "en": "You are here."
+      "en": "You are here.",
+      "pronunciation": "tü ehz eesee",
+      "sound": "tü ehz eesee"
     },
     {
       "id": "il-est-ici-2",
       "fr": "il est ici.",
-      "en": "He is here."
+      "en": "He is here.",
+      "pronunciation": "eel eht eesee",
+      "sound": "eel eht eesee"
     },
     {
       "id": "elle-est-ici-2",
       "fr": "elle est ici.",
-      "en": "She is here."
+      "en": "She is here.",
+      "pronunciation": "ehl eht eesee",
+      "sound": "ehl eht eesee"
     },
     {
       "id": "je-suis-la-2",
       "fr": "je suis là.",
-      "en": "I am there."
+      "en": "I am there.",
+      "pronunciation": "zhuh swee lah",
+      "sound": "zhuh swee lah"
     },
     {
       "id": "tu-es-la-2",
       "fr": "tu es là.",
-      "en": "You are there."
+      "en": "You are there.",
+      "pronunciation": "tü eh lah",
+      "sound": "tü eh lah"
     },
     {
       "id": "il-est-la-2",
       "fr": "il est là.",
-      "en": "He is there."
+      "en": "He is there.",
+      "pronunciation": "eel eh lah",
+      "sound": "eel eh lah"
     },
     {
       "id": "elle-est-la-2",
       "fr": "elle est là.",
-      "en": "She is there."
+      "en": "She is there.",
+      "pronunciation": "ehl eh lah",
+      "sound": "ehl eh lah"
     },
     {
       "id": "c-est-bon-2",
       "fr": "c'est bon.",
-      "en": "It is good."
+      "en": "It is good.",
+      "pronunciation": "seh boh(n)",
+      "sound": "seh boh(n)"
     },
     {
       "id": "c-est-tres-bon-2",
       "fr": "c'est très bon.",
-      "en": "It is very good."
+      "en": "It is very good.",
+      "pronunciation": "seh treh boh(n)",
+      "sound": "seh treh boh(n)"
     }
   ],
   "audioVoices": [

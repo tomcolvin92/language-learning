@@ -9,200 +9,225 @@
       "fr": "un",
       "en": "a/an (masc.)",
       "say": "un",
-      "sound": "",
-      "category": "Article"
+      "sound": "uh(n)",
+      "category": "Article",
+      "pronunciation": "uh(n)"
     },
     {
       "id": "une",
       "fr": "une",
       "en": "a/an (fem.)",
       "say": "une",
-      "sound": "",
-      "category": "Article"
+      "sound": "ün",
+      "category": "Article",
+      "pronunciation": "ün"
     },
     {
       "id": "le",
       "fr": "le",
       "en": "the (masc.)",
       "say": "le",
-      "sound": "",
-      "category": "Article"
+      "sound": "luh",
+      "category": "Article",
+      "pronunciation": "luh"
     },
     {
       "id": "la",
       "fr": "la",
       "en": "the (fem.)",
       "say": "la",
-      "sound": "",
-      "category": "Article"
+      "sound": "lah",
+      "category": "Article",
+      "pronunciation": "lah"
     },
     {
       "id": "les",
       "fr": "les",
       "en": "the (plural)",
       "say": "les",
-      "sound": "",
-      "category": "Article"
+      "sound": "lay",
+      "category": "Article",
+      "pronunciation": "lay"
     },
     {
       "id": "homme",
       "fr": "homme",
       "en": "man",
       "say": "homme",
-      "sound": "",
-      "category": "Noun"
+      "sound": "um",
+      "category": "Noun",
+      "pronunciation": "um"
     },
     {
       "id": "femme",
       "fr": "femme",
       "en": "woman",
       "say": "femme",
-      "sound": "",
-      "category": "Noun"
+      "sound": "femme",
+      "category": "Noun",
+      "pronunciation": "femme"
     },
     {
       "id": "garcon",
       "fr": "garçon",
       "en": "boy",
       "say": "garçon",
-      "sound": "",
-      "category": "Noun"
+      "sound": "gahr-SOH(N)",
+      "category": "Noun",
+      "pronunciation": "gahr-SOH(N)"
     },
     {
       "id": "fille",
       "fr": "fille",
       "en": "girl",
       "say": "fille",
-      "sound": "",
-      "category": "Noun"
+      "sound": "fee",
+      "category": "Noun",
+      "pronunciation": "fee"
     },
     {
       "id": "ami",
       "fr": "ami",
       "en": "friend (male)",
       "say": "ami",
-      "sound": "",
-      "category": "Noun"
+      "sound": "ahmee",
+      "category": "Noun",
+      "pronunciation": "ahmee"
     },
     {
       "id": "amie",
       "fr": "amie",
       "en": "friend (female)",
       "say": "amie",
-      "sound": "",
-      "category": "Noun"
+      "sound": "ahmee",
+      "category": "Noun",
+      "pronunciation": "ahmee"
     },
     {
       "id": "mere",
       "fr": "mère",
       "en": "mother",
       "say": "mère",
-      "sound": "",
-      "category": "Noun"
+      "sound": "mehr",
+      "category": "Noun",
+      "pronunciation": "mehr"
     },
     {
       "id": "pere",
       "fr": "père",
       "en": "father",
       "say": "père",
-      "sound": "",
-      "category": "Noun"
+      "sound": "pehr",
+      "category": "Noun",
+      "pronunciation": "pehr"
     },
     {
       "id": "frere",
       "fr": "frère",
       "en": "brother",
       "say": "frère",
-      "sound": "",
-      "category": "Noun"
+      "sound": "frehr",
+      "category": "Noun",
+      "pronunciation": "frehr"
     },
     {
       "id": "s-ur",
       "fr": "sœur",
       "en": "sister",
       "say": "sœur",
-      "sound": "",
-      "category": "Noun"
+      "sound": "surr",
+      "category": "Noun",
+      "pronunciation": "surr"
     },
     {
       "id": "enfant",
       "fr": "enfant",
       "en": "child",
       "say": "enfant",
-      "sound": "",
-      "category": "Noun"
+      "sound": "ah(n)-FAH(N)",
+      "category": "Noun",
+      "pronunciation": "ah(n)-FAH(N)"
     },
     {
       "id": "personne",
       "fr": "personne",
       "en": "person",
       "say": "personne",
-      "sound": "",
-      "category": "Noun"
+      "sound": "pehrsawn",
+      "category": "Noun",
+      "pronunciation": "pehrsawn"
     },
     {
       "id": "famille",
       "fr": "famille",
       "en": "family",
       "say": "famille",
-      "sound": "",
-      "category": "Noun"
+      "sound": "fahmeey",
+      "category": "Noun",
+      "pronunciation": "fahmeey"
     },
     {
       "id": "ma",
       "fr": "ma",
       "en": "my (fem.)",
       "say": "ma",
-      "sound": "",
-      "category": "Possessive"
+      "sound": "mah",
+      "category": "Possessive",
+      "pronunciation": "mah"
     },
     {
       "id": "mon",
       "fr": "mon",
       "en": "my (masc.)",
       "say": "mon",
-      "sound": "",
-      "category": "Possessive"
+      "sound": "moh(n)",
+      "category": "Possessive",
+      "pronunciation": "moh(n)"
     },
     {
       "id": "ton",
       "fr": "ton",
       "en": "your (masc.)",
       "say": "ton",
-      "sound": "",
-      "category": "Possessive"
+      "sound": "toh(n)",
+      "category": "Possessive",
+      "pronunciation": "toh(n)"
     },
     {
       "id": "ta",
       "fr": "ta",
       "en": "your (fem.)",
       "say": "ta",
-      "sound": "",
-      "category": "Possessive"
+      "sound": "tah",
+      "category": "Possessive",
+      "pronunciation": "tah"
     },
     {
       "id": "avec",
       "fr": "avec",
       "en": "with",
       "say": "avec",
-      "sound": "",
-      "category": "Preposition"
+      "sound": "ahvehk",
+      "category": "Preposition",
+      "pronunciation": "ahvehk"
     },
     {
       "id": "sans",
       "fr": "sans",
       "en": "without",
       "say": "sans",
-      "sound": "",
-      "category": "Preposition"
+      "sound": "sah(n)",
+      "category": "Preposition",
+      "pronunciation": "sah(n)"
     },
     {
       "id": "aussi",
       "fr": "aussi",
       "en": "also/too",
       "say": "aussi",
-      "sound": "",
-      "category": "Adverb"
+      "sound": "ohsee",
+      "category": "Adverb",
+      "pronunciation": "ohsee"
     }
   ],
   "sentenceGroups": {
@@ -210,320 +235,440 @@
       {
         "id": "c-est-un-homme",
         "fr": "c'est un homme.",
-        "en": "It is a man."
+        "en": "It is a man.",
+        "pronunciation": "seh uh(n) um",
+        "sound": "seh uh(n) um"
       },
       {
         "id": "c-est-une-femme",
         "fr": "c'est une femme.",
-        "en": "It is a woman."
+        "en": "It is a woman.",
+        "pronunciation": "seh ün femme",
+        "sound": "seh ün femme"
       },
       {
         "id": "c-est-un-garcon",
         "fr": "c'est un garçon.",
-        "en": "It is a boy."
+        "en": "It is a boy.",
+        "pronunciation": "seh uh(n) gahr-SOH(N)",
+        "sound": "seh uh(n) gahr-SOH(N)"
       },
       {
         "id": "c-est-une-fille",
         "fr": "c'est une fille.",
-        "en": "It is a girl."
+        "en": "It is a girl.",
+        "pronunciation": "seh ün fee",
+        "sound": "seh ün fee"
       },
       {
         "id": "c-est-un-ami",
         "fr": "c'est un ami.",
-        "en": "It is a male friend."
+        "en": "It is a male friend.",
+        "pronunciation": "seh uh(n) ami",
+        "sound": "seh uh(n) ami"
       },
       {
         "id": "c-est-une-amie",
         "fr": "c'est une amie.",
-        "en": "It is a female friend."
+        "en": "It is a female friend.",
+        "pronunciation": "seh ün amie",
+        "sound": "seh ün amie"
       },
       {
         "id": "c-est-ma-mere",
         "fr": "c'est ma mère.",
-        "en": "It is my mother."
+        "en": "It is my mother.",
+        "pronunciation": "seh mah mehr",
+        "sound": "seh mah mehr"
       },
       {
         "id": "c-est-mon-pere",
         "fr": "c'est mon père.",
-        "en": "It is my father."
+        "en": "It is my father.",
+        "pronunciation": "seh moh(n) pehr",
+        "sound": "seh moh(n) pehr"
       },
       {
         "id": "c-est-mon-frere",
         "fr": "c'est mon frère.",
-        "en": "It is my brother."
+        "en": "It is my brother.",
+        "pronunciation": "seh moh(n) frehr",
+        "sound": "seh moh(n) frehr"
       },
       {
         "id": "c-est-ma-s-ur",
         "fr": "c'est ma sœur.",
-        "en": "It is my sister."
+        "en": "It is my sister.",
+        "pronunciation": "seh mah soeur",
+        "sound": "seh mah soeur"
       },
       {
         "id": "c-est-un-enfant",
         "fr": "c'est un enfant.",
-        "en": "It is a child."
+        "en": "It is a child.",
+        "pronunciation": "seh uh(n) ah(n)-FAH(N)",
+        "sound": "seh uh(n) ah(n)-FAH(N)"
       },
       {
         "id": "c-est-ma-famille",
         "fr": "c'est ma famille.",
-        "en": "It is my family."
+        "en": "It is my family.",
+        "pronunciation": "seh mah famille",
+        "sound": "seh mah famille"
       }
     ],
     "noun-etre": [
       {
         "id": "un-homme-est-ici",
         "fr": "un homme est ici.",
-        "en": "A man is here."
+        "en": "A man is here.",
+        "pronunciation": "uh(n) um eh ee-SEE",
+        "sound": "uh(n) um eh ee-SEE"
       },
       {
         "id": "un-homme-est-la",
         "fr": "un homme est là.",
-        "en": "A man is there."
+        "en": "A man is there.",
+        "pronunciation": "uh(n) um eh lah",
+        "sound": "uh(n) um eh lah"
       },
       {
         "id": "une-femme-est-ici",
         "fr": "une femme est ici.",
-        "en": "A woman is here."
+        "en": "A woman is here.",
+        "pronunciation": "ün femme eh ee-SEE",
+        "sound": "ün femme eh ee-SEE"
       },
       {
         "id": "une-femme-est-la",
         "fr": "une femme est là.",
-        "en": "A woman is there."
+        "en": "A woman is there.",
+        "pronunciation": "ün femme eh lah",
+        "sound": "ün femme eh lah"
       },
       {
         "id": "un-garcon-est-ici",
         "fr": "un garçon est ici.",
-        "en": "A boy is here."
+        "en": "A boy is here.",
+        "pronunciation": "uh(n) gahr-SOH(N) eh ee-SEE",
+        "sound": "uh(n) gahr-SOH(N) eh ee-SEE"
       },
       {
         "id": "un-garcon-est-la",
         "fr": "un garçon est là.",
-        "en": "A boy is there."
+        "en": "A boy is there.",
+        "pronunciation": "uh(n) gahr-SOH(N) eh lah",
+        "sound": "uh(n) gahr-SOH(N) eh lah"
       },
       {
         "id": "une-fille-est-ici",
         "fr": "une fille est ici.",
-        "en": "A girl is here."
+        "en": "A girl is here.",
+        "pronunciation": "ün fee eh ee-SEE",
+        "sound": "ün fee eh ee-SEE"
       },
       {
         "id": "une-fille-est-la",
         "fr": "une fille est là.",
-        "en": "A girl is there."
+        "en": "A girl is there.",
+        "pronunciation": "ün fee eh lah",
+        "sound": "ün fee eh lah"
       },
       {
         "id": "un-ami-est-ici",
         "fr": "un ami est ici.",
-        "en": "A male friend is here."
+        "en": "A male friend is here.",
+        "pronunciation": "uh(n) ami eh ee-SEE",
+        "sound": "uh(n) ami eh ee-SEE"
       },
       {
         "id": "un-ami-est-la",
         "fr": "un ami est là.",
-        "en": "A male friend is there."
+        "en": "A male friend is there.",
+        "pronunciation": "uh(n) ami eh lah",
+        "sound": "uh(n) ami eh lah"
       },
       {
         "id": "une-amie-est-ici",
         "fr": "une amie est ici.",
-        "en": "A female friend is here."
+        "en": "A female friend is here.",
+        "pronunciation": "ün amie eh ee-SEE",
+        "sound": "ün amie eh ee-SEE"
       },
       {
         "id": "une-amie-est-la",
         "fr": "une amie est là.",
-        "en": "A female friend is there."
+        "en": "A female friend is there.",
+        "pronunciation": "ün amie eh lah",
+        "sound": "ün amie eh lah"
       },
       {
         "id": "ma-mere-est-ici",
         "fr": "ma mère est ici.",
-        "en": "My mother is here."
+        "en": "My mother is here.",
+        "pronunciation": "mah mehr eh ee-SEE",
+        "sound": "mah mehr eh ee-SEE"
       },
       {
         "id": "ma-mere-est-la",
         "fr": "ma mère est là.",
-        "en": "My mother is there."
+        "en": "My mother is there.",
+        "pronunciation": "mah mehr eh lah",
+        "sound": "mah mehr eh lah"
       },
       {
         "id": "mon-pere-est-ici",
         "fr": "mon père est ici.",
-        "en": "My father is here."
+        "en": "My father is here.",
+        "pronunciation": "moh(n) pehr eh ee-SEE",
+        "sound": "moh(n) pehr eh ee-SEE"
       },
       {
         "id": "mon-pere-est-la",
         "fr": "mon père est là.",
-        "en": "My father is there."
+        "en": "My father is there.",
+        "pronunciation": "moh(n) pehr eh lah",
+        "sound": "moh(n) pehr eh lah"
       }
     ],
     "family-state": [
       {
         "id": "ma-mere-est-tres-bien",
         "fr": "ma mère est très bien.",
-        "en": "My mother is very well."
+        "en": "My mother is very well.",
+        "pronunciation": "mah mehr eh treh byeh(n)",
+        "sound": "mah mehr eh treh byeh(n)"
       },
       {
         "id": "mon-pere-est-tres-bien",
         "fr": "mon père est très bien.",
-        "en": "My father is very well."
+        "en": "My father is very well.",
+        "pronunciation": "moh(n) pehr eh treh byeh(n)",
+        "sound": "moh(n) pehr eh treh byeh(n)"
       },
       {
         "id": "mon-frere-est-tres-bien",
         "fr": "mon frère est très bien.",
-        "en": "My brother is very well."
+        "en": "My brother is very well.",
+        "pronunciation": "moh(n) frehr eh treh byeh(n)",
+        "sound": "moh(n) frehr eh treh byeh(n)"
       },
       {
         "id": "ma-s-ur-est-tres-bien",
         "fr": "ma sœur est très bien.",
-        "en": "My sister is very well."
+        "en": "My sister is very well.",
+        "pronunciation": "mah soeur eh treh byeh(n)",
+        "sound": "mah soeur eh treh byeh(n)"
       },
       {
         "id": "un-enfant-est-tres-bien",
         "fr": "un enfant est très bien.",
-        "en": "A child is very well."
+        "en": "A child is very well.",
+        "pronunciation": "uh(n) ah(n)-FAH(N) eh treh byeh(n)",
+        "sound": "uh(n) ah(n)-FAH(N) eh treh byeh(n)"
       },
       {
         "id": "ma-famille-est-tres-bien",
         "fr": "ma famille est très bien.",
-        "en": "My family is very well."
+        "en": "My family is very well.",
+        "pronunciation": "mah famille eh treh byeh(n)",
+        "sound": "mah famille eh treh byeh(n)"
       }
     ],
     "avec": [
       {
         "id": "ma-mere-est-avec-mon-pere",
         "fr": "ma mère est avec mon père.",
-        "en": "My mother is with my father."
+        "en": "My mother is with my father.",
+        "pronunciation": "mah mehr eh ah-VEK moh(n) pehr",
+        "sound": "mah mehr eh ah-VEK moh(n) pehr"
       },
       {
         "id": "mon-frere-est-avec-ma-s-ur",
         "fr": "mon frère est avec ma sœur.",
-        "en": "My brother is with my sister."
+        "en": "My brother is with my sister.",
+        "pronunciation": "moh(n) frehr eh ah-VEK mah soeur",
+        "sound": "moh(n) frehr eh ah-VEK mah soeur"
       },
       {
         "id": "un-ami-est-avec-une-amie",
         "fr": "un ami est avec une amie.",
-        "en": "A male friend is with a female friend."
+        "en": "A male friend is with a female friend.",
+        "pronunciation": "uh(n) ami eh ah-VEK ün amie",
+        "sound": "uh(n) ami eh ah-VEK ün amie"
       },
       {
         "id": "un-garcon-est-avec-une-fille",
         "fr": "un garçon est avec une fille.",
-        "en": "A boy is with a girl."
+        "en": "A boy is with a girl.",
+        "pronunciation": "uh(n) gahr-SOH(N) eh ah-VEK ün fee",
+        "sound": "uh(n) gahr-SOH(N) eh ah-VEK ün fee"
       }
     ],
     "sans": [
       {
         "id": "ma-mere-est-sans-mon-pere",
         "fr": "ma mère est sans mon père.",
-        "en": "My mother is without my father."
+        "en": "My mother is without my father.",
+        "pronunciation": "mah mehr eh sah(n) moh(n) pehr",
+        "sound": "mah mehr eh sah(n) moh(n) pehr"
       },
       {
         "id": "mon-frere-est-sans-ma-s-ur",
         "fr": "mon frère est sans ma sœur.",
-        "en": "My brother is without my sister."
+        "en": "My brother is without my sister.",
+        "pronunciation": "moh(n) frehr eh sah(n) mah soeur",
+        "sound": "moh(n) frehr eh sah(n) mah soeur"
       },
       {
         "id": "un-ami-est-sans-une-amie",
         "fr": "un ami est sans une amie.",
-        "en": "A male friend is without a female friend."
+        "en": "A male friend is without a female friend.",
+        "pronunciation": "uh(n) ami eh sah(n) ün amie",
+        "sound": "uh(n) ami eh sah(n) ün amie"
       },
       {
         "id": "un-garcon-est-sans-une-fille",
         "fr": "un garçon est sans une fille.",
-        "en": "A boy is without a girl."
+        "en": "A boy is without a girl.",
+        "pronunciation": "uh(n) gahr-SOH(N) eh sah(n) ün fee",
+        "sound": "uh(n) gahr-SOH(N) eh sah(n) ün fee"
       }
     ],
     "aussi": [
       {
         "id": "ma-mere-est-ici-aussi",
         "fr": "ma mère est ici aussi.",
-        "en": "My mother is here too."
+        "en": "My mother is here too.",
+        "pronunciation": "mah mehr eh ee-SEE aussi",
+        "sound": "mah mehr eh ee-SEE aussi"
       },
       {
         "id": "mon-frere-est-ici-aussi",
         "fr": "mon frère est ici aussi.",
-        "en": "My brother is here too."
+        "en": "My brother is here too.",
+        "pronunciation": "moh(n) frehr eh ee-SEE aussi",
+        "sound": "moh(n) frehr eh ee-SEE aussi"
       },
       {
         "id": "un-ami-est-ici-aussi",
         "fr": "un ami est ici aussi.",
-        "en": "A male friend is here too."
+        "en": "A male friend is here too.",
+        "pronunciation": "uh(n) ami eh ee-SEE aussi",
+        "sound": "uh(n) ami eh ee-SEE aussi"
       },
       {
         "id": "un-garcon-est-ici-aussi",
         "fr": "un garçon est ici aussi.",
-        "en": "A boy is here too."
+        "en": "A boy is here too.",
+        "pronunciation": "uh(n) gahr-SOH(N) eh ee-SEE aussi",
+        "sound": "uh(n) gahr-SOH(N) eh ee-SEE aussi"
       }
     ],
     "family-sentence": [
       {
         "id": "bonjour-ma-famille-est-ici",
         "fr": "bonjour, ma famille est ici.",
-        "en": "Hello, my family is here."
+        "en": "Hello, my family is here.",
+        "pronunciation": "bohn-ZHOOR mah famille eh ee-SEE",
+        "sound": "bohn-ZHOOR mah famille eh ee-SEE"
       }
     ],
     "friend-sentence": [
       {
         "id": "salut-mon-ami-est-la",
         "fr": "salut, mon ami est là.",
-        "en": "Hi, my friend is there."
+        "en": "Hi, my friend is there.",
+        "pronunciation": "sah-LÜ moh(n) ami eh lah",
+        "sound": "sah-LÜ moh(n) ami eh lah"
       }
     ],
     "adjective-noun": [
       {
         "id": "c-est-une-bonne-personne",
         "fr": "c'est une bonne personne.",
-        "en": "It is a good person."
+        "en": "It is a good person.",
+        "pronunciation": "seh ün bun pehr-SUN",
+        "sound": "seh ün bun pehr-SUN"
       },
       {
         "id": "c-est-un-bon-ami",
         "fr": "c'est un bon ami.",
-        "en": "It is a good friend."
+        "en": "It is a good friend.",
+        "pronunciation": "seh uh(n) boh(n) ami",
+        "sound": "seh uh(n) boh(n) ami"
       }
     ],
     "c-est-article-noun-review": [
       {
         "id": "c-est-un-homme-2",
         "fr": "c'est un homme.",
-        "en": "It is a man."
+        "en": "It is a man.",
+        "pronunciation": "seh uh(n) um",
+        "sound": "seh uh(n) um"
       },
       {
         "id": "c-est-une-femme-2",
         "fr": "c'est une femme.",
-        "en": "It is a woman."
+        "en": "It is a woman.",
+        "pronunciation": "seh ün femme",
+        "sound": "seh ün femme"
       },
       {
         "id": "c-est-un-garcon-2",
         "fr": "c'est un garçon.",
-        "en": "It is a boy."
+        "en": "It is a boy.",
+        "pronunciation": "seh uh(n) gahr-SOH(N)",
+        "sound": "seh uh(n) gahr-SOH(N)"
       },
       {
         "id": "c-est-une-fille-2",
         "fr": "c'est une fille.",
-        "en": "It is a girl."
+        "en": "It is a girl.",
+        "pronunciation": "seh ün fee",
+        "sound": "seh ün fee"
       },
       {
         "id": "c-est-un-ami-2",
         "fr": "c'est un ami.",
-        "en": "It is a male friend."
+        "en": "It is a male friend.",
+        "pronunciation": "seh uh(n) ami",
+        "sound": "seh uh(n) ami"
       },
       {
         "id": "c-est-une-amie-2",
         "fr": "c'est une amie.",
-        "en": "It is a female friend."
+        "en": "It is a female friend.",
+        "pronunciation": "seh ün amie",
+        "sound": "seh ün amie"
       },
       {
         "id": "c-est-ma-mere-2",
         "fr": "c'est ma mère.",
-        "en": "It is my mother."
+        "en": "It is my mother.",
+        "pronunciation": "seh mah mehr",
+        "sound": "seh mah mehr"
       },
       {
         "id": "c-est-mon-pere-2",
         "fr": "c'est mon père.",
-        "en": "It is my father."
+        "en": "It is my father.",
+        "pronunciation": "seh moh(n) pehr",
+        "sound": "seh moh(n) pehr"
       },
       {
         "id": "c-est-mon-frere-2",
         "fr": "c'est mon frère.",
-        "en": "It is my brother."
+        "en": "It is my brother.",
+        "pronunciation": "seh moh(n) frehr",
+        "sound": "seh moh(n) frehr"
       },
       {
         "id": "c-est-ma-s-ur-2",
         "fr": "c'est ma sœur.",
-        "en": "It is my sister."
+        "en": "It is my sister.",
+        "pronunciation": "seh mah soeur",
+        "sound": "seh mah soeur"
       }
     ]
   },
@@ -531,302 +676,422 @@
     {
       "id": "c-est-un-homme",
       "fr": "c'est un homme.",
-      "en": "It is a man."
+      "en": "It is a man.",
+      "pronunciation": "seh uh(n) um",
+      "sound": "seh uh(n) um"
     },
     {
       "id": "c-est-une-femme",
       "fr": "c'est une femme.",
-      "en": "It is a woman."
+      "en": "It is a woman.",
+      "pronunciation": "seh ün femme",
+      "sound": "seh ün femme"
     },
     {
       "id": "c-est-un-garcon",
       "fr": "c'est un garçon.",
-      "en": "It is a boy."
+      "en": "It is a boy.",
+      "pronunciation": "seh uh(n) gahr-SOH(N)",
+      "sound": "seh uh(n) gahr-SOH(N)"
     },
     {
       "id": "c-est-une-fille",
       "fr": "c'est une fille.",
-      "en": "It is a girl."
+      "en": "It is a girl.",
+      "pronunciation": "seh ün fee",
+      "sound": "seh ün fee"
     },
     {
       "id": "c-est-un-ami",
       "fr": "c'est un ami.",
-      "en": "It is a male friend."
+      "en": "It is a male friend.",
+      "pronunciation": "seh uh(n) ami",
+      "sound": "seh uh(n) ami"
     },
     {
       "id": "c-est-une-amie",
       "fr": "c'est une amie.",
-      "en": "It is a female friend."
+      "en": "It is a female friend.",
+      "pronunciation": "seh ün amie",
+      "sound": "seh ün amie"
     },
     {
       "id": "c-est-ma-mere",
       "fr": "c'est ma mère.",
-      "en": "It is my mother."
+      "en": "It is my mother.",
+      "pronunciation": "seh mah mehr",
+      "sound": "seh mah mehr"
     },
     {
       "id": "c-est-mon-pere",
       "fr": "c'est mon père.",
-      "en": "It is my father."
+      "en": "It is my father.",
+      "pronunciation": "seh moh(n) pehr",
+      "sound": "seh moh(n) pehr"
     },
     {
       "id": "c-est-mon-frere",
       "fr": "c'est mon frère.",
-      "en": "It is my brother."
+      "en": "It is my brother.",
+      "pronunciation": "seh moh(n) frehr",
+      "sound": "seh moh(n) frehr"
     },
     {
       "id": "c-est-ma-s-ur",
       "fr": "c'est ma sœur.",
-      "en": "It is my sister."
+      "en": "It is my sister.",
+      "pronunciation": "seh mah soeur",
+      "sound": "seh mah soeur"
     },
     {
       "id": "c-est-un-enfant",
       "fr": "c'est un enfant.",
-      "en": "It is a child."
+      "en": "It is a child.",
+      "pronunciation": "seh uh(n) ah(n)-FAH(N)",
+      "sound": "seh uh(n) ah(n)-FAH(N)"
     },
     {
       "id": "c-est-ma-famille",
       "fr": "c'est ma famille.",
-      "en": "It is my family."
+      "en": "It is my family.",
+      "pronunciation": "seh mah famille",
+      "sound": "seh mah famille"
     },
     {
       "id": "un-homme-est-ici",
       "fr": "un homme est ici.",
-      "en": "A man is here."
+      "en": "A man is here.",
+      "pronunciation": "uh(n) um eh ee-SEE",
+      "sound": "uh(n) um eh ee-SEE"
     },
     {
       "id": "un-homme-est-la",
       "fr": "un homme est là.",
-      "en": "A man is there."
+      "en": "A man is there.",
+      "pronunciation": "uh(n) um eh lah",
+      "sound": "uh(n) um eh lah"
     },
     {
       "id": "une-femme-est-ici",
       "fr": "une femme est ici.",
-      "en": "A woman is here."
+      "en": "A woman is here.",
+      "pronunciation": "ün femme eh ee-SEE",
+      "sound": "ün femme eh ee-SEE"
     },
     {
       "id": "une-femme-est-la",
       "fr": "une femme est là.",
-      "en": "A woman is there."
+      "en": "A woman is there.",
+      "pronunciation": "ün femme eh lah",
+      "sound": "ün femme eh lah"
     },
     {
       "id": "un-garcon-est-ici",
       "fr": "un garçon est ici.",
-      "en": "A boy is here."
+      "en": "A boy is here.",
+      "pronunciation": "uh(n) gahr-SOH(N) eh ee-SEE",
+      "sound": "uh(n) gahr-SOH(N) eh ee-SEE"
     },
     {
       "id": "un-garcon-est-la",
       "fr": "un garçon est là.",
-      "en": "A boy is there."
+      "en": "A boy is there.",
+      "pronunciation": "uh(n) gahr-SOH(N) eh lah",
+      "sound": "uh(n) gahr-SOH(N) eh lah"
     },
     {
       "id": "une-fille-est-ici",
       "fr": "une fille est ici.",
-      "en": "A girl is here."
+      "en": "A girl is here.",
+      "pronunciation": "ün fee eh ee-SEE",
+      "sound": "ün fee eh ee-SEE"
     },
     {
       "id": "une-fille-est-la",
       "fr": "une fille est là.",
-      "en": "A girl is there."
+      "en": "A girl is there.",
+      "pronunciation": "ün fee eh lah",
+      "sound": "ün fee eh lah"
     },
     {
       "id": "un-ami-est-ici",
       "fr": "un ami est ici.",
-      "en": "A male friend is here."
+      "en": "A male friend is here.",
+      "pronunciation": "uh(n) ami eh ee-SEE",
+      "sound": "uh(n) ami eh ee-SEE"
     },
     {
       "id": "un-ami-est-la",
       "fr": "un ami est là.",
-      "en": "A male friend is there."
+      "en": "A male friend is there.",
+      "pronunciation": "uh(n) ami eh lah",
+      "sound": "uh(n) ami eh lah"
     },
     {
       "id": "une-amie-est-ici",
       "fr": "une amie est ici.",
-      "en": "A female friend is here."
+      "en": "A female friend is here.",
+      "pronunciation": "ün amie eh ee-SEE",
+      "sound": "ün amie eh ee-SEE"
     },
     {
       "id": "une-amie-est-la",
       "fr": "une amie est là.",
-      "en": "A female friend is there."
+      "en": "A female friend is there.",
+      "pronunciation": "ün amie eh lah",
+      "sound": "ün amie eh lah"
     },
     {
       "id": "ma-mere-est-ici",
       "fr": "ma mère est ici.",
-      "en": "My mother is here."
+      "en": "My mother is here.",
+      "pronunciation": "mah mehr eh ee-SEE",
+      "sound": "mah mehr eh ee-SEE"
     },
     {
       "id": "ma-mere-est-la",
       "fr": "ma mère est là.",
-      "en": "My mother is there."
+      "en": "My mother is there.",
+      "pronunciation": "mah mehr eh lah",
+      "sound": "mah mehr eh lah"
     },
     {
       "id": "mon-pere-est-ici",
       "fr": "mon père est ici.",
-      "en": "My father is here."
+      "en": "My father is here.",
+      "pronunciation": "moh(n) pehr eh ee-SEE",
+      "sound": "moh(n) pehr eh ee-SEE"
     },
     {
       "id": "mon-pere-est-la",
       "fr": "mon père est là.",
-      "en": "My father is there."
+      "en": "My father is there.",
+      "pronunciation": "moh(n) pehr eh lah",
+      "sound": "moh(n) pehr eh lah"
     },
     {
       "id": "ma-mere-est-tres-bien",
       "fr": "ma mère est très bien.",
-      "en": "My mother is very well."
+      "en": "My mother is very well.",
+      "pronunciation": "mah mehr eh treh byeh(n)",
+      "sound": "mah mehr eh treh byeh(n)"
     },
     {
       "id": "mon-pere-est-tres-bien",
       "fr": "mon père est très bien.",
-      "en": "My father is very well."
+      "en": "My father is very well.",
+      "pronunciation": "moh(n) pehr eh treh byeh(n)",
+      "sound": "moh(n) pehr eh treh byeh(n)"
     },
     {
       "id": "mon-frere-est-tres-bien",
       "fr": "mon frère est très bien.",
-      "en": "My brother is very well."
+      "en": "My brother is very well.",
+      "pronunciation": "moh(n) frehr eh treh byeh(n)",
+      "sound": "moh(n) frehr eh treh byeh(n)"
     },
     {
       "id": "ma-s-ur-est-tres-bien",
       "fr": "ma sœur est très bien.",
-      "en": "My sister is very well."
+      "en": "My sister is very well.",
+      "pronunciation": "mah soeur eh treh byeh(n)",
+      "sound": "mah soeur eh treh byeh(n)"
     },
     {
       "id": "un-enfant-est-tres-bien",
       "fr": "un enfant est très bien.",
-      "en": "A child is very well."
+      "en": "A child is very well.",
+      "pronunciation": "uh(n) ah(n)-FAH(N) eh treh byeh(n)",
+      "sound": "uh(n) ah(n)-FAH(N) eh treh byeh(n)"
     },
     {
       "id": "ma-famille-est-tres-bien",
       "fr": "ma famille est très bien.",
-      "en": "My family is very well."
+      "en": "My family is very well.",
+      "pronunciation": "mah famille eh treh byeh(n)",
+      "sound": "mah famille eh treh byeh(n)"
     },
     {
       "id": "ma-mere-est-avec-mon-pere",
       "fr": "ma mère est avec mon père.",
-      "en": "My mother is with my father."
+      "en": "My mother is with my father.",
+      "pronunciation": "mah mehr eh ah-VEK moh(n) pehr",
+      "sound": "mah mehr eh ah-VEK moh(n) pehr"
     },
     {
       "id": "ma-mere-est-sans-mon-pere",
       "fr": "ma mère est sans mon père.",
-      "en": "My mother is without my father."
+      "en": "My mother is without my father.",
+      "pronunciation": "mah mehr eh sah(n) moh(n) pehr",
+      "sound": "mah mehr eh sah(n) moh(n) pehr"
     },
     {
       "id": "ma-mere-est-ici-aussi",
       "fr": "ma mère est ici aussi.",
-      "en": "My mother is here too."
+      "en": "My mother is here too.",
+      "pronunciation": "mah mehr eh ee-SEE aussi",
+      "sound": "mah mehr eh ee-SEE aussi"
     },
     {
       "id": "mon-frere-est-avec-ma-s-ur",
       "fr": "mon frère est avec ma sœur.",
-      "en": "My brother is with my sister."
+      "en": "My brother is with my sister.",
+      "pronunciation": "moh(n) frehr eh ah-VEK mah soeur",
+      "sound": "moh(n) frehr eh ah-VEK mah soeur"
     },
     {
       "id": "mon-frere-est-sans-ma-s-ur",
       "fr": "mon frère est sans ma sœur.",
-      "en": "My brother is without my sister."
+      "en": "My brother is without my sister.",
+      "pronunciation": "moh(n) frehr eh sah(n) mah soeur",
+      "sound": "moh(n) frehr eh sah(n) mah soeur"
     },
     {
       "id": "mon-frere-est-ici-aussi",
       "fr": "mon frère est ici aussi.",
-      "en": "My brother is here too."
+      "en": "My brother is here too.",
+      "pronunciation": "moh(n) frehr eh ee-SEE aussi",
+      "sound": "moh(n) frehr eh ee-SEE aussi"
     },
     {
       "id": "un-ami-est-avec-une-amie",
       "fr": "un ami est avec une amie.",
-      "en": "A male friend is with a female friend."
+      "en": "A male friend is with a female friend.",
+      "pronunciation": "uh(n) ami eh ah-VEK ün amie",
+      "sound": "uh(n) ami eh ah-VEK ün amie"
     },
     {
       "id": "un-ami-est-sans-une-amie",
       "fr": "un ami est sans une amie.",
-      "en": "A male friend is without a female friend."
+      "en": "A male friend is without a female friend.",
+      "pronunciation": "uh(n) ami eh sah(n) ün amie",
+      "sound": "uh(n) ami eh sah(n) ün amie"
     },
     {
       "id": "un-ami-est-ici-aussi",
       "fr": "un ami est ici aussi.",
-      "en": "A male friend is here too."
+      "en": "A male friend is here too.",
+      "pronunciation": "uh(n) ami eh ee-SEE aussi",
+      "sound": "uh(n) ami eh ee-SEE aussi"
     },
     {
       "id": "un-garcon-est-avec-une-fille",
       "fr": "un garçon est avec une fille.",
-      "en": "A boy is with a girl."
+      "en": "A boy is with a girl.",
+      "pronunciation": "uh(n) gahr-SOH(N) eh ah-VEK ün fee",
+      "sound": "uh(n) gahr-SOH(N) eh ah-VEK ün fee"
     },
     {
       "id": "un-garcon-est-sans-une-fille",
       "fr": "un garçon est sans une fille.",
-      "en": "A boy is without a girl."
+      "en": "A boy is without a girl.",
+      "pronunciation": "uh(n) gahr-SOH(N) eh sah(n) ün fee",
+      "sound": "uh(n) gahr-SOH(N) eh sah(n) ün fee"
     },
     {
       "id": "un-garcon-est-ici-aussi",
       "fr": "un garçon est ici aussi.",
-      "en": "A boy is here too."
+      "en": "A boy is here too.",
+      "pronunciation": "uh(n) gahr-SOH(N) eh ee-SEE aussi",
+      "sound": "uh(n) gahr-SOH(N) eh ee-SEE aussi"
     },
     {
       "id": "bonjour-ma-famille-est-ici",
       "fr": "bonjour, ma famille est ici.",
-      "en": "Hello, my family is here."
+      "en": "Hello, my family is here.",
+      "pronunciation": "bohn-ZHOOR mah famille eh ee-SEE",
+      "sound": "bohn-ZHOOR mah famille eh ee-SEE"
     },
     {
       "id": "salut-mon-ami-est-la",
       "fr": "salut, mon ami est là.",
-      "en": "Hi, my friend is there."
+      "en": "Hi, my friend is there.",
+      "pronunciation": "sah-LÜ moh(n) ami eh lah",
+      "sound": "sah-LÜ moh(n) ami eh lah"
     },
     {
       "id": "c-est-une-bonne-personne",
       "fr": "c'est une bonne personne.",
-      "en": "It is a good person."
+      "en": "It is a good person.",
+      "pronunciation": "seh ün bun pehr-SUN",
+      "sound": "seh ün bun pehr-SUN"
     },
     {
       "id": "c-est-un-bon-ami",
       "fr": "c'est un bon ami.",
-      "en": "It is a good friend."
+      "en": "It is a good friend.",
+      "pronunciation": "seh uh(n) boh(n) ami",
+      "sound": "seh uh(n) boh(n) ami"
     },
     {
       "id": "c-est-un-homme-2",
       "fr": "c'est un homme.",
-      "en": "It is a man."
+      "en": "It is a man.",
+      "pronunciation": "seh uh(n) um",
+      "sound": "seh uh(n) um"
     },
     {
       "id": "c-est-une-femme-2",
       "fr": "c'est une femme.",
-      "en": "It is a woman."
+      "en": "It is a woman.",
+      "pronunciation": "seh ün femme",
+      "sound": "seh ün femme"
     },
     {
       "id": "c-est-un-garcon-2",
       "fr": "c'est un garçon.",
-      "en": "It is a boy."
+      "en": "It is a boy.",
+      "pronunciation": "seh uh(n) gahr-SOH(N)",
+      "sound": "seh uh(n) gahr-SOH(N)"
     },
     {
       "id": "c-est-une-fille-2",
       "fr": "c'est une fille.",
-      "en": "It is a girl."
+      "en": "It is a girl.",
+      "pronunciation": "seh ün fee",
+      "sound": "seh ün fee"
     },
     {
       "id": "c-est-un-ami-2",
       "fr": "c'est un ami.",
-      "en": "It is a male friend."
+      "en": "It is a male friend.",
+      "pronunciation": "seh uh(n) ami",
+      "sound": "seh uh(n) ami"
     },
     {
       "id": "c-est-une-amie-2",
       "fr": "c'est une amie.",
-      "en": "It is a female friend."
+      "en": "It is a female friend.",
+      "pronunciation": "seh ün amie",
+      "sound": "seh ün amie"
     },
     {
       "id": "c-est-ma-mere-2",
       "fr": "c'est ma mère.",
-      "en": "It is my mother."
+      "en": "It is my mother.",
+      "pronunciation": "seh mah mehr",
+      "sound": "seh mah mehr"
     },
     {
       "id": "c-est-mon-pere-2",
       "fr": "c'est mon père.",
-      "en": "It is my father."
+      "en": "It is my father.",
+      "pronunciation": "seh moh(n) pehr",
+      "sound": "seh moh(n) pehr"
     },
     {
       "id": "c-est-mon-frere-2",
       "fr": "c'est mon frère.",
-      "en": "It is my brother."
+      "en": "It is my brother.",
+      "pronunciation": "seh moh(n) frehr",
+      "sound": "seh moh(n) frehr"
     },
     {
       "id": "c-est-ma-s-ur-2",
       "fr": "c'est ma sœur.",
-      "en": "It is my sister."
+      "en": "It is my sister.",
+      "pronunciation": "seh mah soeur",
+      "sound": "seh mah soeur"
     }
   ],
   "audioVoices": [

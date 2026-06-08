@@ -148,7 +148,7 @@ function makeItems() {
       fr: word.say || word.fr,
       displayFr: word.fr,
       en: word.en,
-      sound: word.sound || "",
+      pronunciation: word.pronunciation || word.sound || "",
       kind: "word",
       lessonId: lesson.id,
       lessonTitle: lesson.title,
@@ -162,7 +162,7 @@ function makeItems() {
     fr: sentence.fr,
     displayFr: sentence.fr,
     en: sentence.en,
-    sound: "",
+    pronunciation: sentence.pronunciation || sentence.sound || "",
     kind: "sentence",
     lessonId: lesson.id,
     lessonTitle: lesson.title,
@@ -194,7 +194,7 @@ function renderItems(nextItems = makeItems()) {
       <div class="item-text">
         <small>${item.lessonTitle} · ${selectedVoice === "random" ? "Random voice" : voiceLabel(resolveVoice(item))}</small>
         <strong>${item.displayFr}</strong>
-        ${item.sound ? `<em>${item.sound}</em>` : ""}
+        ${item.pronunciation ? `<em>${item.pronunciation}</em>` : ""}
         <span>${item.en}</span>
       </div>
     `;
